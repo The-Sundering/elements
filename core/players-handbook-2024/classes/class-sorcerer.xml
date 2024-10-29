@@ -5,7 +5,7 @@
 		<description>The Sorcerer class from the 2024 Player’s Handbook (Prototype).</description>
 
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
-		<update version="0.0.4">
+		<update version="0.0.5">
 			<file name="class-sorcerer.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/classes/class-sorcerer.xml" />
 		</update>
 	</info>
@@ -190,6 +190,7 @@
 		</rules>
 	</element>
 	<element name="Innate Sorcery" type="Class Feature" source="2024 Player’s Handbook (Prototype)" id="ID_WOTC_PHB2024_CLASS_FEATURE_SORCERER_INNATE_SORCERY">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_INNATE_SORCERY</requirements>
 		<description>
 			<p>An event in your past left an indelible mark on you, infusing you with simmering magic. As a Bonus Action, you can unleash that magic for 1 minute, during which you gain the following benefits:</p>
 			<ul>
@@ -285,6 +286,7 @@
 	</element>
 
 	<element name="Sorcery Incarnate" type="Class Feature" source="2024 Player’s Handbook (Prototype)" id="ID_WOTC_PHB2024_CLASS_FEATURE_SORCERER_SORCERY_INCARNATE">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_SORCERY_INCARNATE</requirements>
 		<description>
 			<p>If you have no uses of Innate Sorcery left, you can use it if you spend 2 Sorcery Points when you take the Bonus Action to activate it.</p>
 			<p>In addition, while your Innate Sorcery feature is active, you can use up to two of your Metamagic options on each spell you cast.</p>
@@ -294,6 +296,7 @@
 		</sheet>
 	</element>
 	<element name="Epic Boon" type="Class Feature" source="2024 Player’s Handbook (Prototype)" id="ID_WOTC_PHB2024_CLASS_FEATURE_SORCERER_EPIC_BOON">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_EPIC_BOON</requirements>
 		<description>
 			<p>You gain an Epic Boon feat or another feat of your choice for which you qualify. Boon of Dimensional Travel is recommended.</p>
 		</description>
@@ -305,6 +308,7 @@
 		</rules>
 	</element>
 	<element name="Arcane Apotheosis" type="Class Feature" source="2024 Player’s Handbook (Prototype)" id="ID_WOTC_PHB2024_CLASS_FEATURE_SORCERER_ARCANE_APOTHEOSIS">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_ARCANE_APOTHEOSIS</requirements>
 		<description>
 			<p>While your Innate Sorcery feature is active, you can use one Metamagic option on each of your turns without spending Sorcery Points on it.</p>
 		</description>
@@ -439,11 +443,15 @@
 
 	<!--Feature Replacement Grants-->
 	<element name="Spellcasting Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_SPELLCASTING" />
+	<element name="Innate Sorcery Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_INNATE_SORCERY" />
 	<element name="Font of Magic Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_FONT_OF_MAGIC" />
 	<element name="Metamagic Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_METAMAGIC" />
 	<element name="Sorcerous Origin Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_SORCEROUS_ORIGIN" />
 	<element name="Ability Score Improvement Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_ABILITY_SCORE_IMPROVEMENT" />
 	<element name="Sorcerous Restoration Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_SORCEROUS_RESTORATION" />
+	<element name="Sorcery Incarnate Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_SORCERY_INCARNATE" />
+	<element name="Sorcerer Epic Boon Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_EPIC_BOON" />
+	<element name="Arcane Apotheosis Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_ARCANE_APOTHEOSIS" />
 	<element name="Careful Spell Metamagic Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_METAMAGIC_CAREFUL_SPELL" />
 	<element name="Distant Spell Metamagic Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_METAMAGIC_DISTANT_SPELL" />
 	<element name="Empowered Spell Metamagic Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_METAMAGIC_EMPOWERED_SPELL" />
