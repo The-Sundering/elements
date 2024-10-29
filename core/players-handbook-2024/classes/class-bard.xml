@@ -5,7 +5,7 @@
 		<description>The Bard class from the 2024 Player’s Handbook (Prototype).</description>
 
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="class-bard.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/classes/class-bard.xml" />
 		</update>
 	</info>
@@ -332,6 +332,7 @@
 	</element>
 
 	<element name="Superior Inspiration" type="Class Feature" source="2024 Player’s Handbook (Prototype)" id="ID_WOTC_PHB2024_CLASS_FEATURE_BARD_SUPERIOR_INSPIRATION">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_BARD_SUPERIOR_INSPIRATION</requirements>
 		<description>
 			<p>When you roll Initiative, you regain expended uses of Bardic Inspiration until you have two if you have fewer than that.</p>
 		</description>
@@ -341,6 +342,7 @@
 	</element>
 
 	<element name="Epic Boon" type="Class Feature" source="2024 Player’s Handbook (Prototype)" id="ID_WOTC_PHB2024_CLASS_FEATURE_BARD_EPIC_BOON">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_BARD_EPIC_BOON</requirements>
 		<description>
 			<p>You gain an Epic Boon feat or another feat of your choice for which you qualify. Boon of Spell Recall is recommended.</p>
 		</description>
@@ -353,6 +355,7 @@
 	</element>
 
 	<element name="Words of Creation" type="Class Feature" source="2024 Player’s Handbook (Prototype)" id="ID_WOTC_PHB2024_CLASS_FEATURE_BARD_WORDS_OF_CREATION">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_BARD_WORDS_OF_CREATION</requirements>
 		<description>
 			<p>You have mastered two of the Words of Creation: the words of life and death. You therefore always have the <i>Power Word Heal</i> and <i>Power Word Kill</i> spells prepared. When you cast either spell, you can target a second creature with it if that creature is within 10 feet of the first target.</p>
 		</description>
@@ -379,4 +382,7 @@
 	<element name="Font of Inspiration Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_BARD_FONT_OF_INSPIRATION" />
 	<element name="Countercharm Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_BARD_COUNTERCHARM" />
 	<element name="Magical Secrets Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_BARD_MAGICAL_SECRETS" />
+	<element name="Superior Inspiration Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_BARD_SUPERIOR_INSPIRATION" />
+	<element name="Bard Epic Boon Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_BARD_EPIC_BOON" />
+	<element name="Words of Creation Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_BARD_WORDS_OF_CREATION" />
 </elements>
