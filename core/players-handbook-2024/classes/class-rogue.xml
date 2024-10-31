@@ -5,7 +5,7 @@
 		<description>The Rogue class from the 2024 Player’s Handbook (Prototype).</description>
 
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="class-rogue.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/classes/class-rogue.xml" />
 		</update>
 	</info>
@@ -54,8 +54,8 @@
 				<tr><td> 6th</td><td>3d6</td><td class="left">Expertise</td></tr>
 				<tr><td> 7th</td><td>4d6</td><td class="left">Evasion, Reliable Talent</td></tr>
 				<tr><td> 8th</td><td>4d6</td><td class="left">Ability Score Improvement</td></tr>
-				<tr><td> 9th</td><td>Sd6</td><td class="left">Subclass Feature</td></tr>
-				<tr><td>10th</td><td>Sd6</td><td class="left">Ability Score Improvement</td></tr>
+				<tr><td> 9th</td><td>5d6</td><td class="left">Subclass Feature</td></tr>
+				<tr><td>10th</td><td>5d6</td><td class="left">Ability Score Improvement</td></tr>
 				<tr><td>11th</td><td>6d6</td><td class="left">Improved Cunning Strike</td></tr>
 				<tr><td>12th</td><td>6d6</td><td class="left">Ability Score Improvement</td></tr>
 				<tr><td>13th</td><td>7d6</td><td class="left">Subclass Feature</td></tr>
