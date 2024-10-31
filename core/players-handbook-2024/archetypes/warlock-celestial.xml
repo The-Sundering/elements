@@ -4,7 +4,7 @@
 		<name>Celestial Patron</name>
 		<description>The Celestial Patron subclass from the 2024 Player’s Handbook (Prototype).</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="warlock-celestial.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/archetypes/warlock-celestial.xml" />
 		</update>
 	</info>
@@ -26,7 +26,7 @@
 			<grant type="Archetype Feature" id="ID_WOTC_PHB2024_ARCHETYPE_FEATURE_WARLOCK_CELESTIAL_HEALING_LIGHT" level="3" />
 			<grant type="Archetype Feature" id="ID_WOTC_PHB2024_ARCHETYPE_FEATURE_WARLOCK_CELESTIAL_RADIANT_SOUL" level="6" />
 			<grant type="Archetype Feature" id="ID_WOTC_PHB2024_ARCHETYPE_FEATURE_WARLOCK_CELESTIAL_CELESTIAL_RESILIENCE" level="10" />
-			<grant type="Archetype Feature" id="ID_WOTC_PHB2024_ARCHETYPE_FEATURE_WARLOCK_CELESTIAL_SEARING_VENGEANCE" level="10" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB2024_ARCHETYPE_FEATURE_WARLOCK_CELESTIAL_SEARING_VENGEANCE" level="14" />
 		</rules>
 	</element>
 
