@@ -4,7 +4,7 @@
 		<name>Archfey Patron</name>
 		<description>The Archfey Patron subclass from the 2024 Player’s Handbook (Prototype).</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="warlock-archfey.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/archetypes/warlock-archfey.xml" />
 		</update>
 	</info>
@@ -26,7 +26,7 @@
 			<grant type="Archetype Feature" id="ID_WOTC_PHB2024_ARCHETYPE_FEATURE_WARLOCK_ARCHFEY_STEPS_OF_THE_FEY" level="3" />
 			<grant type="Archetype Feature" id="ID_WOTC_PHB2024_ARCHETYPE_FEATURE_WARLOCK_ARCHFEY_MISTY_ESCAPE" level="6" />
 			<grant type="Archetype Feature" id="ID_WOTC_PHB2024_ARCHETYPE_FEATURE_WARLOCK_ARCHFEY_BEGUILING_DEFENSES" level="10" />
-			<grant type="Archetype Feature" id="ID_WOTC_PHB2024_ARCHETYPE_FEATURE_WARLOCK_ARCHFEY_BEWITCHING_MAGIC" level="10" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB2024_ARCHETYPE_FEATURE_WARLOCK_ARCHFEY_BEWITCHING_MAGIC" level="14" />
 		</rules>
 	</element>
 
