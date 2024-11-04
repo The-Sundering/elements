@@ -114,7 +114,7 @@
 		</multiclass>
 	</element>
 	<element name="Level 1: Spellcasting" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_SORCERER_SPELLCASTING_SORCERER">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_SPELLCASTING</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_24_SPELLCASTING</requirements>
 		<description>
 			<h5>CANTRIPS</h5>
 			<p>You know four Sorcerer cantrips of your choice. <i>Light</i>, <i>Prestidigitation</i>, <i>Shocking Grasp</i> and <i>Sorcerous Burst</i> are recommended. Whenever you gain a Sorcerer level, you can replace one of your cantrips from this feature with another Sorcerer cantrip of your choice.</p>
@@ -192,7 +192,7 @@
 		</rules>
 	</element>
 	<element name="Level 1: Innate Sorcery" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_SORCERER_INNATE_SORCERY">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_INNATE_SORCERY</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_24_INNATE_SORCERY</requirements>
 		<description>
 			<p>An event in your past left an indelible mark on you, infusing you with simmering magic. As a Bonus Action, you can unleash that magic for 1 minute, during which you gain the following benefits:</p>
 			<ul>
@@ -207,7 +207,7 @@
 	</element>
 
 	<element name="Level 2: Font of Magic" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_SORCERER_FONT_OF_MAGIC">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_FONT_OF_MAGIC</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_24_FONT_OF_MAGIC</requirements>
 		<description>
 			<p>You can tap into the wellspring of magic within yourself. This wellspring is represented by Sorcery Points, which allow you to create a variety of magical effects.</p>
 			<h5>SORCERY POINTS</h5>
@@ -236,7 +236,7 @@
 		</rules>
 	</element>
 	<element name="Level 2: Metamagic" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_SORCERER_METAMAGIC">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_METAMAGIC</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_24_METAMAGIC</requirements>
 		<description>
 			<p>Because your magic flows from within, you can alter your spells to suit your needs; you gain two Metamagic options of your choice. You use the chosen options to temporarily modify spells you cast. To use an option, you must spend the number of Sorcery Points that it costs.</p>
 			<p class="indent">You can use only one Metamagic option on a spell when you cast it unless otherwise noted in one of those options.</p>
@@ -253,7 +253,7 @@
 	</element>
 
 	<element name="Level 3: Sorcerer Subclass" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_SORCERER_SORCEROUS_ORIGIN">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_SORCEROUS_ORIGIN</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_24_SORCEROUS_ORIGIN</requirements>
 		<description>
 			<p>You gain a Sorcerer subclass of your choice. The Aberrant Sorcery, Clockwork Sorcery, Draconic Sorcery, and Wild Magic Sorcery subclasses are detailed after this class’s description. A subclass is a specialization that grants you features at certain Sorcerer levels. For the rest of your career, you gain each of your subclass’s features that are of your Sorcerer level or lower.</p>
 		</description>
@@ -263,7 +263,7 @@
 		</rules>
 	</element>
 	<element name="Level 4: Ability Score Improvement" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_SORCERER_ABILITY_SCORE_IMPROVEMENT">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_ABILITY_SCORE_IMPROVEMENT</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_24_ABILITY_SCORE_IMPROVEMENT</requirements>
 		<compendium display="false" />
 		<description>
 			<p>You gain the Ability Score Improvement feat or another feat of your choice for which you qualify. You gain this feature again at Sorcerer levels 8, 12, and 16.</p>
@@ -278,7 +278,7 @@
 	</element>
 
 	<element name="Level 5: Sorcerous Restoration" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_SORCERER_SORCEROUS_RESTORATION">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_SORCEROUS_RESTORATION</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_24_SORCEROUS_RESTORATION</requirements>
 		<description>
 			<p>When you finish a Short Rest, you can regain expended Sorcery Points, but no more than a number equal to half your Sorcerer level (round down). Once you use this feature, you can’t do so again until you finish a Long Rest.</p>
 		</description>
@@ -288,7 +288,7 @@
 	</element>
 
 	<element name="Level 7: Sorcery Incarnate" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_SORCERER_SORCERY_INCARNATE">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_SORCERY_INCARNATE</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_24_SORCERY_INCARNATE</requirements>
 		<description>
 			<p>If you have no uses of Innate Sorcery left, you can use it if you spend 2 Sorcery Points when you take the Bonus Action to activate it.</p>
 			<p>In addition, while your Innate Sorcery feature is active, you can use up to two of your Metamagic options on each spell you cast.</p>
@@ -298,7 +298,7 @@
 		</sheet>
 	</element>
 	<element name="Level 19: Epic Boon" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_SORCERER_EPIC_BOON">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_EPIC_BOON</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_24_EPIC_BOON</requirements>
 		<description>
 			<p>You gain an Epic Boon feat or another feat of your choice for which you qualify. Boon of Dimensional Travel is recommended.</p>
 		</description>
@@ -310,7 +310,7 @@
 		</rules>
 	</element>
 	<element name="Level 20: Arcane Apotheosis" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_SORCERER_ARCANE_APOTHEOSIS">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_ARCANE_APOTHEOSIS</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_24_ARCANE_APOTHEOSIS</requirements>
 		<description>
 			<p>While your Innate Sorcery feature is active, you can use one Metamagic option on each of your turns without spending Sorcery Points on it.</p>
 		</description>
@@ -322,7 +322,7 @@
 	<!--Metamagic Options-->
 	
 	<element name="Careful Spell" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_SORCERER_METAMAGIC_CAREFUL_SPELL">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_METAMAGIC_CAREFUL_SPELL</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_24_METAMAGIC_CAREFUL_SPELL</requirements>
 		<supports>Metamagic 2024</supports>
 		<description>
 			<p><em>Cost: 1 Sorcery Point</em></p>
@@ -337,7 +337,7 @@
 		</rules>
 	</element>
 	<element name="Distant Spell" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_SORCERER_METAMAGIC_DISTANT_SPELL">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_METAMAGIC_DISTANT_SPELL</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_24_METAMAGIC_DISTANT_SPELL</requirements>
 		<supports>Metamagic 2024</supports>
 		<description>
 			<p><em>Cost: 1 Sorcery Point</em></p>
@@ -348,7 +348,7 @@
 		</sheet>
 	</element>
 	<element name="Empowered Spell" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_SORCERER_METAMAGIC_EMPOWERED_SPELL">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_METAMAGIC_EMPOWERED_SPELL</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_24_METAMAGIC_EMPOWERED_SPELL</requirements>
 		<supports>Metamagic 2024</supports>
 		<description>
 			<p><em>Cost: 1 Sorcery Point</em></p>
@@ -364,7 +364,7 @@
 		</rules>
 	</element>
 	<element name="Extended Spell" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_SORCERER_METAMAGIC_EXTENDED_SPELL">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_METAMAGIC_EXTENDED_SPELL</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_24_METAMAGIC_EXTENDED_SPELL</requirements>
 		<supports>Metamagic 2024</supports>
 		<description>
 			<p><em>Cost: 1 Sorcery Point</em></p>
@@ -376,7 +376,7 @@
 		</sheet>
 	</element>
 	<element name="Heightened Spell" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_SORCERER_METAMAGIC_HEIGHTENED_SPELL">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_METAMAGIC_HEIGHTENED_SPELL</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_24_METAMAGIC_HEIGHTENED_SPELL</requirements>
 		<supports>Metamagic 2024</supports>
 		<description>
 			<p><em>Cost: 2 Sorcery Points</em></p>
@@ -387,7 +387,7 @@
 		</sheet>
 	</element>
 	<element name="Quickened Spell" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_SORCERER_METAMAGIC_QUICKEND_SPELL">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_METAMAGIC_QUICKENED_SPELL</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_24_METAMAGIC_QUICKENED_SPELL</requirements>
 		<supports>Metamagic 2024</supports>
 		<description>
 			<p><em>Cost: 2 Sorcery Points</em></p>
@@ -398,7 +398,7 @@
 		</sheet>
 	</element>
 	<element name="Seeking Spell" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_SORCERER_METAMAGIC_SEEKING_SPELL">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_METAMAGIC_SEEKING_SPELL</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_24_METAMAGIC_SEEKING_SPELL</requirements>
 		<supports>Metamagic 2024</supports>
 		<description>
 			<p><em>Cost: 1 Sorcery Point</em></p>
@@ -410,7 +410,7 @@
 		</sheet>
 	</element>
 	<element name="Subtle Spell" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_SORCERER_METAMAGIC_SUBTLE_SPELL">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_METAMAGIC_SUBTLE_SPELL</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_24_METAMAGIC_SUBTLE_SPELL</requirements>
 		<supports>Metamagic 2024</supports>
 		<description>
 			<p><em>Cost: 1 Sorcery Point</em></p>
@@ -421,7 +421,7 @@
 		</sheet>
 	</element>
 	<element name="Transmuted Spell" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_SORCERER_METAMAGIC_TRANSMUTED_SPELL">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_METAMAGIC_TRANSMUTED_SPELL</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_24_METAMAGIC_TRANSMUTED_SPELL</requirements>
 		<supports>Metamagic 2024</supports>
 		<description>
 			<p><em>Cost: 1 Sorcery Point</em></p>
@@ -432,7 +432,7 @@
 		</sheet>
 	</element>
 	<element name="Twinned Spell" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_SORCERER_METAMAGIC_TWINNED_SPELL">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_METAMAGIC_TWINNED_SPELL</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_24_METAMAGIC_TWINNED_SPELL</requirements>
 		<supports>Metamagic 2024</supports>
 		<description>
 			<p><em>Cost: 1 Sorcery Point</em></p>
@@ -444,24 +444,24 @@
 	</element>
 
 	<!--Feature Replacement Grants-->
-	<element name="Spellcasting Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_SPELLCASTING" />
-	<element name="Innate Sorcery Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_INNATE_SORCERY" />
-	<element name="Font of Magic Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_FONT_OF_MAGIC" />
-	<element name="Metamagic Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_METAMAGIC" />
-	<element name="Sorcerous Origin Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_SORCEROUS_ORIGIN" />
-	<element name="Ability Score Improvement Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_ABILITY_SCORE_IMPROVEMENT" />
-	<element name="Sorcerous Restoration Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_SORCEROUS_RESTORATION" />
-	<element name="Sorcery Incarnate Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_SORCERY_INCARNATE" />
-	<element name="Sorcerer Epic Boon Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_EPIC_BOON" />
-	<element name="Arcane Apotheosis Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_ARCANE_APOTHEOSIS" />
-	<element name="Careful Spell Metamagic Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_METAMAGIC_CAREFUL_SPELL" />
-	<element name="Distant Spell Metamagic Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_METAMAGIC_DISTANT_SPELL" />
-	<element name="Empowered Spell Metamagic Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_METAMAGIC_EMPOWERED_SPELL" />
-	<element name="Extended Spell Metamagic Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_METAMAGIC_EXTENDED_SPELL" />
-	<element name="Heightened Spell Metamagic Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_METAMAGIC_HEIGHTENED_SPELL" />
-	<element name="Quickened Spell Metamagic Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_METAMAGIC_QUICKENED_SPELL" />
-	<element name="Seeking Spell Metamagic Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_METAMAGIC_SEEKING_SPELL" />
-	<element name="Subtle Spell Metamagic Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_METAMAGIC_SUBTLE_SPELL" />
-	<element name="Transmuted Spell Metamagic Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_METAMAGIC_TRANSMUTED_SPELL" />
-	<element name="Twinned Spell Metamagic Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_METAMAGIC_TWINNED_SPELL" />
+	<element name="Spellcasting Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_24_SPELLCASTING" />
+	<element name="Innate Sorcery Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_24_INNATE_SORCERY" />
+	<element name="Font of Magic Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_24_FONT_OF_MAGIC" />
+	<element name="Metamagic Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_24_METAMAGIC" />
+	<element name="Sorcerous Origin Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_24_SORCEROUS_ORIGIN" />
+	<element name="Ability Score Improvement Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_24_ABILITY_SCORE_IMPROVEMENT" />
+	<element name="Sorcerous Restoration Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_24_SORCEROUS_RESTORATION" />
+	<element name="Sorcery Incarnate Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_24_SORCERY_INCARNATE" />
+	<element name="Sorcerer Epic Boon Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_24_EPIC_BOON" />
+	<element name="Arcane Apotheosis Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_24_ARCANE_APOTHEOSIS" />
+	<element name="Careful Spell Metamagic Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_24_METAMAGIC_CAREFUL_SPELL" />
+	<element name="Distant Spell Metamagic Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_24_METAMAGIC_DISTANT_SPELL" />
+	<element name="Empowered Spell Metamagic Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_24_METAMAGIC_EMPOWERED_SPELL" />
+	<element name="Extended Spell Metamagic Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_24_METAMAGIC_EXTENDED_SPELL" />
+	<element name="Heightened Spell Metamagic Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_24_METAMAGIC_HEIGHTENED_SPELL" />
+	<element name="Quickened Spell Metamagic Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_24_METAMAGIC_QUICKENED_SPELL" />
+	<element name="Seeking Spell Metamagic Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_24_METAMAGIC_SEEKING_SPELL" />
+	<element name="Subtle Spell Metamagic Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_24_METAMAGIC_SUBTLE_SPELL" />
+	<element name="Transmuted Spell Metamagic Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_24_METAMAGIC_TRANSMUTED_SPELL" />
+	<element name="Twinned Spell Metamagic Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_24_METAMAGIC_TWINNED_SPELL" />
 </elements>

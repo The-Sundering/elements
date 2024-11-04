@@ -130,7 +130,7 @@
 	</element>
 
 	<element name="Level 1: Druidic" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_DRUID_DRUIDIC">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_DRUIDIC</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_24_DRUIDIC</requirements>
 		<description>
 			<p>You know Druidic, the secret language of Druids. While learning this ancient tongue, you also unlocked the magic of communicating with animals; you always have the <i>Speak with Animals</i> spell prepared.</p>
 			<p class="indent">You can use Druidic to leave hidden messages. You and others who know Druidic automatically spot such a message. Others spot the message’s presence with a successful DC 15 Intelligence (Investigation) check but can’t decipher it without magic.</p>
@@ -148,7 +148,7 @@
 		</rules>
 	</element>
 	<element name="Level 1: Primal Order" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_DRUID_PRIMAL_ORDER">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_PRIMAL_ORDER</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_24_PRIMAL_ORDER</requirements>
 		<description>
 			<p>You have dedicated yourself to one of the following sacred roles of your choice.</p>
 			<p class="indent"><em><strong>Magician.</strong></em> You know one extra cantrip from the Druid spell list. In addition, your mystical connection to nature gives you a bonus to your Intelligence (Arcana or Nature) checks. The bonus equals your Wisdom modifier (minimum bonus of +1).</p>
@@ -161,7 +161,7 @@
 	</element>
 	<element name="Magician" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_DRUID_PRIMAL_ORDER_MAGICIAN">
 		<supports>Primal Order</supports>
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_PRIMAL_ORDER_MAGICIAN</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_24_PRIMAL_ORDER_MAGICIAN</requirements>
 		<description>
 			<p>You know one extra cantrip from the Druid spell list. In addition, your mystical connection to nature gives you a bonus to your Intelligence (Arcana or Nature) checks. The bonus equals your Wisdom modifier (minimum bonus of +1).</p>
 		</description>
@@ -178,7 +178,7 @@
 	</element>
 	<element name="Warden" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_DRUID_PRIMAL_ORDER_WARDEN">
 		<supports>Primal Order</supports>
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_PRIMAL_ORDER_WARDEN</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_24_PRIMAL_ORDER_WARDEN</requirements>
 		<description>
 			<p>Trained for battle, you gain proficiency with Martial weapons and training with Medium armor.</p>
 		</description>
@@ -192,7 +192,7 @@
 	</element>
 
 	<element name="Level 1: Spellcasting" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_DRUID_SPELLCASTING">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_SPELLCASTING</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_24_SPELLCASTING</requirements>
 		<description>
 			<p>You have learned to cast spells through studying the mystical forces of nature. See chapter 7 for the rules on spellcasting. The information below details how you use those rules with Druid spells, which appear on the Druid spell list later in the class’s description.</p>
 			<p><em><strong>Cantrips.</strong></em> You know two cantrips of your choice from the Druid spell list. <i>Druidcraft</i> and <i>Produce Flame</i> are recommended.</p>
@@ -262,7 +262,7 @@
 	</element>
 
 	<element name="Level 2: Wild Companion" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_DRUID_WILD_COMPANION">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_WILD_COMPANION</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_24_WILD_COMPANION</requirements>
 		<description>
 			<p>You can summon a nature spirit that assumes an animal form to aid you. As a Magic action, you can expend a spell slot or a use of Wild Shape to cast the Find Familiar spell without Material components.</p>
 			<p class="indent">When you cast the spell in this way, the familiar is Fey and disappears when you finish a Long Rest.</p>
@@ -280,7 +280,7 @@
 		</rules>
 	</element>
 	<element name="Level 2: Wild Shape" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_DRUID_WILD_SHAPE">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_WILD_SHAPE</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_24_WILD_SHAPE</requirements>
 		<description>
 			<p>The power of nature allows you to assume the form of an animal. As a Bonus Action, you shape-shift into a Beast form that you have learned for this feature (see "Known Forms" below). You stay in that form for a number of hours equal to half your Druid level or until you use Wild Shape again, have the Incapacitated condition, or die. You can also leave the form early as a Bonus Action.</p>
 			<p><em><strong>Number of Uses.</strong></em> You can use Wild Shape twice. You regain one expended use when you finish a Short Rest, and you regain all expended uses when you finish a Long Rest.</p>
@@ -321,7 +321,7 @@
 		</rules>
 	</element>
 	<element name="Level 3: Druid Subclass" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_DRUID_DRUID_CIRCLE">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_DRUID_CIRCLE</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_24_DRUID_CIRCLE</requirements>
 		<description>
 			<p>You gain a Druid subclass of your choice. The Circle of the Land, Circle of the Moon, Circle of the Sea, and Circle of the Stars subclasses are detailed after this class’s description. A subclass is a specialization that grants you features at certain Druid levels. For the rest of your career, you gain each of your subclass’s features that are of your Druid level or lower.</p>
 		</description>
@@ -332,7 +332,7 @@
 	</element>
 
 	<element name="Level 4: Ability Score Improvement" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_DRUID_ABILITY_SCORE_IMPROVEMENT">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_ABILITY_SCORE_IMPROVEMENT</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_24_ABILITY_SCORE_IMPROVEMENT</requirements>
 		<compendium display="false" />
 		<description>
 			<p>You gain the Ability Score Improvement feat or another feat of your choice for which you qualify. You gain this feature again at Druid levels 8, 12, and 16.</p>
@@ -347,7 +347,7 @@
 	</element>
 
 	<element name="Level 5: Wild Resurgence" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_DRUID_WILD_RESURGENCE">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_WILD_RESURGENCE</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_24_WILD_RESURGENCE</requirements>
 		<description>
 			<p>Once on each of your turns, if you have no uses of Wild Shape left, you can give yourself one use by expending a spell slot (no action required).</p>
 			<p class="indent">In addition, you can expend one use of Wild Shape (no action required) to give yourself a level 1 spell slot, but you can’t do so again until you finish a Long Rest.</p>
@@ -360,7 +360,7 @@
 	</element>
 
 	<element name="Level 7: Elemental Fury" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_DRUID_ELEMENTAL_FURY">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_ELEMENTAL_FURY</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_24_ELEMENTAL_FURY</requirements>
 		<description>
 			<p>The might of the elements flows through you. You gain one of the following options of your choice.</p>
 			<p><em><strong>Potent Spellcasting.</strong></em> Add your Wisdom modifier to the damage you deal with any Druid cantrip.</p>
@@ -373,7 +373,7 @@
 	</element>
 	<element name="Potent Spellcasting" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_DRUID_ELEMENTAL_FURY_POTENT_SPELLCASTING">
 		<supports>Elemental Fury</supports>
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_ELEMENTAL_FURY_POTENT_SPELLCASTING</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_24_ELEMENTAL_FURY_POTENT_SPELLCASTING</requirements>
 		<description>
 			<p>Add your Wisdom modifier to the damage you deal with any Druid cantrip.</p>
 		</description>
@@ -384,7 +384,7 @@
 	</element>
 	<element name="Primal Strike" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_DRUID_ELEMENTAL_FURY_PRIMAL_STRIKE">
 		<supports>Elemental Fury</supports>
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_ELEMENTAL_FURY_PRIMAL_STRIKE</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_24_ELEMENTAL_FURY_PRIMAL_STRIKE</requirements>
 		<description>
 			<p>Once on each of your turns when you hit a creature with an attack roll using a weapon or a Beast form’s attack in Wild Shape, you can cause the target to take an extra 1d8 Cold, Fire, Lightning, or Thunder damage (choose when you hit).</p>
 		</description>
@@ -395,7 +395,7 @@
 	</element>
 
 	<element name="Level 15: Improved Elemental Fury" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_DRUID_IMPROVED_ELEMENTAL_FURY">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_IMPROVED_ELEMENTAL_FURY</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_24_IMPROVED_ELEMENTAL_FURY</requirements>
 		<description>
 			<p>The option you chose for Elemental Fury grows more powerful, as detailed below.</p>
 			<p><em><strong>Potent Spellcasting.</strong></em> When you cast a Druid cantrip with a range of 10 feet or greater, the spell’s range increases by 300 feet.</p>
@@ -405,7 +405,7 @@
 	</element>
 
 	<element name="Level 18: Beast Spells" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_DRUID_BEAST_SPELLS">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_BEAST_SPELLS</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_24_BEAST_SPELLS</requirements>
 		<description>
 			<p>While using Wild Shape, you can cast spells in Beast form, except for any spell that has a Material component with a cost specified or that consumes its Material component.</p>
 		</description>
@@ -415,7 +415,7 @@
 	</element>
 
 	<element name="Level 19: Epic Boon" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_DRUID_EPIC_BOON">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_EPIC_BOON</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_24_EPIC_BOON</requirements>
 		<description>
 			<p>You gain an Epic Boon feat or another feat of your choice for which you qualify. Boon of Dimensional Travel is recommended.</p>
 		</description>
@@ -428,7 +428,7 @@
 	</element>
 
 	<element name="Level 20: Archdruid" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_DRUID_ARCHDRUID">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_ARCHDRUID</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_24_ARCHDRUID</requirements>
 		<description>
 			<p>The vitality of nature constantly blooms within you, granting you the following benefits.</p>
 			<p><em><strong>Evergreen Wild Shape.</strong></em> Whenever you roll Initiative and have no uses of Wild Shape left, you regain one expended use of it.</p>
@@ -444,22 +444,22 @@
 	</element>
 
 	<!--Feature Replacement Grants-->
-	<element name="Druidic Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_DRUIDIC" />
-	<element name="Primal Order Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_PRIMAL_ORDER" />
-	<element name="Primal Order: Magician Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_PRIMAL_ORDER_MAGICIAN" />
-	<element name="Primal Order: Warden Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_PRIMAL_ORDER_WARDEN" />
-	<element name="Druid Spellcasting Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_SPELLCASTING" />
-	<element name="Wild Companion Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_WILD_COMPANION" />
-	<element name="Wild Shape Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_WILD_SHAPE" />
-	<element name="Druid Subclass Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_DRUID_CIRCLE" />
-	<element name="Ability Score Improvement Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_ABILITY_SCORE_IMPROVEMENT" />
-	<element name="Wild Resurgence Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_WILD_RESURGENCE" />
-	<element name="Elemental Fury Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_ELEMENTAL_FURY" />
-	<element name="Elemental Fury: Potent Spellcasting Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_ELEMENTAL_FURY_POTENT_SPELLCASTING" />
-	<element name="Elemental Fury: Primal Strike Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_ELEMENTAL_FURY_PRIMAL_STRIKE" />
-	<element name="Improved Elemental Fury Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_IMPROVED_ELEMENTAL_FURY" />
-	<element name="Beast Spells Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_BEAST_SPELLS" />
-	<element name="Druid Epic Boon Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_EPIC_BOON" />
-	<element name="Archdruid Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_ARCHDRUID" />
+	<element name="Druidic Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_24_DRUIDIC" />
+	<element name="Primal Order Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_24_PRIMAL_ORDER" />
+	<element name="Primal Order: Magician Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_24_PRIMAL_ORDER_MAGICIAN" />
+	<element name="Primal Order: Warden Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_24_PRIMAL_ORDER_WARDEN" />
+	<element name="Druid Spellcasting Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_24_SPELLCASTING" />
+	<element name="Wild Companion Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_24_WILD_COMPANION" />
+	<element name="Wild Shape Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_24_WILD_SHAPE" />
+	<element name="Druid Subclass Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_24_DRUID_CIRCLE" />
+	<element name="Ability Score Improvement Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_24_ABILITY_SCORE_IMPROVEMENT" />
+	<element name="Wild Resurgence Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_24_WILD_RESURGENCE" />
+	<element name="Elemental Fury Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_24_ELEMENTAL_FURY" />
+	<element name="Elemental Fury: Potent Spellcasting Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_24_ELEMENTAL_FURY_POTENT_SPELLCASTING" />
+	<element name="Elemental Fury: Primal Strike Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_24_ELEMENTAL_FURY_PRIMAL_STRIKE" />
+	<element name="Improved Elemental Fury Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_24_IMPROVED_ELEMENTAL_FURY" />
+	<element name="Beast Spells Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_24_BEAST_SPELLS" />
+	<element name="Druid Epic Boon Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_24_EPIC_BOON" />
+	<element name="Archdruid Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_24_ARCHDRUID" />
 
 </elements>

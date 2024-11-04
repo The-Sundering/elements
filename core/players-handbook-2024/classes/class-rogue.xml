@@ -152,7 +152,7 @@
 	</element>
 
 	<element name="Level 1: Expertise" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ROGUE_EXPERTISE">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_EXPERTISE</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_24_EXPERTISE</requirements>
 		<description>
 			<p>You gain Expertise in two of your skill proficiencies of your choice. Sleight of Hand and Stealth are recommended if you have proficiency in them.</p>
 			<p class="indent">At Rogue level 6, you gain Expertise in two more of your skill proficiencies of your choice.</p>
@@ -164,7 +164,7 @@
 		</rules>
 	</element>
 	<element name="Level 1: Sneak Attack" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ROGUE_SNEAK_ATTACK">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_SNEAK_ATTACK</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_24_SNEAK_ATTACK</requirements>
 		<description>
 			<p>You know how to strike subtly and exploit a foe’s distraction. Once per turn, you can deal an extra 1d6 damage to one creature you hit with an attack roll if you have Advantage on the roll and the attack uses a Finesse or a Ranged weapon. The extra damage’s type is the same as the weapon’s type.</p>
 			<p class="indent">You don’t need Advantage on the attack roll if at least one of your allies is within 5 feet of the target, the ally doesn’t have the Incapacitated condition, and you don’t have Disadvantage on the attack roll.</p>
@@ -189,7 +189,7 @@
 		</rules>
 	</element>
 	<element name="Level 1: Thieves’ Cant" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ROGUE_THIEVES_CANT">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_THIEVES_CANT</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_24_THIEVES_CANT</requirements>
 		<description>
 			<p>You picked up various languages in the communities where you plied your roguish talents. You know Thieves’ Cant and one other language of your choice, which you choose from the language tables in chapter 2.</p>
 		</description>
@@ -200,7 +200,7 @@
 		</rules>
 	</element>
 	<element name="Level 1: Weapon Mastery" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ROGUE_WEAPON_MASTERY">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_WEAPON_MASTERY</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_24_WEAPON_MASTERY</requirements>
 		<description>
 			<p>Your training with weapons allows you to use the mastery properties of two kinds of weapons of your choice with which you have proficiency, such as Daggers and Shortbows.</p>
 			<p class="indent">Whenever you finish a Long Rest, you can change the kinds of weapons you chose. For example, you could switch to using the mastery properties of Scimitars and Shortswords.</p>
@@ -214,7 +214,7 @@
 	</element>
 
 	<element name="Level 2: Cunning Action" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ROGUE_CUNNING_ACTION">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_CUNNING_ACTION</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_24_CUNNING_ACTION</requirements>
 		<description>
 			<p>Your quick thinking and agility allow you to move and act quickly. On your turn, you can take one of the following actions as a Bonus Action: Dash, Disengage, or Hide.</p>
 		</description>
@@ -224,7 +224,7 @@
 	</element>
 
 	<element name="Level 3: Roguish Archetype" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ROGUE_ROGUISH_ARCHETYPE">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_ROGUISH_ARCHETYPE</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_24_ROGUISH_ARCHETYPE</requirements>
 		<description>
 			<p>You gain a Rogue subclass of your choice. The Arcane Trickster, Assassin, Soulknife, and Thief subclasses are detailed after this class’s description. A subclass is a specialization that grants you features at certain Rogue levels. For the rest of your career, you gain each of your subclass’s features that are of your Rogue level or lower.</p>
 		</description>
@@ -234,7 +234,7 @@
 		</rules>
 	</element>
 	<element name="Level 3: Steady Aim" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ROGUE_STEADY_AIM">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_STEADY_AIM</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_24_STEADY_AIM</requirements>
 		<description>
 			<p>As a Bonus Action, you give yourself Advantage on your next attack roll on the current turn. You can use this feature only if you haven’t moved during this turn, and after you use it, your Speed is 0 until the end of the current turn.</p>
 		</description>
@@ -244,7 +244,7 @@
 	</element>
 
 	<element name="Level 4: Ability Score Improvement" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ROGUE_ABILITY_SCORE_IMPROVEMENT">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_ABILITY_SCORE_IMPROVEMENT</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_24_ABILITY_SCORE_IMPROVEMENT</requirements>
 		<compendium display="false" />
 		<description>
 			<p>You gain the Ability Score Improvement feat or another feat of your choice for which you qualify. You gain this feature again at Rogue levels 8, 10, 12, and 16.</p>
@@ -260,7 +260,7 @@
 	</element>
 
 	<element name="Level 5: Cunning Strike" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ROGUE_CUNNING_STRIKE">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_CUNNING_STRIKE</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_24_CUNNING_STRIKE</requirements>
 		<description>
 			<p>You’ve developed cunning ways to use your Sneak Attack. When you deal Sneak Attack damage, you can add one of the following Cunning Strike effects. Each effect has a die cost, which is the number of Sneak Attack damage dice you must forgo to add the effect. You remove the die before rolling, and the effect occurs immediately after the attack’s damage is dealt. For example, if you add the Poison effect, remove 1d6 from the Sneak Attack’s damage before rolling.</p>
 			<p class="indent">If a Cunning Strike effect requires a saving throw, the DC equals 8 plus your Dexterity modifier and Proficiency Bonus.</p>
@@ -282,7 +282,7 @@
 		</rules>
 	</element>
 	<element name="Level 5: Uncanny Dodge" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ROGUE_UNCANNY_DODGE">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_UNCANNY_DODGE</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_24_UNCANNY_DODGE</requirements>
 		<description>
 			<p>When an attacker that you can see hits you with an attack roll, you can take a Reaction to halve the attack’s damage against you (round down).</p>
 		</description>
@@ -292,7 +292,7 @@
 	</element>
 
 	<element name="Level 7: Evasion" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ROGUE_EVASION">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_EVASION</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_24_EVASION</requirements>
 		<description>
 			<p>You can nimbly dodge out of the way of certain dangers. When you’re subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw and only half damage if you fail. You can’t use this feature if you have the Incapacitated condition.</p>
 		</description>
@@ -301,7 +301,7 @@
 		</sheet>
 	</element>
 	<element name="Level 7: Reliable Talent" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ROGUE_RELIABLE_TALENT">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_RELIABLE_TALENT</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_24_RELIABLE_TALENT</requirements>
 		<description>
 			<p>Whenever you make an ability check that uses one of your skill or tool proficiencies, you can treat a d20 roll of 9 or lower as a 10.</p>
 		</description>
@@ -311,7 +311,7 @@
 	</element>
 
 	<element name="Level 11: Improved Cunning Strike" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ROGUE_IMPROVED_CUNNING_STRIKE">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_IMPROVED_CUNNING_STRIKE</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_24_IMPROVED_CUNNING_STRIKE</requirements>
 		<description>
 			<p>You can use up to two Cunning Strike effects when you deal Sneak Attack damage, paying the die cost for each effect.</p>
 		</description>
@@ -322,7 +322,7 @@
 	</element>
 
 	<element name="Level 14: Devious Strikes" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ROGUE_DEVIOUS_STRIKES">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_DEVIOUS_STRIKES</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_24_DEVIOUS_STRIKES</requirements>
 		<description>
 			<p>You’ve practiced new ways to use your Sneak Attack deviously. The following effects are now among your Cunning Strike options.</p>
 			<p class="indent"><em><strong>Daze (Cost: 2d6).</strong></em> The target must succeed on a Constitution saving throw, or on its next turn, it can do only one of the following: move or take an action or a Bonus Action.</p>
@@ -339,7 +339,7 @@
 	</element>
 
 	<element name="Level 15: Slippery Mind" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ROGUE_SLIPPERY_MIND">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_SLIPPERY_MIND</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_24_SLIPPERY_MIND</requirements>
 		<description>
 			<p>Your cunning mind is exceptionally difficult to control. You gain proficiency in Wisdom and Charisma saving throws.</p>
 		</description>
@@ -351,7 +351,7 @@
 	</element>
 
 	<element name="Level 18: Elusive" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ROGUE_ELUSIVE">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_ELUSIVE</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_24_ELUSIVE</requirements>
 		<description>
 			<p>You’re so evasive that attackers rarely gain the upper hand against you. No attack roll can have Advantage against you unless you have the Incapacitated condition.</p>
 		</description>
@@ -361,7 +361,7 @@
 	</element>
 
 	<element name="Level 19: Epic Boon" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ROGUE_EPIC_BOON">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_EPIC_BOON</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_24_EPIC_BOON</requirements>
 		<description>
 			<p>You gain an Epic Boon feat or another feat of your choice for which you qualify. Boon of the Night Spirit is recommended.</p>
 		</description>
@@ -374,7 +374,7 @@
 	</element>
 
 	<element name="Level 20: Stroke of Luck" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ROGUE_STROKE_OF_LUCK">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_STROKE_OF_LUCK</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_24_STROKE_OF_LUCK</requirements>
 		<description>
 			<p>You have a marvelous knack for succeeding when you need to. If you fail a D20 Test, you can turn the roll into a 20.</p>
 			<p>Once you use this feature, you can’t use it again until you finish a Short or Long Rest.</p>
@@ -386,23 +386,23 @@
 
 
 	<!--Feature Replacement Grants-->
-	<element name="Expertise Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_EXPERTISE" />
-	<element name="Sneak Attack Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_SNEAK_ATTACK" />
-	<element name="Thieves’ Cant Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_THIEVES_CANT" />
-	<element name="Weapon Mastery Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_WEAPON_MASTERY" />
-	<element name="Cunning Action Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_CUNNING_ACTION" />
-	<element name="Rogue Subclass Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_ROGUISH_ARCHETYPE" />
-	<element name="Steady Aim Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_STEADY_AIM" />
-	<element name="Ability Score Improvement Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_ABILITY_SCORE_IMPROVEMENT" />
-	<element name="Cunning Strike Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_CUNNING_STRIKE" />
-	<element name="Uncanny Dodge Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_UNCANNY_DODGE" />
-	<element name="Evasion Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_EVASION" />
-	<element name="Reliable Talent Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_RELIABLE_TALENT" />
-	<element name="Improved Cunning Strike Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_IMPROVED_CUNNING_STRIKE" />
-	<element name="Devious Strikes Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_DEVIOUS_STRIKES" />
-	<element name="Slippery Mind Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_SLIPPERY_MIND" />
-	<element name="Elusive Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_ELUSIVE" />
-	<element name="Epic Boon Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_EPIC_BOON" />
-	<element name="Stroke of Luck Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_STROKE_OF_LUCK" />
+	<element name="Expertise Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_24_EXPERTISE" />
+	<element name="Sneak Attack Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_24_SNEAK_ATTACK" />
+	<element name="Thieves’ Cant Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_24_THIEVES_CANT" />
+	<element name="Weapon Mastery Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_24_WEAPON_MASTERY" />
+	<element name="Cunning Action Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_24_CUNNING_ACTION" />
+	<element name="Rogue Subclass Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_24_ROGUISH_ARCHETYPE" />
+	<element name="Steady Aim Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_24_STEADY_AIM" />
+	<element name="Ability Score Improvement Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_24_ABILITY_SCORE_IMPROVEMENT" />
+	<element name="Cunning Strike Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_24_CUNNING_STRIKE" />
+	<element name="Uncanny Dodge Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_24_UNCANNY_DODGE" />
+	<element name="Evasion Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_24_EVASION" />
+	<element name="Reliable Talent Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_24_RELIABLE_TALENT" />
+	<element name="Improved Cunning Strike Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_24_IMPROVED_CUNNING_STRIKE" />
+	<element name="Devious Strikes Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_24_DEVIOUS_STRIKES" />
+	<element name="Slippery Mind Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_24_SLIPPERY_MIND" />
+	<element name="Elusive Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_24_ELUSIVE" />
+	<element name="Epic Boon Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_24_EPIC_BOON" />
+	<element name="Stroke of Luck Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_24_STROKE_OF_LUCK" />
 
 </elements>
