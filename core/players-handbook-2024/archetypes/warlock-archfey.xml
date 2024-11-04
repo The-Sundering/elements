@@ -31,7 +31,7 @@
 	</element>
 
 	<element name="Level 3: Archfey Spells" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_ARCHFEY_ARCHFEY_SPELLS">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_ARCHFEY_ARCHFEY_SPELLS</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_24_ARCHFEY_ARCHFEY_SPELLS</requirements>
 		<description>
 			<p>The magic of your patron ensures you always have certain spells ready; when you reach a Warlock level specified in the Archfey Spells table, you thereafter always have the listed spells prepared.</p>
 			<h5 class="caption">Archfey Spells</h5>
@@ -73,7 +73,7 @@
 		</rules>
 	</element>
 	<element name="Level 3: Steps of the Fey" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_ARCHFEY_STEPS_OF_THE_FEY">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_ARCHFEY_STEPS_OF_THE_FEY</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_24_ARCHFEY_STEPS_OF_THE_FEY</requirements>
 		<description>
 			<p>Your patron grants you the ability to move between the boundaries of the planes. You can cast <i>Misty Step</i> without expending a spell slot a number of times equal to your Charisma modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.</p>
 			<p>In addition, whenever you cast that spell, you can choose one of the following additional effects.</p>
@@ -97,7 +97,7 @@
 	</element>
 
 	<element name="Level 6: Misty Escape" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_ARCHFEY_MISTY_ESCAPE">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_ARCHFEY_MISTY_ESCAPE</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_24_ARCHFEY_MISTY_ESCAPE</requirements>
 		<description>
 			<p>You can cast <i>Misty Step</i> as a Reaction in response to taking damage.</p>
 			<p>In addition, the following effects are now among your Steps of the Fey options.</p>
@@ -110,7 +110,7 @@
 	</element>
 
 	<element name="Level 10: Beguiling Defenses" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_ARCHFEY_BEGUILING_DEFENSES">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_ARCHFEY_BEGUILING_DEFENSES</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_24_ARCHFEY_BEGUILING_DEFENSES</requirements>
 		<description>
 			<p>Your patron teaches you how to guard your mind and body. You are immune to the Charmed condition.</p>
 			<p class="indent">In addition, immediately after a creature you can see hits you with an attack roll, you can take a Reaction to reduce the damage you take by half (round down), and you can force the attacker to make a Wisdom saving throw against your spell save DC. On a failed save, the attacker takes Psychic damage equal to the damage you take. Once you use this Reaction, you can’t use it again until you finish a Long Rest unless you expend a Pact Magic spell slot (no action required) to restore your use of it.</p>
@@ -122,7 +122,7 @@
 	</element>
 
 	<element name="Level 14: Bewitching Magic" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_ARCHFEY_BEWITCHING_MAGIC">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_ARCHFEY_BEWITCHING_MAGIC</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_24_ARCHFEY_BEWITCHING_MAGIC</requirements>
 		<description>
 			<p>Your patron grants you the ability to weave your magic with teleportation. Immediately after you cast an Enchantment or Illusion spell using an action and a spell slot, you can cast <i>Misty Step</i> as part of the same action and without expending a spell slot.</p>
 		</description>
@@ -132,10 +132,10 @@
 	</element>
 
 	<!--Feature Replacement Grants-->
-	<element name="Archfey Spells Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_ARCHFEY_ARCHFEY_SPELLS" />
-	<element name="Steps of the Fey Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_ARCHFEY_STEPS_OF_THE_FEY" />
-	<element name="Misty Escape Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_ARCHFEY_MISTY_ESCAPE" />
-	<element name="Beguiling Defenses Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_ARCHFEY_BEGUILING_DEFENSES" />
-	<element name="Bewitching Magic Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_ARCHFEY_BEWITCHING_MAGIC" />
+	<element name="Archfey Spells Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_24_ARCHFEY_ARCHFEY_SPELLS" />
+	<element name="Steps of the Fey Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_24_ARCHFEY_STEPS_OF_THE_FEY" />
+	<element name="Misty Escape Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_24_ARCHFEY_MISTY_ESCAPE" />
+	<element name="Beguiling Defenses Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_24_ARCHFEY_BEGUILING_DEFENSES" />
+	<element name="Bewitching Magic Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_24_ARCHFEY_BEWITCHING_MAGIC" />
 
 </elements>

@@ -33,7 +33,7 @@
 	</element>
 
 	<element name="Level 3: Animal Speaker" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARBARIAN_WILD_HEART_ANIMAL_SPEAKER">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_BARBARIAN_WILD_HEART_ANIMAL_SPEAKER</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_BARBARIAN_24__WILD_HEART_ANIMAL_SPEAKER</requirements>
 		<description>
 			<p>You can cast the <i>Beast Sense</i> and <i>Speak with Animals</i> spells but only as Rituals. Wisdom is your spellcasting ability for them.</p>
 		</description>
@@ -49,7 +49,7 @@
 		</rules>
 	</element>
 	<element name="Level 3: Rage of the Wilds" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARBARIAN_WILD_HEART_RAGE_OF_THE_WILDS">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_BARBARIAN_WILD_HEART_RAGE_OF_THE_WILDS</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_BARBARIAN_24__WILD_HEART_RAGE_OF_THE_WILDS</requirements>
 		<description>
 			<p>Your Rage taps into the primal power of animals. Whenever you activate your Rage, you gain one of the following options of your choice.</p>
 			<p class="indent"><em><strong>Bear.</strong></em> While your Rage is active, you have Resistance to every damage type except Force, Necrotic, Psychic, and Radiant.</p>
@@ -63,7 +63,7 @@
 	</element>
 
 	<element name="Level 6: Aspect of the Wilds" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARBARIAN_WILD_HEART_ASPECT_OF_THE_WILDS">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_BARBARIAN_WILD_HEART_ASPECT_OF_THE_WILDS</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_BARBARIAN_24__WILD_HEART_ASPECT_OF_THE_WILDS</requirements>
 		<description>
 			<p>You gain one of the following options of your choice. Whenever you finish a Long Rest, you can change your choice.</p>
 			<p class="indent"><em><strong>Owl.</strong></em> You have Darkvision with a range of 60 feet. If you already have Darkvision, its range increases by 60 feet.</p>
@@ -77,7 +77,7 @@
 	</element>
 
 	<element name="Level 10: Nature Speaker" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARBARIAN_WILD_HEART_NATURE_SPEAKER">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_BARBARIAN_WILD_HEART_NATURE_SPEAKER</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_BARBARIAN_24__WILD_HEART_NATURE_SPEAKER</requirements>
 		<description>
 			<p>You can cast the <i>Commune with Nature</i> spell but only as a Ritual. Wisdom is your spellcasting ability for it.</p>
 		</description>
@@ -91,7 +91,7 @@
 	</element>
 
 	<element name="Level 14: Power of the Wilds" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARBARIAN_WILD_HEART_POWER_OF_THE_WILDS">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_BARBARIAN_WILD_HEART_POWER_OF_THE_WILDS</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_BARBARIAN_24__WILD_HEART_POWER_OF_THE_WILDS</requirements>
 		<description>
 			<p>Whenever you activate your Rage, you gain one of the following options of your choice.</p>
 			<p class="indent"><em><strong>Falcon.</strong></em> While your Rage is active, you have a Fly Speed equal to your Speed if you aren’t wearing any armor.</p>
@@ -203,9 +203,9 @@
 	</element>
 
 	<!--Feature Replacement Grants-->
-	<element name="Animal Speaker Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_BARBARIAN_WILD_HEART_ANIMAL_SPEAKER" />
-	<element name="Rage of the Wilds Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_BARBARIAN_WILD_HEART_RAGE_OF_THE_WILDS" />
-	<element name="Aspect of the Wilds Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_BARBARIAN_WILD_HEART_ASPECT_OF_THE_WILDS" />
-	<element name="Nature Speaker Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_BARBARIAN_WILD_HEART_NATURE_SPEAKER" />
-	<element name="Power of the Wilds Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_BARBARIAN_WILD_HEART_POWER_OF_THE_WILDS" />
+	<element name="Animal Speaker Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_BARBARIAN_24__WILD_HEART_ANIMAL_SPEAKER" />
+	<element name="Rage of the Wilds Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_BARBARIAN_24__WILD_HEART_RAGE_OF_THE_WILDS" />
+	<element name="Aspect of the Wilds Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_BARBARIAN_24__WILD_HEART_ASPECT_OF_THE_WILDS" />
+	<element name="Nature Speaker Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_BARBARIAN_24__WILD_HEART_NATURE_SPEAKER" />
+	<element name="Power of the Wilds Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_BARBARIAN_24__WILD_HEART_POWER_OF_THE_WILDS" />
 </elements>

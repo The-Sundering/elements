@@ -31,7 +31,7 @@
 	</element>
 
 	<element name="Level 3: Star Map" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_STARS_STAR_MAP">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_STARS_STAR_MAP</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_24_STARS_STAR_MAP</requirements>
 		<description>
 			<p>You’ve created a star chart as part of your heavenly studies. It is a Tiny object, and you can use it as a Spellcasting Focus for your Druid spells. You determine its form by rolling on the Star Map table or by choosing one.</p>
 			<p class="indent">While holding the map, you have the <i>Guidance</i> and <i>Guiding Bolt</i> spells prepared, and you can cast <i>Guiding Bolt</i> without expending a spell slot. You can cast it in that way a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.</p>
@@ -73,7 +73,7 @@
 		</rules>
 	</element>
 	<element name="Level 3: Starry Form" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_STARS_STARRY_FORM">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_STARS_STARRY_FORM</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_24_STARS_STARRY_FORM</requirements>
 		<description>
 			<p>As a Bonus Action, you can expend a use of your Wild Shape feature to take on a starry form rather than shape-shifting.</p>
 			<p class="indent">While in your starry form, you retain your game statistics, but your body becomes luminous, your joints glimmer like stars, and glowing lines connect them as on a star chart. This form sheds Bright Light in a 10-foot radius and Dim Light for an additional 10 feet. The form lasts for 10 minutes. It ends early if you dismiss it (no action required), have the Incapacitated condition, or use this feature again.</p>
@@ -94,7 +94,7 @@
 	</element>
 	<element name="Archer" type="Archetype Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_STARS_STARRY_FORM_ARCHER">
 		<compendium display="false" />
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_STARS_STARRY_FORM_ARCHER</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_24_STARS_STARRY_FORM_ARCHER</requirements>
 		<description>
 			<p>A constellation of an archer appears on you. When you activate this form and as a Bonus Action on your subsequent turns while it lasts, you can make a ranged spell attack, hurling a luminous arrow that targets one creature within 60 feet of yourself. On a hit, the attack deals Radiant damage equal to 1d8 plus your Wisdom modifier.</p>
 		</description>
@@ -107,7 +107,7 @@
 	</element>
 	<element name="Chalice" type="Archetype Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_STARS_STARRY_FORM_CHALICE">
 		<compendium display="false" />
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_STARS_STARRY_FORM_CHALICE</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_24_STARS_STARRY_FORM_CHALICE</requirements>
 		<description>
 			<p>A constellation of a life-giving goblet appears on you. Whenever you cast a spell using a spell slot that restores Hit Points to a creature, you or another creature within 30 feet of you can regain Hit Points equal to 1d8 plus your Wisdom modifier.</p>
 		</description>
@@ -120,7 +120,7 @@
 	</element>
 	<element name="Dragon" type="Archetype Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_STARS_STARRY_FORM_DRAGON">
 		<compendium display="false" />
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_STARS_STARRY_FORM_DRAGON</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_24_STARS_STARRY_FORM_DRAGON</requirements>
 		<description>
 			<p>A constellation of a wise dragon appears on you. When you make an Intelligence or a Wisdom check or a Constitution saving throw to maintain Concentration, you can treat a roll of 9 or lower on the d20 as a 10.</p>
 		</description>
@@ -130,7 +130,7 @@
 	</element>
 
 	<element name="Level 6: Cosmic Omen" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_STARS_COSMIC_OMEN">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_STARS_COSMIC_OMEN</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_24_STARS_COSMIC_OMEN</requirements>
 		<description>
 			<p>Whenever you finish a Long Rest, you can consult your Star Map for omens and roll a die. Until you finish your next Long Rest, you gain access to a special Reaction based on whether you rolled an even or an odd number on the die:</p>
 			<p class="indent"><em><strong>Weal (even).</strong></em> Whenever a creature you can see within 30 feet of you is about to make a D20 Test, you can take a Reaction to roll 1d6 and add the number rolled to the total.</p>
@@ -149,7 +149,7 @@
 	</element>
 
 	<element name="Level 10: Twinkling Constellations" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_STARS_TWINKLING_CONSTELLATIONS">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_STARS_TWINKLING_CONSTELLATIONS</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_24_STARS_TWINKLING_CONSTELLATIONS</requirements>
 		<description>
 			<p>The constellations of your Starry Form improve. The 1d8 of the Archer and the Chalice becomes 2d8, and while the Dragon is active, you have a Fly Speed of 20 feet and can hover.</p>
 			<p class="indent">Moreover, at the start of each of your turns while in your Starry Form, you can change which constellation glimmers on your body.</p>
@@ -165,7 +165,7 @@
 	</element>
 
 	<element name="Level 14: Full of Stars" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_STARS_FULL_OF_STARS">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_STARS_FULL_OF_STARS</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_24_STARS_FULL_OF_STARS</requirements>
 		<description>
 			<p>While in your Starry Form, you become partially incorporeal, giving you Resistance to Bludgeoning, Piercing, and Slashing damage.</p>
 			</description>
@@ -185,13 +185,13 @@
 	</element>
 
 	<!--Feature Replacement Grants-->
-	<element name="Star Map Spells Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_STARS_STAR_MAP" />
-	<element name="Starry Form Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_STARS_STARRY_FORM" />
-	<element name="Starry Form: Archer Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_STARS_STARRY_FORM_ARCHER" />
-	<element name="Starry Form: Chalice Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_STARS_STARRY_FORM_CHALICE" />
-	<element name="Starry Form: Dragon Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_STARS_STARRY_FORM_DRAGON" />
-	<element name="Cosmic Omen Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_STARS_COSMIC_OMEN" />
-	<element name="Twinkling Constellations Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_STARS_TWINKLING_CONSTELLATIONS" />
-	<element name="Full of Stars Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_STARS_FULL_OF_STARS" />
+	<element name="Star Map Spells Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_24_STARS_STAR_MAP" />
+	<element name="Starry Form Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_24_STARS_STARRY_FORM" />
+	<element name="Starry Form: Archer Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_24_STARS_STARRY_FORM_ARCHER" />
+	<element name="Starry Form: Chalice Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_24_STARS_STARRY_FORM_CHALICE" />
+	<element name="Starry Form: Dragon Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_24_STARS_STARRY_FORM_DRAGON" />
+	<element name="Cosmic Omen Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_24_STARS_COSMIC_OMEN" />
+	<element name="Twinkling Constellations Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_24_STARS_TWINKLING_CONSTELLATIONS" />
+	<element name="Full of Stars Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_24_STARS_FULL_OF_STARS" />
 
 </elements>

@@ -32,7 +32,7 @@
 	</element>
 
 	<element name="Level 3: Combat Inspiration" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARD_VALOR_COMBAT_INSPIRATION">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_BARD_VALOR_COMBAT_INSPIRATION</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_BARD_24_VALOR_COMBAT_INSPIRATION</requirements>
 		<description>
 			<p>You can use your wit to turn the tide of battle. A creature that has a Bardic Inspiration die from you can use it for one of the following effects:</p>
 			<ul>
@@ -45,7 +45,7 @@
 		</sheet>
 	</element>
 	<element name="Level 3: Martial Training" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARD_VALOR_MARTIAL_TRAINING">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_BARD_VALOR_MARTIAL_TRAINING</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_BARD_24_VALOR_MARTIAL_TRAINING</requirements>
 		<description>
 			<p>You gain proficiency with Martial weapons and training with Medium armor and Shields.</p>
 			<p class="indent">In addition, you can use a Simple or Martial weapon as a Spellcasting Focus to cast spells from your Bard spell list.</p>
@@ -62,7 +62,7 @@
 	</element>
 
 	<element name="Level 6: Extra Attack" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARD_VALOR_EXTRA_ATTACK">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_BARD_VALOR_EXTRA_ATTACK</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_BARD_24_VALOR_EXTRA_ATTACK</requirements>
 		<description>
 			<p>You can attack twice instead of once whenever you take the Attack action on your turn.</p>
 			<p class="indent">In addition, you can cast one of your cantrips that has a casting time of an action in place of one of those attacks.</p>
@@ -76,7 +76,7 @@
 	</element>
 
 	<element name="Level 14: Battle Magic" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARD_VALOR_BATTLE_MAGIC">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_BARD_VALOR_BATTLE_MAGIC</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_BARD_24_VALOR_BATTLE_MAGIC</requirements>
 		<description>
 			<p>After you cast a spell that has a casting time of an action, you can make one attack with a weapon as a Bonus Action.</p>
 		</description>
@@ -86,8 +86,8 @@
 	</element>
 	
 	<!--Feature Replacement Grants-->
-	<element name="Martial Training Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_BARD_VALOR_MARTIAL_TRAINING" />
-	<element name="Combat Inspiration Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_BARD_VALOR_COMBAT_INSPIRATION" />
-	<element name="Extra Attack Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_BARD_VALOR_EXTRA_ATTACK" />
-	<element name="Battle Magic Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_BARD_VALOR_BATTLE_MAGIC" />
+	<element name="Martial Training Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_BARD_24_VALOR_MARTIAL_TRAINING" />
+	<element name="Combat Inspiration Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_BARD_24_VALOR_COMBAT_INSPIRATION" />
+	<element name="Extra Attack Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_BARD_24_VALOR_EXTRA_ATTACK" />
+	<element name="Battle Magic Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_BARD_24_VALOR_BATTLE_MAGIC" />
 </elements>

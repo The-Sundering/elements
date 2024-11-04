@@ -33,7 +33,7 @@
 	</element>
 
 	<element name="Level 3: Wild Magic Surge" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_SORCERER_WILD_WILD_MAGIC_SURGE">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_WILD_WILD_MAGIC_SURGE</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_24_WILD_WILD_MAGIC_SURGE</requirements>
 		<supports>Wild Magic</supports>
 		<description>
 			<p>Your spellcasting can unleash surges of untamed magic. Once per turn, you can roll 1d20 immediately after you cast a Sorcerer spell with a spell slot. If you roll a 20, roll on the Wild Magic Surge table to create a magical effect.</p>
@@ -75,7 +75,7 @@
 		</sheet>
 	</element>
 	<element name="Level 3: Tides of Chaos" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_SORCERER_WILD_TIDES_OF_CHAOS">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_WILD_TIDES_OF_CHAOS</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_24_WILD_TIDES_OF_CHAOS</requirements>
 		<supports>Wild Magic</supports>
 		<description>
 			<p>You can manipulate chaos itself to give yourself Advantage on one D20 Test before you roll the d20. Once you do so, you must cast a Sorcerer spell with a spell slot or finish a Long Rest before you can use this feature again.</p>
@@ -88,7 +88,7 @@
 	</element>
 
 	<element name="Level 6: Bend Luck" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_SORCERER_WILD_BEND_LUCK">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_WILD_BEND_LUCK</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_24_WILD_BEND_LUCK</requirements>
 		<supports>Wild Magic</supports>
 		<description>
 			<p>You have the ability to twist fate using your wild magic. Immediately after another creature you can see rolls the d20 for a D20 Test, you can take a Reaction and spend 1 Sorcery Point to roll 1d4 and apply the number rolled as a bonus or penalty (your choice) to the d20 roll.</p>
@@ -99,7 +99,7 @@
 	</element>
 
 	<element name="Level 14: Controlled Chaos" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_SORCERER_WILD_CONTROLLED_CHAOS">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_WILD_CONTROLLED_CHAOS</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_24_WILD_CONTROLLED_CHAOS</requirements>
 		<supports>Wild Magic</supports>
 		<description>
 			<p>You gain a modicum of control over the surges of your wild magic. Whenever you roll on the Wild Magic Surge table, you can roll twice and use either number.</p>
@@ -110,7 +110,7 @@
 	</element>
 
 	<element name="Level 18: Tamed Surge" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_SORCERER_WILD_TAMED_SURGE">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_WILD_TAMED_SURGE</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_24_WILD_TAMED_SURGE</requirements>
 		<supports>Wild Magic</supports>
 		<description>
 			<p>Immediately after you cast a Sorcerer spell with a spell slot, you can create an effect of your choice from the Wild Magic Surge table instead of rolling on that table. You can choose any effect in the table except for the final row, and if the chosen effect involves a roll, you must make it.</p>
@@ -122,9 +122,9 @@
 	</element>
 	
 	<!--Feature Replacement Grants-->
-	<element name="Wild Magic Surge Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_WILD_WILD_MAGIC_SURGE" />
-	<element name="Tides of Chaos Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_WILD_TIDES_OF_CHAOS" />
-	<element name="Bend Luck Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_WILD_BEND_LUCK" />
-	<element name="Controlled Chaos Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_WILD_CONTROLLED_CHAOS" />
-	<element name="Tamed Surge Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_WILD_TAMED_SURGE" />
+	<element name="Wild Magic Surge Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_24_WILD_WILD_MAGIC_SURGE" />
+	<element name="Tides of Chaos Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_24_WILD_TIDES_OF_CHAOS" />
+	<element name="Bend Luck Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_24_WILD_BEND_LUCK" />
+	<element name="Controlled Chaos Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_24_WILD_CONTROLLED_CHAOS" />
+	<element name="Tamed Surge Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_24_WILD_TAMED_SURGE" />
 </elements>

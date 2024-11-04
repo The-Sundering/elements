@@ -31,7 +31,7 @@
 	</element>
 
 	<element name="Level 3: Circle of the Sea Spells" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_SEA_CIRCLE_OF_SEA_SPELLS">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_SEA_CIRCLE_OF_SEA_SPELLS</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_24_SEA_CIRCLE_OF_SEA_SPELLS</requirements>
 		<description>
 			<p>When you reach a Druid level specified in the Circle of the Sea Spells table, you thereafter always have the listed spells prepared.</p>
 			<h5 class="caption">Circle of the Sea Spells</h5>
@@ -73,7 +73,7 @@
 		</rules>
 	</element>
 	<element name="Level 3: Wrath of the Sea" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_SEA_WRATH_OF_THE_SEA">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_SEA_WRATH_OF_THE_SEA</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_24_SEA_WRATH_OF_THE_SEA</requirements>
 		<description>
 			<p>As a Bonus Action, you can expend a use of your Wild Shape to manifest a 5-foot Emanation that takes the form of ocean spray that surrounds you for 10 minutes. It ends early if you dismiss it (no action required), manifest it again, or have the Incapacitated condition.</p>
 			<p class="indent">When you manifest the Emanation and as a Bonus Action on your subsequent turns, you can choose another creature you can see in the Emanation. The target must succeed on a Constitution saving throw against your spell save DC or take Cold damage and, if the creature is Large or smaller, be pushed up to 15 feet away from you. To determine this damage, roll a number of d6s equal to your Wisdom modifier (minimum of one die).</p>
@@ -90,7 +90,7 @@
 	</element>
 
 	<element name="Level 6: Aquatic Affinity" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_SEA_AQUATIC_AFFINITY">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_SEA_AQUATIC_AFFINITY</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_24_SEA_AQUATIC_AFFINITY</requirements>
 		<description>
 			<p>The size of the Emanation created by your Wrath of the Sea increases to 10 feet.</p>
 			<p class="indent">In addition, you gain a Swim Speed equal to your Speed.</p>
@@ -105,7 +105,7 @@
 	</element>
 
 	<element name="Level 10: Stormborn" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_SEA_STORMBORN">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_SEA_STORMBORN</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_24_SEA_STORMBORN</requirements>
 		<description>
 			<p>Your Wrath of the Sea confers two more benefits while active, as detailed below.</p>
 			<p class="indent"><em><strong>Flight.</strong></em> You gain a Fly Speed equal to your Speed.</p>
@@ -117,7 +117,7 @@
 	</element>
 
 	<element name="Level 14: Oceanic Gift" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_SEA_OCEANIC_GIFT">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_SEA_OCEANIC_GIFT</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_24_SEA_OCEANIC_GIFT</requirements>
 		<description>
 			<p>Instead of manifesting the Emanation of Wrath of the Sea around yourself, you can manifest it around one willing creature within 60 feet of yourself. That creature gains all the benefits of the Emanation and uses your spell save DC and Wisdom modifier for it.</p>
 			<p class="indent">In addition, you can manifest the Emanation around both the other creature and yourself if you expend two uses of your Wild Shape instead of one when manifesting it.</p>
@@ -129,10 +129,10 @@
 	</element>
 
 	<!--Feature Replacement Grants-->
-	<element name="Circle of the Sea Spells Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_SEA_CIRCLE_OF_SEA_SPELLS" />
-	<element name="Wrath of the Sea Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_SEA_WRATH_OF_THE_SEA" />
-	<element name="Aquatic Affinity Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_SEA_AQUATIC_AFFINITY" />
-	<element name="Stormborn Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_SEA_STORMBORN" />
-	<element name="Oceanic Gift Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_SEA_OCEANIC_GIFT" />
+	<element name="Circle of the Sea Spells Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_24_SEA_CIRCLE_OF_SEA_SPELLS" />
+	<element name="Wrath of the Sea Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_24_SEA_WRATH_OF_THE_SEA" />
+	<element name="Aquatic Affinity Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_24_SEA_AQUATIC_AFFINITY" />
+	<element name="Stormborn Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_24_SEA_STORMBORN" />
+	<element name="Oceanic Gift Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_24_SEA_OCEANIC_GIFT" />
 
 </elements>

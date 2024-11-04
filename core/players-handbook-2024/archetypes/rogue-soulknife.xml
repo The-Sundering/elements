@@ -31,7 +31,7 @@
 	</element>
 
 	<element name="Level 3: Psionic Power" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_ROGUE_SOULKNIFE_PSIONIC_POWER">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_SOULKNIFE_PSIONIC_POWER</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_24_SOULKNIFE_PSIONIC_POWER</requirements>
 		<description>
 			<p>You harbor a wellspring of psionic energy within yourself. It is represented by your Psionic Energy Dice, which fuel certain powers you have from this subclass. The Soulknife Energy Dice table shows the number of these dice you have when you reach certain Rogue levels, and the table shows the die size.</p>
 			<h5 class="caption">Soulknife Energy Dice</h5>
@@ -94,7 +94,7 @@
 	</element>
 
 	<element name="Level 3: Psychic Blades" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_ROGUE_SOULKNIFE_PSYCHIC_BLADES">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_SOULKNIFE_PSYCHIC_BLADES</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_24_SOULKNIFE_PSYCHIC_BLADES</requirements>
 		<description>
 			<p>You can manifest shimmering blades of psychic energy. Whenever you take the Attack action or make an Opportunity Attack, you can manifest a Psychic Blade in your free hand and make the attack with that blade. This magic blade is a simple melee weapon with the finesse and thrown properties, and has the Vex weapon mastery. It has a normal range of 20 feet and a long range of 120 feet. On a hit, it deals psychic damage equal to 1d6 plus the ability modifier you used for the attack roll.</p>
 			<p class="indent">The blade vanishes immediately after it hits or misses its target, and it leaves no mark if it deals damage.</p>
@@ -111,7 +111,7 @@
 	</element>
 
 	<element name="Level 9: Soul Blades" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_ROGUE_SOULKNIFE_SOUL_BLADES">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_SOULKNIFE_SOUL_BLADES</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_24_SOULKNIFE_SOUL_BLADES</requirements>
 		<description>
 			<p>You can now use the following powers with your Psychic Blades.</p>
 			<p class="indent"><strong><em>Homing Strikes.</em></strong> If you make an attack roll with your Psychic Blade and miss the target, you can roll one Psionic Energy Die and add the number rolled to the attack roll. If this causes the attack to hit, the die is expended.</p>
@@ -145,7 +145,7 @@
 	</element>
 
 	<element name="Level 13: Psychic Veil" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_ROGUE_SOULKNIFE_PSYCHIC_VEIL">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_SOULKNIFE_PSYCHIC_VEIL</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_24_SOULKNIFE_PSYCHIC_VEIL</requirements>
 		<description>
 			<p>You can weave a veil of psychic static to mask yourself. As a Magic Action, you gain the Invisible condition for 1 hour or until you dismiss this effect (no action required). This invisibility ends early immediately after you deal damage to a creature or you force a creature to make a saving throw.</p>
 			<p class="indent">Once you use this feature, you can’t do so again until you finish a Long Rest unless you expend a Psionic Energy Die (no action required) to restore your use of it.</p>
@@ -157,7 +157,7 @@
 	</element>
 
 	<element name="Level 17: Rend Mind" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_ROGUE_SOULKNIFE_REND_MIND">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_SOULKNIFE_REND_MIND</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_24_SOULKNIFE_REND_MIND</requirements>
 		<description>
 			<p>You can sweep your Psychic Blades through a creature’s mind. When you use your Psychic Blades to deal Sneak Attack damage to a creature, you can force that target to make a Wisdom saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus). If the save fails, the target has the Stunned condition for 1 minute. The Stunned target repeats the save at the end of each of its turns, ending the effect on itself on a success.</p>
 			<p class="indent">Once you use this feature, you can’t do so again until you finish a Long Rest unless you expend three Psionic Energy Dice (no action required) to restore your use of it.</p>
@@ -191,9 +191,9 @@
 	</element>
 
 	<!--Feature Replacement Grants-->
-	<element name="Psionic Power Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_SOULKNIFE_PSIONIC_POWER" />
-	<element name="Psychic Blades Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_SOULKNIFE_PSYCHIC_BLADES" />
-	<element name="Soul Blades Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_SOULKNIFE_SOUL_BLADES" />
-	<element name="Psychic Veil Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_SOULKNIFE_PSYCHIC_VEIL" />
-	<element name="Rend Mind Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_SOULKNIFE_REND_MIND" />
+	<element name="Psionic Power Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_24_SOULKNIFE_PSIONIC_POWER" />
+	<element name="Psychic Blades Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_24_SOULKNIFE_PSYCHIC_BLADES" />
+	<element name="Soul Blades Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_24_SOULKNIFE_SOUL_BLADES" />
+	<element name="Psychic Veil Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_24_SOULKNIFE_PSYCHIC_VEIL" />
+	<element name="Rend Mind Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_24_SOULKNIFE_REND_MIND" />
 </elements>

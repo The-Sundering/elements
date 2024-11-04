@@ -32,7 +32,7 @@
 	</element>
 
 	<element name="Level 3: Draconic Resilience" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_SORCERER_DRACONIC_DRACONIC_RESILIENCE">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_DRACONIC_DRACONIC_RESILIENCE</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_24_DRACONIC_DRACONIC_RESILIENCE</requirements>
 		<supports>Draconic Sorcery</supports>
 		<description>
 			<p>The magic in your body manifests physical traits of your draconic gift. Your Hit Point maximum increases by 3, and it increases by 1 whenever you gain another Sorcerer level.</p>
@@ -50,7 +50,7 @@
 		</rules>
 	</element>
 	<element name="Level 3: Draconic Spells" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_SORCERER_DRACONIC_DRACONIC_SPELLS">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_DRACONIC_DRACONIC_SPELLS</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_24_DRACONIC_DRACONIC_SPELLS</requirements>
 		<supports>Draconic Sorcery</supports>
 		<description>
 			<p>When you reach a Sorcerer level specified in the Draconic Spells table, you thereafter always have the listed spells prepared.</p>
@@ -92,7 +92,7 @@
 	</element>
 
 	<element name="Level 6: Elemental Affinity" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_SORCERER_DRACONIC_ELEMENTAL_AFFINITY">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_DRACONIC_ELEMENTAL_AFFINITY</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_24_DRACONIC_ELEMENTAL_AFFINITY</requirements>
 		<supports>Draconic Sorcery</supports>
 		<description>
 			<p>Your draconic magic has an affinity with a damage type associated with dragons. Choose one of those types: Acid, Cold, Fire, Lightning, or Poison.</p>
@@ -106,7 +106,7 @@
 		</sheet>
 	</element>
 	<element name="Level 14: Dragon Wings" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_SORCERER_DRACONIC_DRAGON_WINGS">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_DRACONIC_DRAGON_WINGS</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_24_DRACONIC_DRAGON_WINGS</requirements>
 		<supports>Draconic Sorcery</supports>
 		<description>
 			<p>As a Bonus Action, you can cause draconic wings to appear on your back. The wings last for 1 hour or until you dismiss them (no action required). For the duration, you have a Fly Speed of 60 feet.</p>
@@ -118,7 +118,7 @@
 	</element>
 
 	<element name="Level 18: Dragon Companion" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_SORCERER_DRACONIC_DRAGON_COMPANION">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_DRACONIC_DRAGON_COMPANION</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_24_DRACONIC_DRAGON_COMPANION</requirements>
 		<supports>Draconic Sorcery</supports>
 		<description>
 			<p>You can cast <i>Summon Dragon</i> without a Material component. You can also cast it once without a spell slot, and you regain the ability to cast it in this way when you finish a Long Rest.</p>
@@ -131,7 +131,7 @@
 	
 	<!--Elemental Affinities-->
 	<element name="Acid" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_SORCERER_DRACONIC_ELEMENTAL_AFFINITY_ACID">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_DRACONIC_ELEMENTAL_AFFINITY_ACID</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_24_DRACONIC_ELEMENTAL_AFFINITY_ACID</requirements>
 		<supports>Elemental Affinity</supports>
 		<description>
 			<p>Your draconic elemental affinity is Acid.</p>
@@ -143,7 +143,7 @@
 		</rules>
 	</element>
 	<element name="Cold" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_SORCERER_DRACONIC_ELEMENTAL_AFFINITY_COLD">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_DRACONIC_ELEMENTAL_AFFINITY_COLD</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_24_DRACONIC_ELEMENTAL_AFFINITY_COLD</requirements>
 		<supports>Elemental Affinity</supports>
 		<description>
 			<p>Your draconic elemental affinity is Cold.</p>
@@ -155,7 +155,7 @@
 		</rules>
 	</element>
 	<element name="Fire" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_SORCERER_DRACONIC_ELEMENTAL_AFFINITY_FIRE">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_DRACONIC_ELEMENTAL_AFFINITY_FIRE</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_24_DRACONIC_ELEMENTAL_AFFINITY_FIRE</requirements>
 		<supports>Elemental Affinity</supports>
 		<description>
 			<p>Your draconic elemental affinity is Fire.</p>
@@ -167,7 +167,7 @@
 		</rules>
 	</element>
 	<element name="Lightning" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_SORCERER_DRACONIC_ELEMENTAL_AFFINITY_LIGHTNING">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_DRACONIC_ELEMENTAL_AFFINITY_LIGHTNING</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_24_DRACONIC_ELEMENTAL_AFFINITY_LIGHTNING</requirements>
 		<supports>Elemental Affinity</supports>
 		<description>
 			<p>Your draconic elemental affinity is Lightning.</p>
@@ -179,7 +179,7 @@
 		</rules>
 	</element>
 	<element name="Poison" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_SORCERER_DRACONIC_ELEMENTAL_AFFINITY_POISON">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_DRACONIC_ELEMENTAL_AFFINITY_POISON</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_24_DRACONIC_ELEMENTAL_AFFINITY_POISON</requirements>
 		<supports>Elemental Affinity</supports>
 		<description>
 			<p>Your draconic elemental affinity is Poison.</p>
@@ -192,15 +192,15 @@
 	</element>
 	
 	<!--Feature Replacement Grants-->
-	<element name="Draconic Resilience Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_DRACONIC_DRACONIC_RESILIENCE" />
-	<element name="Draconic Spells Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_DRACONIC_DRACONIC_SPELLS" />
-	<element name="Elemental Affinity Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_DRACONIC_ELEMENTAL_AFFINITY" />
-	<element name="Elemental Affinity: Acid Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_DRACONIC_ELEMENTAL_AFFINITY_ACID" />
-	<element name="Elemental Affinity: Cold Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_DRACONIC_ELEMENTAL_AFFINITY_COLD" />
-	<element name="Elemental Affinity: Fire Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_DRACONIC_ELEMENTAL_AFFINITY_FIRE" />
-	<element name="Elemental Affinity: Lightning Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_DRACONIC_ELEMENTAL_AFFINITY_LIGHTNING" />
-	<element name="Elemental Affinity: Poison Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_DRACONIC_ELEMENTAL_AFFINITY_POISON" />
-	<element name="Dragon Wings Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_DRACONIC_DRAGON_WINGS" />
-	<element name="Dragon Companion Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_DRACONIC_DRAGON_COMPANION" />
+	<element name="Draconic Resilience Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_24_DRACONIC_DRACONIC_RESILIENCE" />
+	<element name="Draconic Spells Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_24_DRACONIC_DRACONIC_SPELLS" />
+	<element name="Elemental Affinity Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_24_DRACONIC_ELEMENTAL_AFFINITY" />
+	<element name="Elemental Affinity: Acid Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_24_DRACONIC_ELEMENTAL_AFFINITY_ACID" />
+	<element name="Elemental Affinity: Cold Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_24_DRACONIC_ELEMENTAL_AFFINITY_COLD" />
+	<element name="Elemental Affinity: Fire Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_24_DRACONIC_ELEMENTAL_AFFINITY_FIRE" />
+	<element name="Elemental Affinity: Lightning Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_24_DRACONIC_ELEMENTAL_AFFINITY_LIGHTNING" />
+	<element name="Elemental Affinity: Poison Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_24_DRACONIC_ELEMENTAL_AFFINITY_POISON" />
+	<element name="Dragon Wings Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_24_DRACONIC_DRAGON_WINGS" />
+	<element name="Dragon Companion Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_24_DRACONIC_DRAGON_COMPANION" />
 
 </elements>

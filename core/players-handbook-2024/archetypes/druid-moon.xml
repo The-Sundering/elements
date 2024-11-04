@@ -32,7 +32,7 @@
 	</element>
 
 	<element name="Level 3: Circle of the Moon Spells" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_MOON_CIRCLE_OF_MOON_SPELLS">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_MOON_CIRCLE_OF_MOON_SPELLS</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_24_MOON_CIRCLE_OF_MOON_SPELLS</requirements>
 		<description>
 			<p>When you reach a Druid level specified in the Circle of the Moon Spells table, you thereafter always have the listed spells prepared.</p>
 			<p class="indent">In addition, you can cast the spells from this feature while you’re in a Wild Shape form.</p>
@@ -65,7 +65,7 @@
 		</rules>
 	</element>
 	<element name="Level 3: Circle Forms" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_MOON_CIRCLE_FORMS">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_MOON_CIRCLE_FORMS</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_24_MOON_CIRCLE_FORMS</requirements>
 		<description>
 			<p>You can channel lunar magic when you assume a Wild Shape form, granting you the benefits below.</p>
 			<p class="indent"><em><strong>Challenge Rating.</strong></em> The maximum Challenge Rating for the form equals your Druid level divided by 3 (round down).</p>
@@ -93,7 +93,7 @@
 	</element>
 
 	<element name="Level 6: Improved Circle Forms" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_MOON_IMPROVED_CIRCLE_FORMS">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_MOON_IMPROVED_CIRCLE_FORMS</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_24_MOON_IMPROVED_CIRCLE_FORMS</requirements>
 		<description>
 			<p>While in a Wild Shape form, you gain the following benefits.</p>
 			<p class="indent"><em><strong>Lunar Radiance.</strong></em> Each of your attacks in a Wild Shape form can deal its normal damage type or Radiant damage. You make this choice each time you hit with those attacks.</p>
@@ -105,7 +105,7 @@
 	</element>
 
 	<element name="Level 10: Moonlight Step" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_MOON_MOONLIGHT_STEP">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_MOON_MOONLIGHT_STEP</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_24_MOON_MOONLIGHT_STEP</requirements>
 		<description>
 			<p>You magically transport yourself, reappearing amid a burst of moonlight. As a Bonus Action, you teleport up to 30 feet to an unoccupied space you can see, and you have Advantage on the next attack roll you make before the end of this turn.</p>
 			<p class="indent">You can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a Long Rest. You can also regain uses by expending a level 2+ spell slot for each use you want to restore (no action required).</p>
@@ -123,7 +123,7 @@
 	</element>
 
 	<element name="Level 14: Lunar Form" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_MOON_LUNAR_FORM">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_MOON_LUNAR_FORM</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_24_MOON_LUNAR_FORM</requirements>
 		<description>
 			<p>The power of the moon suffuses you, granting you the following benefits.</p>
 			<p class="indent"><em><strong>Improved Lunar Radiance.</strong></em> Once per turn, you can deal an extra 2d10 Radiant damage to a target you hit with a Wild Shape form’s attack.</p>
@@ -135,10 +135,10 @@
 	</element>
 
 	<!--Feature Replacement Grants-->
-	<element name="Circle of the Moon Spells Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_MOON_CIRCLE_OF_MOON_SPELLS" />
-	<element name="Circle Forms Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_MOON_CIRCLE_FORMS" />
-	<element name="Improved Circle Forms Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_MOON_IMPROVED_CIRCLE_FORMS" />
-	<element name="Moonlight Step Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_MOON_MOONLIGHT_STEP" />
-	<element name="Lunar Form Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_MOON_LUNAR_FORM" />
+	<element name="Circle of the Moon Spells Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_24_MOON_CIRCLE_OF_MOON_SPELLS" />
+	<element name="Circle Forms Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_24_MOON_CIRCLE_FORMS" />
+	<element name="Improved Circle Forms Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_24_MOON_IMPROVED_CIRCLE_FORMS" />
+	<element name="Moonlight Step Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_24_MOON_MOONLIGHT_STEP" />
+	<element name="Lunar Form Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_24_MOON_LUNAR_FORM" />
 
 </elements>
