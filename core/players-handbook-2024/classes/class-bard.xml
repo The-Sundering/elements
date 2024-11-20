@@ -5,7 +5,7 @@
 		<description>The Bard class from the Player’s Handbook 2024.</description>
 
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
-		<update version="0.0.3">
+		<update version="0.0.4">
 			<file name="class-bard.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/classes/class-bard.xml" />
 		</update>
 	</info>
@@ -238,8 +238,8 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<select type="Class Feature" name="Expertise (Bard 3)" level="2" number="2" supports="Expertise,Skill"/>
-			<select type="Class Feature" name="Expertise (Bard 10)" level="10" number="2" supports="Expertise,Skill"/>
+			<select type="Proficiency" name="Expertise (Bard 3)" level="2" number="2" supports="Expertise,Skill"/>
+			<select type="Proficiency" name="Expertise (Bard 10)" level="10" number="2" supports="Expertise,Skill"/>
 		</rules>
 	</element>
 	<element name="Level 2: Jack of All Trades" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_BARD_JACK_OF_ALL_TRADES">
