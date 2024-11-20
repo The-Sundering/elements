@@ -4,7 +4,7 @@
 		<name>Warrior of Mercy</name>
 		<description>The Warrior of Mercy subclass from the Player’s Handbook 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="monk-mercy.xml" url="https://raw.githubusercontent.com/AuroraLegacy/mercy/master/core/players-handbook-2024/archetypes/monk-mercy.xml" />
 		</update>
 	</info>
@@ -78,12 +78,6 @@
 			<description>When you use Hand of Harm on a creature, you can also give it the Poisoned condition until the end of your next turn. &#13;
 			When you use Hand of Healing, you can also end one of the following conditions on the creature you heal: Blinded, Deafened, Paralyzed, Poisoned, or Stunned.</description>
 		</sheet>
-		<spellcasting name="Warrior of Mercy" ability="Wisdom" prepare="false" allowReplace="false">
-			<list>ID_WOTC_PHB24_SPELL_ELEMENTALISM</list>
-		</spellcasting>
-		<rules>
-			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_ELEMENTALISM" spellcasting="Warrior of Mercy" allowReplace="false" />
-		</rules>
 	</element>
 
 	<element name="Level 11: Flurry of Healing and Harm" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_MERCY_FLURRY_OF_HEALING_AND_HARM">
