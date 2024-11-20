@@ -4,7 +4,7 @@
 		<name>College of Dance</name>
 		<description>The College of Dance subclass from the Player’s Handbook 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="bard-dance.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/archetypes/bard-dance.xml" />
 		</update>
 	</info>
@@ -12,7 +12,7 @@
 	<element name="College of Dance" type="Archetype" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_BARD_COLLEGE_OF_DANCE">
 		<supports>Bard College</supports>
 		<description>
-			<em>Move in Harmony with the Cosmos</em>
+			<p class="flavor">Move in Harmony with the Cosmos</p>
 			<p>Bards of the College of Dance know that the Words of Creation can’t be contained within speech or song; the words are uttered by the movements of celestial bodies and flow through the motions of the smallest creatures. These Bards practice a way of being in harmony with the whirling cosmos that emphasizes agility, speed, and grace.</p>
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARD_DANCE_DAZZLING_FOOTWORK" />
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARD_DANCE_INSPIRING_MOVEMENT" />
