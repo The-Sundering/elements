@@ -4,7 +4,7 @@
 		<name>Eldritch Knight</name>
 		<description>The Eldritch Knight subclass from the Player’s Handbook 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="fighter-eldritch-knight.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/archetypes/fighter-eldritch-knight.xml" />
 		</update>
 	</info>
@@ -12,7 +12,7 @@
 	<element name="Eldritch Knight" type="Archetype" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FIGHTER_ELDRITCH_KNIGHT">
 		<supports>Martial Archetype</supports>
 		<description>
-			<em>Support Combat Skills with Arcane Magic</em>
+			<p class="flavor">Support Combat Skills with Arcane Magic</p>
 			<p>Eldritch Knights combine the martial mastery common to all Fighters with a careful study of magic. Their spells both complement and extend their combat skills, providing additional protection to shore up their armor and also allowing them to engage many foes at once with explosive magic.</p>
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_ELDRITCH_KNIGHT_SPELLCASTING"/>
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_ELDRITCH_KNIGHT_WEAPON_BOND"/>
