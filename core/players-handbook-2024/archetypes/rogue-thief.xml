@@ -4,7 +4,7 @@
 		<name>Thief</name>
 		<description>The Thief subclass from the 2024 Player’s Handbook 2024 (Prototype).</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="rogue-thief.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/archetypes/rogue-thief.xml" />
 		</update>
 	</info>
@@ -12,7 +12,7 @@
 	<element name="Thief" type="Archetype" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_ROGUE_THIEF">
 		<supports>Roguish Archetype</supports>
 		<description>
-			<em>Hunt for Treasure as a Classic Adventurer</em>
+			<p class="flavor">Hunt for Treasure as a Classic Adventurer</p>
 			<p>A mix of burglar, treasure hunter, and explorer, you are the epitome of an adventurer. In addition to improving your agility and stealth, you gain abilities useful for delving into ruins and getting maximum benefit from the magic items you find there.</p>
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_ROGUE_THIEF_FAST_HANDS" />
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_ROGUE_THIEF_SECOND_STORY_WORK" />

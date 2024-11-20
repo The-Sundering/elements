@@ -4,7 +4,7 @@
 		<name>Aberrant Sorcery</name>
 		<description>The Aberrant Sorcery subclass from the Player’s Handbook 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
-		<update version="0.0.3">
+		<update version="0.0.4">
 			<file name="sorcerer-aberrant.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/archetypes/sorcerer-aberrant.xml" />
 		</update>
 	</info>
@@ -12,7 +12,7 @@
 	<element name="Aberrant Sorcery" type="Archetype" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_SORCERER_ABERRANT_SORCERY">
 		<supports>Sorcerous Origin</supports>
 		<description>
-			<em>Wield Unnatural Psionic Power</em>
+			<p class="flavor">Wield Unnatural Psionic Power</p>
 			<p>An alien influence has wrapped its tendrils around your mind, giving you psionic power. You can now touch other minds with that power and alter the world around you. Will this power shine from you as a hopeful beacon to others? Or will you be a terror to those who feel the stab of your mind?</p>
 			<p class="indent">Perhaps a psychic wind from the Astral Plane carried psionic energy to you, or you were exposed to the Far Realm’s warping influence. Alternatively, you were implanted with a mind flayer tadpole, but your transformation into a mind flayer never occurred; now the tadpole’s psionic power is yours. However you acquired this power, your mind is aflame with it.</p>
 			<div element="ID_WOTC_PHB24_ARCHETYPE_SORCERER_ABERRANT_PSIONIC_SPELLS" />

@@ -4,14 +4,14 @@
 		<name>Draconic Sorcery</name>
 		<description>The Draconic Sorcery subclass from the Player’s Handbook 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
-		<update version="0.0.4">
+		<update version="0.0.5">
 			<file name="sorcerer-draconic.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/archetypes/sorcerer-draconic.xml" />
 		</update>
 	</info>
 	<element name="Draconic Sorcery" type="Archetype" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_SORCERER_DRACONIC_SORCERY">
 		<supports>Sorcerous Origin</supports>
 		<description>
-			<em>Breathe the Magic of Dragons</em>
+			<p class="flavor">Breathe the Magic of Dragons</p>
 			<p>Your innate magic comes from the gift of a dragon. Perhaps an ancient dragon facing death bequeathed some of its magical power to you or your ancestor. You might have absorbed magic from a site infused with dragons’ power. Or perhaps you handled a treasure taken from a dragon’s hoard that was steeped in draconic power. Or you might have a dragon for an ancestor.</p>
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_SORCERER_DRACONIC_DRACONIC_RESILIENCE"/>
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_SORCERER_DRACONIC_DRACONIC_SPELLS"/>

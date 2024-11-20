@@ -4,7 +4,7 @@
 		<name>Circle of the Sea</name>
 		<description>The Circle of the Sea subclass from the Player’s Handbook 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="druid-sea.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/archetypes/druid-sea.xml" />
 		</update>
 	</info>
@@ -12,7 +12,7 @@
 	<element name="Circle of the Sea" type="Archetype" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_DRUID_CIRCLE_OF_THE_SEA">
 		<supports>Druid Circle</supports>
 		<description>
-			<em>Become One with Tides and Storms</em>
+			<p class="flavor">Become One with Tides and Storms</p>
 			<p>Druids of the Circle of the Sea draw on the tempestuous forces of oceans and storms. Some view themselves as embodiments of nature’s wrath, seeking vengeance against those who despoil nature. Others seek mystical unity with nature by attuning themselves to the ebb and flow of the tides, following the rush of currents and waves and listening to the inscrutable whispers and roars of the winds.</p>
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_SEA_CIRCLE_OF_SEA_SPELLS" />
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_SEA_WRATH_OF_THE_SEA" />

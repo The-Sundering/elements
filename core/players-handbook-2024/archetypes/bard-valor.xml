@@ -4,7 +4,7 @@
 		<name>College of Valor</name>
 		<description>The College of Valor subclass from the Player’s Handbook 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
-		<update version="0.0.3">
+		<update version="0.0.4">
 			<file name="bard-valor.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/archetypes/bard-valor.xml" />
 		</update>
 	</info>
@@ -13,7 +13,7 @@
 	<element name="College of Valor" type="Archetype" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_BARD_COLLEGE_OF_VALOR">
 		<supports>Bard College</supports>
 		<description>
-			<em>Sing the Deeds of Ancient Heroes</em>
+			<p class="flavor">Sing the Deeds of Ancient Heroes</p>
 			<p>Bards of the College of Valor are daring storytellers whose tales preserve the memory of the great heroes of the past. These Bards sing the deeds of the mighty in vaulted halls or to crowds gathered around great bonfires. They travel to witness great events firsthand and to ensure that the memory of these events doesn’t pass away. With their songs, they inspire new generations to reach the same heights of accomplishment as the heroes of old.</p>
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARD_VALOR_COMBAT_INSPIRATION" />
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARD_VALOR_MARTIAL_TRAINING" />

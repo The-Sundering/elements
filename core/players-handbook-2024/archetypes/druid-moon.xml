@@ -4,7 +4,7 @@
 		<name>Circle of the Moon</name>
 		<description>The Circle of the Moon subclass from the Player’s Handbook 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="druid-moon.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/archetypes/druid-moon.xml" />
 		</update>
 	</info>
@@ -12,7 +12,7 @@
 	<element name="Circle of the Moon" type="Archetype" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_DRUID_CIRCLE_OF_THE_MOON">
 		<supports>Druid Circle</supports>
 		<description>
-			<em>Adopt Animal Forms to Guard the Wilds</em>
+			<p class="flavor">Adopt Animal Forms to Guard the Wilds</p>
 			<p>Druids of the Circle of the Moon draw on lunar magic to transform themselves. Their order gathers under the moon to share news and perform rituals.</p>
 			<p class="indent">Changeable as the moon, a Druid of this circle might prowl as a great cat one night, soar over the treetops as an eagle the next day, and then crash through undergrowth as a bear to drive off a trespassing monster. The wild is in the Druid’s blood.</p>
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_MOON_CIRCLE_OF_MOON_SPELLS" />

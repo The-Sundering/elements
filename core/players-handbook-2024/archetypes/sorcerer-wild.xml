@@ -4,7 +4,7 @@
 		<name>Wild Magic Sorcery</name>
 		<description>The Wild Magic Sorcery subclass from the Player’s Handbook 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
-		<update version="0.0.3">
+		<update version="0.0.4">
 			<file name="sorcerer-wild-magic.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/archetypes/sorcerer-wild-magic.xml" />
 		</update>
 	</info>
@@ -12,7 +12,7 @@
 	<element name="Wild Magic Sorcery" type="Archetype" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_SORCERER_WILD_MAGIC_SORCERY">
 		<supports>Sorcerous Origin</supports>
 		<description>
-			<em>Unleash Chaotic Magic</em>
+			<p class="flavor">Unleash Chaotic Magic</p>
 			<p>Your innate magic stems from the forces of chaos that underlie the order of creation. You or an ancestor might have endured exposure to raw magic, perhaps through a planar portal leading to Limbo or the Elemental Planes. Perhaps you were blessed by a fey being or marked by a demon. Or your magic could be a fluke with no apparent cause. Whatever its source, this magic churns within you, waiting for any outlet.</p>
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_SORCERER_WILD_WILD_MAGIC_SURGE" />
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_SORCERER_WILD_TIDES_OF_CHAOS" />

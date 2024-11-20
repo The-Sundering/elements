@@ -4,7 +4,7 @@
 		<name>Circle of the Stars</name>
 		<description>The Circle of the Stars subclass from the Player’s Handbook 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="druid-stars.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/archetypes/druid-stars.xml" />
 		</update>
 	</info>
@@ -12,7 +12,7 @@
 	<element name="Circle of the Stars" type="Archetype" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_DRUID_CIRCLE_OF_THE_STARS">
 		<supports>Druid Circle</supports>
 		<description>
-			<em>Harness Secrets Hidden in Constellations</em>
+			<p class="flavor">Harness Secrets Hidden in Constellations</p>
 			<p>The Circle of the Stars has tracked heavenly patterns since time immemorial, discovering secrets hidden amid the constellations. By understanding these secrets, the Druids of this circle seek to harness the powers of the cosmos.</p>
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_STARS_STAR_MAP" />
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_STARS_STARRY_FORM" />

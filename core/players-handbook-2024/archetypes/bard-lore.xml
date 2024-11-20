@@ -4,7 +4,7 @@
 		<name>College of Lore</name>
 		<description>The College of Lore subclass from the Player’s Handbook 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="bard-lore.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/archetypes/bard-lore.xml" />
 		</update>
 	</info>
@@ -12,7 +12,7 @@
 	<element name="College of Lore" type="Archetype" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_BARD_COLLEGE_OF_LORE">
 		<supports>Bard College</supports>
 		<description>
-			<em>Plumb the Depths of Magical Knowledge</em>
+			<p class="flavor">Plumb the Depths of Magical Knowledge</p>
 			<p>Bards of the College of Lore collect spells and secrets from diverse sources, such as scholarly tomes, mystical rites, and peasant tales. The college’s members gather in libraries and universities to share their lore with one another. They also meet at festivals or affairs of state, where they can expose corruption, unravel lies, and poke fun at self-important figures of authority.</p>
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARD_LORE_BONUS_PROFICIENCIES" />
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARD_LORE_CUTTING_WORDS" />

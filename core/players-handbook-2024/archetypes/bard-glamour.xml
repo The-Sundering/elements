@@ -4,7 +4,7 @@
 		<name>College of Glamour</name>
 		<description>The College of Glamour subclass from the Player’s Handbook 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="bard-glamour.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/archetypes/bard-glamour.xml" />
 		</update>
 	</info>
@@ -12,7 +12,7 @@
 	<element name="College of Glamour" type="Archetype" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_BARD_COLLEGE_OF_GLAMOUR">
 		<supports>Bard College</supports>
 		<description>
-			<em>Weave Beguiling Fey Magic</em>
+			<p class="flavor">Weave Beguiling Fey Magic</p>
 			<p>The College of Glamour traces its origins to the beguiling magic of the Feywild. Bards who study this magic weave threads of beauty and terror into their songs and stories, and the mightiest among them can cloak themselves in otherworldly majesty. Their performances stir up wistful longing for forgotten innocence, evoke unconscious memories of long-held fears, and tug at the emotions of even the most hard-hearted listeners.</p>
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARD_GLAMOUR_BEGUILING_MAGIC" />
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARD_GLAMOUR_MANTLE_OF_INSPIRATION" />
