@@ -4,7 +4,7 @@
 		<name>Clockwork Sorcery</name>
 		<description>The Clockwork Sorcery subclass from the Player’s Handbook 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
-		<update version="0.0.4">
+		<update version="0.0.5">
 			<file name="sorcerer-clockwork.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/archetypes/sorcerer-clockwork.xml" />
 		</update>
 	</info>
@@ -12,7 +12,7 @@
 	<element name="Clockwork Sorcery" type="Archetype" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_SORCERER_CLOCKWORK_SORCERY">
 		<supports>Sorcerous Origin</supports>
 		<description>
-			<em>Channel Cosmic Forces of Order</em>
+			<p class="flavor">Channel Cosmic Forces of Order</p>
 			<p>The cosmic force of order has suffused you with magic. That power arises from Mechanus or a realm like it—a plane of existence shaped entirely by clockwork efficiency. You or someone from your lineage might have become entangled in the machinations of modrons, the orderly beings who inhabit Mechanus. Perhaps your ancestor even took part in the Great Modron March. Whatever its origin within you, the power of order can seem strange to others, but for you, it’s part of a vast and glorious system.</p>
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_SORCERER_CLOCKWORK_CLOCKWORK_MAGIC" />
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_SORCERER_CLOCKWORK_RESTORE_BALANCE" />
