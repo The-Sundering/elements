@@ -4,7 +4,7 @@
 		<name>Celestial Patron</name>
 		<description>The Celestial Patron subclass from the Player’s Handbook 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
-		<update version="0.0.3">
+		<update version="0.0.4">
 			<file name="warlock-celestial.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/archetypes/warlock-celestial.xml" />
 		</update>
 	</info>
@@ -12,7 +12,7 @@
 	<element name="Celestial Patron" type="Archetype" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_WARLOCK_CELESTIAL">
 		<supports>Otherworldly Patron</supports>
 		<description>
-			<em>Call on the Power of the Heavens</em>
+			<p class="flavor">Call on the Power of the Heavens</p>
 			<p>Your pact draws on the Upper Planes, the realms of everlasting bliss. You might enter an agreement with an empyrean, a couatl, a sphinx, a unicorn, or another heavenly entity. Or you might call on numerous such beings as you pursue goals aligned with theirs. Your pact allows you to experience a hint of the holy light that illuminates the multiverse.</p>
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_CELESTIAL_CELESTIAL_SPELLS" />
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_CELESTIAL_HEALING_LIGHT" />
