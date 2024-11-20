@@ -4,7 +4,7 @@
 		<name>Assassin</name>
 		<description>The Assassin subclass from the Player’s Handbook 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="rogue-assassin.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/archetypes/rogue-assassin.xml" />
 		</update>
 	</info>
@@ -12,7 +12,7 @@
 	<element name="Assassin" type="Archetype" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_ROGUE_ASSASSIN">
 		<supports>Roguish Archetype</supports>
 		<description>
-			<em>Practice the Grim Art of Death</em>
+			<p class="flavor">Practice the Grim Art of Death</p>
 			<p>An Assassin’s training focuses on using stealth, poison, and disguise to eliminate foes with deadly efficiency. While some Rogues who follow this path are hired killers, spies, or bounty hunters, the capabilities of this subclass are equally useful for adventurers facing a variety of monstrous enemies.</p>
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_ROGUE_ASSASSIN_ASSASSINATE" />
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_ROGUE_ASSASSIN_ASSASSINS_TOOLS" />
