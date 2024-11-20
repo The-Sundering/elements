@@ -4,7 +4,7 @@
 		<name>Great Old One Patron</name>
 		<description>The Great Old One Patron subclass from the Player’s Handbook 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="warlock-great-old-one.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/archetypes/warlock-great-old-one.xml" />
 		</update>
 	</info>
@@ -12,7 +12,7 @@
 	<element name="Great Old One Patron" type="Archetype" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_WARLOCK_GREAT_OLD_ONE">
 		<supports>Otherworldly Patron</supports>
 		<description>
-			<em>Unearth Forbidden Lore of Ineffable Beings</em>
+			<p class="flavor">Unearth Forbidden Lore of Ineffable Beings</p>
 			<p>When you choose this subclass, you might bind yourself to an unspeakable being from the Far Realm or an elder god—a being such as Tharizdun, the Chained God; Zargon, the Returner; Hadar, the Dark Hunger; or Great Cthulhu. Or you might invoke several entities without yoking yourself to one. The motives of these beings are incomprehensible, and the Great Old One might be indifferent to your existence. But the secrets you’ve learned nevertheless allow you to draw strange magic from it.</p>
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_GREAT_OLD_ONE_GREAT_OLD_ONE_SPELLS" />
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_GREAT_OLD_ONE_AWAKENED_MIND" />
