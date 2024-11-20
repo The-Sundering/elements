@@ -4,7 +4,7 @@
 		<name>Warrior of Shadow</name>
 		<description>The Warrior of Shadow subclass from the Player’s Handbook 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="monk-shadow.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/archetypes/monk-shadow.xml" />
 		</update>
 	</info>
@@ -41,9 +41,6 @@
 		<sheet alt="Shadow Arts">
 			<description>You have learned to draw on the power of the Shadowfell, gaining the following benefits.</description>
 		</sheet>
-		<spellcasting name="Warrior of Shadow" ability="Wisdom" prepare="false" allowReplace="false">
-			<list>ID_WOTC_PHB24_SPELL_MINOR_ILLUSION,ID_WOTC_PHB24_SPELL_DARKNESS</list>
-		</spellcasting>
 		<rules>
 			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_SHADOW_SHADOW_ARTS_DARKNESS" />
 			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_SHADOW_SHADOW_ARTS_DARKVISION" />
@@ -60,7 +57,7 @@
 			<description>You can cast the Darkness spell without spell components. You can see within the spell's area when you cast it with this feature. While the spell persists, you can move its area of Darkness to a space within 60 feet of yourself at the start of each of your turns.</description>
 		</sheet>
 		<rules>
-			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_DARKNESS" spellcasting="Warrior of Shadow" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_DARKNESS" />
 		</rules>
 	</element>
 	<element name="Shadow Arts: Darkvision" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_SHADOW_SHADOW_ARTS_DARKVISION">
@@ -86,7 +83,7 @@
 			<description>You know the Minor Illusion spell. Wisdom is your spellcasting ability for it.</description>
 		</sheet>
 		<rules>
-			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_MINOR_ILLUSION" spellcasting="Warrior of Shadow" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_MINOR_ILLUSION" />
 		</rules>
 	</element>
 
