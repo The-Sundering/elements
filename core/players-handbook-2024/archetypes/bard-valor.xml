@@ -4,7 +4,7 @@
 		<name>College of Valor</name>
 		<description>The College of Valor subclass from the Player’s Handbook 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="bard-valor.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/archetypes/bard-valor.xml" />
 		</update>
 	</info>
@@ -35,10 +35,8 @@
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_BARD_24_VALOR_COMBAT_INSPIRATION</requirements>
 		<description>
 			<p>You can use your wit to turn the tide of battle. A creature that has a Bardic Inspiration die from you can use it for one of the following effects:</p>
-			<ul>
-				<li><em><strong>Defense.</strong></em> When the creature is hit by an attack roll, that creature can use its Reaction to roll the Bardic Inspiration die and add the number rolled to its AC against that attack, potentially causing the attack to miss.</li>
-				<li><em><strong>Offense.</strong></em> Immediately after the creature hits a target with an attack roll, the creature can roll the Bardic Inspiration die and add the number rolled to the attack’s damage against the target.</li>
-			</ul>
+				<p class="indent"><em><strong>Defense.</strong></em> When the creature is hit by an attack roll, that creature can use its Reaction to roll the Bardic Inspiration die and add the number rolled to its AC against that attack, potentially causing the attack to miss.</p>
+				<p class="indent"><em><strong>Offense.</strong></em> Immediately after the creature hits a target with an attack roll, the creature can roll the Bardic Inspiration die and add the number rolled to the attack’s damage against the target.</p>
 		</description>
 		<sheet alt="Combat Inspiration">
 			<description>A creature that has a Bardic Inspiration die from you can roll that die and add the number rolled to a weapon damage roll it just made. Alternatively, when a creature is hit by an attack, it can use its Reaction to roll the Bardic Inspiration die and add the number rolled to its AC, potentially causing the attack to miss instead.</description>
