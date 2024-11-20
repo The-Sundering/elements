@@ -5,7 +5,7 @@
 		<description>The Rogue class from the Player’s Handbook 2024.</description>
 
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
-		<update version="0.0.3">
+		<update version="0.0.4">
 			<file name="class-rogue.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/classes/class-rogue.xml" />
 		</update>
 	</info>
@@ -159,8 +159,8 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<select type="Class Feature" name="Expertise (Rogue 1)" level="1" number="2" supports="Expertise,Skill"/>
-			<select type="Class Feature" name="Expertise (Rogue 6)" level="6" number="2" supports="Expertise,Skill"/>
+			<select type="Proficiency" name="Expertise (Rogue 1)" level="1" number="2" supports="Expertise,Skill"/>
+			<select type="Proficiency" name="Expertise (Rogue 6)" level="6" number="2" supports="Expertise,Skill"/>
 		</rules>
 	</element>
 	<element name="Level 1: Sneak Attack" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ROGUE_SNEAK_ATTACK">
