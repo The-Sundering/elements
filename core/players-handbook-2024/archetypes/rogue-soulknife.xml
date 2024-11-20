@@ -4,7 +4,7 @@
 		<name>Soulknife</name>
 		<description>The Soulknife subclass from the 2024 Player’s Handbook 2024 (Prototype).</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="rogue-soulknife.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/archetypes/rogue-soulknife.xml" />
 		</update>
 	</info>
@@ -12,7 +12,7 @@
 	<element name="Soulknife" type="Archetype" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_ROGUE_SOULKNIFE">
 		<supports>Roguish Archetype</supports>
 		<description>
-			<em>Strike Foes with Psionic Blades</em>
+			<p class="flavor">Strike Foes with Psionic Blades</p>
 			<p>A Soulknife strikes with the mind, cutting through barriers both physical and psychic. These Rogues discover psionic power within themselves and channel it to do their roguish work. As a Soulknife, your psionic abilities might have haunted you since childhood, revealing their full potential only as you experienced the stress of adventure. Or you might have sought out an order of psychic adepts and spent years learning how to manifest your power.</p>
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_ROGUE_SOULKNIFE_PSIONIC_POWER" />
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_ROGUE_SOULKNIFE_PSYCHIC_BLADES" />
