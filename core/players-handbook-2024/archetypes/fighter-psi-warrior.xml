@@ -4,7 +4,7 @@
 		<name>Psi Warrior</name>
 		<description>The Psi Warrior subclass from the Player’s Handbook 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="fighter-psi-warrior.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/archetypes/fighter-psi-warrior.xml" />
 		</update>
 	</info>
@@ -98,7 +98,7 @@
 			<description>Immediately after you hit a target within 30 feet of you with an attack and deal damage to it with a weapon, you can expend one Psionic Energy die and deal 1d{{psionic power:dice:size}}+{{intelligence:modifier}} force damage to the target.</description>
 		</sheet>
 	</element>
-	<element name="Telekinetic Movement" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_PSI_WARRIOR_PSIONIC_POWER_TELEKINETIC_MOVEMENT">
+	<element name="Telekinetic Movement" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_PSI_WARRIOR_PSIONIC_POWER_TELEKINETIC_MOVEMENT">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_FIGHTER_24_PSI_WARRIOR_PSIONIC_POWER_TELEKINETIC_MOVEMENT</requirements>
 		<compendium display="false" />
 		<description>
