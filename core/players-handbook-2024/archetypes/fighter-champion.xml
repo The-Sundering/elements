@@ -4,7 +4,7 @@
 		<name>Champion</name>
 		<description>The Champion subclass from the Player’s Handbook 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="fighter-champion.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/archetypes/fighter-champion.xml" />
 		</update>
 	</info>
@@ -12,7 +12,7 @@
 	<element name="Champion" type="Archetype" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FIGHTER_CHAMPION">
 		<supports>Martial Archetype</supports>
 		<description>
-			<em>Pursue Physical Excellence in Combat</em>
+			<p class="flavor">Pursue Physical Excellence in Combat</p>
 			<p>A Champion focuses on the development of martial prowess in a relentless pursuit of victory. Champions combine rigorous training with physical excellence to deal devastating blows, withstand peril, and garner glory. Whether in athletic contests or bloody battle, Champions strive for the crown of the victor.</p>
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_CHAMPION_IMPROVED_CRITICAL"/>
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_CHAMPION_REMARKABLE_ATHLETE"/>

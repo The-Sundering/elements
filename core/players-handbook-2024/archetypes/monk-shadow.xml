@@ -4,7 +4,7 @@
 		<name>Warrior of Shadow</name>
 		<description>The Warrior of Shadow subclass from the Player’s Handbook 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="monk-shadow.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/archetypes/monk-shadow.xml" />
 		</update>
 	</info>
@@ -12,7 +12,7 @@
 	<element name="Warrior of Shadow" type="Archetype" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_MONK_WARRIOR_OF_SHADOW">
 		<supports>Monastic Tradition</supports>
 		<description>
-			<p><em>Harness Shadow Power for Stealth and Subterfuge</em></p>
+			<p class="flavor">Harness Shadow Power for Stealth and Subterfuge</p>
 			<p>Warriors of Shadow practice stealth and subterfuge, harnessing the power of the Shadowfell. They are at home in darkness, able to draw gloom around themselves to hide, leap from shadow to shadow, and take on a wraithlike form.</p>
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_SHADOW_SHADOW_ARTS"/>
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_SHADOW_SHADOW_STEP"/>
