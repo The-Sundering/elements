@@ -4,7 +4,7 @@
 		<name>Archfey Patron</name>
 		<description>The Archfey Patron subclass from the Player’s Handbook 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
-		<update version="0.0.3">
+		<update version="0.0.4">
 			<file name="warlock-archfey.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/archetypes/warlock-archfey.xml" />
 		</update>
 	</info>
@@ -12,7 +12,7 @@
 	<element name="Archfey Patron" type="Archetype" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_WARLOCK_ARCHFEY">
 		<supports>Otherworldly Patron</supports>
 		<description>
-			<em>Bargain with Whimsical Fey</em>
+			<p class="flavor">Bargain with Whimsical Fey</p>
 			<p>Your pact draws on the power of the Feywild. When you choose this subclass, you might make a deal with an archfey, such as the Prince of Frost; the Queen of Air and Darkness, ruler of the Gloaming Court; Titania of the Summer Court; or an ancient hag. Or you might call on a spectrum of Fey, weaving a web of favors and debts. Whoever they are, your patron is often inscrutable and whimsical.</p>
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_ARCHFEY_ARCHFEY_SPELLS" />
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_ARCHFEY_STEPS_OF_THE_FEY" />
