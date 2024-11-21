@@ -4,7 +4,7 @@
 		<name>Psi Warrior</name>
 		<description>The Psi Warrior subclass from the Player’s Handbook 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
-		<update version="0.0.4">
+		<update version="0.0.5">
 			<file name="fighter-psi-warrior.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/archetypes/fighter-psi-warrior.xml" />
 		</update>
 	</info>
@@ -69,12 +69,13 @@
 			<stat name="psionic power:dc" value="8" bonus="base" />
 			<stat name="psionic power:dc" value="proficiency" bonus="proficiency" />
 			<stat name="psionic power:dc" value="intelligence:modifier" bonus="ability" />
-			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_PSI_WARRIOR_PSIONIC_POWER_PROTECTIVE_FIELD" />
-			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_PSI_WARRIOR_PSIONIC_POWER_PSIONIC_STRIKE" />
-			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_PSI_WARRIOR_PSIONIC_POWER_TELEKINETIC_MOVEMENT" />
+			<select type="Archetype Feature" name="Protective Field" supports="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_PSI_WARRIOR_PSIONIC_POWER_PROTECTIVE_FIELD" default="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_PSI_WARRIOR_PSIONIC_POWER_PROTECTIVE_FIELD"/>
+			<select type="Archetype Feature" name="Psionic Strike" supports="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_PSI_WARRIOR_PSIONIC_POWER_PSIONIC_STRIKE" default="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_PSI_WARRIOR_PSIONIC_POWER_PSIONIC_STRIKE"/>
+			<select type="Archetype Feature" name="Telekinetic Movement" supports="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_PSI_WARRIOR_PSIONIC_POWER_TELEKINETIC_MOVEMENT" default="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_PSI_WARRIOR_PSIONIC_POWER_TELEKINETIC_MOVEMENT"/>
 		</rules>
 	</element>
 	<element name="Protective Field" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_PSI_WARRIOR_PSIONIC_POWER_PROTECTIVE_FIELD">
+		<supports>ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_PSI_WARRIOR_PSIONIC_POWER_PROTECTIVE_FIELD</supports>
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_FIGHTER_24_PSI_WARRIOR_PSIONIC_POWER_PROTECTIVE_FIELD</requirements>
 		<compendium display="false" />
 		<description>
@@ -89,6 +90,7 @@
 		</rules>
 	</element>
 	<element name="Psionic Strike" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_PSI_WARRIOR_PSIONIC_POWER_PSIONIC_STRIKE">
+		<supports>ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_PSI_WARRIOR_PSIONIC_POWER_PSIONIC_STRIKE</supports>
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_FIGHTER_24_PSI_WARRIOR_PSIONIC_POWER_PSIONIC_STRIKE</requirements>
 		<compendium display="false" />
 		<description>
@@ -99,6 +101,7 @@
 		</sheet>
 	</element>
 	<element name="Telekinetic Movement" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_PSI_WARRIOR_PSIONIC_POWER_TELEKINETIC_MOVEMENT">
+		<supports>ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_PSI_WARRIOR_PSIONIC_POWER_TELEKINETIC_MOVEMENT</supports>
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_FIGHTER_24_PSI_WARRIOR_PSIONIC_POWER_TELEKINETIC_MOVEMENT</requirements>
 		<compendium display="false" />
 		<description>
@@ -122,11 +125,12 @@
 			<description>You have mastered new ways to use your telekinetic abilities.</description>
 		</sheet>
 		<rules>
-			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_PSI_WARRIOR_TELEKINETIC_ADEPT_PSI_POWERED_LEAP" />
-			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_PSI_WARRIOR_TELEKINETIC_ADEPT_TELEKINETIC_THRUST" />
+			<select type="Archetype Feature" name="Psi-Powered Leap" supports="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_PSI_WARRIOR_TELEKINETIC_ADEPT_PSI_POWERED_LEAP" default="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_PSI_WARRIOR_TELEKINETIC_ADEPT_PSI_POWERED_LEAP"/>
+			<select type="Archetype Feature" name="Telekinetic Thrust" supports="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_PSI_WARRIOR_TELEKINETIC_ADEPT_TELEKINETIC_THRUST" default="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_PSI_WARRIOR_TELEKINETIC_ADEPT_TELEKINETIC_THRUST"/>
 		</rules>
 	</element>
 	<element name="Psi-Powered Leap" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_PSI_WARRIOR_TELEKINETIC_ADEPT_PSI_POWERED_LEAP">
+		<supports>ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_PSI_WARRIOR_TELEKINETIC_ADEPT_PSI_POWERED_LEAP</supports>
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_FIGHTER_24_PSI_WARRIOR_TELEKINETIC_ADEPT_PSI_POWERED_LEAP</requirements>
 		<compendium display="false" />
 		<description>
@@ -142,6 +146,7 @@
 		</rules>
 	</element>
 	<element name="Telekinetic Thrust" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_PSI_WARRIOR_TELEKINETIC_ADEPT_TELEKINETIC_THRUST">
+		<supports>ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_PSI_WARRIOR_TELEKINETIC_ADEPT_TELEKINETIC_THRUST</supports>
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_FIGHTER_24_PSI_WARRIOR_TELEKINETIC_ADEPT_TELEKINETIC_THRUST</requirements>
 		<compendium display="false" />
 		<description>
