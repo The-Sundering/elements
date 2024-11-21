@@ -4,7 +4,7 @@
 		<name>Warrior of Shadow</name>
 		<description>The Warrior of Shadow subclass from the Player’s Handbook 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
-		<update version="0.0.3">
+		<update version="0.0.4">
 			<file name="monk-shadow.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/archetypes/monk-shadow.xml" />
 		</update>
 	</info>
@@ -42,12 +42,13 @@
 			<description>You have learned to draw on the power of the Shadowfell, gaining the following benefits.</description>
 		</sheet>
 		<rules>
-			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_SHADOW_SHADOW_ARTS_DARKNESS" />
-			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_SHADOW_SHADOW_ARTS_DARKVISION" />
-			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_SHADOW_SHADOW_ARTS_SHADOWY_FIGMENTS" />
+			<select type="Archetype Feature" name="Darkness" supports="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_SHADOW_SHADOW_ARTS_DARKNESS" default="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_SHADOW_SHADOW_ARTS_DARKNESS"/>
+			<select type="Archetype Feature" name="Darkvision" supports="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_SHADOW_SHADOW_ARTS_DARKVISION" default="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_SHADOW_SHADOW_ARTS_DARKVISION"/>
+			<select type="Archetype Feature" name="Shadowy Figments" supports="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_SHADOW_SHADOW_ARTS_SHADOWY_FIGMENTS" default="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_SHADOW_SHADOW_ARTS_SHADOWY_FIGMENTS"/>
 		</rules>
 	</element>
 	<element name="Shadow Arts: Darkness" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_SHADOW_SHADOW_ARTS_DARKNESS">
+		<supports>ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_SHADOW_SHADOW_ARTS_DARKNESS</supports>
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_MONK_24_SHADOW_SHADOW_ARTS_DARKNESS</requirements>
 		<compendium display="false" />
 		<description>
@@ -61,6 +62,7 @@
 		</rules>
 	</element>
 	<element name="Shadow Arts: Darkvision" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_SHADOW_SHADOW_ARTS_DARKVISION">
+		<supports>ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_SHADOW_SHADOW_ARTS_DARKVISION</supports>
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_MONK_24_SHADOW_SHADOW_ARTS_DARKVISION</requirements>
 		<compendium display="false" />
 		<description>
@@ -74,6 +76,7 @@
 		</rules>
 	</element>
 	<element name="Shadow Arts: Shadowy Figments" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_SHADOW_SHADOW_ARTS_SHADOWY_FIGMENTS">
+		<supports>ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_SHADOW_SHADOW_ARTS_SHADOWY_FIGMENTS</supports>
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_MONK_24_SHADOW_SHADOW_ARTS_SHADOWY_FIGMENTS</requirements>
 		<compendium display="false" />
 		<description>
@@ -102,7 +105,7 @@
 		<description>
 			<p>You can draw on your Shadowfell connection to empower your teleportation. When you use your Shadow Step, you can expend 1 Focus Point to remove the requirement that you must start and end in Dim Light or Darkness for that use of the feature. As part of this Bonus Action, you can make an Unarmed Strike immediately after you teleport.</p>
 		</description>
-		<sheet alt="Improved Shadow Step">
+		<sheet alt="Improved Shadow Step" usage="1 Focus">
 			<description>When you use your Shadow Step, you can expend 1 Focus Point to remove the requirement that you must start and end in Dim Light or Darkness for that use of the feature. As part of this Bonus Action, you can make an Unarmed Strike immediately after you teleport.</description>
 		</sheet>
 	</element>

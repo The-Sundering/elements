@@ -4,7 +4,7 @@
 		<name>Monk</name>
 		<description>The Monk class from the Player’s Handbook 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="class-monk.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/classes/class-monk.xml" />
 		</update>
 	</info>
@@ -214,37 +214,40 @@
 			<stat name="focus:dc" value="8" />
 			<stat name="focus:dc" value="proficiency" />
 			<stat name="focus:dc" value="wisdom:modifier" />
-			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_FOCUS_FLURRY_OF_BLOWS" />
-			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_FOCUS_PATIENT_DEFENSE" />
-			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_FOCUS_STEP_OF_THE_WIND" />
+			<select type="Class Feature" name="Flurry of Blows" supports="ID_WOTC_PHB24_CLASS_FEATURE_MONK_FOCUS_FLURRY_OF_BLOWS" default="ID_WOTC_PHB24_CLASS_FEATURE_MONK_FOCUS_FLURRY_OF_BLOWS"/>
+			<select type="Class Feature" name="Patient Defense" supports="ID_WOTC_PHB24_CLASS_FEATURE_MONK_FOCUS_PATIENT_DEFENSE" default="ID_WOTC_PHB24_CLASS_FEATURE_MONK_FOCUS_PATIENT_DEFENSE"/>
+			<select type="Class Feature" name="Step of the Wind" supports="ID_WOTC_PHB24_CLASS_FEATURE_MONK_FOCUS_STEP_OF_THE_WIND" default="ID_WOTC_PHB24_CLASS_FEATURE_MONK_FOCUS_STEP_OF_THE_WIND"/>
 		</rules>
 	</element>
 	<element name="Flurry of Blows" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_FOCUS_FLURRY_OF_BLOWS">
+		<supports>ID_WOTC_PHB24_CLASS_FEATURE_MONK_FOCUS_FLURRY_OF_BLOWS</supports>
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_MONK_24_MONKS_FOCUS_FLURRY_OF_BLOWS</requirements>
 		<description>
 			<p>You can expend 1 Focus Point to make two Unarmed Strikes as a Bonus Action.</p>
 		</description>
-		<sheet action="Bonus Action" usage="Focus">
+		<sheet action="Bonus Action" usage="1 Focus">
 			<description>You can expend 1 Focus Point to make two Unarmed Strikes</description>
 			<description level="10">You can expend 1 Focus Point to make three Unarmed Strikes</description>
 		</sheet>
 	</element>
 	<element name="Patient Defense" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_FOCUS_PATIENT_DEFENSE">
+		<supports>ID_WOTC_PHB24_CLASS_FEATURE_MONK_FOCUS_PATIENT_DEFENSE</supports>
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_MONK_24_MONKS_FOCUS_PATIENT_DEFENSE</requirements>
 		<description>
 			<p>You can take the Disengage action as a Bonus Action. Alternatively, you can expend 1 Focus Point to take both the Disengage and the Dodge actions as a Bonus Action.</p>
 		</description>
-		<sheet action="Bonus Action" usage="Focus">
+		<sheet action="Bonus Action" usage="1 Focus">
 			<description>You can take the Disengage action. Alternatively, you can expend 1 Focus Point to take both the Disengage and the Dodge actions as part of the same Bonus Action.</description>
 			<description level="10">You can take the Disengage action. Alternatively, you can expend 1 Focus Point to take both the Disengage and the Dodge actions as part of the same Bonus Action. When you expend a Focus Point for this feature, it grants you 2d{{martial arts:dice}} Temporary Hit Points.</description>
 		</sheet>
 	</element>
 	<element name="Step of the Wind" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_FOCUS_STEP_OF_THE_WIND">
+		<supports>ID_WOTC_PHB24_CLASS_FEATURE_MONK_FOCUS_STEP_OF_THE_WIND</supports>
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_MONK_24_MONKS_FOCUS_STEP_OF_THE_WIND</requirements>
 		<description>
 			<p>You can take the Dash action as a Bonus Action. Alternatively, you can expend 1 Focus Point to take both the Disengage and Dash actions as a Bonus Action, and your jump distance is doubled for the turn.</p>
 		</description>
-		<sheet action="Bonus Action" usage="Focus">
+		<sheet action="Bonus Action" usage="1 Focus">
 			<description>You can take the Dash action. Alternatively, you can expend 1 Focus Point to take both the Disengage and Dash actions as part of the same Bonus Action, and your jump distance is doubled for the turn.</description>
 			<description level="10">You can take the Dash action. Alternatively, you can expend 1 Focus Point to take both the Disengage and Dash actions as part of the same Bonus Action, and your jump distance is doubled for the turn. When you expend a Focus Point for this feature, you can move one willing creature with you on your move this turn.</description>
 		</sheet>
@@ -363,7 +366,7 @@
 		<description>
 			<p>Once per turn when you hit a creature with a Monk weapon or an Unarmed Strike, you can expend 1 Focus Point to attempt a stunning strike. The target must make a Constitution saving throw. On a failed save, the target has the Stunned condition until the start of your next turn. On a successful save, the target's Speed is halved until the start of your next turn, and the next attack roll made against the target before then has Advantage.</p>
 		</description>
-		<sheet alt="Stunning Strike" usage="1/Turn">
+		<sheet alt="Stunning Strike" usage="1 Focus — 1/Turn">
 			<description>When you hit another creature with a Monk weapon or Unarmed Strike, you can spend 1 Focus Point to attempt a stunning strike. The target must succeed on a DC{{focus:dc}} Constitution saving throw or have the Stunned condition until the start of your next turn. On a successful save, the target's Speed is halved, and the next attack roll made against the target before then has Advantage.</description>
 		</sheet>
 	</element>
@@ -411,7 +414,7 @@
 			<p><em><strong>Patient Defense.</strong></em> When you expend a Focus Point to use Patient Defense, you gain a number of Temporary Hit Points equal to two rolls of your Martial Arts die.</p>
 			<p><em><strong>Step of the Wind.</strong></em> When you expend a Focus Point to use Step of the Wind, you can choose a willing creature within 5 feet of yourself that is Large or smaller. You move the creature with you until the end of your turn. The creature's movement doesn't provoke Opportunity Attacks.</p>
 		</description>
-		<sheet alt="Heightened Focus" >
+		<sheet display="false" alt="Heightened Focus" >
 			<description>You are now more adept with your Flurry of Blows, Patient Defense, and Step of the Wind features.</description>
 		</sheet>
 	</element>
@@ -446,7 +449,7 @@
 			<p>Your physical and mental discipline grant you proficiency in all saving throws.</p>
 			<p class="indent">Additionally, whenever you make a saving throw and fail, you can expend 1 Focus Point to reroll it, and you must use the new roll.</p>
 		</description>
-		<sheet alt="Disciplined Survivor" usage="Focus">
+		<sheet alt="Disciplined Survivor" usage="1 Focus">
 			<description>Whenever you make a saving throw and fail, you can spend 1 Focus Point to reroll it and take the second result.</description>
 		</sheet>
 		<rules>
@@ -476,7 +479,7 @@
 		<description>
 			<p>At the start of your turn, you can expend 3 Focus Points to bolster yourself against harm for 1 minute or until you have the Incapacitated condition. During that time, you have Resistance to all damage except Force damage.</p>
 		</description>
-		<sheet alt="Superior Defense" usage="Focus">
+		<sheet alt="Superior Defense" usage="3 Focus">
 			<description>You can spend 3 Focus Points at the start of your turn to gain Resistance to all damage types except Force for 1 minute.</description>
 		</sheet>
 	</element>

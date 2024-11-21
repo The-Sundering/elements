@@ -4,7 +4,7 @@
 		<name>Warrior of the Open Hand</name>
 		<description>The Warrior of the Open Hand subclass from the Player’s Handbook 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="monk-open-hand.xml" url="https://raw.githubusercontent.com/AuroraLegacy/open-hand/master/core/players-handbook-2024/archetypes/monk-open-hand.xml" />
 		</update>
 	</info>
@@ -42,12 +42,13 @@
 			<description>Whenever you hit a creature with an attack granted by your Flurry of Blows, you can impose one of the following effects on that target.</description>
 		</sheet>
 		<rules>
-			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_OPEN_HAND_OPEN_HAND_TECHNIQUE_ADDLE" />
-			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_OPEN_HAND_OPEN_HAND_TECHNIQUE_PUSH" />
-			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_OPEN_HAND_OPEN_HAND_TECHNIQUE_TOPPLE" />
+			<select type="Archetype Feature" name="Addle" supports="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_OPEN_HAND_OPEN_HAND_TECHNIQUE_ADDLE" default="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_OPEN_HAND_OPEN_HAND_TECHNIQUE_ADDLE"/>
+			<select type="Archetype Feature" name="Push" supports="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_OPEN_HAND_OPEN_HAND_TECHNIQUE_PUSH" default="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_OPEN_HAND_OPEN_HAND_TECHNIQUE_PUSH"/>
+			<select type="Archetype Feature" name="Topple" supports="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_OPEN_HAND_OPEN_HAND_TECHNIQUE_TOPPLE" default="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_OPEN_HAND_OPEN_HAND_TECHNIQUE_TOPPLE"/>
 		</rules>
 	</element>
 	<element name="Open Hand Technique: Addle" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_OPEN_HAND_OPEN_HAND_TECHNIQUE_ADDLE">
+		<supports>ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_OPEN_HAND_OPEN_HAND_TECHNIQUE_ADDLE</supports>
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_MONK_24_OPEN_HAND_OPEN_HAND_TECHNIQUE_ADDLE</requirements>
 		<compendium display="false" />
 		<description>
@@ -58,6 +59,7 @@
 		</sheet>
 	</element>
 	<element name="Open Hand Technique: Push" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_OPEN_HAND_OPEN_HAND_TECHNIQUE_PUSH">
+		<supports>ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_OPEN_HAND_OPEN_HAND_TECHNIQUE_PUSH</supports>
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_MONK_24_OPEN_HAND_OPEN_HAND_TECHNIQUE_PUSH</requirements>
 		<compendium display="false" />
 		<description>
@@ -68,6 +70,7 @@
 		</sheet>
 	</element>
 	<element name="Open Hand Technique: Topple" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_OPEN_HAND_OPEN_HAND_TECHNIQUE_TOPPLE">
+		<supports>ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_OPEN_HAND_OPEN_HAND_TECHNIQUE_TOPPLE</supports>
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_MONK_24_OPEN_HAND_OPEN_HAND_TECHNIQUE_TOPPLE</requirements>
 		<compendium display="false" />
 		<description>

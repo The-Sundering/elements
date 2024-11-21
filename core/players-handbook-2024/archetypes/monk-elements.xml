@@ -4,7 +4,7 @@
 		<name>Warrior of the Elements</name>
 		<description>The Warrior of the Elements subclass from the Player’s Handbook 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
-		<update version="0.0.3">
+		<update version="0.0.4">
 			<file name="monk-elements.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/archetypes/monk-elements.xml" />
 		</update>
 	</info>
@@ -39,15 +39,16 @@
 			<p class="indent"><em><strong>Reach.</strong></em> When you make an Unarmed Strike, your reach is 10 feet greater than normal, as elemental energy extends from you.</p>
 			<p class="indent"><em><strong>Elemental Strikes.</strong></em> Whenever you hit with your Unarmed Strike, you can cause it to deal your choice of Acid, Cold, Fire, Lightning, or Thunder damage rather than its normal damage type. When you deal one of these types with it, you can also force the target to make a Strength saving throw. On a failed save, you can move the target up to 10 feet toward or away from you, as elemental energy swirls around it.</p>
 		</description>
-		<sheet usage="Focus" alt="Elemental Attunement">
+		<sheet usage="1 Focus" alt="Elemental Attunement">
 			<description>At the start of your turn, you can imbue yourself with elemental energy for the next 10 minutes, or until you have the Incapacitated condition. While imbued, your Unarmed Strikes are enhanced.</description>
 		</sheet>
 		<rules>
-			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_ELEMENTS_ELEMENTAL_ATTUNEMENT_REACH" />
-			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_ELEMENTS_ELEMENTAL_ATTUNEMENT_ELEMENTAL_STRIKES" />
+			<select type="Archetype Feature" name="Reach" supports="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_ELEMENTS_ELEMENTAL_ATTUNEMENT_REACH" default="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_ELEMENTS_ELEMENTAL_ATTUNEMENT_REACH"/>
+			<select type="Archetype Feature" name="Elemental Strikes" supports="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_ELEMENTS_ELEMENTAL_ATTUNEMENT_ELEMENTAL_STRIKES" default="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_ELEMENTS_ELEMENTAL_ATTUNEMENT_ELEMENTAL_STRIKES" />
 		</rules>
 	</element>
 	<element name="Elemental Attunement: Reach" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_ELEMENTS_ELEMENTAL_ATTUNEMENT_REACH">
+		<supports>ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_ELEMENTS_ELEMENTAL_ATTUNEMENT_REACH</supports>
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_MONK_24_ELEMENTS_ELEMENTAL_ATTUNEMENT_REACH</requirements>
 		<compendium display="false" />
 		<description>
@@ -58,6 +59,7 @@
 		</sheet>
 	</element>
 	<element name="Elemental Attunement: Elemental Strikes" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_ELEMENTS_ELEMENTAL_ATTUNEMENT_ELEMENTAL_STRIKES">
+		<supports>ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_ELEMENTS_ELEMENTAL_ATTUNEMENT_ELEMENTAL_STRIKES</supports>
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_MONK_24_ELEMENTS_ELEMENTAL_ATTUNEMENT_ELEMENTAL_STRIKES</requirements>
 		<compendium display="false" />
 		<description>
@@ -114,12 +116,13 @@
 			<description>While your Elemental Attunement is active, your ability to channel the elements is unparalleled.</description>
 		</sheet>
 		<rules>
-			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_ELEMENTS_ELEMENTAL_EPITOME_DAMAGE_RESISTANCE" />
-			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_ELEMENTS_ELEMENTAL_EPITOME_DESTRUCTIVE_STRIDE" />
-			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_ELEMENTS_ELEMENTAL_EPITOME_EMPOWERED_STRIKES" />
+			<select type="Archetype Feature" name="Damage Resistance" supports="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_ELEMENTS_ELEMENTAL_EPITOME_DAMAGE_RESISTANCE" default="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_ELEMENTS_ELEMENTAL_EPITOME_DAMAGE_RESISTANCE"/>
+			<select type="Archetype Feature" name="Destructive Stride" supports="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_ELEMENTS_ELEMENTAL_EPITOME_DESTRUCTIVE_STRIDE" default="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_ELEMENTS_ELEMENTAL_EPITOME_DESTRUCTIVE_STRIDE"/>
+			<select type="Archetype Feature" name="Empowered Strikes" supports="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_ELEMENTS_ELEMENTAL_EPITOME_EMPOWERED_STRIKES" default="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_ELEMENTS_ELEMENTAL_EPITOME_EMPOWERED_STRIKES"/>
 		</rules>
 	</element>
 	<element name="Elemental Epitome: Damage Resistance" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_ELEMENTS_ELEMENTAL_EPITOME_DAMAGE_RESISTANCE">
+		<supports>ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_ELEMENTS_ELEMENTAL_EPITOME_DAMAGE_RESISTANCE</supports>
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_MONK_24_ELEMENTS_ELEMENTAL_EPITOME_DAMAGE_RESISTANCE</requirements>
 		<compendium display="false" />
 		<description>
@@ -130,6 +133,7 @@
 		</sheet>
 	</element>
 	<element name="Elemental Epitome: Destructive Stride" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_ELEMENTS_ELEMENTAL_EPITOME_DESTRUCTIVE_STRIDE">
+		<supports>ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_ELEMENTS_ELEMENTAL_EPITOME_DESTRUCTIVE_STRIDE</supports>
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_MONK_24_ELEMENTS_ELEMENTAL_EPITOME_DESTRUCTIVE_STRIDE</requirements>
 		<compendium display="false" />
 		<description>
@@ -140,6 +144,7 @@
 		</sheet>
 	</element>
 	<element name="Elemental Epitome: Empowered Strikes" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_ELEMENTS_ELEMENTAL_EPITOME_EMPOWERED_STRIKES">
+		<supports>ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_ELEMENTS_ELEMENTAL_EPITOME_EMPOWERED_STRIKES</supports>
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_MONK_24_ELEMENTS_ELEMENTAL_EPITOME_EMPOWERED_STRIKES</requirements>
 		<compendium display="false" />
 		<description>
