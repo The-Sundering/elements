@@ -4,7 +4,7 @@
 		<name>Great Old One Patron</name>
 		<description>The Great Old One Patron subclass from the Player’s Handbook 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
-		<update version="0.0.3">
+		<update version="0.0.4">
 			<file name="warlock-great-old-one.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/archetypes/warlock-great-old-one.xml" />
 		</update>
 	</info>
@@ -124,8 +124,8 @@
 			<description>When you cast Hex and choose an ability, the target also has Disadvantage on saving throws of the chosen ability for the duration of the spell.</description>
 		</sheet>
 		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_HEX" spellcasting="Warlock" allowReplace="false" />
-			<!--<grant type="Spell" id="ID_PHB24_SPELL_HEX" spellcasting="Warlock" allowReplace="false" />-->
+			<grant type="Spell" id="ID_PHB_SPELL_HEX" spellcasting="Warlock" allowReplace="false" requirements="ID_WOTC_SOURCE_PLAYERS_HANDBOOK"/>
+			<!--<grant type="Spell" id="ID_WOTC_PHB24_SPELL_HEX" spellcasting="Warlock" allowReplace="false" />-->
 		</rules>
 	</element>
 
@@ -139,7 +139,7 @@
 			Whenever a creature deals Psychic damage to you, that creature takes the same amount of damage that you take.</description>
 		</sheet>
 		<rules>
-			<grant type="Condition" name="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_RADIANT" />
+			<grant type="Condition" name="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_PSYCHIC" />
 		</rules>
 	</element>
 

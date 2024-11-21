@@ -4,7 +4,7 @@
 		<name>College of Dance</name>
 		<description>The College of Dance subclass from the Player’s Handbook 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
-		<update version="0.0.3">
+		<update version="0.0.4">
 			<file name="bard-dance.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/archetypes/bard-dance.xml" />
 		</update>
 	</info>
@@ -32,12 +32,10 @@
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_BARD_24_DANCE_DAZZLING_FOOTWORK</requirements>
 		<description>
 			<p>While you aren’t wearing armor or wielding a Shield, you gain the following benefits:</p>
-			<ul>
-				<li><em><strong>Dance Virtuoso.</strong></em> You have Advantage on any Charisma (Performance) check you make that involves you dancing.</li>
-				<li><em><strong>Unarmored Defense.</strong></em> Your base Armor Class equals 10 plus your Dexterity and Charisma modifiers.</li>
-				<li><em><strong>Agile Strikes.</strong></em> When you expend a use of your Bardic Inspiration as part of an action, a Bonus Action, or a Reaction, you can make one Unarmed Strike as part of that action, Bonus Action, or Reaction.</li>
-				<li><em><strong>Bardic Damage.</strong></em> You can use Dexterity instead of Strength for the attack rolls of your Unarmed Strikes. When you deal damage with an Unarmed Strike, you can deal Bludgeoning damage equal to a roll of your Bardic Inspiration die plus your Dexterity modifier, instead of the strike’s normal damage. This roll doesn’t expend the die.</li>
-			</ul>
+			<p class="indent"><em><strong>Dance Virtuoso.</strong></em> You have Advantage on any Charisma (Performance) check you make that involves you dancing.</p>
+			<p class="indent"><em><strong>Unarmored Defense.</strong></em> Your base Armor Class equals 10 plus your Dexterity and Charisma modifiers.</p>
+			<p class="indent"><em><strong>Agile Strikes.</strong></em> When you expend a use of your Bardic Inspiration as part of an action, a Bonus Action, or a Reaction, you can make one Unarmed Strike as part of that action, Bonus Action, or Reaction.</p>
+			<p class="indent"><em><strong>Bardic Damage.</strong></em> You can use Dexterity instead of Strength for the attack rolls of your Unarmed Strikes. When you deal damage with an Unarmed Strike, you can deal Bludgeoning damage equal to a roll of your Bardic Inspiration die plus your Dexterity modifier, instead of the strike’s normal damage. This roll doesn’t expend the die.</p>
 		</description>
 		<sheet alt="Dazzling Footwork">
 			<description>While you aren’t wearing armor or wielding a Shield, you gain the following benefits: &#13;
