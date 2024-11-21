@@ -4,7 +4,7 @@
 		<name>Monk</name>
 		<description>The Monk class from the Player’s Handbook 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="class-monk.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/classes/class-monk.xml" />
 		</update>
 	</info>
@@ -88,10 +88,10 @@
 			<div element="ID_WOTC_PHB24_CLASS_FEATURE_MONK_BODY_AND_MIND" />
 		</description>
 		<sheet display="false">
-			<description>A master of martial arts, harnessing the power of the body in pursuit of physical and spiritual perfection.</description>
+			<description>A Martial Artist of Supernatural Focus</description>
 		</sheet>
 		<setters>
-			<set name="short">A master of martial arts, harnessing the power of the body in pursuit of physical and spiritual perfection.</set>
+			<set name="short">A Martial Artist of Supernatural Focus</set>
 			<set name="hd">d8</set>
 		</setters>
 		<rules>
