@@ -5,7 +5,7 @@
 		<description>The Sorcerer class from the Player’s Handbook 2024.</description>
 
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
-		<update version="0.0.6">
+		<update version="0.0.7">
 			<file name="class-sorcerer.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/classes/class-sorcerer.xml" />
 		</update>
 	</info>
@@ -79,10 +79,10 @@
 			<div element="ID_WOTC_PHB24_CLASS_FEATURE_SORCERER_ARCANE_APOTHEOSIS" />
 		</description>
 		<sheet display="false">
-			<description>A spellcaster who draws on inherent magic from a gift or bloodline.</description>
+			<description>A Dazzling Mage Filled with Innate Magic</description>
 		</sheet>
 		<setters>
-			<set name="short">A spellcaster who draws on inherent magic from a gift or bloodline.</set>
+			<set name="short">A Dazzling Mage Filled with Innate Magic</set>
 			<set name="hd">d6</set>
 		</setters>
 		<rules>
