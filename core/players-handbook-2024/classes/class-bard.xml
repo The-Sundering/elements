@@ -5,7 +5,7 @@
 		<description>The Bard class from the Player’s Handbook 2024.</description>
 
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
-		<update version="0.0.5">
+		<update version="0.0.6">
 			<file name="class-bard.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/classes/class-bard.xml" />
 		</update>
 	</info>
@@ -83,10 +83,10 @@
 			<div element="ID_WOTC_PHB24_CLASS_FEATURE_BARD_WORDS_OF_CREATION" />
 		</description>
 		<sheet display="false">
-			<description>An inspiring magician whose power echoes the music of creation.</description>
+			<description>An Inspiring Performer of Music, Dance, and Magic</description>
 		</sheet>
 		<setters>
-			<set name="short">An inspiring magician whose power echoes the music of creation.</set>
+			<set name="short">An Inspiring Performer of Music, Dance, and Magic</set>
 			<set name="hd">d8</set>
 		</setters>
 		<rules>
