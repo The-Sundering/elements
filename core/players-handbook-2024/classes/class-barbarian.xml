@@ -5,7 +5,7 @@
 		<description>The Barbarian class from the Player’s Handbook 2024.</description>
 
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
-		<update version="0.0.3">
+		<update version="0.0.4">
 			<file name="class-barbarian.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/classes/class-barbarian.xml" />
 		</update>
 	</info>
@@ -89,10 +89,10 @@
 			<div element="ID_WOTC_PHB24_CLASS_FEATURE_BARBARIAN_PRIMAL_CHAMPION"/>
 		</description>
 		<sheet display="false">
-			<description>A fierce warrior of primitive background who can enter a battle rage.</description>
+			<description>A Fierce Warrior of Primal Rage</description>
 		</sheet>
 		<setters>
-			<set name="short">A fierce warrior of primitive background who can enter a battle rage.</set>
+			<set name="short">A Fierce Warrior of Primal Rage</set>
 			<set name="hd">d12</set>
 		</setters>
 		<rules>
