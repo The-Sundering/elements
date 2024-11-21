@@ -5,7 +5,7 @@
 		<description>The Druid class from the Player’s Handbook 2024.</description>
 
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="class-druid.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/classes/class-druid.xml" />
 		</update>
 	</info>
@@ -83,10 +83,10 @@
 			<div element="ID_WOTC_PHB24_CLASS_FEATURE_DRUID_ARCHDRUID"/>
 		</description>
 		<sheet display="false">
-			<description>A priest of the Old Faith, wielding the powers of nature—moonlight and plant growth, fire and lightning—and adopting animal forms.</description>
+			<description>A Nature Priest of Primal Power</description>
 		</sheet>
 		<setters>
-			<set name="short">A priest of the Old Faith, wielding the powers of nature—moonlight and plant growth, fire and lightning—and adopting animal forms.</set>
+			<set name="short">A Nature Priest of Primal Power</set>
 			<set name="hd">d8</set>
 		</setters>
 		<rules>
