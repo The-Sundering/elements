@@ -5,7 +5,7 @@
 		<description>The Rogue class from the Player’s Handbook 2024.</description>
 
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
-		<update version="0.0.4">
+		<update version="0.0.5">
 			<file name="class-rogue.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/classes/class-rogue.xml" />
 		</update>
 	</info>
@@ -89,10 +89,10 @@
 			<div element="ID_WOTC_PHB24_CLASS_FEATURE_ROGUE_STROKE_OF_LUCK"/>
 		</description>
 		<sheet display="false">
-			<description>A scoundrel who uses stealth and trickery to overcome obstacles and enemies.</description>
+			<description>A Dexterous Expert in Stealth and Subterfuge</description>
 		</sheet>
 		<setters>
-			<set name="short">A scoundrel who uses stealth and trickery to overcome obstacles and enemies.</set>
+			<set name="short">A Dexterous Expert in Stealth and Subterfuge</set>
 			<set name="hd">d8</set>
 		</setters>
 		<rules>
