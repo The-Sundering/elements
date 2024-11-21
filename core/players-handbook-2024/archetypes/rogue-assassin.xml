@@ -4,7 +4,7 @@
 		<name>Assassin</name>
 		<description>The Assassin subclass from the Player’s Handbook 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
-		<update version="0.0.3">
+		<update version="0.0.4">
 			<file name="rogue-assassin.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/archetypes/rogue-assassin.xml" />
 		</update>
 	</info>
@@ -55,8 +55,8 @@
 		<rules>
 			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_DISGUISE_KIT" requirements="ID_WOTC_SOURCE_PLAYERS_HANDBOOK"/>
 			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_POISONERS_KIT" requirements="ID_WOTC_SOURCE_PLAYERS_HANDBOOK"/>
-			<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_TOOL_PROFICIENCY_DISGUISE_KIT" requirements="ID_WOTC_SOURCE_PLAYERS_HANDBOOK"/>
-			<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_TOOL_PROFICIENCY_POISONERS_KIT" requirements="ID_WOTC_SOURCE_PLAYERS_HANDBOOK"/>
+			<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_TOOL_PROFICIENCY_DISGUISE_KIT" requirements="ID_WOTC_SOURCE_PLAYERS_HANDBOOK_2024"/>
+			<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_TOOL_PROFICIENCY_POISONERS_KIT" requirements="ID_WOTC_SOURCE_PLAYERS_HANDBOOK_2024"/>
 		</rules>
 	</element>
 
