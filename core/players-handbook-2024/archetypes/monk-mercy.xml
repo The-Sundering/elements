@@ -4,7 +4,7 @@
 		<name>Warrior of Mercy</name>
 		<description>The Warrior of Mercy subclass from the Player’s Handbook 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
-		<update version="0.0.3">
+		<update version="0.0.4">
 			<file name="monk-mercy.xml" url="https://raw.githubusercontent.com/AuroraLegacy/mercy/master/core/players-handbook-2024/archetypes/monk-mercy.xml" />
 		</update>
 	</info>
@@ -39,7 +39,7 @@
 		<description>
 			<p>Once per turn when you hit a creature with an Unarmed Strike and deal damage, you can expend 1 Focus Point to deal extra Necrotic damage equal to one roll of your Martial Arts die plus your Wisdom modifier.</p>
 		</description>
-		<sheet usage="1/Turn" alt="Hand of Harm">
+		<sheet usage="1 Focus, 1/Turn" alt="Hand of Harm">
 			<description>When you hit a creature with an Unarmed Strike and deal damage, you can expend 1 Focus Point to deal 1d{{martial arts:dice}}+{{wisdom:modifier}} extra Necrotic damage to the target.</description>
 		</sheet>
 	</element>
@@ -48,7 +48,7 @@
 		<description>
 			<p>As a Magic action, you can expend 1 Focus Point to touch a creature and restore a number of Hit Points equal to a roll of your Martial Arts die plus your Wisdom modifier. When you use your Flurry of Blows, you can replace one of the Unarmed Strikes with a use of this feature without expending a Focus Point for the healing.</p>
 		</description>
-		<sheet action="Magic Action" alt="Hand of Healing">
+		<sheet action="Magic Action" usage="1 Focus" alt="Hand of Healing">
 			<description>You can expend 1 Focus Point to touch a creature and restore 1d{{martial arts:dice}}+{{wisdom:modifier}} Hit Points. &#13;
 			When you use your Flurry of Blows, you can replace one of the Unarmed Strikes with a use of this feature without expending a Focus Point for the healing.</description>
 		</sheet>
