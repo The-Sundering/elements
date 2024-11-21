@@ -5,7 +5,7 @@
 		<description>The Warlock class from the Player’s Handbook 2024.</description>
 
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="class-warlock.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/classes/class-warlock.xml" />
 		</update>
 	</info>
@@ -78,10 +78,10 @@
 			<div element="ID_WOTC_PHB24_CLASS_FEATURE_WARLOCK_ELDRITCH_MASTER"/>
 		</description>
 		<sheet display="false">
-			<description>A wielder of magic that is derived from a bargain with an extraplanar entity.</description>
+			<description>An Occultist Empowered by Otherworldly Pacts</description>
 		</sheet>
 		<setters>
-			<set name="short">A wielder of magic that is derived from a bargain with an extraplanar entity.</set>
+			<set name="short">An Occultist Empowered by Otherworldly Pacts</set>
 			<set name="hd">d8</set>
 		</setters>
 		<rules>
