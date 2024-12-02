@@ -292,10 +292,10 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<select type="Feat" name="Improvement Option (Bard 4)" supports="!Boon" level="4" />
-			<select type="Feat" name="Improvement Option (Bard 8)" supports="!Boon" level="8" />
-			<select type="Feat" name="Improvement Option (Bard 12)" supports="!Boon" level="12" />
-			<select type="Feat" name="Improvement Option (Bard 16)" supports="!Boon" level="16" />
+			<select type="Feat" name="Ability Score Improvement (Bard 4)" supports="!Boon" level="4" />
+			<select type="Feat" name="Ability Score Improvement (Bard 8)" supports="!Boon" level="8" />
+			<select type="Feat" name="Ability Score Improvement (Bard 12)" supports="!Boon" level="12" />
+			<select type="Feat" name="Ability Score Improvement (Bard 16)" supports="!Boon" level="16" />
 		</rules>
 	</element>
 
@@ -353,7 +353,7 @@
 		<sheet display="false">
 		</sheet>
 		<rules>
-			<select type="Feat" name="Improvement Option, Epic Boon (Bard 19)" level="19" />
+			<select type="Feat" name="Epic Boon (Bard 19)" level="19" />
 		</rules>
 	</element>
 
