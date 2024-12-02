@@ -269,10 +269,10 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<select type="Feat" name="Improvement Option (Barbarian 4)" supports="!Boon" level="4" />
-			<select type="Feat" name="Improvement Option (Barbarian 8)" supports="!Boon" level="8" />
-			<select type="Feat" name="Improvement Option (Barbarian 12)" supports="!Boon" level="12" />
-			<select type="Feat" name="Improvement Option (Barbarian 16)" supports="!Boon" level="16" />
+			<select type="Feat" name="Ability Score Improvement (Barbarian 4)" supports="!Boon" level="4" />
+			<select type="Feat" name="Ability Score Improvement (Barbarian 8)" supports="!Boon" level="8" />
+			<select type="Feat" name="Ability Score Improvement (Barbarian 12)" supports="!Boon" level="12" />
+			<select type="Feat" name="Ability Score Improvement (Barbarian 16)" supports="!Boon" level="16" />
 		</rules>
 	</element>
 
@@ -414,7 +414,7 @@
 		<sheet display="false">
 		</sheet>
 		<rules>
-			<select type="Feat" name="Improvement Option, Epic Boon (Barbarian 19)" level="19" />
+			<select type="Feat" name="Epic Boon (Barbarian 19)" level="19" />
 		</rules>
 	</element>
 
