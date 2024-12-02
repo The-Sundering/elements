@@ -4,7 +4,7 @@
 		<name>Draconic Sorcery</name>
 		<description>The Draconic Sorcery subclass from the Player’s Handbook 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
-		<update version="0.0.5">
+		<update version="0.0.6">
 			<file name="sorcerer-draconic.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/archetypes/sorcerer-draconic.xml" />
 		</update>
 	</info>
@@ -67,7 +67,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_CHROMATIC_ORB" level="3" spellcasting="Sorcerer" allowReplace="false" />
+			<!--<grant type="Spell" id="ID_PHB_SPELL_CHROMATIC_ORB" level="3" spellcasting="Sorcerer" allowReplace="false" />
 			<grant type="Spell" id="ID_PHB_SPELL_COMMAND" level="3" spellcasting="Sorcerer" allowReplace="false" />
 			<grant type="Spell" id="ID_PHB_SPELL_ALTER_SELF" level="3" spellcasting="Sorcerer" allowReplace="false" />
 			<grant type="Spell" id="ID_XGTE_SPELL_DRAGONS_BREATH" level="3" spellcasting="Sorcerer" allowReplace="false" />
@@ -76,9 +76,9 @@
 			<grant type="Spell" id="ID_PHB_SPELL_ARCANE_EYE" level="7" spellcasting="Sorcerer" allowReplace="false" />
 			<grant type="Spell" id="ID_XGTE_SPELL_CHARM_MONSTER" level="7" spellcasting="Sorcerer" allowReplace="false" />
 			<grant type="Spell" id="ID_PHB_SPELL_LEGEND_LORE" level="9" spellcasting="Sorcerer" allowReplace="false" />
-			<grant type="Spell" id="ID_WOTC_FTOD_SPELL_SUMMON_DRACONIC_SPIRIT" level="9" spellcasting="Sorcerer" allowReplace="false" />
+			<grant type="Spell" id="ID_WOTC_FTOD_SPELL_SUMMON_DRACONIC_SPIRIT" level="9" spellcasting="Sorcerer" allowReplace="false" />-->
 
-			<!--<grant type="Spell" id="ID_WOTC_PHB24_SPELL_CHROMATIC_ORB" level="3" spellcasting="Sorcerer" allowReplace="false" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_CHROMATIC_ORB" level="3" spellcasting="Sorcerer" allowReplace="false" />
 			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_COMMAND" level="3" spellcasting="Sorcerer" allowReplace="false" />
 			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_ALTER_SELF" level="3" spellcasting="Sorcerer" allowReplace="false" />
 			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_DRAGONS_BREATH" level="3" spellcasting="Sorcerer" allowReplace="false" />
@@ -87,7 +87,7 @@
 			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_ARCANE_EYE" level="7" spellcasting="Sorcerer" allowReplace="false" />
 			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_CHARM_MONSTER" level="7" spellcasting="Sorcerer" allowReplace="false" />
 			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_LEGEND_LORE" level="9" spellcasting="Sorcerer" allowReplace="false" />
-			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_SUMMON_DRAGON" level="9" spellcasting="Sorcerer" allowReplace="false" />-->
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_SUMMON_DRAGON" level="9" spellcasting="Sorcerer" allowReplace="false" />
 		</rules>
 	</element>
 
