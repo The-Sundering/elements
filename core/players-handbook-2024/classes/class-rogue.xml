@@ -5,7 +5,7 @@
 		<description>The Rogue class from the Player’s Handbook 2024.</description>
 
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
-		<update version="0.0.5">
+		<update version="0.0.6">
 			<file name="class-rogue.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/classes/class-rogue.xml" />
 		</update>
 	</info>
@@ -251,11 +251,11 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<select type="Class Feature" name="Improvement Option (Rogue 4)" supports="Improvement Option,Rogue,4" level="4" />
-			<select type="Class Feature" name="Improvement Option (Rogue 8)" supports="Improvement Option,Rogue,8" level="8" />
-			<select type="Class Feature" name="Improvement Option (Rogue 10)" supports="Improvement Option,Rogue,10" level="10" />
-			<select type="Class Feature" name="Improvement Option (Rogue 12)" supports="Improvement Option,Rogue,12" level="12" />
-			<select type="Class Feature" name="Improvement Option (Rogue 16)" supports="Improvement Option,Rogue,16" level="16" />
+			<select type="Feat" name="Ability Score Improvement (Rogue 4)" supports="!Boon" level="4" />
+			<select type="Feat" name="Ability Score Improvement (Rogue 8)" supports="!Boon" level="8" />
+			<select type="Feat" name="Ability Score Improvement (Rogue 10)" supports="!Boon" level="10" />
+			<select type="Feat" name="Ability Score Improvement (Rogue 12)" supports="!Boon" level="12" />
+			<select type="Feat" name="Ability Score Improvement (Rogue 16)" supports="!Boon" level="16" />
 		</rules>
 	</element>
 
@@ -368,7 +368,7 @@
 		<sheet display="false">
 		</sheet>
 		<rules>
-			<select type="Class Feature" name="Epic Boon" supports="Improvement Option,Rogue,19" />
+			<select type="Feat" name="Epic Boon (Rogue 19)" level="19" />
 			
 		</rules>
 	</element>
