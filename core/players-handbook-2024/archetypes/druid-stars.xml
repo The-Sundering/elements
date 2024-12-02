@@ -4,7 +4,7 @@
 		<name>Circle of the Stars</name>
 		<description>The Circle of the Stars subclass from the Player’s Handbook 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
-		<update version="0.0.3">
+		<update version="0.0.4">
 			<file name="druid-stars.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/archetypes/druid-stars.xml" />
 		</update>
 	</info>
@@ -49,12 +49,12 @@
 				<tr><td>6</td><td>A glass disk etched with constellations</td></tr>
 			</table>
 			<div class="reference">
-				<div element="ID_PHB_SPELL_GUIDANCE" />
-				<!--<div element="ID_PHB24_SPELL_GUIDANCE" />-->
+				<!--<div element="ID_PHB_SPELL_GUIDANCE" />-->
+				<div element="ID_WOTC_PHB24_SPELL_GUIDANCE" />
 			</div>
 			<div class="reference">
-				<div element="ID_PHB_SPELL_GUIDING_BOLT" />
-				<!--<div element="ID_PHB24_SPELL_GUIDING_BOLT" />-->
+				<!--<div element="ID_PHB_SPELL_GUIDING_BOLT" />-->
+				<div element="ID_WOTC_PHB24_SPELL_GUIDING_BOLT" />
 			</div>
 		</description>
 		<sheet alt="Star Map">
@@ -66,10 +66,10 @@
 			<stat name="star map:uses" value="1" bonus="star map" />
 			<stat name="star map:uses" value="wisdom:modifier" bonus="star map" />
 			
-			<grant type="Spell" id="ID_PHB_SPELL_GUIDANCE" level="3" spellcasting="Druid" />
-			<grant type="Spell" id="ID_PHB_SPELL_GUIDING_BOLT" level="3" spellcasting="Druid" prepared="true" />
-			<!--<grant type="Spell" id="ID_PHB24_SPELL_GUIDANCE" level="3" spellcasting="Druid" />
-			<grant type="Spell" id="ID_PHB24_SPELL_GUIDING_BOLT" level="3" spellcasting="Druid" prepared="true" />-->
+			<!--<grant type="Spell" id="ID_PHB_SPELL_GUIDANCE" level="3" spellcasting="Druid" />
+			<grant type="Spell" id="ID_PHB_SPELL_GUIDING_BOLT" level="3" spellcasting="Druid" prepared="true" />-->
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_GUIDANCE" level="3" spellcasting="Druid" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_GUIDING_BOLT" level="3" spellcasting="Druid" prepared="true" />
 		</rules>
 	</element>
 	<element name="Level 3: Starry Form" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_STARS_STARRY_FORM">
