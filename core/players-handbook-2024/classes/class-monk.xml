@@ -508,8 +508,8 @@
 		<rules>
 			<stat name="wisdom" value="4"/>
 			<stat name="dexterity" value="4"/>
-			<stat name="wisdom:max" value="4"/>
-			<stat name="dexterity:max" value="4"/>
+			<stat name="wisdom:max" value="4" bonus="ability" />
+			<stat name="dexterity:max" value="4" bonus="ability" />
 		</rules>
 	</element>
 
