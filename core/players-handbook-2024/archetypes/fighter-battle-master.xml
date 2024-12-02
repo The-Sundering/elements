@@ -4,7 +4,7 @@
 		<name>Battle Master</name>
 		<description>The Battle Master subclass from the Player’s Handbook 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="fighter-battle-master.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/archetypes/fighter-battle-master.xml" />
 		</update>
 	</info>
@@ -44,8 +44,8 @@
 			<p class="indent">You gain an additional Superiority Die when you reach Fighter levels 7 (five dice total) and 15 (six dice total).</p>
 			<p><strong><em>Saving Throws.</em></strong> If a maneuver requires a saving throw, the DC equals 8 plus your Strength or Dexterity modifier (your choice) and Proficiency Bonus.</p>
 		</description>
-		<sheet alt="Combat Superiority">
-			<description>You learn maneuvers that are fueled by special dice called Superiority Dice. You have {{superiority dice:amount}} superiority dice which are d{{superiority dice:size}}s. DC {{superiority dice:dc}}</description>
+		<sheet alt="Combat Superiority" usage="{{superiority dice:amount}}/Short Rest">
+			<description>You learn maneuvers that are fueled by special dice called Superiority Dice. You have {{superiority dice:amount}} Superiority Dice which are d{{superiority dice:size}}s. Your DC is {{superiority dice:dc}}.</description>
 		</sheet>
 		<rules>
 			<stat name="superiority dice:amount" value="4" />
@@ -82,7 +82,8 @@
 			<p class="indent">Once you use this feature, you can't do so again until you finish a Long Rest. You can also restore a use of the feature by expending one Superiority Die (no action required).</p>
 		</description>
 		<sheet action="Bonus Action" usage="1/Long Rest" alt="Know Your Enemy">
-			<description>Choose one creature you can see within 30 feet of yourself. You learn what Immunities, Resistances, and Vulnerabilities that creature has.</description>
+			<description>Choose one creature you can see within 30 feet of yourself. You learn what Immunities, Resistances, and Vulnerabilities that creature has. &#13;
+			You can also restore a use of the feature by expending one Superiority Die (no action required).</description>
 		</sheet>
 	</element>
 
@@ -167,7 +168,7 @@
 			<p>When you hit a creature with an attack roll, you can expend one Superiority Die to attempt to disarm the target. Add the Superiority Die roll to the attack's damage roll. The target must succeed on a Strength saving throw or drop one object of your choice that it's holding, with the object landing in its space.</p>
 		</description>
 		<sheet>
-			<description>When you hit a creature with an attack roll, you can expend one Superiority Die to attempt to disarm the target. Add the Superiority Die roll to the attack's damage roll. The target must succeed on a DC{{superiority dice:dc}} Strength saving throw or drop one object of your choice that it's holding, with the object landing in its space.</description>
+			<description>When you hit a creature with an attack roll, you can expend one Superiority Die to attempt to disarm the target. Add the Superiority Die roll to the attack's damage roll. The target must succeed on a Strength saving throw or drop one object of your choice that it's holding, with the object landing in its space.</description>
 		</sheet>
 	</element>
 	<element name="Distracting Strike" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MANEUVER_DISTRACTING_STRIKE">
@@ -203,7 +204,7 @@
 			<p>When you hit a creature with an attack roll, you can expend one Superiority Die to attempt to goad the target into attacking you. Add the Superiority Die to the attack's damage roll. The target must succeed on a Wisdom saving throw or have Disadvantage on attack rolls against targets other than you until the end of your next turn.</p>
 		</description>
 		<sheet>
-			<description>When you hit a creature with an attack roll, you can expend one Superiority Die to attempt to goad the target into attacking you. Add the Superiority Die to the attack's damage roll. The target must succeed on a DC{{superiority dice:dc}} Wisdom saving throw or have Disadvantage on attack rolls against targets other than you until the end of your next turn.</description>
+			<description>When you hit a creature with an attack roll, you can expend one Superiority Die to attempt to goad the target into attacking you. Add the Superiority Die to the attack's damage roll. The target must succeed on a Wisdom saving throw or have Disadvantage on attack rolls against targets other than you until the end of your next turn.</description>
 		</sheet>
 	</element>
 	<element name="Lunging Attack" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MANEUVER_LUNGING_ATTACK">
@@ -230,7 +231,7 @@
 			<p>When you hit a creature with an attack roll, you can expend one Superiority Die to attempt to frighten the target. Add the Superiority Die to the attack's damage roll. The target must succeed on a Wisdom saving throw or have the Frightened condition until the end of your next turn.</p>
 		</description>
 		<sheet>
-			<description>When you hit a creature with an attack roll, you can expend one Superiority Die to attempt to frighten the target. Add the Superiority Die to the attack's damage roll. The target must succeed on a DC{{superiority dice:dc}} Wisdom saving throw or have the Frightened condition until the end of your next turn.</description>
+			<description>When you hit a creature with an attack roll, you can expend one Superiority Die to attempt to frighten the target. Add the Superiority Die to the attack's damage roll. The target must succeed on a Wisdom saving throw or have the Frightened condition until the end of your next turn.</description>
 		</sheet>
 	</element>
 	<element name="Parry" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MANEUVER_PARRY">
@@ -257,7 +258,7 @@
 			<p>When you hit a creature with an attack roll using a weapon or an Unarmed Strike, you can expend one Superiority Die to attempt to drive the target back. Add the Superiority Die to the attack's damage roll. If the target is Large or smaller, it must succeed on a Strength saving throw or be pushed up to 15 feet directly away from you.</p>
 		</description>
 		<sheet>
-			<description>When you hit a creature with an attack roll using a weapon or an Unarmed Strike, you can expend one Superiority Die to attempt to drive the target back. Add the Superiority Die to the attack's damage roll. If the target is Large or smaller, it must succeed on a DC{{superiority dice:dc}} Strength saving throw or be pushed up to 15 feet directly away from you.</description>
+			<description>When you hit a creature with an attack roll using a weapon or an Unarmed Strike, you can expend one Superiority Die to attempt to drive the target back. Add the Superiority Die to the attack's damage roll. If the target is Large or smaller, it must succeed on a Strength saving throw or be pushed up to 15 feet directly away from you.</description>
 		</sheet>
 	</element>
 	<element name="Rally" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MANEUVER_RALLY">
