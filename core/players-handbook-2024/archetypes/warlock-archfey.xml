@@ -4,7 +4,7 @@
 		<name>Archfey Patron</name>
 		<description>The Archfey Patron subclass from the Player’s Handbook 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
-		<update version="0.0.4">
+		<update version="0.0.5">
 			<file name="warlock-archfey.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/archetypes/warlock-archfey.xml" />
 		</update>
 	</info>
@@ -47,7 +47,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_FAERIE_FIRE" level="3" spellcasting="Warlock" allowReplace="false" />
+			<!--<grant type="Spell" id="ID_PHB_SPELL_FAERIE_FIRE" level="3" spellcasting="Warlock" allowReplace="false" />
 			<grant type="Spell" id="ID_PHB_SPELL_SLEEP" level="3" spellcasting="Warlock" allowReplace="false" />
 			<grant type="Spell" id="ID_PHB_SPELL_CALM_EMOTIONS" level="3" spellcasting="Warlock" allowReplace="false" />
 			<grant type="Spell" id="ID_PHB_SPELL_MISTY_STEP" level="3" spellcasting="Warlock" allowReplace="false" />
@@ -57,19 +57,19 @@
 			<grant type="Spell" id="ID_PHB_SPELL_DOMINATE_BEAST" level="7" spellcasting="Warlock" allowReplace="false" />
 			<grant type="Spell" id="ID_PHB_SPELL_GREATER_INVISIBILITY" level="7" spellcasting="Warlock" allowReplace="false" />
 			<grant type="Spell" id="ID_PHB_SPELL_DOMINATE_PERSON" level="9" spellcasting="Warlock" allowReplace="false" />
-			<grant type="Spell" id="ID_PHB_SPELL_SEEMING" level="9" spellcasting="Warlock" allowReplace="false" />
+			<grant type="Spell" id="ID_PHB_SPELL_SEEMING" level="9" spellcasting="Warlock" allowReplace="false" />-->
 
-			<!--<grant type="Spell" id="ID_PHB24_SPELL_FAERIE_FIRE" level="3" spellcasting="Warlock" allowReplace="false" />
-			<grant type="Spell" id="ID_PHB24_SPELL_SLEEP" level="3" spellcasting="Warlock" allowReplace="false" />
-			<grant type="Spell" id="ID_PHB24_SPELL_CALM_EMOTIONS" level="3" spellcasting="Warlock" allowReplace="false" />
-			<grant type="Spell" id="ID_PHB24_SPELL_MISTY_STEP" level="3" spellcasting="Warlock" allowReplace="false" />
-			<grant type="Spell" id="ID_PHB24_SPELL_PHANTASMAL_FORCE" level="3" spellcasting="Warlock" allowReplace="false" />
-			<grant type="Spell" id="ID_PHB24_SPELL_BLINK" level="5" spellcasting="Warlock" allowReplace="false" />
-			<grant type="Spell" id="ID_PHB24_SPELL_PLANT_GROWTH" level="5" spellcasting="Warlock" allowReplace="false" />
-			<grant type="Spell" id="ID_PHB24_SPELL_DOMINATE_BEAST" level="7" spellcasting="Warlock" allowReplace="false" />
-			<grant type="Spell" id="ID_PHB24_SPELL_GREATER_INVISIBILITY" level="7" spellcasting="Warlock" allowReplace="false" />
-			<grant type="Spell" id="ID_PHB24_SPELL_DOMINATE_PERSON" level="9" spellcasting="Warlock" allowReplace="false" />
-			<grant type="Spell" id="ID_PHB24_SPELL_SEEMING" level="9" spellcasting="Warlock" allowReplace="false" /> -->
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_FAERIE_FIRE" level="3" spellcasting="Warlock" allowReplace="false" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_SLEEP" level="3" spellcasting="Warlock" allowReplace="false" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_CALM_EMOTIONS" level="3" spellcasting="Warlock" allowReplace="false" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_MISTY_STEP" level="3" spellcasting="Warlock" allowReplace="false" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_PHANTASMAL_FORCE" level="3" spellcasting="Warlock" allowReplace="false" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_BLINK" level="5" spellcasting="Warlock" allowReplace="false" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_PLANT_GROWTH" level="5" spellcasting="Warlock" allowReplace="false" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_DOMINATE_BEAST" level="7" spellcasting="Warlock" allowReplace="false" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_GREATER_INVISIBILITY" level="7" spellcasting="Warlock" allowReplace="false" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_DOMINATE_PERSON" level="9" spellcasting="Warlock" allowReplace="false" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_SEEMING" level="9" spellcasting="Warlock" allowReplace="false" />
 		</rules>
 	</element>
 	<element name="Level 3: Steps of the Fey" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_ARCHFEY_STEPS_OF_THE_FEY">

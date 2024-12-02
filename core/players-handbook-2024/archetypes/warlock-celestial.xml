@@ -4,7 +4,7 @@
 		<name>Celestial Patron</name>
 		<description>The Celestial Patron subclass from the Player’s Handbook 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
-		<update version="0.0.4">
+		<update version="0.0.5">
 			<file name="warlock-celestial.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/archetypes/warlock-celestial.xml" />
 		</update>
 	</info>
@@ -47,7 +47,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_LIGHT" level="3" spellcasting="Warlock" allowReplace="false" />
+			<!--<grant type="Spell" id="ID_PHB_SPELL_LIGHT" level="3" spellcasting="Warlock" allowReplace="false" />
 			<grant type="Spell" id="ID_PHB_SPELL_SACRED_FLAME" level="3" spellcasting="Warlock" allowReplace="false" />
 			<grant type="Spell" id="ID_PHB_SPELL_CURE_WOUNDS" level="3" spellcasting="Warlock" allowReplace="false" />
 			<grant type="Spell" id="ID_PHB_SPELL_GUIDING_BOLT" level="3" spellcasting="Warlock" allowReplace="false" />
@@ -58,20 +58,20 @@
 			<grant type="Spell" id="ID_PHB_SPELL_GUARDIAN_OF_FAITH" level="7" spellcasting="Warlock" allowReplace="false" />
 			<grant type="Spell" id="ID_PHB_SPELL_WALL_OF_FIRE" level="7" spellcasting="Warlock" allowReplace="false" />
 			<grant type="Spell" id="ID_PHB_SPELL_GREATER_RESTORATION" level="9" spellcasting="Warlock" allowReplace="false" />
-			<grant type="Spell" id="ID_WOTC_TCOE_SPELL_SUMMON_CELESTIAL" level="9" spellcasting="Warlock" allowReplace="false" />
+			<grant type="Spell" id="ID_WOTC_TCOE_SPELL_SUMMON_CELESTIAL" level="9" spellcasting="Warlock" allowReplace="false" />-->
 
-			<!--<grant type="Spell" id="ID_PHB24_SPELL_LIGHT" level="3" spellcasting="Warlock" allowReplace="false" />
-			<grant type="Spell" id="ID_PHB24_SPELL_SACRED_FLAME" level="3" spellcasting="Warlock" allowReplace="false" />
-			<grant type="Spell" id="ID_PHB24_SPELL_CURE_WOUNDS" level="3" spellcasting="Warlock" allowReplace="false" />
-			<grant type="Spell" id="ID_PHB24_SPELL_GUIDING_BOLT" level="3" spellcasting="Warlock" allowReplace="false" />
-			<grant type="Spell" id="ID_PHB24_SPELL_AID" level="3" spellcasting="Warlock" allowReplace="false" />
-			<grant type="Spell" id="ID_PHB24_SPELL_LESSER_RESTORATION" level="3" spellcasting="Warlock" allowReplace="false" />
-			<grant type="Spell" id="ID_PHB24_SPELL_DAYLIGHT" level="5" spellcasting="Warlock" allowReplace="false" />
-			<grant type="Spell" id="ID_PHB24_SPELL_REVIVIFY" level="5" spellcasting="Warlock" allowReplace="false" />
-			<grant type="Spell" id="ID_PHB24_SPELL_GUARDIAN_OF_FAITH" level="7" spellcasting="Warlock" allowReplace="false" />
-			<grant type="Spell" id="ID_PHB24_SPELL_WALL_OF_FIRE" level="7" spellcasting="Warlock" allowReplace="false" />
-			<grant type="Spell" id="ID_PHB24_SPELL_GREATER_RESTORATION" level="9" spellcasting="Warlock" allowReplace="false" />
-			<grant type="Spell" id="ID_PHB24_SPELL_SUMMON_CELESTIAL" level="9" spellcasting="Warlock" allowReplace="false" /> -->
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_LIGHT" level="3" spellcasting="Warlock" allowReplace="false" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_SACRED_FLAME" level="3" spellcasting="Warlock" allowReplace="false" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_CURE_WOUNDS" level="3" spellcasting="Warlock" allowReplace="false" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_GUIDING_BOLT" level="3" spellcasting="Warlock" allowReplace="false" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_AID" level="3" spellcasting="Warlock" allowReplace="false" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_LESSER_RESTORATION" level="3" spellcasting="Warlock" allowReplace="false" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_DAYLIGHT" level="5" spellcasting="Warlock" allowReplace="false" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_REVIVIFY" level="5" spellcasting="Warlock" allowReplace="false" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_GUARDIAN_OF_FAITH" level="7" spellcasting="Warlock" allowReplace="false" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_WALL_OF_FIRE" level="7" spellcasting="Warlock" allowReplace="false" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_GREATER_RESTORATION" level="9" spellcasting="Warlock" allowReplace="false" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_SUMMON_CELESTIAL" level="9" spellcasting="Warlock" allowReplace="false" />
 		</rules>
 	</element>
 	<element name="Level 3: Healing Light" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_CELESTIAL_HEALING_LIGHT">

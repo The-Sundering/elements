@@ -4,7 +4,7 @@
 		<name>Clockwork Sorcery</name>
 		<description>The Clockwork Sorcery subclass from the Player’s Handbook 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
-		<update version="0.0.5">
+		<update version="0.0.6">
 			<file name="sorcerer-clockwork.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/archetypes/sorcerer-clockwork.xml" />
 		</update>
 	</info>
@@ -59,7 +59,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_ALARM" level="3" spellcasting="Sorcerer" allowReplace="false" />
+			<!--<grant type="Spell" id="ID_PHB_SPELL_ALARM" level="3" spellcasting="Sorcerer" allowReplace="false" />
 			<grant type="Spell" id="ID_PHB_SPELL_PROTECTION_FROM_EVIL_AND_GOOD" level="3" spellcasting="Sorcerer" allowReplace="false" />
 			<grant type="Spell" id="ID_PHB_SPELL_AID" level="3" spellcasting="Sorcerer" allowReplace="false" />
 			<grant type="Spell" id="ID_PHB_SPELL_LESSER_RESTORATION" level="3" spellcasting="Sorcerer" allowReplace="false" />
@@ -68,9 +68,9 @@
 			<grant type="Spell" id="ID_PHB_SPELL_FREEDOM_OF_MOVEMENT" level="7" spellcasting="Sorcerer" allowReplace="false" />
 			<grant type="Spell" id="ID_WOTC_TCOE_SPELL_SUMMON_CONSTRUCT" level="7" spellcasting="Sorcerer" allowReplace="false" />
 			<grant type="Spell" id="ID_PHB_SPELL_GREATER_RESTORATION" level="9" spellcasting="Sorcerer" allowReplace="false" />
-			<grant type="Spell" id="ID_PHB_SPELL_WALL_OF_FORCE" level="9" spellcasting="Sorcerer" allowReplace="false" />
+			<grant type="Spell" id="ID_PHB_SPELL_WALL_OF_FORCE" level="9" spellcasting="Sorcerer" allowReplace="false" />-->
 
-			<!--<grant type="Spell" id="ID_WOTC_PHB24_SPELL_ALARM" level="3" spellcasting="Sorcerer" allowReplace="false" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_ALARM" level="3" spellcasting="Sorcerer" allowReplace="false" />
 			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_PROTECTION_FROM_EVIL_AND_GOOD" level="3" spellcasting="Sorcerer" allowReplace="false" />
 			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_AID" level="3" spellcasting="Sorcerer" allowReplace="false" />
 			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_LESSER_RESTORATION" level="3" spellcasting="Sorcerer" allowReplace="false" />
@@ -79,7 +79,7 @@
 			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_FREEDOM_OF_MOVEMENT" level="7" spellcasting="Sorcerer" allowReplace="false" />
 			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_SUMMON_CONSTRUCT" level="7" spellcasting="Sorcerer" allowReplace="false" />
 			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_GREATER_RESTORATION" level="9" spellcasting="Sorcerer" allowReplace="false" />
-			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_WALL_OF_FORCE" level="9" spellcasting="Sorcerer" allowReplace="false" />-->
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_WALL_OF_FORCE" level="9" spellcasting="Sorcerer" allowReplace="false" />
 		</rules>
 	</element>
 	<element name="Level 3: Restore Balance" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_SORCERER_CLOCKWORK_RESTORE_BALANCE">
@@ -140,6 +140,7 @@
 	<element name="Clockwork Cavalcade Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_24_CLOCKWORK_CLOCKWORK_CAVALCADE" />
 
 	<!--Spell Appends-->
+<!--
 	<append id="ID_PHB_SPELL_AID">
 		<supports>Aid</supports>
 	</append>
@@ -157,9 +158,9 @@
 	</append>
 	<append id="ID_PHB_SPELL_WALL_OF_FORCE">
 		<supports>Wall of Force</supports>
-	</append>
+	</append>-->
 	
-<!--
+
 	<append id="ID_WOTC_PHB24_SPELL_ALARM">
 		<supports>Aid</supports>
 	</append>
@@ -189,6 +190,6 @@
 	</append>
 	<append id="ID_WOTC_PHB24_SPELL_WALL_OF_FORCE">
 		<supports>Wall of Force</supports>
-	</append>-->
+	</append>
   
 </elements>

@@ -4,7 +4,7 @@
 		<name>Circle of the Moon</name>
 		<description>The Circle of the Moon subclass from the Player’s Handbook 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
-		<update version="0.0.3">
+		<update version="0.0.4">
 			<file name="druid-moon.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/archetypes/druid-moon.xml" />
 		</update>
 	</info>
@@ -51,17 +51,17 @@
 			<description>You can cast your Circle spells while in a Wild Shape form.</description>
 		</sheet>
 		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_CURE_WOUNDS" level="3" spellcasting="Druid" prepared="true" />
+			<!--<grant type="Spell" id="ID_PHB_SPELL_CURE_WOUNDS" level="3" spellcasting="Druid" prepared="true" />
 			<grant type="Spell" id="ID_PHB_SPELL_MOONBEAM" level="3" spellcasting="Druid" prepared="true" />
 			<grant type="Spell" id="ID_PHB_SPELL_CONJURE_ANIMALS" level="5" spellcasting="Druid" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_MASS_CURE_WOUNDS" level="9" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_MASS_CURE_WOUNDS" level="9" spellcasting="Druid" prepared="true" />-->
 
-		<!--<grant type="Spell" id="ID_PHB24_SPELL_STARRY_WISP" level="3" spellcasting="Druid" />
-			<grant type="Spell" id="ID_PHB24_SPELL_CURE_WOUNDS" level="3" spellcasting="Druid" prepared="true" />
-			<grant type="Spell" id="ID_PHB24_SPELL_MOONBEAM" level="3" spellcasting="Druid" prepared="true" />
-			<grant type="Spell" id="ID_PHB24_SPELL_CONJURE_ANIMALS" level="5" spellcasting="Druid" prepared="true" />
-			<grant type="Spell" id="ID_PHB24_SPELL_FOUNT_OF_MOONLIGHT" level="9" spellcasting="Druid" prepared="true" />
-			<grant type="Spell" id="ID_PHB24_SPELL_MASS_CURE_WOUNDS" level="9" spellcasting="Druid" prepared="true" />-->
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_STARRY_WISP" level="3" spellcasting="Druid" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_CURE_WOUNDS" level="3" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_MOONBEAM" level="3" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_CONJURE_ANIMALS" level="5" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_FOUNT_OF_MOONLIGHT" level="9" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_MASS_CURE_WOUNDS" level="9" spellcasting="Druid" prepared="true" />
 		</rules>
 	</element>
 	<element name="Level 3: Circle Forms" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_MOON_CIRCLE_FORMS">

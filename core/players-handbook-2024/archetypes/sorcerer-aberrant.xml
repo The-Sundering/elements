@@ -4,7 +4,7 @@
 		<name>Aberrant Sorcery</name>
 		<description>The Aberrant Sorcery subclass from the Player’s Handbook 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
-		<update version="0.0.4">
+		<update version="0.0.5">
 			<file name="sorcerer-aberrant.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/archetypes/sorcerer-aberrant.xml" />
 		</update>
 	</info>
@@ -49,7 +49,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<grant type="Spell" id="ID_WOTC_TCOE_SPELL_MIND_SLIVER" level="3" spellcasting="Sorcerer" allowReplace="false" />
+			<!--<grant type="Spell" id="ID_WOTC_TCOE_SPELL_MIND_SLIVER" level="3" spellcasting="Sorcerer" allowReplace="false" />
 			<grant type="Spell" id="ID_PHB_SPELL_ARMS_OF_HADAR" level="3" spellcasting="Sorcerer" allowReplace="false" />
 			<grant type="Spell" id="ID_PHB_SPELL_DISSONANT_WHISPERS" level="3" spellcasting="Sorcerer" allowReplace="false" />
 			<grant type="Spell" id="ID_PHB_SPELL_CALM_EMOTIONS" level="3" spellcasting="Sorcerer" allowReplace="false" />
@@ -59,9 +59,9 @@
 			<grant type="Spell" id="ID_PHB_SPELL_EVARDS_BLACK_TENTACLES" level="7" spellcasting="Sorcerer" allowReplace="false" />
 			<grant type="Spell" id="ID_WOTC_TCOE_SPELL_SUMMON_ABERRATION" level="7" spellcasting="Sorcerer" allowReplace="false" />
 			<grant type="Spell" id="ID_PHB_SPELL_RARYS_TELEPATHIC_BOND" level="9" spellcasting="Sorcerer" allowReplace="false" />
-			<grant type="Spell" id="ID_PHB_SPELL_TELEKINESIS" level="9" spellcasting="Sorcerer" allowReplace="false" />
+			<grant type="Spell" id="ID_PHB_SPELL_TELEKINESIS" level="9" spellcasting="Sorcerer" allowReplace="false" />-->
 
-			<!--<grant type="Spell" id="ID_WOTC_PHB24_SPELL_MIND_SLIVER" level="3" spellcasting="Sorcerer" allowReplace="false" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_MIND_SLIVER" level="3" spellcasting="Sorcerer" allowReplace="false" />
 			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_ARMS_OF_HADAR" level="3" spellcasting="Sorcerer" allowReplace="false" />
 			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_DISSONANT_WHISPERS" level="3" spellcasting="Sorcerer" allowReplace="false" />
 			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_CALM_EMOTIONS" level="3" spellcasting="Sorcerer" allowReplace="false" />
@@ -71,7 +71,7 @@
 			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_EVARDS_BLACK_TENTACLES" level="7" spellcasting="Sorcerer" allowReplace="false" />
 			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_SUMMON_ABERRATION" level="7" spellcasting="Sorcerer" allowReplace="false" />
 			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_RARYS_TELEPATHIC_BOND" level="9" spellcasting="Sorcerer" allowReplace="false" />
-			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_TELEKINESIS" level="9" spellcasting="Sorcerer" allowReplace="false" />-->
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_TELEKINESIS" level="9" spellcasting="Sorcerer" allowReplace="false" />
 		</rules>
 	</element>
 	<element name="Level 3: Telepathic Speech" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_SORCERER_ABERRANT_TELEPATHIC_SPEECH">
@@ -159,6 +159,7 @@
 	<element name="Warping Implosion Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_24_ABERRANT_WARPING_IMPLOSION" />
 
 	<!--Spell Appends-->
+<!--
 	<append id="ID_PHB_SPELL_ARMS_OF_HADAR">
 		<supports>Arms of Hadar</supports>
 	</append>
@@ -182,9 +183,10 @@
 	</append>
 	<append id="ID_PHB_SPELL_TELEKINESIS">
 		<supports>Telekinesis</supports>
-	</append>	
+	</append>
+-->
 
-	<!--<append id="ID_WOTC_PHB24_SPELL_MIND_SLIVER">
+	<append id="ID_WOTC_PHB24_SPELL_MIND_SLIVER">
 		<supports>Mind Sliver</supports>
 	</append>
 	<append id="ID_WOTC_PHB24_SPELL_ARMS_OF_HADAR">
@@ -216,5 +218,5 @@
 	</append>
 	<append id="ID_WOTC_PHB24_SPELL_TELEKINESIS">
 		<supports>Telekinesis</supports>
-	</append> -->
+	</append>
 </elements>

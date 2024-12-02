@@ -5,7 +5,7 @@
 		<description>The Bard class from the Player’s Handbook 2024.</description>
 
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
-		<update version="0.0.6">
+		<update version="0.0.7">
 			<file name="class-bard.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/classes/class-bard.xml" />
 		</update>
 	</info>
@@ -292,10 +292,10 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<select type="Class Feature" name="Improvement Option (Bard 4)" supports="Improvement Option,Bard,4" level="4" />
-			<select type="Class Feature" name="Improvement Option (Bard 8)" supports="Improvement Option,Bard,8" level="8" />
-			<select type="Class Feature" name="Improvement Option (Bard 12)" supports="Improvement Option,Bard,12" level="12" />
-			<select type="Class Feature" name="Improvement Option (Bard 16)" supports="Improvement Option,Bard,16" level="16" />
+			<select type="Feat" name="Ability Score Improvement (Bard 4)" supports="!Boon" level="4" />
+			<select type="Feat" name="Ability Score Improvement (Bard 8)" supports="!Boon" level="8" />
+			<select type="Feat" name="Ability Score Improvement (Bard 12)" supports="!Boon" level="12" />
+			<select type="Feat" name="Ability Score Improvement (Bard 16)" supports="!Boon" level="16" />
 		</rules>
 	</element>
 
@@ -353,8 +353,7 @@
 		<sheet display="false">
 		</sheet>
 		<rules>
-			<select type="Class Feature" name="Epic Boon" supports="Improvement Option,Bard,19" />
-			
+			<select type="Feat" name="Epic Boon (Bard 19)" level="19" />
 		</rules>
 	</element>
 
@@ -367,11 +366,11 @@
 			<description>You always have the Power Word Heal and Power Word Kill spells prepared. When you cast either spell, you can target a second creature with it if that creature is within 10 feet of the first target.</description>
 		</sheet>
 		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_POWER_WORD_HEAL" level="20" spellcasting="Bard" allowReplace="false" />
-			<grant type="Spell" id="ID_PHB_SPELL_POWER_WORD_KILL" level="20" spellcasting="Bard" allowReplace="false" />
+			<!--<grant type="Spell" id="ID_PHB_SPELL_POWER_WORD_HEAL" level="20" spellcasting="Bard" allowReplace="false" />
+			<grant type="Spell" id="ID_PHB_SPELL_POWER_WORD_KILL" level="20" spellcasting="Bard" allowReplace="false" />-->
 
-		<!--<grant type="Spell" id="ID_WOTC_PHB24_SPELL_POWER_WORD_HEAL" level="20" spellcasting="Bard" allowReplace="false" />
-			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_POWER_WORD_KILL" level="20" spellcasting="Bard" allowReplace="false" />-->
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_POWER_WORD_HEAL" level="20" spellcasting="Bard" allowReplace="false" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_POWER_WORD_KILL" level="20" spellcasting="Bard" allowReplace="false" />
 		</rules>
 	</element>
 

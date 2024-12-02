@@ -5,7 +5,7 @@
 		<description>Eldritch Invocations for the Warlock Class from the Player’s Handbook 2024.</description>
 
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="eldritch-invocations.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/classes/eldritch-invocations.xml" />
 		</update>
 	</info>
@@ -20,7 +20,9 @@
 			<p>Choose one of your known Warlock cantrips that deals damage. You can add your Charisma modifier to that spell’s damage rolls.</p>
 			<p class="indent"><em><strong>Repeatable.</strong></em> You can gain this invocation more than once. Each time you do so, choose a different eligible cantrip.</p>
 		</description>
-		<sheet display="false" />
+		<sheet>
+			<description>You can add your Charisma modifier to your chosen spell’s damage rolls.</description>
+		</sheet>
 		<rules>
 			<stat name="agonizing blast:damage" value="charisma:modifier" bonus="base" />
 			<select type="Class Feature" name="Agonizing Blast Cantrip" supports="Agonizing Blast Cantrip" number="1" />
@@ -36,7 +38,9 @@
 			<p>Choose one of your known Warlock cantrips that deals damage. You can add your Charisma modifier to that spell’s damage rolls.</p>
 			<p class="indent"><em><strong>Repeatable.</strong></em> You can gain this invocation more than once. Each time you do so, choose a different eligible cantrip.</p>
 		</description>
-		<sheet display="false" />
+		<sheet alt="Agonizing Blast (2nd cantrip)">
+			<description>You can add your Charisma modifier to your chosen spell’s damage rolls.</description>
+		</sheet>
 		<rules>
 			<stat name="agonizing blast:damage" value="charisma:modifier" bonus="base" />
 			<select type="Class Feature" name="Agonizing Blast Cantrip" supports="Agonizing Blast Cantrip" number="1" />
@@ -52,7 +56,9 @@
 			<p>Choose one of your known Warlock cantrips that deals damage. You can add your Charisma modifier to that spell’s damage rolls.</p>
 			<p class="indent"><em><strong>Repeatable.</strong></em> You can gain this invocation more than once. Each time you do so, choose a different eligible cantrip.</p>
 		</description>
-		<sheet display="false" />
+		<sheet alt="Agonizing Blast (3rd cantrip)">
+			<description>You can add your Charisma modifier to your chosen spell’s damage rolls.</description>
+		</sheet>
 		<rules>
 			<stat name="agonizing blast:damage" value="charisma:modifier" bonus="base" />
 			<select type="Class Feature" name="Agonizing Blast Cantrip" supports="Agonizing Blast Cantrip" number="1" />
@@ -68,7 +74,9 @@
 			<p>Choose one of your known Warlock cantrips that deals damage. You can add your Charisma modifier to that spell’s damage rolls.</p>
 			<p class="indent"><em><strong>Repeatable.</strong></em> You can gain this invocation more than once. Each time you do so, choose a different eligible cantrip.</p>
 		</description>
-		<sheet display="false" />
+		<sheet alt="Agonizing Blast (4th cantrip)">
+			<description>You can add your Charisma modifier to your chosen spell’s damage rolls.</description>
+		</sheet>
 		<rules>
 			<stat name="agonizing blast:damage" value="charisma:modifier" bonus="base" />
 			<select type="Class Feature" name="Agonizing Blast Cantrip" supports="Agonizing Blast Cantrip" number="1" />
@@ -84,7 +92,9 @@
 			<p>Choose one of your known Warlock cantrips that deals damage. You can add your Charisma modifier to that spell’s damage rolls.</p>
 			<p class="indent"><em><strong>Repeatable.</strong></em> You can gain this invocation more than once. Each time you do so, choose a different eligible cantrip.</p>
 		</description>
-		<sheet display="false" />
+		<sheet alt="Agonizing Blast (5th cantrip)">
+			<description>You can add your Charisma modifier to your chosen spell’s damage rolls.</description>
+		</sheet>
 		<rules>
 			<stat name="agonizing blast:damage" value="charisma:modifier" bonus="base" />
 			<select type="Class Feature" name="Agonizing Blast Cantrip" supports="Agonizing Blast Cantrip" number="1" />
@@ -96,16 +106,16 @@
 		<description>
 			<p>You can cast <i>Mage Armor</i> on yourself without expending a spell slot.</p>
 			<div class="reference">
-				<div element="ID_PHB_SPELL_MAGE_ARMOR" />
-				<!--<div element="ID_PHB24_SPELL_MAGE_ARMOR" />-->
+				<!--<div element="ID_PHB_SPELL_MAGE_ARMOR" />-->
+				<div element="ID_WOTC_PHB24_SPELL_MAGE_ARMOR" />
 			</div>
 		</description>
 		<sheet>
 			<description>You can cast Mage Armor on yourself without expending a spell slot.</description>
 		</sheet>
 		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_MAGE_ARMOR" spellcasting="Warlock Invocations"/>
-			<!--<grant type="Spell" id="ID_PHB24_SPELL_MAGE_ARMOR" spellcasting="Warlock Invocations"/>-->
+			<!--<grant type="Spell" id="ID_PHB_SPELL_MAGE_ARMOR" spellcasting="Warlock Invocations"/>-->
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_MAGE_ARMOR" spellcasting="Warlock Invocations"/>
 		</rules>
 	</element>
 	<element name="Ascendant Step" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_ASCENDANT_STEP">
@@ -116,16 +126,16 @@
 			<p><em>Prerequisite: Level 5+ Warlock</em></p>
 			<p>You can cast <i>Levitate</i> on yourself without expending a spell slot.</p>
 			<div class="reference">
-				<div element="ID_PHB_SPELL_LEVITATE" />
-				<!--<div element="ID_PHB24_SPELL_LEVITATE" />-->
+				<!--<div element="ID_PHB_SPELL_LEVITATE" />-->
+				<div element="ID_WOTC_PHB24_SPELL_LEVITATE" />
 			</div>
 		</description>
 		<sheet>
 			<description>You can cast Levitate on yourself without expending a spell slot.</description>
 		</sheet>
 		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_LEVITATE" spellcasting="Warlock Invocations"/>
-			<!--<grant type="Spell" id="ID_PHB24_SPELL_LEVITATE" spellcasting="Warlock Invocations"/>-->
+			<!--<grant type="Spell" id="ID_PHB_SPELL_LEVITATE" spellcasting="Warlock Invocations"/>-->
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_LEVITATE" spellcasting="Warlock Invocations"/>
 		</rules>
 	</element>
 	<element name="Devil’s Sight" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_DEVILS_SIGHT">
@@ -190,7 +200,9 @@
 			<p>Choose one of your known Warlock cantrips that deals damage and has a range of 10+ feet. When you cast that spell, its range increases by a number of feet equal to 30 times your Warlock level.</p>
 			<p class="indent"><em><strong>Repeatable.</strong></em> You can gain this invocation more than once. Each time you do so, choose a different eligible cantrip.</p>
 		</description>
-		<sheet display="false" />
+		<sheet>
+			<description>Your chosen spell’s range is increased by {{eldritch spear:range}} feet.</description>
+		</sheet>
 		<rules>
 			<stat name="eldritch spear:first multiple" value="level:warlock" />
 			<stat name="eldritch spear:first multiple" value="level:warlock" />
@@ -218,7 +230,9 @@
 			<p>Choose one of your known Warlock cantrips that deals damage and has a range of 10+ feet. When you cast that spell, its range increases by a number of feet equal to 30 times your Warlock level.</p>
 			<p class="indent"><em><strong>Repeatable.</strong></em> You can gain this invocation more than once. Each time you do so, choose a different eligible cantrip.</p>
 		</description>
-		<sheet display="false" />
+		<sheet alt="Eldritch Spear (2nd cantrip)">
+			<description>Your chosen spell’s range is increased by {{eldritch spear:range}} feet.</description>
+		</sheet>
 		<rules>
 			<select type="Class Feature" name="Eldritch Spear Cantrip" supports="Eldritch Spear Cantrip" number="1" />
 		</rules>
@@ -233,7 +247,9 @@
 			<p>Choose one of your known Warlock cantrips that deals damage and has a range of 10+ feet. When you cast that spell, its range increases by a number of feet equal to 30 times your Warlock level.</p>
 			<p class="indent"><em><strong>Repeatable.</strong></em> You can gain this invocation more than once. Each time you do so, choose a different eligible cantrip.</p>
 		</description>
-		<sheet display="false" />
+		<sheet alt="Eldritch Spear (3rd cantrip)">
+			<description>Your chosen spell’s range is increased by {{eldritch spear:range}} feet.</description>
+		</sheet>
 		<rules>
 			<select type="Class Feature" name="Eldritch Spear Cantrip" supports="Eldritch Spear Cantrip" number="1" />
 		</rules>
@@ -248,7 +264,9 @@
 			<p>Choose one of your known Warlock cantrips that deals damage and has a range of 10+ feet. When you cast that spell, its range increases by a number of feet equal to 30 times your Warlock level.</p>
 			<p class="indent"><em><strong>Repeatable.</strong></em> You can gain this invocation more than once. Each time you do so, choose a different eligible cantrip.</p>
 		</description>
-		<sheet display="false" />
+		<sheet alt="Eldritch Spear (4th cantrip)">
+			<description>Your chosen spell’s range is increased by {{eldritch spear:range}} feet.</description>
+		</sheet>
 		<rules>
 			<select type="Class Feature" name="Eldritch Spear Cantrip" supports="Eldritch Spear Cantrip" number="1" />
 		</rules>
@@ -263,7 +281,9 @@
 			<p>Choose one of your known Warlock cantrips that deals damage and has a range of 10+ feet. When you cast that spell, its range increases by a number of feet equal to 30 times your Warlock level.</p>
 			<p class="indent"><em><strong>Repeatable.</strong></em> You can gain this invocation more than once. Each time you do so, choose a different eligible cantrip.</p>
 		</description>
-		<sheet display="false" />
+		<sheet alt="Eldritch Spear (5th cantrip)">
+			<description>Your chosen spell’s range is increased by {{eldritch spear:range}} feet.</description>
+		</sheet>
 		<rules>
 			<select type="Class Feature" name="Eldritch Spear Cantrip" supports="Eldritch Spear Cantrip" number="1" />
 		</rules>
@@ -277,16 +297,16 @@
 			<p><em>Prerequisite: Level 2+ Warlock</em></p>
 			<p>You can cast <i>False Life</i> on yourself without expending a spell slot. When you cast the spell with this feature, you don’t roll the die for the Temporary Hit Points; you automatically get the highest number on the die.</p>
 			<div class="reference">
-				<div element="ID_PHB_SPELL_FALSE_LIFE" />
-				<!--<div element="ID_PHB24_SPELL_FALSE_LIFE" />-->
+				<!--<div element="ID_PHB_SPELL_FALSE_LIFE" />-->
+				<div element="ID_WOTC_PHB24_SPELL_FALSE_LIFE" />
 			</div>
 		</description>
 		<sheet>
 			<description>You can cast False Life on yourself without expending a spell slot, and you always gain the maximum amount of Temporary Hit Points possible.</description>
 		</sheet>
 		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_FALSE_LIFE" spellcasting="Warlock Invocations" />
-			<!--<grant type="Spell" id="ID_PHB24_SPELL_FALSE_LIFE" spellcasting="Warlock Invocations" />-->
+			<!--<grant type="Spell" id="ID_PHB_SPELL_FALSE_LIFE" spellcasting="Warlock Invocations" />-->
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_FALSE_LIFE" spellcasting="Warlock Invocations" />
 		</rules>
 	</element>
 	<element name="Gaze of Two Minds" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_GAZE_OF_TWO_MINDS">
@@ -316,8 +336,8 @@
 			<description>You can cast Water Breathing once without expending a spell slot.</description>
 		</sheet>
 		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_WATER_BREATHING" spellcasting="Warlock Invocations" />
-			<!--<grant type="Spell" id="ID_PHB24_SPELL_WATER_BREATHING" spellcasting="Warlock Invocations" />-->
+			<!--<grant type="Spell" id="ID_PHB_SPELL_WATER_BREATHING" spellcasting="Warlock Invocations" />-->
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_WATER_BREATHING" spellcasting="Warlock Invocations" />
 		</rules>
 	</element>
 	<element name="Gift of the Protectors" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_GIFT_OF_THE_PROTECTORS">
@@ -373,7 +393,7 @@
 			<description>You gain one Origin feat of your choice.</description>
 		</sheet>
 		<rules>
-			<select type="Feat" name="Origin Feat (Lessons of the First Ones)" supports="Origin Feat" number="1" />
+			<select type="Feat" name="Origin Feat (Lessons of the First Ones)" supports="Origin" number="1" />
 		</rules>
 	</element>
 	<element name="Lifedrinker" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_LIFEDRINKER">
@@ -396,16 +416,16 @@
 			<p><em>Prerequisites: Level 2+ Warlock</em></p>
 			<p>You can cast <i>Disguise Self</i> without expending a spell slot.</p>
 			<div class="reference">
-				<div element="ID_PHB_SPELL_DISGUISE_SELF" />
-			<!--<div element="ID_PHB24_SPELL_DISGUISE_SELF" />-->
+			<!--<div element="ID_PHB_SPELL_DISGUISE_SELF" />-->
+				<div element="ID_WOTC_PHB24_SPELL_DISGUISE_SELF" />
 			</div>
 		</description>
 		<sheet>
 			<description>You can cast Disguise Self without expending a spell slot.</description>
 		</sheet>
 		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_DISGUISE_SELF" spellcasting="Warlock Invocations" />
-			<!--<grant type="Spell" id="ID_PHB24_SPELL_DISGUISE_SELF" spellcasting="Warlock Invocations" />-->
+			<!--<grant type="Spell" id="ID_PHB_SPELL_DISGUISE_SELF" spellcasting="Warlock Invocations" />-->
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_DISGUISE_SELF" spellcasting="Warlock Invocations" />
 		</rules>
 	</element>
 	<element name="Master of Myriad Forms" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_MASTER_OF_MYRIAD_FORMS">
@@ -416,16 +436,16 @@
 			<p><em>Prerequisites: Level 5+ Warlock</em></p>
 			<p>You can cast <em>Alter Self</em> without expending a spell slot.</p>
 			<div class="reference">
-				<div element="ID_PHB_SPELL_ALTER_SELF" />
-				<!--<div element="ID_PHB24_SPELL_ALTER_SELF" />-->
+				<!--<div element="ID_PHB_SPELL_ALTER_SELF" />-->
+				<div element="ID_WOTC_PHB24_SPELL_ALTER_SELF" />
 			</div>
 		</description>
 		<sheet>
 			<description>You can cast Alter Self without expending a spell slot.</description>
 		</sheet>
 		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_ALTER_SELF" spellcasting="Warlock Invocations" />
-			<!--<grant type="Spell" id="ID_PHB24_SPELL_ALTER_SELF" spellcasting="Warlock Invocations" />-->
+			<!--<grant type="Spell" id="ID_PHB_SPELL_ALTER_SELF" spellcasting="Warlock Invocations" />-->
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_ALTER_SELF" spellcasting="Warlock Invocations" />
 		</rules>
 	</element>
 	<element name="Misty Visions" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_MISTY_VISIONS">
@@ -436,16 +456,16 @@
 			<p><em>Prerequisites: Level 2+ Warlock</em></p>
 			<p>You can cast <em>Silent Image</em> without expending a spell slot.</p>
 			<div class="reference">
-				<div element="ID_PHB_SPELL_SILENT_IMAGE" />
-				<!--<div element="ID_PHB24_SPELL_SILENT_IMAGE" />-->
+				<!--<div element="ID_PHB_SPELL_SILENT_IMAGE" />-->
+				<div element="ID_WOTC_PHB24_SPELL_SILENT_IMAGE" />
 			</div>
 		</description>
 		<sheet>
 			<description>You can cast Silent Image without expending a spell slot.</description>
 		</sheet>
 		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_SILENT_IMAGE" spellcasting="Warlock Invocations" />
-			<!--<grant type="Spell" id="ID_PHB24_SPELL_SILENT_IMAGE" spellcasting="Warlock Invocations" />-->
+			<!--<grant type="Spell" id="ID_PHB_SPELL_SILENT_IMAGE" spellcasting="Warlock Invocations" />-->
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_SILENT_IMAGE" spellcasting="Warlock Invocations" />
 		</rules>
 	</element>
 	<element name="One with Shadows" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_ONE_WITH_SHADOWS">
@@ -456,16 +476,16 @@
 			<p><em>Prerequisites: Level 5+ Warlock</em></p>
 			<p>While you’re in an area of Dim Light or Darkness, you can cast <i>Invisibility</i> on yourself without expending a spell slot.</p>
 			<div class="reference">
-				<div element="ID_PHB_SPELL_INVISIBILITY" />
-				<!--<div element="ID_PHB24_SPELL_INVISIBILITY" />-->
+				<!--<div element="ID_PHB_SPELL_INVISIBILITY" />-->
+				<div element="ID_WOTC_PHB24_SPELL_INVISIBILITY" />
 			</div>
 		</description>
 		<sheet action="Action">
 			<description>While you’re in an area of Dim Light or Darkness, you can cast Invisibility on yourself without expending a spell slot.</description>
 		</sheet>
 		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_INVISIBILITY" spellcasting="Warlock Invocations" />
-			<!--<grant type="Spell" id="ID_PHB24_SPELL_INVISIBILITY" spellcasting="Warlock Invocations" />-->
+			<!--<grant type="Spell" id="ID_PHB_SPELL_INVISIBILITY" spellcasting="Warlock Invocations" />-->
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_INVISIBILITY" spellcasting="Warlock Invocations" />
 		</rules>
 	</element>
 	<element name="Otherworldly Leap" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_OTHERWORLDLY_LEAP">
@@ -476,16 +496,16 @@
 			<p><em>Prerequisites: Level 2+ Warlock</em></p>
 			<p>You can cast <em>Jump</em> on yourself without expending a spell slot.</p>
 			<div class="reference">
-				<div element="ID_PHB_SPELL_JUMP" />
-				<!--<div element="ID_PHB24_SPELL_JUMP" />-->
+				<!--<div element="ID_PHB_SPELL_JUMP" />-->
+				<div element="ID_WOTC_PHB24_SPELL_JUMP" />
 			</div>
 		</description>
 		<sheet>
 			<description>You can cast Jump on yourself without expending a spell slot.</description>
 		</sheet>
 		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_JUMP" spellcasting="Warlock Invocations" />
-			<!--<grant type="Spell" id="ID_PHB24_SPELL_JUMP" spellcasting="Warlock Invocations" />-->
+			<!--<grant type="Spell" id="ID_PHB_SPELL_JUMP" spellcasting="Warlock Invocations" />-->
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_JUMP" spellcasting="Warlock Invocations" />
 		</rules>
 	</element>
 
@@ -509,8 +529,8 @@
 			<p class="indent">When you cast the spell, you choose one of the normal forms for your familiar or one of the following special forms: <b>Imp</b>, <b>Pseudodragon</b>, <b>Quasit</b>, <b>Skeleton</b>, <b>Slaad Tadpole</b>, <b>Sphinx of Wonder</b>, <b>Sprite</b>, or <b>Venomous Snake</b> (see appendix B for the familiar’s stat block).</p>
 			<p class="indent">Additionally, when you take the Attack action, you can forgo one of your own attacks to allow your familiar to make one attack of its own with its Reaction.</p>
 			<div class="reference">
-				<div element="ID_PHB_SPELL_FIND_FAMILIAR" />
-				<!--<div element="ID_PHB24_SPELL_FIND_FAMILIAR" />-->
+				<!--<div element="ID_PHB_SPELL_FIND_FAMILIAR" />-->
+				<div element="ID_WOTC_PHB24_SPELL_FIND_FAMILIAR" />
 			</div>
 		</description>
 		<sheet>
@@ -518,8 +538,8 @@
 			When you take the Attack action, you can forgo one of your own attacks to allow your familiar to make one attack of its own with its Reaction.</description>
 		</sheet>
 		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_FIND_FAMILIAR" spellcasting="Warlock Invocations" />
-			<!--<grant type="Spell" id="ID_PHB24_SPELL_FIND_FAMILIAR" spellcasting="Warlock Invocations" />-->
+			<!--<grant type="Spell" id="ID_PHB_SPELL_FIND_FAMILIAR" spellcasting="Warlock Invocations" />-->
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_FIND_FAMILIAR" spellcasting="Warlock Invocations" />
 			<select type="Companion" name="Pact of the Chain Familiar" supports="Variant Familiar" />
 		</rules>
 	</element>
@@ -549,7 +569,9 @@
 			<p>Choose one of your known Warlock cantrips that requires an attack roll. When you hit a Large or smaller creature with that cantrip, you can push the creature up to 10 feet straight away from you.</p>
 			<p class="indent"><em><strong>Repeatable.</strong></em> You can gain this invocation more than once. Each time you do so, choose a different eligible cantrip.</p>
 		</description>
-		<sheet display="false" />
+		<sheet>
+			<description>When you hit a Large or smaller creature with your chosen cantrip, you can push the creature up to 10 feet straight away from you.</description>
+		</sheet>
 		<rules>
 			<select type="Class Feature" name="Repelling Blast Cantrip" supports="Repelling Blast Cantrip" number="1" />
 		</rules>
@@ -563,7 +585,9 @@
 			<p>Choose one of your known Warlock cantrips that requires an attack roll. When you hit a Large or smaller creature with that cantrip, you can push the creature up to 10 feet straight away from you.</p>
 			<p class="indent"><em><strong>Repeatable.</strong></em> You can gain this invocation more than once. Each time you do so, choose a different eligible cantrip.</p>
 		</description>
-		<sheet display="false" />
+		<sheet alt="Repelling Blast (2nd cantrip)">
+			<description>When you hit a Large or smaller creature with your chosen cantrip, you can push the creature up to 10 feet straight away from you.</description>
+		</sheet>
 		<rules>
 			<select type="Class Feature" name="Repelling Blast Cantrip" supports="Repelling Blast Cantrip" number="1" />
 		</rules>
@@ -577,7 +601,9 @@
 			<p>Choose one of your known Warlock cantrips that requires an attack roll. When you hit a Large or smaller creature with that cantrip, you can push the creature up to 10 feet straight away from you.</p>
 			<p class="indent"><em><strong>Repeatable.</strong></em> You can gain this invocation more than once. Each time you do so, choose a different eligible cantrip.</p>
 		</description>
-		<sheet display="false" />
+		<sheet alt="Repelling Blast (3rd cantrip)">
+			<description>When you hit a Large or smaller creature with your chosen cantrip, you can push the creature up to 10 feet straight away from you.</description>
+		</sheet>
 		<rules>
 			<select type="Class Feature" name="Repelling Blast Cantrip" supports="Repelling Blast Cantrip" number="1" />
 		</rules>
@@ -591,7 +617,9 @@
 			<p>Choose one of your known Warlock cantrips that requires an attack roll. When you hit a Large or smaller creature with that cantrip, you can push the creature up to 10 feet straight away from you.</p>
 			<p class="indent"><em><strong>Repeatable.</strong></em> You can gain this invocation more than once. Each time you do so, choose a different eligible cantrip.</p>
 		</description>
-		<sheet display="false" />
+		<sheet alt="Repelling Blast (4th cantrip)">
+			<description>When you hit a Large or smaller creature with your chosen cantrip, you can push the creature up to 10 feet straight away from you.</description>
+		</sheet>
 		<rules>
 			<select type="Class Feature" name="Repelling Blast Cantrip" supports="Repelling Blast Cantrip" number="1" />
 		</rules>
@@ -605,7 +633,9 @@
 			<p>Choose one of your known Warlock cantrips that requires an attack roll. When you hit a Large or smaller creature with that cantrip, you can push the creature up to 10 feet straight away from you.</p>
 			<p class="indent"><em><strong>Repeatable.</strong></em> You can gain this invocation more than once. Each time you do so, choose a different eligible cantrip.</p>
 		</description>
-		<sheet display="false" />
+		<sheet alt="Repelling Blast (5th cantrip)">
+			<description>When you hit a Large or smaller creature with your chosen cantrip, you can push the creature up to 10 feet straight away from you.</description>
+		</sheet>
 		<rules>
 			<select type="Class Feature" name="Repelling Blast Cantrip" supports="Repelling Blast Cantrip" number="1" />
 		</rules>
@@ -631,16 +661,16 @@
 			<p><em>Prerequisite: Level 9+ Warlock</em></p>
 			<p>You can cast <i>Arcane Eye</i> without expending a spell slot.</p>
 			<div class="reference">
-				<div element="ID_PHB_SPELL_ARCANE_EYE" />
-			<!--	<div element="ID_PHB24_SPELL_ARCANE_EYE" />-->
+				<!--<div element="ID_PHB_SPELL_ARCANE_EYE" />-->
+				<div element="ID_WOTC_PHB24_SPELL_ARCANE_EYE" />
 			</div>
 		</description>
 		<sheet>
 			<description>You can cast Arcane Eye without expending a spell slot.</description>
 		</sheet>
 		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_ARCANE_EYE" spellcasting="Warlock Invocations"/>
-			<!--<grant type="Spell" id="ID_PHB24_SPELL_ARCANE_EYE" spellcasting="Warlock Invocations"/>-->
+			<!--<grant type="Spell" id="ID_PHB_SPELL_ARCANE_EYE" spellcasting="Warlock Invocations"/>-->
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_ARCANE_EYE" spellcasting="Warlock Invocations"/>
 		</rules>
 	</element>
 	<element name="Whispers of the Grave" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_WHISPERS_OF_THE_GRAVE">
@@ -651,16 +681,16 @@
 			<p><em>Prerequisite: Level 7+ Warlock</em></p>
 			<p>You can cast <em>Speak with Dead</em> without expending a spell slot.</p>
 			<div class="reference">
-				<div element="ID_PHB_SPELL_SPEAK_WITH_DEAD" />
-			<!--	<div element="ID_PHB24_SPELL_SPEAK_WITH_DEAD" />-->
+				<!--<div element="ID_PHB_SPELL_SPEAK_WITH_DEAD" />-->
+				<div element="ID_WOTC_PHB24_SPELL_SPEAK_WITH_DEAD" />
 			</div>
 		</description>
 		<sheet>
 			<description>You can cast Speak with Dead without expending a spell slot.</description>
 		</sheet>
 		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_SPEAK_WITH_DEAD" spellcasting="Warlock Invocations"/>
-			<!--<grant type="Spell" id="ID_PHB24_SPELL_SPEAK_WITH_DEAD" spellcasting="Warlock Invocations"/>-->
+			<!--<grant type="Spell" id="ID_PHB_SPELL_SPEAK_WITH_DEAD" spellcasting="Warlock Invocations"/>-->
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_SPEAK_WITH_DEAD" spellcasting="Warlock Invocations"/>
 		</rules>
 	</element>
 	<element name="Witch Sight" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_WITCH_SIGHT">
@@ -691,7 +721,7 @@
 	<element name="Chill Touch" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_AGONIZING_BLAST_CHILL_TOUCH">
 		<compendium display="false" />
 		<supports>Agonizing Blast Cantrip</supports>
-		<requirements>ID_PHB_SPELL_CHILL_TOUCH||ID_PHB24_SPELL_CHILL_TOUCH</requirements>
+		<requirements>(ID_PHB_SPELL_CHILL_TOUCH||ID_WOTC_PHB24_SPELL_CHILL_TOUCH)</requirements>
 		<description>
 			<p>When you cast Chill Touch, add your Charisma modifier to its damage roll.</p>
 		</description>
@@ -713,7 +743,7 @@
 	<element name="Eldritch Blast" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_AGONIZING_BLAST_ELDRITCH_BLAST">
 		<compendium display="false" />
 		<supports>Agonizing Blast Cantrip</supports>
-		<requirements>ID_PHB_SPELL_ELDRITCH_BLAST||ID_PHB24_SPELL_ELDRITCH_BLAST</requirements>
+		<requirements>(ID_PHB_SPELL_ELDRITCH_BLAST||ID_WOTC_PHB24_SPELL_ELDRITCH_BLAST)</requirements>
 		<description>
 			<p>When you cast Eldritch Blast, add your Charisma modifier to its damage rolls.</p>
 		</description>
@@ -779,7 +809,7 @@
 	<element name="Mind Sliver" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_AGONIZING_BLAST_MIND_SLIVER">
 		<compendium display="false" />
 		<supports>Agonizing Blast Cantrip</supports>
-		<requirements>ID_WOTC_TCOE_SPELL_MIND_SLIVER||ID_PHB24_SPELL_MIND_SLIVER</requirements>
+		<requirements>(ID_WOTC_TCOE_SPELL_MIND_SLIVER||ID_WOTC_PHB24_SPELL_MIND_SLIVER)</requirements>
 		<description>
 			<p>When you cast Mind Sliver, add your Charisma modifier to its damage roll.</p>
 		</description>
@@ -790,7 +820,7 @@
 	<element name="Poison Spray" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_AGONIZING_BLAST_POISON_SPRAY">
 		<compendium display="false" />
 		<supports>Agonizing Blast Cantrip</supports>
-		<requirements>ID_PHB_SPELL_POISON_SPRAY||ID_PHB24_SPELL_POISON_SPRAY</requirements>
+		<requirements>(ID_PHB_SPELL_POISON_SPRAY||ID_WOTC_PHB24_SPELL_POISON_SPRAY)</requirements>
 		<description>
 			<p>When you cast Poison Spray add your Charisma modifier to its damage roll.</p>
 		</description>
@@ -811,7 +841,7 @@
 	</element>	<element name="Thunderclap" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_AGONIZING_BLAST_THUNDERCLAP">
 		<compendium display="false" />
 		<supports>Agonizing Blast Cantrip</supports>
-		<requirements>ID_WOTC_XGTE_SPELL_THUNDERCLAP||ID_PHB24_SPELL_THUNDERCLAP</requirements>
+		<requirements>(ID_WOTC_XGTE_SPELL_THUNDERCLAP||ID_WOTC_PHB24_SPELL_THUNDERCLAP)</requirements>
 		<description>
 			<p>When you cast Thunderclap, add your Charisma modifier to its damage roll.</p>
 		</description>
@@ -822,7 +852,7 @@
 	<element name="Toll the Dead" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_AGONIZING_BLAST_TOLL_THE_DEAD">
 		<compendium display="false" />
 		<supports>Agonizing Blast Cantrip</supports>
-		<requirements>ID_WOTC_XGTE_SPELL_TOLL_THE_DEAD||ID_PHB24_SPELL_TOLL_THE_DEAD</requirements>
+		<requirements>(ID_WOTC_XGTE_SPELL_TOLL_THE_DEAD||ID_WOTC_PHB24_SPELL_TOLL_THE_DEAD)</requirements>
 		<description>
 			<p>When you cast Toll the Dead, add your Charisma modifier to its damage roll.</p>
 		</description>
@@ -833,7 +863,7 @@
 	<element name="True Strike" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_AGONIZING_BLAST_TRUE_STRIKE">
 		<compendium display="false" />
 		<supports>Agonizing Blast Cantrip</supports>
-		<requirements>ID_PHB24_SPELL_TRUE_STRIKE</requirements>
+		<requirements>ID_WOTC_PHB24_SPELL_TRUE_STRIKE</requirements>
 		<description>
 			<p>When you cast True Strike, add your Charisma modifier to its damage roll.</p>
 		</description>
@@ -846,7 +876,7 @@
 	<element name="Chill Touch" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_ELDRITCH_SPEAR_CHILL_TOUCH">
 		<compendium display="false" />
 		<supports>Eldritch Spear Cantrip</supports>
-		<requirements>ID_PHB_SPELL_CHILL_TOUCH||ID_PHB24_SPELL_CHILL_TOUCH</requirements>
+		<requirements>(ID_PHB_SPELL_CHILL_TOUCH||ID_WOTC_PHB24_SPELL_CHILL_TOUCH)</requirements>
 		<description>
 			<p>When you cast Chill Touch, its range increases by a number of feet equal to 30 times your Warlock level.</p>
 		</description>
@@ -868,7 +898,7 @@
 	<element name="Eldritch Blast" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_ELDRITCH_SPEAR_ELDRITCH_BLAST">
 		<compendium display="false" />
 		<supports>Eldritch Spear Cantrip</supports>
-		<requirements>ID_PHB_SPELL_ELDRITCH_BLAST||ID_PHB24_SPELL_ELDRITCH_BLAST</requirements>
+		<requirements>(ID_PHB_SPELL_ELDRITCH_BLAST||ID_WOTC_PHB24_SPELL_ELDRITCH_BLAST)</requirements>
 		<description>
 			<p>When you cast Eldritch Blast, its range increases by a number of feet equal to 30 times your Warlock level.</p>
 		</description>
@@ -923,7 +953,7 @@
 	<element name="Mind Sliver" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_ELDRITCH_SPEAR_MIND_SLIVER">
 		<compendium display="false" />
 		<supports>Eldritch Spear Cantrip</supports>
-		<requirements>ID_WOTC_TCOE_SPELL_MIND_SLIVER||ID_PHB24_SPELL_MIND_SLIVER</requirements>
+		<requirements>(ID_WOTC_TCOE_SPELL_MIND_SLIVER||ID_WOTC_PHB24_SPELL_MIND_SLIVER)</requirements>
 		<description>
 			<p>When you cast Mind Sliver, its range increases by a number of feet equal to 30 times your Warlock level.</p>
 		</description>
@@ -934,7 +964,7 @@
 	<element name="Poison Spray" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_ELDRITCH_SPEAR_POISON_SPRAY">
 		<compendium display="false" />
 		<supports>Eldritch Spear Cantrip</supports>
-		<requirements>ID_PHB_SPELL_POISON_SPRAY||ID_PHB24_SPELL_POISON_SPRAY</requirements>
+		<requirements>(ID_PHB_SPELL_POISON_SPRAY||ID_WOTC_PHB24_SPELL_POISON_SPRAY)</requirements>
 		<description>
 			<p>When you cast Poison Spray its range increases by a number of feet equal to 30 times your Warlock level.</p>
 		</description>
@@ -945,7 +975,7 @@
 	<element name="Toll the Dead" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_ELDRITCH_SPEAR_TOLL_THE_DEAD">
 		<compendium display="false" />
 		<supports>Eldritch Spear Cantrip</supports>
-		<requirements>ID_WOTC_XGTE_SPELL_TOLL_THE_DEAD||ID_PHB24_SPELL_TOLL_THE_DEAD</requirements>
+		<requirements>(ID_WOTC_XGTE_SPELL_TOLL_THE_DEAD||ID_WOTC_PHB24_SPELL_TOLL_THE_DEAD)</requirements>
 		<description>
 			<p>When you cast Toll the Dead, its range increases by a number of feet equal to 30 times your Warlock level.</p>
 		</description>
@@ -969,7 +999,7 @@
 	<element name="Chill Touch" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_REPELLING_BLAST_CHILL_TOUCH">
 		<compendium display="false" />
 		<supports>Repelling Blast Cantrip</supports>
-		<requirements>ID_PHB_SPELL_CHILL_TOUCH||ID_PHB24_SPELL_CHILL_TOUCH</requirements>
+		<requirements>(ID_PHB_SPELL_CHILL_TOUCH||ID_WOTC_PHB24_SPELL_CHILL_TOUCH)</requirements>
 		<description>
 			<p>When you hit a Large or smaller creature with Chill Touch, you can push that creature up to 10 feet straight away from you.</p>
 		</description>
@@ -980,7 +1010,7 @@
 	<element name="Eldritch Blast" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_REPELLING_BLAST_ELDRITCH_BLAST">
 		<compendium display="false" />
 		<supports>Repelling Blast Cantrip</supports>
-		<requirements>ID_PHB_SPELL_ELDRITCH_BLAST||ID_PHB24_SPELL_ELDRITCH_BLAST</requirements>
+		<requirements>(ID_PHB_SPELL_ELDRITCH_BLAST||ID_WOTC_PHB24_SPELL_ELDRITCH_BLAST)</requirements>
 		<description>
 			<p>When you hit a Large or smaller creature with Eldritch Blast, add your Charisma modifier to its damage rolls.</p>
 		</description>
@@ -1013,7 +1043,7 @@
 	<element name="Poison Spray" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_REPELLING_BLAST_POISON_SPRAY">
 		<compendium display="false" />
 		<supports>Repelling Blast Cantrip</supports>
-		<requirements>ID_PHB24_SPELL_POISON_SPRAY</requirements>
+		<requirements>ID_WOTC_PHB24_SPELL_POISON_SPRAY</requirements>
 		<description>
 			<p>When you hit a Large or smaller creature with Poison Spray you can push that creature up to 10 feet straight away from you.</p>
 		</description>
@@ -1024,7 +1054,7 @@
 	<element name="True Strike" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_REPELLING_BLAST_TRUE_STRIKE">
 		<compendium display="false" />
 		<supports>Repelling Blast Cantrip</supports>
-		<requirements>ID_PHB24_SPELL_TRUE_STRIKE</requirements>
+		<requirements>ID_WOTC_PHB24_SPELL_TRUE_STRIKE</requirements>
 		<description>
 			<p>When you hit a Large or smaller creature with True Strike, you can push that creature up to 10 feet straight away from you.</p>
 		</description>

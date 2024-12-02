@@ -4,7 +4,7 @@
 		<name>College of Glamour</name>
 		<description>The College of Glamour subclass from the Player’s Handbook 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
-		<update version="0.0.3">
+		<update version="0.0.4">
 			<file name="bard-glamour.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/archetypes/bard-glamour.xml" />
 		</update>
 	</info>
@@ -40,11 +40,11 @@
 			You can reuse this feature by expending one use of your Bardic Inspiration (no action required).</description>
 		</sheet>
 		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_CHARM_PERSON" level="3" spellcasting="Bard" allowReplace="false" />
-			<grant type="Spell" id="ID_PHB_SPELL_MIRROR_IMAGE" level="3" spellcasting="Bard" allowReplace="false" />
+			<!--<grant type="Spell" id="ID_PHB_SPELL_CHARM_PERSON" level="3" spellcasting="Bard" allowReplace="false" />
+			<grant type="Spell" id="ID_PHB_SPELL_MIRROR_IMAGE" level="3" spellcasting="Bard" allowReplace="false" /> -->
 			
-			<!--<grant type="Spell" id="ID_WOTC_PHB24_SPELL_CHARM_PERSON" level="3" spellcasting="Bard" allowReplace="false" />
-			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_MIRROR_IMAGE" level="3" spellcasting="Bard" allowReplace="false" />-->
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_CHARM_PERSON" level="3" spellcasting="Bard" allowReplace="false" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_MIRROR_IMAGE" level="3" spellcasting="Bard" allowReplace="false" />
 		</rules>
 	</element>
 	<element name="Level 3: Mantle of Inspiration" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARD_GLAMOUR_MANTLE_OF_INSPIRATION">
@@ -74,9 +74,9 @@
 			You can restore a use of this feature by expending a level 3+ spell slot (no action required).</description>
 		</sheet>
 		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_COMMAND" level="6" spellcasting="Bard" allowReplace="false" />
+			<!--<grant type="Spell" id="ID_PHB_SPELL_COMMAND" level="6" spellcasting="Bard" allowReplace="false" /> -->
 			
-			<!--<grant type="Spell" id="ID_WOTC_PHB24_SPELL_COMMAND" level="6" spellcasting="Bard" allowReplace="false" />-->
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_COMMAND" level="6" spellcasting="Bard" allowReplace="false" />
 		</rules>
 	</element>
 

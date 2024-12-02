@@ -4,7 +4,7 @@
 		<name>Path of the Wild Heart</name>
 		<description>The Path of the Wild Heart subclass from the Player’s Handbook 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
-		<update version="0.0.3">
+		<update version="0.0.4">
 			<file name="barbarian-wild-heart.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/archetypes/barbarian-wild-heart.xml" />
 		</update>
 	</info>
@@ -41,11 +41,11 @@
 			<description>You can cast Beast Sense and Speak with Animals as Rituals.</description>
 		</sheet>
 		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_BEAST_SENSE" />
-			<grant type="Spell" id="ID_PHB_SPELL_SPEAK_WITH_ANIMALS" />
+			<!--<grant type="Spell" id="ID_PHB_SPELL_BEAST_SENSE" />
+			<grant type="Spell" id="ID_PHB_SPELL_SPEAK_WITH_ANIMALS" />-->
 
-<!--		<grant type="Spell" id="ID_PHB24_SPELL_BEAST_SENSE" />
-			<grant type="Spell" id="ID_PHB24_SPELL_SPEAK_WITH_ANIMALS" /> -->
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_BEAST_SENSE" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_SPEAK_WITH_ANIMALS" /> 
 		</rules>
 	</element>
 	<element name="Level 3: Rage of the Wilds" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARBARIAN_WILD_HEART_RAGE_OF_THE_WILDS">
@@ -85,8 +85,8 @@
 			<description>You can cast the Commune with Nature spell as a Ritual.</description>
 		</sheet>
 		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_COMMUNE_WITH_NATURE" />
-<!--			<grant type="Spell" id="ID_PHB24_SPELL_COMMUNE_WITH_NATURE" /> -->
+			<!--<grant type="Spell" id="ID_PHB_SPELL_COMMUNE_WITH_NATURE" /> -->
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_COMMUNE_WITH_NATURE" />
 		</rules>
 	</element>
 
