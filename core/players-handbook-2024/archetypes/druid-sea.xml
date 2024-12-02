@@ -4,7 +4,7 @@
 		<name>Circle of the Sea</name>
 		<description>The Circle of the Sea subclass from the Player’s Handbook 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
-		<update version="0.0.3">
+		<update version="0.0.4">
 			<file name="druid-sea.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/archetypes/druid-sea.xml" />
 		</update>
 	</info>
@@ -47,7 +47,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_RAY_OF_FROST" level="3" spellcasting="Druid" />
+			<!--<grant type="Spell" id="ID_PHB_SPELL_RAY_OF_FROST" level="3" spellcasting="Druid" />
 			<grant type="Spell" id="ID_PHB_SPELL_FOG_CLOUD" level="3" spellcasting="Druid" prepared="true" />
 			<grant type="Spell" id="ID_PHB_SPELL_THUNDERWAVE" level="3" spellcasting="Druid" prepared="true" />
 			<grant type="Spell" id="ID_PHB_SPELL_GUST_OF_WIND" level="3" spellcasting="Druid" prepared="true" />
@@ -57,19 +57,19 @@
 			<grant type="Spell" id="ID_PHB_SPELL_CONTROL_WATER" level="7" spellcasting="Druid" prepared="true" />
 			<grant type="Spell" id="ID_PHB_SPELL_ICE_STORM" level="7" spellcasting="Druid" prepared="true" />
 			<grant type="Spell" id="ID_PHB_SPELL_CONJURE_ELEMENTAL" level="9" spellcasting="Druid" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_HOLD_MONSTER" level="9" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_HOLD_MONSTER" level="9" spellcasting="Druid" prepared="true" />-->
 
-		<!--<grant type="Spell" id="ID_PHB24_SPELL_RAY_OF_FROST" level="3" spellcasting="Druid" />
-			<grant type="Spell" id="ID_PHB24_SPELL_FOG_CLOUD" level="3" spellcasting="Druid" prepared="true" />
-			<grant type="Spell" id="ID_PHB24_SPELL_THUNDERWAVE" level="3" spellcasting="Druid" prepared="true" />
-			<grant type="Spell" id="ID_PHB24_SPELL_GUST_OF_WIND" level="3" spellcasting="Druid" prepared="true" />
-			<grant type="Spell" id="ID_PHB24_SPELL_SHATTER" level="3" spellcasting="Druid" prepared="true" />
-			<grant type="Spell" id="ID_PHB24_SPELL_LIGHTNING_BOLT" level="5" spellcasting="Druid" prepared="true" />
-			<grant type="Spell" id="ID_PHB24_SPELL_WATER_BREATHING" level="5" spellcasting="Druid" prepared="true" />
-			<grant type="Spell" id="ID_PHB24_SPELL_CONTROL_WATER" level="7" spellcasting="Druid" prepared="true" />
-			<grant type="Spell" id="ID_PHB24_SPELL_ICE_STORM" level="7" spellcasting="Druid" prepared="true" />
-			<grant type="Spell" id="ID_PHB24_SPELL_CONJURE_ELEMENTAL" level="9" spellcasting="Druid" prepared="true" />
-			<grant type="Spell" id="ID_PHB24_SPELL_HOLD_MONSTER" level="9" spellcasting="Druid" prepared="true" />-->
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_RAY_OF_FROST" level="3" spellcasting="Druid" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_FOG_CLOUD" level="3" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_THUNDERWAVE" level="3" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_GUST_OF_WIND" level="3" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_SHATTER" level="3" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_LIGHTNING_BOLT" level="5" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_WATER_BREATHING" level="5" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_CONTROL_WATER" level="7" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_ICE_STORM" level="7" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_CONJURE_ELEMENTAL" level="9" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_HOLD_MONSTER" level="9" spellcasting="Druid" prepared="true" />
 		</rules>
 	</element>
 	<element name="Level 3: Wrath of the Sea" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_SEA_WRATH_OF_THE_SEA">
