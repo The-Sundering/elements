@@ -354,7 +354,6 @@
 		</sheet>
 		<rules>
 			<select type="Feat" name="Improvement Option, Epic Boon (Bard 19)" level="19" />
-			
 		</rules>
 	</element>
 
@@ -367,11 +366,11 @@
 			<description>You always have the Power Word Heal and Power Word Kill spells prepared. When you cast either spell, you can target a second creature with it if that creature is within 10 feet of the first target.</description>
 		</sheet>
 		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_POWER_WORD_HEAL" level="20" spellcasting="Bard" allowReplace="false" />
-			<grant type="Spell" id="ID_PHB_SPELL_POWER_WORD_KILL" level="20" spellcasting="Bard" allowReplace="false" />
+			<!--<grant type="Spell" id="ID_PHB_SPELL_POWER_WORD_HEAL" level="20" spellcasting="Bard" allowReplace="false" />
+			<grant type="Spell" id="ID_PHB_SPELL_POWER_WORD_KILL" level="20" spellcasting="Bard" allowReplace="false" />-->
 
-		<!--<grant type="Spell" id="ID_WOTC_PHB24_SPELL_POWER_WORD_HEAL" level="20" spellcasting="Bard" allowReplace="false" />
-			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_POWER_WORD_KILL" level="20" spellcasting="Bard" allowReplace="false" />-->
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_POWER_WORD_HEAL" level="20" spellcasting="Bard" allowReplace="false" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_POWER_WORD_KILL" level="20" spellcasting="Bard" allowReplace="false" />
 		</rules>
 	</element>
 
