@@ -4,7 +4,7 @@
 		<name>Circle of the Land</name>
 		<description>The Circle of the Land subclass from the Player’s Handbook 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
-		<update version="0.0.4">
+		<update version="0.0.5">
 			<file name="druid-land.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/archetypes/druid-land.xml" />
 		</update>
 	</info>
@@ -101,19 +101,19 @@
 			<description>Your chosen land is Arid.</description>
 		</sheet>
 		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_FIRE_BOLT" level="3" spellcasting="Druid" />
+			<!--<grant type="Spell" id="ID_PHB_SPELL_FIRE_BOLT" level="3" spellcasting="Druid" />
 			<grant type="Spell" id="ID_PHB_SPELL_BURNING_HANDS" level="3" spellcasting="Druid" prepared="true" />
 			<grant type="Spell" id="ID_PHB_SPELL_BLUR" level="3" spellcasting="Druid" prepared="true" />
 			<grant type="Spell" id="ID_PHB_SPELL_FIREBALL" level="5" spellcasting="Druid" prepared="true" />
 			<grant type="Spell" id="ID_PHB_SPELL_BLIGHT" level="7" spellcasting="Druid" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_WALL_OF_STONE" level="9" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_WALL_OF_STONE" level="9" spellcasting="Druid" prepared="true" /> -->
 
-		<!--<grant type="Spell" id="ID_PHB24_SPELL_FIRE_BOLT" level="3" spellcasting="Druid" />
-			<grant type="Spell" id="ID_PHB24_SPELL_BURNING_HANDS" level="3" spellcasting="Druid" prepared="true" />
-			<grant type="Spell" id="ID_PHB24_SPELL_BLUR" level="3" spellcasting="Druid" prepared="true" />
-			<grant type="Spell" id="ID_PHB24_SPELL_FIREBALL" level="5" spellcasting="Druid" prepared="true" />
-			<grant type="Spell" id="ID_PHB24_SPELL_BLIGHT" level="7" spellcasting="Druid" prepared="true" />
-			<grant type="Spell" id="ID_PHB24_SPELL_WALL_OF_STONE" level="9" spellcasting="Druid" prepared="true" /> -->
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_FIRE_BOLT" level="3" spellcasting="Druid" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_BURNING_HANDS" level="3" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_BLUR" level="3" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_FIREBALL" level="5" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_BLIGHT" level="7" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_WALL_OF_STONE" level="9" spellcasting="Druid" prepared="true" />
 
 			<stat name="land:resistance" value="Fire" inline="true" />
 			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE" level="10"/>
@@ -138,19 +138,19 @@
 			<description>Your chosen land is Polar.</description>
 		</sheet>
 		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_RAY_OF_FROST" level="3" spellcasting="Druid" />
+			<!--<grant type="Spell" id="ID_PHB_SPELL_RAY_OF_FROST" level="3" spellcasting="Druid" />
 			<grant type="Spell" id="ID_PHB_SPELL_FOG_CLOUD" level="3" spellcasting="Druid" prepared="true" />
 			<grant type="Spell" id="ID_PHB_SPELL_HOLD_PERSON" level="3" spellcasting="Druid" prepared="true" />
 			<grant type="Spell" id="ID_PHB_SPELL_SLEET_STORM" level="5" spellcasting="Druid" prepared="true" />
 			<grant type="Spell" id="ID_PHB_SPELL_ICE_STORM" level="7" spellcasting="Druid" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_CONE_OF_COLD" level="9" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_CONE_OF_COLD" level="9" spellcasting="Druid" prepared="true" /> -->
 
-		<!--<grant type="Spell" id="ID_PHB24_SPELL_RAY_OF_FROST" level="3" spellcasting="Druid" />
-			<grant type="Spell" id="ID_PHB24_SPELL_FOG_CLOUD" level="3" spellcasting="Druid" prepared="true" />
-			<grant type="Spell" id="ID_PHB24_SPELL_HOLD_PERSON" level="3" spellcasting="Druid" prepared="true" />
-			<grant type="Spell" id="ID_PHB24_SPELL_SLEET_STORM" level="5" spellcasting="Druid" prepared="true" />
-			<grant type="Spell" id="ID_PHB24_SPELL_ICE_STORM" level="7" spellcasting="Druid" prepared="true" />
-			<grant type="Spell" id="ID_PHB24_SPELL_CONE_OF_COLD" level="9" spellcasting="Druid" prepared="true" /> -->
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_RAY_OF_FROST" level="3" spellcasting="Druid" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_FOG_CLOUD" level="3" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_HOLD_PERSON" level="3" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_SLEET_STORM" level="5" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_ICE_STORM" level="7" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_CONE_OF_COLD" level="9" spellcasting="Druid" prepared="true" />
 
 			<stat name="land:resistance" value="Cold" inline="true" />
 			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD" level="10"/>
@@ -175,19 +175,19 @@
 			<description>Your chosen land is Temperate.</description>
 		</sheet>
 		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_SHOCKING_GRASP" level="3" spellcasting="Druid" />
+			<!--<grant type="Spell" id="ID_PHB_SPELL_SHOCKING_GRASP" level="3" spellcasting="Druid" />
 			<grant type="Spell" id="ID_PHB_SPELL_SLEEP" level="3" spellcasting="Druid" prepared="true" />
 			<grant type="Spell" id="ID_PHB_SPELL_MISTY_STEP" level="3" spellcasting="Druid" prepared="true" />
 			<grant type="Spell" id="ID_PHB_SPELL_LIGHTNING_BOLT" level="5" spellcasting="Druid" prepared="true" />
 			<grant type="Spell" id="ID_PHB_SPELL_FREEDOM_OF_MOVEMENT" level="7" spellcasting="Druid" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_TREE_STRIDE" level="9" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_TREE_STRIDE" level="9" spellcasting="Druid" prepared="true" /> -->
 
-		<!--<grant type="Spell" id="ID_PHB24_SPELL_SHOCKING_GRASP" level="3" spellcasting="Druid" />
-			<grant type="Spell" id="ID_PHB24_SPELL_SLEEP" level="3" spellcasting="Druid" prepared="true" />
-			<grant type="Spell" id="ID_PHB24_SPELL_MISTY_STEP" level="3" spellcasting="Druid" prepared="true" />
-			<grant type="Spell" id="ID_PHB24_SPELL_LIGHTNING_BOLT" level="5" spellcasting="Druid" prepared="true" />
-			<grant type="Spell" id="ID_PHB24_SPELL_FREEDOM_OF_MOVEMENT" level="7" spellcasting="Druid" prepared="true" />
-			<grant type="Spell" id="ID_PHB24_SPELL_TREE_STRIDE" level="9" spellcasting="Druid" prepared="true" /> -->
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_SHOCKING_GRASP" level="3" spellcasting="Druid" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_SLEEP" level="3" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_MISTY_STEP" level="3" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_LIGHTNING_BOLT" level="5" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_FREEDOM_OF_MOVEMENT" level="7" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_TREE_STRIDE" level="9" spellcasting="Druid" prepared="true" />
 
 			<stat name="land:resistance" value="Lightning" inline="true" />
 			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_LIGHTNING" level="10"/>
@@ -212,19 +212,19 @@
 			<description>Your chosen land is Tropical.</description>
 		</sheet>
 		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_ACID_SPLASH" level="3" spellcasting="Druid" />
+			<!--<grant type="Spell" id="ID_PHB_SPELL_ACID_SPLASH" level="3" spellcasting="Druid" />
 			<grant type="Spell" id="ID_PHB_SPELL_RAY_OF_SICKNESS" level="3" spellcasting="Druid" prepared="true" />
 			<grant type="Spell" id="ID_PHB_SPELL_WEB" level="3" spellcasting="Druid" prepared="true" />
 			<grant type="Spell" id="ID_PHB_SPELL_STINKING_CLOUD" level="5" spellcasting="Druid" prepared="true" />
 			<grant type="Spell" id="ID_PHB_SPELL_POLYMORPH" level="7" spellcasting="Druid" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_INSECT_PLAGUE" level="9" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_INSECT_PLAGUE" level="9" spellcasting="Druid" prepared="true" /> -->
 
-		<!--<grant type="Spell" id="ID_PHB24_SPELL_ACID_SPLASH" level="3" spellcasting="Druid" />
-			<grant type="Spell" id="ID_PHB24_SPELL_RAY_OF_SICKNESS" level="3" spellcasting="Druid" prepared="true" />
-			<grant type="Spell" id="ID_PHB24_SPELL_WEB" level="3" spellcasting="Druid" prepared="true" />
-			<grant type="Spell" id="ID_PHB24_SPELL_STINKING_CLOUD" level="5" spellcasting="Druid" prepared="true" />
-			<grant type="Spell" id="ID_PHB24_SPELL_POLYMORPH" level="7" spellcasting="Druid" prepared="true" />
-			<grant type="Spell" id="ID_PHB24_SPELL_INSECT_PLAGUE" level="9" spellcasting="Druid" prepared="true" /> -->
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_ACID_SPLASH" level="3" spellcasting="Druid" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_RAY_OF_SICKNESS" level="3" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_WEB" level="3" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_STINKING_CLOUD" level="5" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_POLYMORPH" level="7" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_INSECT_PLAGUE" level="9" spellcasting="Druid" prepared="true" />
 
 			<stat name="land:resistance" value="Poison" inline="true" />
 			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_POISON" level="10"/>
