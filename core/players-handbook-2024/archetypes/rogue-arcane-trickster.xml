@@ -4,7 +4,7 @@
 		<name>Arcane Trickster</name>
 		<description>The Arcane Trickster subclass from the Player’s Handbook 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
-		<update version="0.0.3">
+		<update version="0.0.4">
 			<file name="rogue-arcane-trickster.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/archetypes/rogue-arcane-trickster.xml" />
 		</update>
 	</info>
@@ -87,7 +87,7 @@
 			<stat name="arcane trickster:spellcasting:slots:3" value="2" level="13" />
 			<stat name="arcane trickster:spellcasting:slots:3" value="1" level="16" />
 			<stat name="arcane trickster:spellcasting:slots:4" value="1" level="19" />
-			<grant type="Spell" id="ID_PHB_SPELL_MAGE_HAND" level="3" spellcasting="Arcane Trickster" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_MAGE_HAND" level="3" spellcasting="Arcane Trickster" />
 			<select type="Spell" name="Cantrip (Arcane Trickster)" supports="$(spellcasting:list), 0" level="3" number="2" spellcasting="Arcane Trickster" />
 			<select type="Spell" name="Cantrip (Arcane Trickster)" supports="$(spellcasting:list), 0" level="10" number="1" spellcasting="Arcane Trickster" />
 			<select type="Spell" name="Spell (Arcane Trickster)" supports="$(spellcasting:list), $(spellcasting:slots)" level="3" number="3" spellcasting="Arcane Trickster" />
