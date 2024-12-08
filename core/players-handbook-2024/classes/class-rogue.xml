@@ -5,7 +5,7 @@
 		<description>The Rogue class from the Player’s Handbook 2024.</description>
 
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
-		<update version="0.0.6">
+		<update version="0.0.7">
 			<file name="class-rogue.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/classes/class-rogue.xml" />
 		</update>
 	</info>
@@ -114,7 +114,7 @@
 			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_THIEVES_TOOLS" requirements="!ID_WOTC_PHB24_MULTICLASS_ROGUE, ID_WOTC_SOURCE_PLAYERS_HANDBOOK" />
 			<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_SAVINGTHROW_DEXTERITY" requirements="!ID_WOTC_PHB24_MULTICLASS_ROGUE"/>
 			<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_SAVINGTHROW_INTELLIGENCE" requirements="!ID_WOTC_PHB24_MULTICLASS_ROGUE"/>
-			<select type="Proficiency" name="Skill Proficiency (Rogue)" supports="Skill,Rogue" number="4" requirements="!ID_WOTC_PHB24_MULTICLASS_ROGUE" />
+			<select type="Proficiency" name="Skill Proficiency (Rogue)" supports="Skill,Rogue,!Expertise" number="4" requirements="!ID_WOTC_PHB24_MULTICLASS_ROGUE" />
 			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_ROGUE_EXPERTISE" level="1" />
 			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_ROGUE_SNEAK_ATTACK" level="1"/>
 			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_ROGUE_THIEVES_CANT" level="1" />
