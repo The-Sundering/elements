@@ -4,7 +4,7 @@
 		<name>Soulknife</name>
 		<description>The Soulknife subclass from the Player’s Handbook 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
-		<update version="0.0.5">
+		<update version="0.0.6">
 			<file name="rogue-soulknife.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/archetypes/rogue-soulknife.xml" />
 		</update>
 	</info>
@@ -180,6 +180,7 @@
 	<!--Psychic Blades item-->
 	<element name="Psychic Blade" type="Weapon" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_WEAPON_PSYCHIC_BLADE">
 		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_PSYCHIC, ID_WOTC_PHB24_WEAPON_PROPERTY_FINESSE, ID_WOTC_PHB24_WEAPON_PROPERTY_THROWN, ID_WOTC_PHB24_WEAPON_PROPERTY_VEX</supports>
+		<requirements>ID_WOTC_PHB24_ARCHETYPE_ROGUE_SOULKNIFE</requirements>
 		<description>
 			<p>A psychic blade manifested by the will of a Soulknife Rogue.</p>
 		</description>
