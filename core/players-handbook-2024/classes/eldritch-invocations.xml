@@ -5,7 +5,7 @@
 		<description>Eldritch Invocations for the Warlock Class from the Player’s Handbook 2024.</description>
 
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
-		<update version="0.0.3">
+		<update version="0.0.4">
 			<file name="eldritch-invocations.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/classes/eldritch-invocations.xml" />
 		</update>
 	</info>
@@ -380,6 +380,7 @@
 			• When your familiar takes damage, you can take a Reaction to grant it Resistance against the damage.</description>
 		</sheet>
 	</element>
+
 	<element name="Lessons of the First Ones" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_LESSONS_OF_THE_FIRST_ONES">
 		<supports>Eldritch Invocation</supports>
 		<prerequisite>Level 2+ Warlock</prerequisite>
@@ -396,6 +397,160 @@
 			<select type="Feat" name="Origin Feat (Lessons of the First Ones)" supports="Origin" number="1" />
 		</rules>
 	</element>
+	<element name="Lessons of the First Ones" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_LESSONS_OF_THE_FIRST_ONES_2">
+		<compendium display="false" />
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>Level 2+ Warlock</prerequisite>
+		<requirements>[level:warlock:2],ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_LESSONS_OF_THE_FIRST_ONES</requirements>
+		<description>
+			<p><em>Prerequisite: Level 2+ Warlock</em></p>
+			<p>You have received knowledge from an elder entity of the multiverse, allowing you to gain one Origin feat of your choice.</p>
+			<p class="indent"><em><strong>Repeatable.</strong></em> You can gain this invocation more than once. Each time you do so, choose a different Origin feat.</p>
+		</description>
+		<sheet>
+			<description>You gain one Origin feat of your choice.</description>
+		</sheet>
+		<rules>
+			<select type="Feat" name="Origin Feat (Lessons of the First Ones)" supports="Origin" number="1" />
+		</rules>
+	</element>
+	<element name="Lessons of the First Ones" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_LESSONS_OF_THE_FIRST_ONES_3">
+		<compendium display="false" />
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>Level 2+ Warlock</prerequisite>
+		<requirements>[level:warlock:2],ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_LESSONS_OF_THE_FIRST_ONES_2</requirements>
+		<description>
+			<p><em>Prerequisite: Level 2+ Warlock</em></p>
+			<p>You have received knowledge from an elder entity of the multiverse, allowing you to gain one Origin feat of your choice.</p>
+			<p class="indent"><em><strong>Repeatable.</strong></em> You can gain this invocation more than once. Each time you do so, choose a different Origin feat.</p>
+		</description>
+		<sheet>
+			<description>You gain one Origin feat of your choice.</description>
+		</sheet>
+		<rules>
+			<select type="Feat" name="Origin Feat (Lessons of the First Ones)" supports="Origin" number="1" />
+		</rules>
+	</element>
+	<element name="Lessons of the First Ones" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_LESSONS_OF_THE_FIRST_ONES_4">
+		<compendium display="false" />
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>Level 2+ Warlock</prerequisite>
+		<requirements>[level:warlock:2],ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_LESSONS_OF_THE_FIRST_ONES_3</requirements>
+		<description>
+			<p><em>Prerequisite: Level 2+ Warlock</em></p>
+			<p>You have received knowledge from an elder entity of the multiverse, allowing you to gain one Origin feat of your choice.</p>
+			<p class="indent"><em><strong>Repeatable.</strong></em> You can gain this invocation more than once. Each time you do so, choose a different Origin feat.</p>
+		</description>
+		<sheet>
+			<description>You gain one Origin feat of your choice.</description>
+		</sheet>
+		<rules>
+			<select type="Feat" name="Origin Feat (Lessons of the First Ones)" supports="Origin" number="1" />
+		</rules>
+	</element>
+	<element name="Lessons of the First Ones" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_LESSONS_OF_THE_FIRST_ONES_5">
+		<compendium display="false" />
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>Level 2+ Warlock</prerequisite>
+		<requirements>[level:warlock:2],ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_LESSONS_OF_THE_FIRST_ONES_4</requirements>
+		<description>
+			<p><em>Prerequisite: Level 2+ Warlock</em></p>
+			<p>You have received knowledge from an elder entity of the multiverse, allowing you to gain one Origin feat of your choice.</p>
+			<p class="indent"><em><strong>Repeatable.</strong></em> You can gain this invocation more than once. Each time you do so, choose a different Origin feat.</p>
+		</description>
+		<sheet>
+			<description>You gain one Origin feat of your choice.</description>
+		</sheet>
+		<rules>
+			<select type="Feat" name="Origin Feat (Lessons of the First Ones)" supports="Origin" number="1" />
+		</rules>
+	</element>
+	<element name="Lessons of the First Ones" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_LESSONS_OF_THE_FIRST_ONES_6">
+		<compendium display="false" />
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>Level 2+ Warlock</prerequisite>
+		<requirements>[level:warlock:2],ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_LESSONS_OF_THE_FIRST_ONES_5</requirements>
+		<description>
+			<p><em>Prerequisite: Level 2+ Warlock</em></p>
+			<p>You have received knowledge from an elder entity of the multiverse, allowing you to gain one Origin feat of your choice.</p>
+			<p class="indent"><em><strong>Repeatable.</strong></em> You can gain this invocation more than once. Each time you do so, choose a different Origin feat.</p>
+		</description>
+		<sheet>
+			<description>You gain one Origin feat of your choice.</description>
+		</sheet>
+		<rules>
+			<select type="Feat" name="Origin Feat (Lessons of the First Ones)" supports="Origin" number="1" />
+		</rules>
+	</element>
+	<element name="Lessons of the First Ones" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_LESSONS_OF_THE_FIRST_ONES_7">
+		<compendium display="false" />
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>Level 2+ Warlock</prerequisite>
+		<requirements>[level:warlock:2],ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_LESSONS_OF_THE_FIRST_ONES_6</requirements>
+		<description>
+			<p><em>Prerequisite: Level 2+ Warlock</em></p>
+			<p>You have received knowledge from an elder entity of the multiverse, allowing you to gain one Origin feat of your choice.</p>
+			<p class="indent"><em><strong>Repeatable.</strong></em> You can gain this invocation more than once. Each time you do so, choose a different Origin feat.</p>
+		</description>
+		<sheet>
+			<description>You gain one Origin feat of your choice.</description>
+		</sheet>
+		<rules>
+			<select type="Feat" name="Origin Feat (Lessons of the First Ones)" supports="Origin" number="1" />
+		</rules>
+	</element>
+	<element name="Lessons of the First Ones" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_LESSONS_OF_THE_FIRST_ONES_8">
+		<compendium display="false" />
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>Level 2+ Warlock</prerequisite>
+		<requirements>[level:warlock:2],ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_LESSONS_OF_THE_FIRST_ONES_7</requirements>
+		<description>
+			<p><em>Prerequisite: Level 2+ Warlock</em></p>
+			<p>You have received knowledge from an elder entity of the multiverse, allowing you to gain one Origin feat of your choice.</p>
+			<p class="indent"><em><strong>Repeatable.</strong></em> You can gain this invocation more than once. Each time you do so, choose a different Origin feat.</p>
+		</description>
+		<sheet>
+			<description>You gain one Origin feat of your choice.</description>
+		</sheet>
+		<rules>
+			<select type="Feat" name="Origin Feat (Lessons of the First Ones)" supports="Origin" number="1" />
+		</rules>
+	</element>
+	<element name="Lessons of the First Ones" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_LESSONS_OF_THE_FIRST_ONES_9">
+		<compendium display="false" />
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>Level 2+ Warlock</prerequisite>
+		<requirements>[level:warlock:2],ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_LESSONS_OF_THE_FIRST_ONES_8</requirements>
+		<description>
+			<p><em>Prerequisite: Level 2+ Warlock</em></p>
+			<p>You have received knowledge from an elder entity of the multiverse, allowing you to gain one Origin feat of your choice.</p>
+			<p class="indent"><em><strong>Repeatable.</strong></em> You can gain this invocation more than once. Each time you do so, choose a different Origin feat.</p>
+		</description>
+		<sheet>
+			<description>You gain one Origin feat of your choice.</description>
+		</sheet>
+		<rules>
+			<select type="Feat" name="Origin Feat (Lessons of the First Ones)" supports="Origin" number="1" />
+		</rules>
+	</element>
+	<element name="Lessons of the First Ones" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_LESSONS_OF_THE_FIRST_ONES_10">
+		<compendium display="false" />
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>Level 2+ Warlock</prerequisite>
+		<requirements>[level:warlock:2],ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_LESSONS_OF_THE_FIRST_ONES_9</requirements>
+		<description>
+			<p><em>Prerequisite: Level 2+ Warlock</em></p>
+			<p>You have received knowledge from an elder entity of the multiverse, allowing you to gain one Origin feat of your choice.</p>
+			<p class="indent"><em><strong>Repeatable.</strong></em> You can gain this invocation more than once. Each time you do so, choose a different Origin feat.</p>
+		</description>
+		<sheet>
+			<description>You gain one Origin feat of your choice.</description>
+		</sheet>
+		<rules>
+			<select type="Feat" name="Origin Feat (Lessons of the First Ones)" supports="Origin" number="1" />
+		</rules>
+	</element>
+	
 	<element name="Lifedrinker" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_LIFEDRINKER">
 		<supports>Eldritch Invocation, Pact of the Blade</supports>
 		<prerequisite>Level 9+ Warlock, Pact of the Blade</prerequisite>
