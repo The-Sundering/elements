@@ -14,7 +14,7 @@
 		<!-- backgrounds -->
 
 		<!-- items -->
-
+			<file name="items-armor.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/dungeon-masters-guide-2024/items/items-armor.xml" />
 		<!-- reference -->
 
 	</files>
