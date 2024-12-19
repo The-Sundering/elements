@@ -134,6 +134,32 @@
 			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_SEE_INVISIBILITY" />
 		</rules>
 	</element>
+	<element name="Rod of Lordly Might" type="Magic Item" source="Dungeon Master’s Guide 2024" id="ID_WOTC_DMG24_MAGIC_ITEM_ROD_OF_LORDLY_MIGHT">
+		<description>
+			<p>This rod has a flanged head, and it functions as a magic Mace that grants a +3 bonus to attack rolls and damage rolls made with it. The rod has properties associated with six different buttons that are set in a row along the haft. It has three other properties as well, detailed below.</p>
+			<p><b><i>Buttons.</i></b> You can press one of the following buttons as a Bonus Action; a button's effect lasts until you push a different button or until you push the same button again, which causes the rod to revert to its normal form:</p>
+			<p class="indent"><b><i>Button 1.</i></b> A fiery blade sprouts from the end opposite the rod's flanged head. The flames shed Bright Light in a 40-foot radius and Dim Light for an additional 40 feet, and the blade functions as a magic Longsword or Shortsword (your choice) that deals an extra 2d6 Fire damage on a hit.</p>
+			<p class="indent"><b><i>Button 2.</i></b> The rod's flanged head folds down and two crescent-shaped blades spring out, transforming the rod into a magic Battleaxe that grants a +3 bonus to attack rolls and damage rolls made with it.</p>
+			<p class="indent"><b><i>Button 3.</i></b> The rod's flanged head folds down, a spear point springs from the rod's tip, and the rod's handle lengthens into a 6-foot haft, transforming the rod into a magic Spear that grants a +3 bonus to attack rolls and damage rolls made with it.</p>
+			<p class="indent"><b><i>Button 4.</i></b> The rod transforms into a climbing pole up to 50 feet long (you specify the length), though the rod's buttons remain within your reach. In surfaces as hard as granite, a spike at the bottom and three hooks at the top anchor the pole. Horizontal bars 3 inches long fold out from the sides, 1 foot apart, forming a ladder. The pole can bear up to 4,000 pounds. More weight or lack of solid anchoring causes the rod to revert to its normal form.</p>
+			<p class="indent"><b><i>Button 5.</i></b>The rod transforms into a handheld battering ram and grants its user a +10 bonus to Strength (Athletics) checks made to break through doors, barricades, and other barriers.</p>
+			<p class="indent"><b><i>Button 6.</i></b> The rod assumes or remains in its normal form and indicates magnetic north. (Nothing happens if this function of the rod is used in a location that has no magnetic north.) The rod also gives you knowledge of your approximate depth beneath the ground or your height above it.</p>
+			<p><b><i>Drain Life.</i></b> When you hit a creature with a melee attack using the rod, you can force the target to make a DC 17 Constitution saving throw. On a failed save, the target takes an extra 4d6 Necrotic damage, and you regain a number of Hit Points equal to half that Necrotic damage. Once used, this property can't be used again until the next dawn.</p>
+			<p><b><i>Paralyze.</i></b> When you hit a creature with a melee attack using the rod, you can force the target to make a DC 17 Constitution saving throw. On a failed save, the target has the Paralyzed condition for 1 minute. The target repeats the save at the end of each of its turns, ending the effect on a success. Once used, this property can't be used again until the next dawn.</p>
+			<p><b><i>Terrify.</i></b> While holding the rod, you can take a Magic action to force each creature you can see within 30 feet of yourself to make a DC 17 Wisdom saving throw. On a failed save, a target has the Frightened condition for 1 minute. A Frightened target repeats the save at the end of each of its turns, ending the effect on itself on a success. Once used, this property can't be used again until the next dawn.</p>
+		</description>
+		<setters>
+			<set name="keywords">mace</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">200005</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="type" addition="mace">Weapon</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Legendary</set>
+			<set name="weapon">Mace</set>
+			<set name="enhancement">3</set>
+		</setters>
+	</element>
 	<element name="Rod of Resurrection" type="Magic Item" source="Dungeon Master’s Guide 2024" id="ID_WOTC_DMG24_MAGIC_ITEM_ROD_OF_RESURRECTION">
 		<description>
 			<p>The rod has 5 charges. While you hold it, you can cast one of the following spells from it: <i>Heal</i> (1 charge) or <i>Resurrection</i> (5 charges).</p>
