@@ -60,7 +60,7 @@
 		<setters>
 			<set name="keywords">healing</set>
 			<set name="category">Potions</set>
-			<set name="cost" currency="gp">20,000</set>
+			<set name="cost" currency="gp">20000</set>
 			<set name="weight" lb="0.5">½ lb.</set>
 			<set name="type">Potion</set>
 			<set name="rarity">Very rare</set>
@@ -200,7 +200,7 @@
 		</description>
 		<setters>
 			<set name="category">Potions</set>
-			<set name="cost" currency="gp">20,000</set>
+			<set name="cost" currency="gp">20000</set>
 			<set name="weight" lb="0.5">½ lb.</set>
 			<set name="type">Potion</set>
 			<set name="rarity">Uncommon</set>
@@ -288,7 +288,7 @@
 		</description>
 		<setters>
 			<set name="category">Potions</set>
-			<set name="cost" currency="gp">20,000</set>
+			<set name="cost" currency="gp">20000</set>
 			<set name="weight" lb="0.5">½ lb.</set>
 			<set name="type">Potion</set>
 			<set name="rarity">Very Rare</set>
@@ -302,7 +302,7 @@
 		</description>
 		<setters>
 			<set name="category">Potions</set>
-			<set name="cost" currency="gp">100,000</set>
+			<set name="cost" currency="gp">100000</set>
 			<set name="weight" lb="0.5">½ lb.</set>
 			<set name="type">Potion</set>
 			<set name="rarity">Legendary</set>
@@ -316,7 +316,7 @@
 		</description>
 		<setters>
 			<set name="category">Potions</set>
-			<set name="cost" currency="gp">20,000</set>
+			<set name="cost" currency="gp">20000</set>
 			<set name="weight" lb="0.5">½ lb.</set>
 			<set name="type">Potion</set>
 			<set name="rarity">Very Rare</set>
@@ -390,7 +390,7 @@
 		<setters>
 			<set name="category">Potions</set>
 			<set name="weight" lb="0.5">½ lb.</set>
-			<set name="cost" currency="gp">20,000</set>
+			<set name="cost" currency="gp">20000</set>
 			<set name="type">Potion</set>
 			<set name="rarity">Very Rare</set>
 			<set name="stackable">true</set>
@@ -435,7 +435,7 @@
 		<setters>
 			<set name="category">Potions</set>
 			<set name="weight" lb="0.5">½ lb.</set>
-			<set name="cost" currency="gp">20,000</set>
+			<set name="cost" currency="gp">20000</set>
 			<set name="type">Potion</set>
 			<set name="rarity">Very Rare</set>
 			<set name="stackable">true</set>
@@ -584,7 +584,7 @@
 		<setters>
 			<set name="category">Potions</set>
 			<set name="weight" lb="0.5">½ lb.</set>
-			<set name="cost" currency="gp">20,000</set>
+			<set name="cost" currency="gp">20000</set>
 			<set name="type">Potion</set>
 			<set name="rarity">Very Rare</set>
 			<set name="stackable">true</set>
@@ -599,7 +599,7 @@
 			<set name="keywords">exhaustion, poison</set>
 			<set name="category">Potions</set>
 			<set name="weight" lb="0.5">½ lb.</set>
-			<set name="cost" currency="gp">20,000</set>
+			<set name="cost" currency="gp">20000</set>
 			<set name="type">Potion</set>
 			<set name="rarity">Very Rare</set>
 			<set name="stackable">true</set>
@@ -644,7 +644,7 @@
 		</description>
 		<setters>
 			<set name="category">Wondrous Items</set>
-			<set name="cost" currency="gp">20,000</set>
+			<set name="cost" currency="gp">20000</set>
 			<set name="weight" lb="0.5">½ lb.</set>
 			<set name="type">Potion</set>
 			<set name="rarity">Very Rare</set>
