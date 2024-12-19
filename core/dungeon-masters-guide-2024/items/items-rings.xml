@@ -50,7 +50,7 @@
 		</description>
 		<setters>
 			<set name="category">Rings</set>
-			<set name="cost" currency="gp">200,000</set>
+			<set name="cost" currency="gp">200000</set>
 			<set name="type">Ring</set>
 			<set name="slot">ring</set>
 			<set name="attunement">true</set>
@@ -71,7 +71,7 @@
 		</description>
 		<setters>
 			<set name="category">Rings</set>
-			<set name="cost" currency="gp">200,000</set>
+			<set name="cost" currency="gp">200000</set>
 			<set name="slot">ring</set>
 			<set name="type">Ring</set>
 			<set name="attunement">true</set>
@@ -102,7 +102,7 @@
 		</description>
 		<setters>
 			<set name="category">Rings</set>
-			<set name="cost" currency="gp">200,000</set>
+			<set name="cost" currency="gp">200000</set>
 			<set name="slot">ring</set>
 			<set name="type">Ring</set>
 			<set name="attunement">true</set>
@@ -132,7 +132,7 @@
 		</description>
 		<setters>
 			<set name="category">Rings</set>
-			<set name="cost" currency="gp">200,000</set>
+			<set name="cost" currency="gp">200000</set>
 			<set name="slot">ring</set>
 			<set name="type">Ring</set>
 			<set name="attunement">true</set>
@@ -162,7 +162,7 @@
 		</description>
 		<setters>
 			<set name="category">Rings</set>
-			<set name="cost" currency="gp">200,000</set>
+			<set name="cost" currency="gp">200000</set>
 			<set name="slot">ring</set>
 			<set name="type">Ring</set>
 			<set name="attunement">true</set>
@@ -227,7 +227,7 @@
 		</description>
 		<setters>
 			<set name="category">Rings</set>
-			<set name="cost" currency="gp">200,000</set>
+			<set name="cost" currency="gp">200000</set>
 			<set name="type">Ring</set>
 			<set name="slot">ring</set>
 			<set name="attunement">true</set>
@@ -297,7 +297,7 @@
 		</description>
 		<setters>
 			<set name="category">Rings</set>
-			<set name="cost" currency="gp">40,000</set>
+			<set name="cost" currency="gp">40000</set>
 			<set name="slot">ring</set>
 			<set name="type">Ring</set>
 			<set name="attunement">true</set>
@@ -498,7 +498,7 @@
 		</description>
 		<setters>
 			<set name="category">Rings</set>
-			<set name="cost" currency="gp">40,000</set>
+			<set name="cost" currency="gp">40000</set>
 			<set name="slot">ring</set>
 			<set name="type">Ring</set>
 			<set name="attunement">true</set>
@@ -532,7 +532,7 @@
 		</description>
 		<setters>
 			<set name="category">Rings</set>
-			<set name="cost" currency="gp">200,000</set>
+			<set name="cost" currency="gp">200000</set>
 			<set name="type">Ring</set>
 			<set name="slot">ring</set>
 			<set name="attunement">true</set>
@@ -563,7 +563,7 @@
 		</description>
 		<setters>
 			<set name="category">Rings</set>
-			<set name="cost" currency="gp">40,000</set>
+			<set name="cost" currency="gp">40000</set>
 			<set name="slot">ring</set>
 			<set name="type">Ring</set>
 			<set name="attunement">true</set>
@@ -597,7 +597,7 @@
 		</description>
 		<setters>
 			<set name="category">Rings</set>
-			<set name="cost" currency="gp">200,000</set>
+			<set name="cost" currency="gp">200000</set>
 			<set name="type">Ring</set>
 			<set name="slot">ring</set>
 			<set name="rarity">Legendary</set>
