@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
 		<name>Armor</name>
@@ -49,7 +49,7 @@
 		</description>
 		<setters>
 			<set name="category">Magic Armor</set>
-			<set name="cost" currency="gp">40,000</set>
+			<set name="cost" currency="gp">40000</set>
 			<set name="slot">body</set>
 			<set name="type" addition="light, medium, or heavy">Armor</set>
 			<set name="rarity">Very Rare</set>
@@ -67,7 +67,7 @@
 		</description>
 		<setters>
 			<set name="category">Magic Armor</set>
-			<set name="cost" currency="gp">200,000</set>
+			<set name="cost" currency="gp">200000</set>
 			<set name="slot">body</set>
 			<set name="type" addition="light, medium, or heavy">Armor</set>
 			<set name="rarity">Legendary</set>
@@ -396,7 +396,7 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="category">Magic Armor</set>
-			<set name="cost" currency="gp">40,000</set>
+			<set name="cost" currency="gp">40000</set>
 			<set name="slot">body</set>
 			<set name="type" addition="light, medium or heavy">Armor</set> 
 			<set name="attunement">true</set>
@@ -420,7 +420,7 @@
 		<setters>
 			<set name="keywords">scale, acid</set>
 			<set name="category">Magic Armor</set>
-			<set name="cost" currency="gp">40,050</set>
+			<set name="cost" currency="gp">40050</set>
 			<set name="slot">body</set>
 			<set name="type" addition="scale mail">Armor</set>
 			<set name="attunement">true</set>
@@ -442,7 +442,7 @@
 		<setters>
 			<set name="keywords">scale, lightning</set>
 			<set name="category">Magic Armor</set>
-			<set name="cost" currency="gp">40,050</set>
+			<set name="cost" currency="gp">40050</set>
 			<set name="slot">body</set>
 			<set name="type" addition="scale mail">Armor</set>
 			<set name="attunement">true</set>
@@ -464,7 +464,7 @@
 		<setters>
 			<set name="keywords">scale, fire</set>
 			<set name="category">Magic Armor</set>
-			<set name="cost" currency="gp">40,050</set>
+			<set name="cost" currency="gp">40050</set>
 			<set name="slot">body</set>
 			<set name="type" addition="scale mail">Armor</set>
 			<set name="attunement">true</set>
@@ -486,7 +486,7 @@
 		<setters>
 			<set name="keywords">scale, lightning</set>
 			<set name="category">Magic Armor</set>
-			<set name="cost" currency="gp">40,050</set>
+			<set name="cost" currency="gp">40050</set>
 			<set name="slot">body</set>
 			<set name="type" addition="scale mail">Armor</set>
 			<set name="attunement">true</set>
@@ -508,7 +508,7 @@
 		<setters>
 			<set name="keywords">scale, acid</set>
 			<set name="category">Magic Armor</set>
-			<set name="cost" currency="gp">40,050</set>
+			<set name="cost" currency="gp">40050</set>
 			<set name="slot">body</set>
 			<set name="type" addition="scale mail">Armor</set>
 			<set name="attunement">true</set>
@@ -530,7 +530,7 @@
 		<setters>
 			<set name="keywords">scale, fire</set>
 			<set name="category">Magic Armor</set>
-			<set name="cost" currency="gp">40,050</set>
+			<set name="cost" currency="gp">40050</set>
 			<set name="slot">body</set>
 			<set name="type" addition="scale mail">Armor</set>
 			<set name="attunement">true</set>
@@ -552,7 +552,7 @@
 		<setters>
 			<set name="keywords">scale, poison</set>
 			<set name="category">Magic Armor</set>
-			<set name="cost" currency="gp">40,050</set>
+			<set name="cost" currency="gp">40050</set>
 			<set name="slot">body</set>
 			<set name="type" addition="scale mail">Armor</set>
 			<set name="attunement">true</set>
@@ -574,7 +574,7 @@
 		<setters>
 			<set name="keywords">scale, fire</set>
 			<set name="category">Magic Armor</set>
-			<set name="cost" currency="gp">40,050</set>
+			<set name="cost" currency="gp">40050</set>
 			<set name="slot">body</set>
 			<set name="type" addition="scale mail">Armor</set>
 			<set name="attunement">true</set>
@@ -596,7 +596,7 @@
 		<setters>
 			<set name="keywords">scale, cold</set>
 			<set name="category">Magic Armor</set>
-			<set name="cost" currency="gp">40,050</set>
+			<set name="cost" currency="gp">40050</set>
 			<set name="slot">body</set>
 			<set name="type" addition="scale mail">Armor</set>
 			<set name="attunement">true</set>
@@ -618,7 +618,7 @@
 		<setters>
 			<set name="keywords">scale, cold</set>
 			<set name="category">Magic Armor</set>
-			<set name="cost" currency="gp">40,050</set>
+			<set name="cost" currency="gp">40050</set>
 			<set name="slot">body</set>
 			<set name="type" addition="scale mail">Armor</set>
 			<set name="attunement">true</set>
@@ -677,7 +677,7 @@
 		<setters>
 			<set name="keywords">chain</set>
 			<set name="category">Magic Armor</set>
-			<set name="cost" currency="gp">200,050</set>
+			<set name="cost" currency="gp">200050</set>
 			<set name="slot">body</set>
 			<set name="type" addition="chain shirt">Armor</set>
 			<set name="attunement">true</set>
@@ -699,7 +699,7 @@
 		<setters>
 			<set name="keywords">chain</set>
 			<set name="category">Magic Armor</set>
-			<set name="cost" currency="gp">200,075</set>
+			<set name="cost" currency="gp">200075</set>
 			<set name="slot">body</set>
 			<set name="type" addition="chain mail">Armor</set>
 			<set name="attunement">true</set>
@@ -847,7 +847,7 @@
 		<setters>
 			<set name="keywords">spell</set>
 			<set name="category">Magic Armor</set>
-			<set name="cost" currency="gp">40,000</set>
+			<set name="cost" currency="gp">40000</set>
 			<set name="slot">body</set>
 			<set name="attunement">true</set>
 			<set name="charges">6</set>
@@ -868,7 +868,7 @@
 		<setters>
 			<set name="keywords">spell</set>
 			<set name="category">Magic Armor</set>
-			<set name="cost" currency="gp">40,000</set>
+			<set name="cost" currency="gp">40000</set>
 			<set name="slot">body</set>
 			<set name="attunement">true</set>
 			<set name="charges">6</set>
@@ -889,7 +889,7 @@
 		<setters>
 			<set name="keywords">spell</set>
 			<set name="category">Magic Armor</set>
-			<set name="cost" currency="gp">200,000</set>
+			<set name="cost" currency="gp">200000</set>
 			<set name="slot">body</set>
 			<set name="attunement">true</set>
 			<set name="charges">6</set>
@@ -910,7 +910,7 @@
 		<setters>
 			<set name="keywords">spell</set>
 			<set name="category">Magic Armor</set>
-			<set name="cost" currency="gp">200,000</set>
+			<set name="cost" currency="gp">200000</set>
 			<set name="slot">body</set>
 			<set name="attunement">true</set>
 			<set name="charges">6</set>
@@ -931,7 +931,7 @@
 		<setters>
 			<set name="keywords">spell</set>
 			<set name="category">Magic Armor</set>
-			<set name="cost" currency="gp">200,000</set>
+			<set name="cost" currency="gp">200000</set>
 			<set name="slot">body</set>
 			<set name="attunement">true</set>
 			<set name="charges">6</set>
@@ -1090,7 +1090,7 @@
 		<setters>
 			<set name="keywords">shield</set>
 			<set name="category">Magic Armor</set>
-			<set name="cost" currency="gp">40,010</set>
+			<set name="cost" currency="gp">40010</set>
 			<set name="type" addition="shield">Armor</set>
 			<set name="rarity">Very Rare</set>
 			<set name="enhancement">3</set>
@@ -1189,7 +1189,7 @@
 		<setters>
 			<set name="keywords">shield</set>
 			<set name="category">Magic Armor</set>
-			<set name="cost" currency="gp">40,010</set>
+			<set name="cost" currency="gp">40010</set>
 			<set name="type" addition="shield">Armor</set>
 			<set name="attunement">true</set>
 			<set name="rarity">Very Rare</set>
@@ -1204,7 +1204,7 @@
 		<setters>
 			<set name="keywords">shield</set>
 			<set name="category">Magic Armor</set>
-			<set name="cost" currency="gp">40,010</set>
+			<set name="cost" currency="gp">40010</set>
 			<set name="type" addition="shield">Armor</set>
 			<set name="attunement">true</set>
 			<set name="rarity">Very Rare</set>
