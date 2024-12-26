@@ -5,7 +5,7 @@
 		<description>The Sorcerer class from the Player’s Handbook 2024.</description>
 
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
-		<update version="0.0.9">
+		<update version="0.0.10">
 			<file name="class-sorcerer.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/classes/class-sorcerer.xml" />
 		</update>
 	</info>
@@ -67,7 +67,7 @@
 			</table>
 			<h3>SORCERER CLASS FEATURES</h3>
 			<p>As a Sorcerer, you gain the following class features when you reach the specified Sorcerer levels. These features are listed in the Sorcerer Features table.</p>
-			<div element="ID_WOTC_PHB24_CLASS_FEATURE_SORCERER_SPELLCASTING_SORCERER" />
+			<div element="ID_WOTC_PHB24_CLASS_FEATURE_SORCERER_SPELLCASTING" />
 			<div element="ID_WOTC_PHB24_CLASS_FEATURE_SORCERER_INNATE_SORCERY" />
 			<div element="ID_WOTC_PHB24_CLASS_FEATURE_SORCERER_FONT_OF_MAGIC" />
 			<div element="ID_WOTC_PHB24_CLASS_FEATURE_SORCERER_METAMAGIC" />
@@ -91,7 +91,7 @@
 			<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_SAVINGTHROW_CONSTITUTION" requirements="!ID_WOTC_PHB24_MULTICLASS_SORCERER"/>
 			<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_SAVINGTHROW_CHARISMA" requirements="!ID_WOTC_PHB24_MULTICLASS_SORCERER"/>
 			<select type="Proficiency" name="Skill Proficiency (Sorcerer)" supports="Skill,Sorcerer,!Expertise" number="2" requirements="!ID_WOTC_PHB24_MULTICLASS_SORCERER"/>
-			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_SORCERER_SPELLCASTING_SORCERER" level="1"/>
+			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_SORCERER_SPELLCASTING" level="1"/>
 			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_SORCERER_INNATE_SORCERY" level="1" />
 			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_SORCERER_FONT_OF_MAGIC" level="2" />
 			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_SORCERER_METAMAGIC" level="2" />
@@ -113,7 +113,7 @@
 			</rules>
 		</multiclass>
 	</element>
-	<element name="Level 1: Spellcasting" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_SORCERER_SPELLCASTING_SORCERER">
+	<element name="Level 1: Spellcasting" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_SORCERER_SPELLCASTING">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_24_SPELLCASTING</requirements>
 		<description>
 			<h5>CANTRIPS</h5>
