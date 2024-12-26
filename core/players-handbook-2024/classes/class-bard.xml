@@ -5,7 +5,7 @@
 		<description>The Bard class from the Player’s Handbook 2024.</description>
 
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
-		<update version="0.0.8">
+		<update version="0.0.9">
 			<file name="class-bard.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/classes/class-bard.xml" />
 		</update>
 	</info>
@@ -70,7 +70,7 @@
 			<h3>BARD CLASS FEATURES</h3>
 			<p>As a Bard, you gain the following class features when you reach the specified Bard levels. These features are listed in the Bard Features table.</p>
 			<div element="ID_WOTC_PHB24_CLASS_FEATURE_BARD_BARDIC_INSPIRATION" />
-			<div element="ID_WOTC_PHB24_CLASS_FEATURE_BARD_SPELLCASTING_BARD" />
+			<div element="ID_WOTC_PHB24_CLASS_FEATURE_BARD_SPELLCASTING" />
 			<div element="ID_WOTC_PHB24_CLASS_FEATURE_BARD_EXPERTISE" />
 			<div element="ID_WOTC_PHB24_CLASS_FEATURE_BARD_JACK_OF_ALL_TRADES" />
 			<div element="ID_WOTC_PHB24_CLASS_FEATURE_BARD_BARD_COLLEGE" />
@@ -99,7 +99,7 @@
 			<select type="Proficiency" name="Skill Proficiency (Bard)" supports="Skill,Bard,!Expertise" number="3" requirements="!ID_WOTC_PHB24_MULTICLASS_BARD"/>
 			<select type="Proficiency" name="Musical Instrument (Bard)" supports="Musical Instrument" number="3" requirements="!ID_WOTC_PHB24_MULTICLASS_BARD"/>
 			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_BARD_BARDIC_INSPIRATION" level="1" />
-			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_BARD_SPELLCASTING_BARD" level="1"/>
+			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_BARD_SPELLCASTING" level="1"/>
 			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_BARD_EXPERTISE" level="2" />
 			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_BARD_JACK_OF_ALL_TRADES" level="2"/>
 			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_BARD_BARD_COLLEGE" level="3" />
@@ -150,7 +150,7 @@
 			<stat name="bardic-inspiration:dice" value="12" bonus="bardic inspiration" level="15" />
 		</rules>
 	</element>
-	<element name="Level 1: Spellcasting" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_BARD_SPELLCASTING_BARD">
+	<element name="Level 1: Spellcasting" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_BARD_SPELLCASTING">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_BARD_24_SPELLCASTING</requirements>
 		<description>
 			<p>You have learned to cast spells through your bardic arts. See chapter 7 for the rules on spellcasting. The information below details how you use those rules with Bard spells, which appear in the Bard spell list later in the class’s description.</p>
