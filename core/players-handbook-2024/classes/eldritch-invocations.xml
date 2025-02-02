@@ -5,7 +5,7 @@
 		<description>Eldritch Invocations for the Warlock Class from the Player’s Handbook 2024.</description>
 
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
-		<update version="0.0.4">
+		<update version="0.0.5">
 			<file name="eldritch-invocations.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/classes/eldritch-invocations.xml" />
 		</update>
 	</info>
@@ -711,7 +711,7 @@
 		</sheet>
 		<rules>
 			<select type="Spell" name="Cantrip (Pact of the Tome)" supports="0" number="3" spellcasting="Warlock" />
-			<select type="Spell" name="Rituals (Pact of the Tome)" supports="1,Ritual" number="2" spellcasting="Warlock"/>
+			<select type="Spell" name="Rituals (Pact of the Tome)" supports="1,Ritual" number="2" spellcasting="Warlock" allowReplace="false"/>
 		</rules>
 	</element>
 
