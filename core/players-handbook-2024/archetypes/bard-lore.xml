@@ -4,7 +4,7 @@
 		<name>College of Lore</name>
 		<description>The College of Lore subclass from the Player’s Handbook 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
-		<update version="0.0.3">
+		<update version="0.0.4">
 			<file name="bard-lore.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/archetypes/bard-lore.xml" />
 		</update>
 	</info>
@@ -58,7 +58,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<select type="Spell" name="Magical Discoveries" supports="(0),(Bard||Cleric||Druid||Wizard)||($(spellcasting:slots))" number="2" level="6" spellcasting="Bard" allowReplace="true" />
+			<select type="Spell" name="Magical Discoveries" supports="(0||$(spellcasting:slots)),(Bard||Cleric||Druid||Wizard)" number="2" level="6" spellcasting="Bard" allowReplace="true" />
 		</rules>
 	</element>
 
