@@ -5,7 +5,7 @@
 		<description>The Druid class from the Player’s Handbook 2024.</description>
 
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
-		<update version="0.0.5">
+		<update version="0.0.6">
 			<file name="class-druid.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/classes/class-druid.xml" />
 		</update>
 	</info>
@@ -316,8 +316,8 @@
 			<stat name="druid wild shape:hours" value="level:druid:half" />
 			<stat name="druid wild shape:thp" value="level:druid" />
 			<stat name="druid wild shape:cr" value="1/4" inline="true" level="2" />
-			<stat name="druid wild shape:cr" value="1/2" inline="true" level="4" requirements="!ID_WOTC_PHB24_ARCHETYPE_DRUID_MOON" />
-			<stat name="druid wild shape:cr" value="1" inline="true" level="8" requirements="!ID_WOTC_PHB24_ARCHETYPE_DRUID_MOON" />
+			<stat name="druid wild shape:cr" value="1/2" inline="true" level="4" requirements="!ID_WOTC_PHB24_ARCHETYPE_DRUID_CIRCLE_OF_THE_MOON" />
+			<stat name="druid wild shape:cr" value="1" inline="true" level="8" requirements="!ID_WOTC_PHB24_ARCHETYPE_DRUID_CIRCLE_OF_THE_MOON" />
 		</rules>
 	</element>
 	<element name="Level 3: Druid Subclass" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_DRUID_DRUID_CIRCLE">
@@ -339,10 +339,10 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<select type="Feat" name="Ability Score Improvement (Druid 4)" supports="!Boon" level="4" />
-			<select type="Feat" name="Ability Score Improvement (Druid 8)" supports="!Boon" level="8" />
-			<select type="Feat" name="Ability Score Improvement (Druid 12)" supports="!Boon" level="12" />
-			<select type="Feat" name="Ability Score Improvement (Druid 16)" supports="!Boon" level="16" />
+			<select type="Feat" name="Ability Score Improvement (Druid 4)" level="4" />
+			<select type="Feat" name="Ability Score Improvement (Druid 8)" level="8" />
+			<select type="Feat" name="Ability Score Improvement (Druid 12)" level="12" />
+			<select type="Feat" name="Ability Score Improvement (Druid 16)" level="16" />
 		</rules>
 	</element>
 
