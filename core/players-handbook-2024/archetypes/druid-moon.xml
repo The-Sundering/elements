@@ -4,7 +4,7 @@
 		<name>Circle of the Moon</name>
 		<description>The Circle of the Moon subclass from the Player’s Handbook 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
-		<update version="0.0.4">
+		<update version="0.0.5">
 			<file name="druid-moon.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/archetypes/druid-moon.xml" />
 		</update>
 	</info>
@@ -74,17 +74,24 @@
 		</description>
 		<sheet alt="Circle Forms">
 			<description>When assuming a Wild Shape form: &#13;
-			• The maximum CR of your form is CR {{druid wild shape:cr}} &#13;
-			• Your AC is {{circle forms:ac}} &#13;
-			• You gain {{druid wild shape:thp}} Temporary Hit Points</description>
+			• The maximum CR of your form is CR {{circle forms:cr}} &#13;
+			• Your form's AC can be increased to {{circle forms:ac}} &#13;
+			• You gain {{druid wild shape:thp}} Temporary Hit Points &#13;
+			• You cannot choose a form that has a Fly Speed</description>
+			<description level="8">When assuming a Wild Shape form: &#13;
+			• The maximum CR of your form is CR {{circle forms:cr}} &#13;
+			• Your form's AC can be increased to {{circle forms:ac}} &#13;
+			• You gain {{druid wild shape:thp}} Temporary Hit Points &#13;
+			• You can choose a form that has a Fly Speed</description>
 		</sheet>
 		<rules>
-			<stat name="druid wild shape:cr" value="1" inline="true" level="3" />
-			<stat name="druid wild shape:cr" value="2" inline="true" level="6" />
-			<stat name="druid wild shape:cr" value="3" inline="true" level="9" />
-			<stat name="druid wild shape:cr" value="4" inline="true" level="12" />
-			<stat name="druid wild shape:cr" value="5" inline="true" level="15" />
-			<stat name="druid wild shape:cr" value="6" inline="true" level="18" />
+			<grant type="Grants" id="ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_24_WILD_SHAPE_FORMS" />
+			<stat name="circle forms:cr" value="1" level="3" />
+			<stat name="circle forms:cr" value="1" level="6" />
+			<stat name="circle forms:cr" value="1" level="9" />
+			<stat name="circle forms:cr" value="1" level="12" />
+			<stat name="circle forms:cr" value="1" level="15" />
+			<stat name="circle forms:cr" value="1" level="18" />
 			<stat name="circle forms:ac" value="13" />
 			<stat name="circle forms:ac" value="wisdom:modifier" />
 			<stat name="druid wild shape:thp" value="level:druid" />
