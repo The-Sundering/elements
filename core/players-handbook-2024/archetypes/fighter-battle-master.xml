@@ -4,7 +4,7 @@
 		<name>Battle Master</name>
 		<description>The Battle Master subclass from the Player’s Handbook 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
-		<update version="0.0.3">
+		<update version="0.0.4">
 			<file name="fighter-battle-master.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/archetypes/fighter-battle-master.xml" />
 		</update>
 	</info>
@@ -45,7 +45,8 @@
 			<p><strong><em>Saving Throws.</em></strong> If a maneuver requires a saving throw, the DC equals 8 plus your Strength or Dexterity modifier (your choice) and Proficiency Bonus.</p>
 		</description>
 		<sheet alt="Combat Superiority" usage="{{superiority dice:amount}}/Short Rest">
-			<description>You learn maneuvers that are fueled by special dice called Superiority Dice. You have {{superiority dice:amount}} Superiority Dice which are d{{superiority dice:size}}s. Your DC is {{superiority dice:dc}}.</description>
+			<description>You learn maneuvers that are fueled by special dice called Superiority Dice. &#13;
+			You have {{superiority dice:amount}} Superiority Dice which are d{{superiority dice:size}}s. Your DC is {{superiority dice:dc}}.</description>
 		</sheet>
 		<rules>
 			<stat name="superiority dice:amount" value="4" />
@@ -70,8 +71,8 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<select type="Proficiency" name="Student of War" supports="Artisan tools" />
-			<select type="Proficiency" name="Student of War" supports="ID_WOTC_PHB24_PROFICIENCY_SKILL_NATURE|ID_WOTC_PHB24_PROFICIENCY_SKILL_ACROBATICS|ID_WOTC_PHB24_PROFICIENCY_SKILL_ANIMALHANDLING|ID_WOTC_PHB24_PROFICIENCY_SKILL_ATHLETICS|ID_WOTC_PHB24_PROFICIENCY_SKILL_HISTORY|ID_WOTC_PHB24_PROFICIENCY_SKILL_INSIGHT|ID_WOTC_PHB24_PROFICIENCY_SKILL_INTIMIDATION|ID_WOTC_PHB24_PROFICIENCY_SKILL_PERSUASION|ID_WOTC_PHB24_PROFICIENCY_SKILL_PERCEPTION|ID_WOTC_PHB24_PROFICIENCY_SKILL_SURVIVAL" />
+			<select type="Proficiency" name="Tool Proficiency (Student of War)" supports="Artisan tools" />
+			<select type="Proficiency" name="Skill Proficiency (Student of War)" supports="Skill,Fighter,!Expertise" />
 		</rules>
 	</element>
 
