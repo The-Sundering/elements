@@ -216,9 +216,9 @@
 			<description>Whenever you finish a Long Rest, you can change one of the weapon masteries you have to a different one.</description>
 		</sheet>
 		<rules>
-			<select type="Class Feature" name="Weapon Mastery (Level 1)" supports="Weapon Mastery" number="2"/>
-			<select type="Class Feature" name="Weapon Mastery (Level 4)" supports="Weapon Mastery" level="4"/>
-			<select type="Class Feature" name="Weapon Mastery (Level 10)" supports="Weapon Mastery" level="10"/>
+			<select type="Class Feature" name="Weapon Mastery (Barbarian 1)" supports="Weapon Mastery" number="2"/>
+			<select type="Class Feature" name="Weapon Mastery (Barbarian 4)" supports="Weapon Mastery" level="4"/>
+			<select type="Class Feature" name="Weapon Mastery (Barbarian 10)" supports="Weapon Mastery" level="10"/>
 		</rules>
 	</element>
 
