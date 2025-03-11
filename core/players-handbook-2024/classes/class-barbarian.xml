@@ -3,9 +3,8 @@
 	<info>
 		<name>Barbarian</name>
 		<description>The Barbarian class from the Player’s Handbook 2024.</description>
-
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
-		<update version="0.0.7">
+		<update version="0.0.1">
 			<file name="class-barbarian.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/classes/class-barbarian.xml" />
 		</update>
 	</info>
@@ -15,64 +14,64 @@
 			<p>Barbarians are mighty warriors who are powered by primal forces of the multiverse that manifest as a Rage. More than a mere emotion—and not limited to anger—this Rage is an incarnation of a predator’s ferocity, a storm’s fury, and a sea’s turmoil.</p>
 			<p class="indent">Some Barbarians personify their Rage as a fierce spirit or revered forebear. Others see it as a connection to the pain and anguish of the world, as an impersonal tangle of wild magic, or as an expression of their own deepest self. For every Barbarian, their Rage is a power that fuels not just battle prowess, but also uncanny reflexes and heightened senses.</p>
 			<p class="indent">Barbarians often serve as protectors and leaders in their communities. They charge headlong into danger so those under their protection don’t have to. Their courage in the face of danger makes Barbarians perfectly suited for adventure.</p>
-			<table>
-				<thead>
-					<tr><td>Core Barbarian Traits</td></tr>
-				</thead>
-				<tr><td>Primary Ability</td><td class="left">Strength </td> </tr>
-				<tr><td>Hit Point Die</td><td class="left">D12 per Barbarian level</td></tr>
-				<tr><td>Saving Throw Proficiencies</td><td class="left">Strength and Constitution</td></tr>
-				<tr><td>Skill Proficiencies</td><td class="left"><i>Choose 2:</i>  Animal Handling, Athletics, Intimidation, Nature, Perception, or Survival</td></tr>
-				<tr><td>Weapon Proficiencies</td><td class="left">Simple and Martial weapons</td></tr>
-				<tr><td>Armor Training</td><td class="left">Light and Medium armor, Shields</td></tr>
-				<tr><td>Starting Equipment</td><td class="left"><i> Choose A or B:</i>  (A) Greataxe, 4 Handaxes, Explorer’s Pack, and 15 GP; or (B) 75 GP</td></tr>
-			</table>
-			<h3>BECOMING A BARBARIAN ...</h3>
-			<h4>As A Level 1 Character</h4>
-			<ul>
+			<div class="sidebar">
+				<h5>CORE BARBARIAN TRAITS</h5>
+				<table>
+					<tr><td><b>Primary Ability</b></td><td class="left">Strength </td> </tr>
+					<tr><td><b>Hit Point Die</b></td><td class="left">D12 per Barbarian level</td></tr>
+					<tr><td><b>Saving Throw Proficiencies</b></td><td class="left">Strength and Constitution</td></tr>
+					<tr><td><b>Skill Proficiencies</b></td><td class="left"><i>Choose 2:</i>  Animal Handling, Athletics, Intimidation, Nature, Perception, or Survival</td></tr>
+					<tr><td><b>Weapon Proficiencies</b></td><td class="left">Simple and Martial weapons</td></tr>
+					<tr><td><b>Armor Training</b></td><td class="left">Light and Medium armor, Shields</td></tr>
+					<tr><td><b>Starting Equipment</b></td><td class="left"><i> Choose A or B:</i>  (A) Greataxe, 4 Handaxes, Explorer’s Pack, and 15 GP; or (B) 75 GP</td></tr>
+				</table>
+			</div>
+			<h4>BECOMING A BARBARIAN ...</h4>
+			<h5 style="margin-top:-2em">AS A LEVEL 1 CHARACTER</h5>
+			<ul style="margin-top:-1em; margin-bottom: 0.5em">
 				<li>Gain all the traits in the Core Barbarian Traits table.</li>
 				<li>Gain the Barbarian’s level 1 features which are listed in the Barbarian Features table.</li>
 			</ul>
-			<h4>As A Multiclass Character</h4>
-			<ul>
+			<h5 style="margin-top: 0px">AS A MULTICLASS CHARACTER</h5>
+			<ul style="margin-top:-1em">
 				<li>Gain the Hit Point Die trait from the Core Barbarian Traits table.</li>
 				<li>Gain the Barbarian’s level 1 features which are listed in the Barbarian Features table</li>
 				<li>Gain proficiency with Martial weapons and training with Shields</li>
 			</ul>
-			<h5 class="caption">BARBARIAN FEATURES</h5>
+			<h5>BARBARIAN FEATURES</h5>
 			<table class="class-features">
 				<thead>
-					<tr><td class="col-5">Level</td><td>Rages</td><td>Rage Damage</td><td>Weapon Mastery</td><td class="col-60 left">Features</td></tr>
+					<tr><td class="col-5">Level</td><td>Proficiency Bonus</td><td class="col-50 left">Class Features</td><td>Rages</td><td>Rage Damage</td><td>Weapon Mastery</td></tr>
 				</thead>
-				<tr><td>1st</td><td>2</td><td>+2</td><td>2</td><td class="left">Rage, Unarmored Defense, Weapon Mastery</td></tr>
-				<tr><td>2nd</td><td>2</td><td>+2</td><td>2</td><td class="left">Danger Sense, Reckless Attack</td></tr>
-				<tr><td>3rd</td><td>3</td><td>+2</td><td>2</td><td class="left">Barbarian Subclass, Primal Knowledge</td></tr>
-				<tr><td>4th</td><td>3</td><td>+2</td><td>3</td><td class="left">Ability Score Improvement</td></tr>
-				<tr><td>5th</td><td>3</td><td>+2</td><td>3</td><td class="left">Extra Attack, Fast Movement</td></tr>
-				<tr><td>6th</td><td>4</td><td>+2</td><td>3</td><td class="left">Subclass Feature</td></tr>
-				<tr><td>7th</td><td>4</td><td>+2</td><td>3</td><td class="left">Feral Instinct, Instinctive Pounce</td></tr>
-				<tr><td>8th</td><td>4</td><td>+2</td><td>3</td><td class="left">Ability Score Improvement</td></tr>
-				<tr><td>9th</td><td>4</td><td>+3</td><td>3</td><td class="left">Brutal Strike</td></tr>
-				<tr><td>10th</td><td>4</td><td>+3</td><td>4</td><td class="left">Subclass Feature</td></tr>
-				<tr><td>11th</td><td>4</td><td>+3</td><td>4</td><td class="left">Relentless Rage</td></tr>
-				<tr><td>12th</td><td>5</td><td>+3</td><td>4</td><td class="left">Ability Score Improvement</td></tr>
-				<tr><td>13th</td><td>5</td><td>+3</td><td>4</td><td class="left">Improved Brutal Strike</td></tr>
-				<tr><td>14th</td><td>5</td><td>+3</td><td>4</td><td class="left">Subclass Feature</td></tr>
-				<tr><td>15th</td><td>5</td><td>+3</td><td>4</td><td class="left">Persistent Rage</td></tr>
-				<tr><td>16th</td><td>5</td><td>+4</td><td>4</td><td class="left">Ability Score Improvement</td></tr>
-				<tr><td>17th</td><td>6</td><td>+4</td><td>4</td><td class="left">Improved Brutal Strike</td></tr>
-				<tr><td>18th</td><td>6</td><td>+4</td><td>4</td><td class="left">Indomitable Might</td></tr>
-				<tr><td>19th</td><td>6</td><td>+4</td><td>4</td><td class="left">Epic Boon</td></tr>
-				<tr><td>20th</td><td>6</td><td>+4</td><td>4</td><td class="left">Primal Champion</td></tr>
+				<tr><td>1</td><td>+2</td><td class="left">Rage, Unarmored Defense, Weapon Mastery</td><td>2</td><td>+2</td><td>2</td></tr>
+				<tr><td>2</td><td>+2</td><td class="left">Danger Sense, Reckless Attack</td><td>2</td><td>+2</td><td>2</td></tr>
+				<tr><td>3</td><td>+2</td><td class="left">Barbarian Subclass, Primal Knowledge</td><td>3</td><td>+2</td><td>2</td></tr>
+				<tr><td>4</td><td>+2</td><td class="left">Ability Score Improvement</td><td>3</td><td>+2</td><td>3</td></tr>
+				<tr><td>5</td><td>+3</td><td class="left">Extra Attack, Fast Movement</td><td>3</td><td>+2</td><td>3</td></tr>
+				<tr><td>6</td><td>+3</td><td class="left">Subclass Feature</td><td>4</td><td>+2</td><td>3</td></tr>
+				<tr><td>7</td><td>+3</td><td class="left">Feral Instinct, Instinctive Pounce</td><td>4</td><td>+2</td><td>3</td></tr>
+				<tr><td>8</td><td>+3</td><td class="left">Ability Score Improvement</td><td>4</td><td>+3</td><td>3</td></tr>
+				<tr><td>9</td><td>+4</td><td class="left">Brutal Strike</td><td>4</td><td>+3</td><td>3</td></tr>
+				<tr><td>10</td><td>+4</td><td class="left">Subclass Feature</td><td>4</td><td>+3</td><td>4</td></tr>
+				<tr><td>11</td><td>+4</td><td class="left">Relentless Rage</td><td>4</td><td>+3</td><td>4</td></tr>
+				<tr><td>12</td><td>+4</td><td class="left">Ability Score Improvement</td><td>5</td><td>+3</td><td>4</td></tr>
+				<tr><td>13</td><td>+5</td><td class="left">Improved Brutal Strike</td><td>5</td><td>+3</td><td>4</td></tr>
+				<tr><td>14</td><td>+5</td><td class="left">Subclass Feature</td><td>5</td><td>+3</td><td>4</td></tr>
+				<tr><td>15</td><td>+5</td><td class="left">Persistent Rage</td><td>5</td><td>+3</td><td>4</td></tr>
+				<tr><td>16</td><td>+5</td><td class="left">Ability Score Improvement</td><td>5</td><td>+4</td><td>4</td></tr>
+				<tr><td>17</td><td>+6</td><td class="left">Improved Brutal Strike</td><td>6</td><td>+4</td><td>4</td></tr>
+				<tr><td>18</td><td>+6</td><td class="left">Indomitable Might</td><td>6</td><td>+4</td><td>4</td></tr>
+				<tr><td>19</td><td>+6</td><td class="left">Epic Boon</td><td>6</td><td>+4</td><td>4</td></tr>
+				<tr><td>20</td><td>+6</td><td class="left">Primal Champion</td><td>6</td><td>+4</td><td>4</td></tr>
 			</table>
-			<h3>BARBARIAN CLASS FEATURES</h3>
+			<h4>BARBARIAN CLASS FEATURES</h4>
 			<p>As a Barbarian, you gain the following class features when you reach the specified Barbarian levels. These features are listed in the Barbarian Features table.</p>
 			<div element="ID_WOTC_PHB24_CLASS_FEATURE_BARBARIAN_RAGE"/>
 			<div element="ID_WOTC_PHB24_CLASS_FEATURE_BARBARIAN_UNARMORED_DEFENSE"/>
 			<div element="ID_WOTC_PHB24_CLASS_FEATURE_BARBARIAN_WEAPON_MASTERY"/>
 			<div element="ID_WOTC_PHB24_CLASS_FEATURE_BARBARIAN_DANGER_SENSE"/>
 			<div element="ID_WOTC_PHB24_CLASS_FEATURE_BARBARIAN_RECKLESS_ATTACK"/>
-			<div element="ID_WOTC_PHB24_CLASS_FEATURE_BARBARIAN_PRIMAL_PATH"/>
+			<div element="ID_WOTC_PHB24_CLASS_FEATURE_BARBARIAN_BARBARIAN_SUBCLASS"/>
 			<div element="ID_WOTC_PHB24_CLASS_FEATURE_BARBARIAN_PRIMAL_KNOWLEDGE"/>
 			<div element="ID_WOTC_PHB24_CLASS_FEATURE_BARBARIAN_ABILITY_SCORE_IMPROVEMENT"/>
 			<div element="ID_WOTC_PHB24_CLASS_FEATURE_BARBARIAN_EXTRA_ATTACK"/>
@@ -88,9 +87,7 @@
 			<div element="ID_WOTC_PHB24_CLASS_FEATURE_BARBARIAN_EPIC_BOON"/>
 			<div element="ID_WOTC_PHB24_CLASS_FEATURE_BARBARIAN_PRIMAL_CHAMPION"/>
 		</description>
-		<sheet display="false">
-			<description>A Fierce Warrior of Primal Rage</description>
-		</sheet>
+		<sheet display="false" />
 		<setters>
 			<set name="short">A Fierce Warrior of Primal Rage</set>
 			<set name="hd">d12</set>
@@ -98,9 +95,9 @@
 		<rules>
 			<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" requirements="!ID_WOTC_PHB24_MULTICLASS_BARBARIAN" />
 			<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" requirements="!ID_WOTC_PHB24_MULTICLASS_BARBARIAN" />
-			<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS" requirements="!ID_WOTC_PHB24_MULTICLASS_BARBARIAN" />
+			<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS" />
 			<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" requirements="!ID_WOTC_PHB24_MULTICLASS_BARBARIAN" />
-			<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" requirements="!ID_WOTC_PHB24_MULTICLASS_BARBARIAN" />
+			<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS"/>
 			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" requirements="!ID_WOTC_PHB24_MULTICLASS_BARBARIAN, ID_WOTC_SOURCE_PLAYERS_HANDBOOK" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" requirements="!ID_WOTC_PHB24_MULTICLASS_BARBARIAN, ID_WOTC_SOURCE_PLAYERS_HANDBOOK" />
 			<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_SAVINGTHROW_STRENGTH" requirements="!ID_WOTC_PHB24_MULTICLASS_BARBARIAN"/>
@@ -135,16 +132,12 @@
 			</setters>
 			<rules>
 				<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS" />
-				<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS" />
-				<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" />
-				<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" requirements="ID_WOTC_SOURCE_PLAYERS_HANDBOOK" />
-				<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS" requirements="ID_WOTC_SOURCE_PLAYERS_HANDBOOK" />
 			</rules> 
 		</multiclass>
 	</element>
 
 	<element name="Level 1: Rage" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_BARBARIAN_RAGE">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_BARBARIAN_24_RAGE</requirements>
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARBARIAN_RAGE</requirements>
 		<description>
 			<p>You can imbue yourself with a primal power called Rage, a force that grants you extraordinary might and resilience. You can enter it as a Bonus Action if you aren’t wearing Heavy armor.</p>
 			<p class="indent">You can enter your Rage the number of times shown for your Barbarian level in the Rages column of the Barbarian Features table. You regain one expended use when you finish a Short Rest, and you regain all expended uses when you finish a Long Rest.</p>
@@ -162,22 +155,32 @@
 			<p>Each time the Rage is extended, it lasts until the end of your next turn. You can maintain a Rage for up to 10 minutes.</p>
 		</description>
 		<sheet alt="Rage" action="Bonus Action" usage="{{barbarian rage:count}}/Long Rest">
-			<description>While Raging, you have the following benefits: &#13;
-			• Advantage on Strength checks and Strength Saves. &#13;
-			• A +{{barbarian rage:damage}} to damage rolls with strength melee weapon attacks. &#13;
-			• You have resistance to bludgeoning, piercing, and slashing damage. &#13;
-			You can regain one Rage usage when you finish a Short Rest.
+			<description>While Raging, you gain following effects: &#13;
+			• You have Resistance to Bludgeoning, Piercing, and Slashing damage. &#13;
+			• Your Strength-based attacks gain a +{{barbarian rage:damage}} bonus to damage rolls. &#13;
+			• You have Advantage on Strength checks and Strength saving throws. &#13;
+			• You can't cast or Concentrate on spells. &#13;
+			Your Rage lasts until the end of your next turn, but can be extended for another round (up to a maximum of 10 minutes) by making an attack against an enemy, forcing a saving throw on an enemy, or taking a Bonus Action. Rage ends early if you don Heavy armor or have the Incapacitated condition. &#13;
+			You regain 1 expended use of Rage when you finish a Short Rest.
+			</description>
+			<description level="15">While Raging, you gain following effects: &#13;
+			• You have Resistance to Bludgeoning, Piercing, and Slashing damage. &#13;
+			• Your Strength-based attacks gain a +{{barbarian rage:damage}} bonus to damage rolls. &#13;
+			• You have Advantage on Strength checks and Strength saving throws. &#13;
+			• You can't cast or Concentrate on spells. &#13;
+			Your Rage lasts for 10 minutes. Rage ends early if you don Heavy armor or have the Unconscious condition. &#13;
+			You regain 1 expended use of Rage when you finish a Short Rest.
 			</description>
 		</sheet>
 		<rules>
-			<stat name="barbarian rage:count" value="2" level="1" />
-			<stat name="barbarian rage:count" value="1" level="3" />
-			<stat name="barbarian rage:count" value="1" level="6" />
-			<stat name="barbarian rage:count" value="1" level="12" />
-			<stat name="barbarian rage:count" value="1" level="17" />
-			<stat name="barbarian rage:damage" value="2" level="1" />
-			<stat name="barbarian rage:damage" value="1" level="9" />
-			<stat name="barbarian rage:damage" value="1" level="16" />
+			<stat name="barbarian rage:count" value="2" bonus="base" />
+			<stat name="barbarian rage:count" value="3" level="3" bonus="base" />
+			<stat name="barbarian rage:count" value="4" level="6" bonus="base" />
+			<stat name="barbarian rage:count" value="5" level="12" bonus="base" />
+			<stat name="barbarian rage:count" value="6" level="17" bonus="base" />
+			<stat name="barbarian rage:damage" value="2" bonus="base" />
+			<stat name="barbarian rage:damage" value="3" level="9" bonus="base" />
+			<stat name="barbarian rage:damage" value="4" level="16" bonus="base" />
 		</rules>
 	</element>
 	<element name="Level 1: Unarmored Defense" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_BARBARIAN_UNARMORED_DEFENSE">
@@ -207,14 +210,12 @@
 			<p class="indent">When you reach certain Barbarian levels, you gain the ability to use the mastery properties of more kinds of weapons, as shown in the Weapon Mastery column of the Barbarian Features table.</p>
 		</description>
 		<sheet alt="Weapon Mastery">
-			<description>You can use the mastery properties of two kinds of weapons of your choice with which you have proficiency. Whenever you finish a Long Rest, you can change the kinds of weapons you chose.</description>
-			<description level="4">You can use the mastery properties of three kinds of weapons of your choice with which you have proficiency. Whenever you finish a Long Rest, you can change the kinds of weapons you chose.</description>
-			<description level="10">You can use the mastery properties of four kinds of weapons of your choice with which you have proficiency. Whenever you finish a Long Rest, you can change the kinds of weapons you chose.</description>
+			<description>Whenever you finish a Long Rest, you can change one of the weapon masteries you have to a different one.</description>
 		</sheet>
 		<rules>
-			<select type="Class Feature" name="Weapon Mastery" supports="Weapon Mastery" number="2"/>
-			<select type="Class Feature" name="Weapon Mastery" supports="Weapon Mastery" number="1" level="4"/>
-			<select type="Class Feature" name="Weapon Mastery" supports="Weapon Mastery" number="1" level="10"/>
+			<select type="Class Feature" name="Weapon Mastery (Level 1)" supports="Weapon Mastery" number="2"/>
+			<select type="Class Feature" name="Weapon Mastery (Level 4)" supports="Weapon Mastery" level="4"/>
+			<select type="Class Feature" name="Weapon Mastery (Level 10)" supports="Weapon Mastery" level="10"/>
 		</rules>
 	</element>
 
@@ -233,18 +234,18 @@
 			<p>You can throw aside all concern for defense to attack with increased ferocity. When you make your first attack roll on your turn, you can decide to attack recklessly. Doing so gives you Advantage on attack rolls using Strength until the start of your next turn, but attack rolls against you have Advantage during that time.</p>
 		</description>
 		<sheet alt="Reckless Attack">
-			<description>When you make your first attack roll on your turn, you can decide to attack recklessly. Doing so gives you Advantage on attack rolls using Strength until the start of your next turn, but attack rolls against you have Advantage during that time.</description>
+			<description>When you make your first attack on your turn, you can decide to attack recklessly. Doing so gives you Advantage on attacks using Strength until the start of your next turn, but attacks against you have Advantage during that time.</description>
 		</sheet>
 	</element>
 
 	<element name="Level 3: Barbarian Subclass" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_BARBARIAN_PRIMAL_PATH">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_BARBARIAN_24_PRIMAL_PATH</requirements>
 		<description>
-			<p>You gain a Barbarian subclass of your choice. The Path of the Berserker, Path of the Wild Heart, Path of the World Tree, and Path of the Zealot subclasses are detailed after this class’s description. A subclass is a specialization that grants you features at certain Barbarian levels. For the rest of your career, you gain each of your subclass’s features that are of your Barbarian level or lower.</p>
+			<p>You gain a Barbarian subclass of your choice. A subclass is a specialization that grants you features at certain Barbarian levels. For the rest of your career, you gain each of your subclass’s features that are of your Barbarian level or lower.</p>
 		</description>
 		<sheet display="false"/>
 		<rules>
-			<select type="Archetype" name="Primal Path" supports="Primal Path" level="3"/>
+			<select type="Archetype" name="Barbarian Subclass" supports="Primal Path" level="3"/>
 		</rules>
 	</element>
 	<element name="Level 3: Primal Knowledge" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_BARBARIAN_PRIMAL_KNOWLEDGE">
@@ -265,11 +266,11 @@
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_BARBARIAN_24_ABILITY_SCORE_IMPROVEMENT</requirements>
 		<compendium display="false" />
 		<description>
-			<p>You gain the Ability Score Improvement feat (see chapter 5) or another feat of your choice for which you qualify. You gain this feature again at Barbarian levels 8, 12, and 16.</p>
+			<p>You gain the Ability Score Improvement feat or another feat of your choice for which you qualify. You gain this feature again at Barbarian levels 8, 12, and 16.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
-			<select type="Feat" name="Ability Score Improvement (Barbarian 4)" level="4" />
+			<select type="Feat" name="Ability Score Improvement (Barbarian 4)" />
 			<select type="Feat" name="Ability Score Improvement (Barbarian 8)" level="8" />
 			<select type="Feat" name="Ability Score Improvement (Barbarian 12)" level="12" />
 			<select type="Feat" name="Ability Score Improvement (Barbarian 16)" level="16" />
@@ -281,11 +282,9 @@
 		<description>
 			<p>You can attack twice instead of once whenever you take the Attack action on your turn.</p>
 		</description>
-		<sheet alt="Extra Attack">
-			<description>You can attack twice instead of once whenever you take the Attack action on your turn.</description>
-		</sheet>
+		<sheet display="false" />
 		<rules>
-			<stat name="extra attack:count" value="2" level="5" bonus="extra attack" />
+			<stat name="extra attack:count" value="2" bonus="extra attack" />
 		</rules>
 	</element>
 	<element name="Level 5: Fast Movement" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_BARBARIAN_FAST_MOVEMENT">
@@ -297,11 +296,11 @@
 			<description>Your speed increases by 10 feet while you aren’t wearing Heavy armor.</description>
 		</sheet>
 		<rules>
-			<stat name="innate speed:misc" value="10" equipped="![armor:heavy]" requirements="[innate speed:1]" />
-			<stat name="innate speed:climb:misc" value="10" equipped="![armor:heavy]" requirements="[innate speed:climb:1]" />
-			<stat name="innate speed:fly:misc" value="10" equipped="![armor:heavy]" requirements="[innate speed:fly:1]" />
-			<stat name="innate speed:swim:misc" value="10" equipped="![armor:heavy]" requirements="[innate speed:swim:1]" />
-			<stat name="innate speed:burrow:misc" value="10" equipped="![armor:heavy]" requirements="[innate speed:burrow:1]" />
+			<stat name="speed:misc" value="10" equipped="![armor:heavy]" requirements="[speed:1]" />
+			<stat name="speed:climb:misc" value="10" equipped="![armor:heavy]" requirements="[speed:climb:1]" />
+			<stat name="speed:fly:misc" value="10" equipped="![armor:heavy]" requirements="[speed:fly:1]" />
+			<stat name="speed:swim:misc" value="10" equipped="![armor:heavy]" requirements="[speed:swim:1]" />
+			<stat name="speed:burrow:misc" value="10" equipped="![armor:heavy]" requirements="[speed:burrow:1]" />
 		</rules>
 	</element>
 
@@ -323,7 +322,7 @@
 			<p>As part of the Bonus Action you take to enter your Rage, you can move up to half your Speed.</p>
 		</description>
 		<sheet alt="Instinctive Pounce">
-			<description>When you enter your Rage, you can move up to half your Speed as part of the same Bonus Action</description>
+			<description>When you enter your Rage, you can move up to half your Speed.</description>
 		</sheet>
 	</element>
 
@@ -335,15 +334,15 @@
 			<p class="indent"><em><strong>Hamstring Blow.</strong></em> The target’s Speed is reduced by 15 feet until the start of your next turn. A target can be affected by only one Hamstring Blow at a time—the most recent one.</p>
 		</description>
 		<sheet alt="Brutal Strike">
-			<description>When attacking Recklessly, you can forgo any Advantage on one attack roll of your choice on your turn. If the attack hits, the target takes an extra 1d10 damage, and you can cause one Brutal Strike effect from the list below: &#13;
+			<description>You can forgo any Reckless Attack Advantage on one attack roll of your choice (that doesn't have Disadvantage) on your turn. If that attack hits, the target takes an extra 1d10 damage, and you can cause one Brutal Strike effect from the list below: &#13;
 			• Forceful Blow. Target is pushed 15ft away from you. You can then move up to half your Speed towards the target without provoking Opportunity Attacks. &#13;
 			• Hamstring Blow. Target’s Speed is reduced by 15ft until the start of your next turn.</description>
-			<description level="13">When attacking Recklessly, you can forgo any Advantage on one attack roll of your choice on your turn. If the attack hits, the target takes an extra 1d10 damage, and you can cause one Brutal Strike effect from the list below: &#13;
+			<description level="13">You can forgo any Reckless Attack Advantage on one attack roll of your choice (that doesn't have Disadvantage) on your turn. If that attack hits, the target takes an extra 1d10 damage, and you can cause one Brutal Strike effect from the list below: &#13;
 			• Forceful Blow. Target is pushed 15ft away from you. You can then move up to half your Speed towards the target without provoking Opportunity Attacks. &#13;
 			• Hamstring Blow. Target’s Speed is reduced by 15ft until the start of your next turn. &#13;
 			• Staggering Blow. Target has Disadvantage on the next saving throw it makes, and it can’t make Opportunity Attacks until the start of your next turn. &#13;
 			• Sundering Blow. Before the start of your next turn, the next attack roll made by another creature against the target gains a +5 bonus to the roll.</description>
-			<description level="17">When attacking Recklessly, you can forgo any Advantage on one attack roll of your choice on your turn. If the attack hits, the target takes an extra 2d10 damage, and you can cause up to two Brutal Strike effects from the list below: &#13;
+			<description level="17">You can forgo any Reckless Attack Advantage on one attack roll of your choice (that doesn't have Disadvantage) on your turn. If that attack hits, the target takes an extra 2d10 damage, and you can cause up to two Brutal Strike effects from the list below: &#13;
 			• Forceful Blow. Target is pushed 15ft away from you. You can then move up to half your Speed towards the target without provoking Opportunity Attacks. &#13;
 			• Hamstring Blow. Target’s Speed is reduced by 15ft until the start of your next turn. &#13;
 			• Staggering Blow. Target has Disadvantage on the next saving throw it makes, and it can’t make Opportunity Attacks until the start of your next turn. &#13;
@@ -358,7 +357,7 @@
 			<p class="indent">Each time you use this feature after the first, the DC increases by 5. When you finish a Short or Long Rest, the DC resets to 10.</p>
 		</description>
 		<sheet alt="Relentless Rage">
-			<description>If you drop to 0 Hit Points while your Rage is active and don’t die outright, you can make a DC 10 Constitution saving throw. If you succeed, your Hit Points become {{hp:relentless rage}}. Each time you use this feature after the first, the DC increases by 5. When you finish a Short or Long Rest, the DC resets to 10.</description>
+			<description>If you drop to 0 Hit Points while your Rage is active and don’t die outright, you can make a DC 10 Constitution saving throw. On a success, your Hit Points instead change to {{hp:relentless rage}}. Each time you use this feature after the first, the DC increases by 5. When you finish a Short or Long Rest, the DC resets to 10.</description>
 		</sheet>
 		<rules>
 			<stat name="hp:relentless rage" value="level:barbarian" />
@@ -383,8 +382,7 @@
 			<p class="indent">In addition, your Rage is so fierce that it now lasts for 10 minutes without you needing to do anything to extend it from round to round. Your Rage ends early if you have the Unconscious condition (not just the Incapacitated condition) or don Heavy armor.</p>
 		</description>
 		<sheet alt="Persistent Rage" usage="1/Long Rest">
-			<description>When you roll Initiative, you can regain all expended uses of Rage. 
-			In addition, your Rage is so fierce that it now lasts for 10 minutes without you needing to do anything to extend it from round to round. Your Rage ends early if you have the Unconscious condition or don Heavy armor.</description>
+			<description>When you roll Initiative, you can regain all expended uses of Rage.</description>
 		</sheet>
 	</element>
 
@@ -402,7 +400,7 @@
 			<p>If your total for a Strength check or Strength saving throw is less than your Strength score, you can use that score in place of the total.</p>
 		</description>
 		<sheet alt="Indomitable Might">
-			<description>If your total for a Strength check or Strength saving throw is less than {{strength:score}}, you can use {{strength:score}} place of the total.</description>
+			<description>If your total for a Strength check or Strength saving throw is less than {{strength:score}}, you can use that number instead.</description>
 		</sheet>
 	</element>
 
@@ -411,8 +409,7 @@
 		<description>
 			<p>You gain an Epic Boon feat or another feat of your choice for which you qualify. Boon of Irresistible Offense is recommended.</p>
 		</description>
-		<sheet display="false">
-		</sheet>
+		<sheet display="false" />
 		<rules>
 			<select type="Feat" name="Epic Boon (Barbarian 19)" level="19" />
 		</rules>
@@ -423,14 +420,12 @@
 		<description>
 			<p>You embody primal power. Your Strength and Constitution scores increase by 4, to a maximum of 25.</p>
 		</description>
-		<sheet display="false">
-			<description>You embody primal power. Your Strength and Constitution scores increase by 4, to a maximum of 25.</description>
-		</sheet>
+		<sheet display="false" />
 		<rules>
 			<stat name="strength" value="4" />
 			<stat name="constitution" value="4" />
-			<stat name="strength:max" value="4" bonus="ability" />
-			<stat name="constitution:max" value="4" bonus="ability" />
+			<stat name="strength:max" value="5" bonus="primal champion" />
+			<stat name="constitution:max" value="5" bonus="primal champion" />
 		</rules>
 	</element>
 
