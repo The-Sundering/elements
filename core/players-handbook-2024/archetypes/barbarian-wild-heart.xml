@@ -4,7 +4,7 @@
 		<name>Path of the Wild Heart</name>
 		<description>The Path of the Wild Heart subclass from the Player’s Handbook 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
-		<update version="0.0.4">
+		<update version="0.0.1">
 			<file name="barbarian-wild-heart.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/archetypes/barbarian-wild-heart.xml" />
 		</update>
 	</info>
@@ -20,9 +20,7 @@
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARBARIAN_WILD_HEART_NATURE_SPEAKER" />
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARBARIAN_WILD_HEART_POWER_OF_THE_WILDS" />
 		</description>
-		<sheet display="false">
-			<description>The Path of the Totem Warrior is a spiritual journey, as the barbarian accepts a spirit animal as guide, protector, and inspiration.</description>
-		</sheet>
+		<sheet display="false" />
 		<rules>
 			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARBARIAN_WILD_HEART_ANIMAL_SPEAKER" level="3" />
 			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARBARIAN_WILD_HEART_RAGE_OF_THE_WILDS" level="3" />
@@ -33,7 +31,7 @@
 	</element>
 
 	<element name="Level 3: Animal Speaker" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARBARIAN_WILD_HEART_ANIMAL_SPEAKER">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_BARBARIAN_24_WILD_HEART_ANIMAL_SPEAKER</requirements>
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARBARIAN_WILD_HEART_ANIMAL_SPEAKER</requirements>
 		<description>
 			<p>You can cast the <i>Beast Sense</i> and <i>Speak with Animals</i> spells but only as Rituals. Wisdom is your spellcasting ability for them.</p>
 		</description>
@@ -41,15 +39,12 @@
 			<description>You can cast Beast Sense and Speak with Animals as Rituals.</description>
 		</sheet>
 		<rules>
-			<!--<grant type="Spell" id="ID_PHB_SPELL_BEAST_SENSE" />
-			<grant type="Spell" id="ID_PHB_SPELL_SPEAK_WITH_ANIMALS" />-->
-
 			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_BEAST_SENSE" />
 			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_SPEAK_WITH_ANIMALS" /> 
 		</rules>
 	</element>
 	<element name="Level 3: Rage of the Wilds" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARBARIAN_WILD_HEART_RAGE_OF_THE_WILDS">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_BARBARIAN_24_WILD_HEART_RAGE_OF_THE_WILDS</requirements>
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARBARIAN_WILD_HEART_RAGE_OF_THE_WILDS</requirements>
 		<description>
 			<p>Your Rage taps into the primal power of animals. Whenever you activate your Rage, you gain one of the following options of your choice.</p>
 			<p class="indent"><em><strong>Bear.</strong></em> While your Rage is active, you have Resistance to every damage type except Force, Necrotic, Psychic, and Radiant.</p>
@@ -63,7 +58,7 @@
 	</element>
 
 	<element name="Level 6: Aspect of the Wilds" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARBARIAN_WILD_HEART_ASPECT_OF_THE_WILDS">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_BARBARIAN_24_WILD_HEART_ASPECT_OF_THE_WILDS</requirements>
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARBARIAN_WILD_HEART_ASPECT_OF_THE_WILDS</requirements>
 		<description>
 			<p>You gain one of the following options of your choice. Whenever you finish a Long Rest, you can change your choice.</p>
 			<p class="indent"><em><strong>Owl.</strong></em> You have Darkvision with a range of 60 feet. If you already have Darkvision, its range increases by 60 feet.</p>
@@ -77,7 +72,7 @@
 	</element>
 
 	<element name="Level 10: Nature Speaker" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARBARIAN_WILD_HEART_NATURE_SPEAKER">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_BARBARIAN_24_WILD_HEART_NATURE_SPEAKER</requirements>
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARBARIAN_WILD_HEART_NATURE_SPEAKER</requirements>
 		<description>
 			<p>You can cast the <i>Commune with Nature</i> spell but only as a Ritual. Wisdom is your spellcasting ability for it.</p>
 		</description>
@@ -85,13 +80,12 @@
 			<description>You can cast the Commune with Nature spell as a Ritual.</description>
 		</sheet>
 		<rules>
-			<!--<grant type="Spell" id="ID_PHB_SPELL_COMMUNE_WITH_NATURE" /> -->
 			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_COMMUNE_WITH_NATURE" />
 		</rules>
 	</element>
 
 	<element name="Level 14: Power of the Wilds" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARBARIAN_WILD_HEART_POWER_OF_THE_WILDS">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_BARBARIAN_24_WILD_HEART_POWER_OF_THE_WILDS</requirements>
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARBARIAN_WILD_HEART_POWER_OF_THE_WILDS</requirements>
 		<description>
 			<p>Whenever you activate your Rage, you gain one of the following options of your choice.</p>
 			<p class="indent"><em><strong>Falcon.</strong></em> While your Rage is active, you have a Fly Speed equal to your Speed if you aren’t wearing any armor.</p>
@@ -107,6 +101,7 @@
 	<!-- Rage of the Wilds Choices-->
 	<element name="Rage of the Wilds (Bear)" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARBARIAN_WILD_HEART_RAGE_OF_THE_WILDS_BEAR">
 		<supports>Rage of the Wilds</supports>
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARBARIAN_WILD_HEART_RAGE_OF_THE_WILDS_BEAR</requirements>
 		<description>
 			<p>While your Rage is active, you have Resistance to every damage type except Force, Necrotic, Psychic, and Radiant.</p>
 		</description>
@@ -116,6 +111,7 @@
 	</element>
 	<element name="Rage of the Wilds (Eagle)" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARBARIAN_WILD_HEART_RAGE_OF_THE_WILDS_EAGLE">
 		<supports>Rage of the Wilds</supports>
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARBARIAN_WILD_HEART_RAGE_OF_THE_WILDS_EAGLE</requirements>
 		<description>
 			<p>When you activate your Rage, you can take the Disengage and Dash actions as part of that Bonus Action. While your Rage is active, you can take a Bonus Action to take both of those actions.</p>
 		</description>
@@ -125,6 +121,7 @@
 	</element>
 	<element name="Rage of the Wilds (Wolf)" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARBARIAN_WILD_HEART_RAGE_OF_THE_WILDS_WOLF">
 		<supports>Rage of the Wilds</supports>
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARBARIAN_WILD_HEART_RAGE_OF_THE_WILDS_WOLF</requirements>
 		<description>
 			<p>While your Rage is active, your allies have Advantage on attack rolls against any enemy of yours within 5 feet of you.</p>
 		</description>
@@ -136,6 +133,7 @@
 	<!-- Aspect of the Wilds Choices-->
 	<element name="Aspect of the Wilds (Owl)" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARBARIAN_WILD_HEART_ASPECT_OF_THE_WILDS_OWL">
 		<supports>Aspect of the Wilds</supports>
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARBARIAN_WILD_HEART_ASPECT_OF_THE_WILDS_OWL</requirements>
 		<description>
 			<p>You have Darkvision with a range of 60 feet. If you already have Darkvision, its range increases by 60 feet.</p>
 		</description>
@@ -150,6 +148,7 @@
 	</element>
 	<element name="Aspect of the Wilds (Panther)" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARBARIAN_WILD_HEART_ASPECT_OF_THE_WILDS_PANTHER">
 		<supports>Aspect of the Wilds</supports>
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARBARIAN_WILD_HEART_ASPECT_OF_THE_WILDS_PANTHER</requirements>
 		<description>
 			<p>You have a Climb Speed equal to your Speed.</p>
 		</description>
@@ -157,11 +156,12 @@
 			<description>You have a Climb Speed of {{speed}}.</description>
 		</sheet>
 		<rules>
-			<stat name="speed:climb" value="speed" />
+			<stat name="speed:climb" value="speed" bonus="base" />
 		</rules>
 	</element>
 	<element name="Aspect of the Wilds (Salmon)" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARBARIAN_WILD_HEART_ASPECT_OF_THE_WILDS_SALMON">
 		<supports>Aspect of the Wilds</supports>
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARBARIAN_WILD_HEART_ASPECT_OF_THE_WILDS_SALMON</requirements>
 		<description>
 			<p>You have a Swim Speed equal to your Speed.</p>
 		</description>
@@ -169,13 +169,14 @@
 			<description>You have a Swim Speed of {{speed}}.</description>
 		</sheet>
 		<rules>
-			<stat name="speed:swim" value="speed" />
+			<stat name="speed:swim" value="speed" bonus="base" />
 		</rules>
 	</element>
 
 	<!-- Power of the Wilds Choices-->
 	<element name="Power of the Wilds (Falcon)" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARBARIAN_WILD_HEART_POWER_OF_THE_WILDS_FALCON">
 		<supports>Power of the Wilds</supports>
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARBARIAN_WILD_HEART_POWER_OF_THE_WILDS_FALCON</requirements>
 		<description>
 			<p>While your Rage is active, you have a Fly Speed equal to your Speed if you aren’t wearing any armor.</p>
 		</description>
@@ -185,6 +186,7 @@
 	</element>
 	<element name="Power of the Wilds (Lion)" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARBARIAN_WILD_HEART_POWER_OF_THE_WILDS_LION">
 		<supports>Power of the Wilds</supports>
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARBARIAN_WILD_HEART_POWER_OF_THE_WILDS_LION</requirements>
 		<description>
 			<p>While your Rage is active, any of your enemies within 5 feet of you have Disadvantage on attack rolls against targets other than you or another Barbarian who has this option active.</p>
 		</description>
@@ -194,6 +196,7 @@
 	</element>
 	<element name="Power of the Wilds (Ram)" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARBARIAN_WILD_HEART_POWER_OF_THE_WILDS_RAM">
 		<supports>Power of the Wilds</supports>
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARBARIAN_WILD_HEART_POWER_OF_THE_WILDS_RAM</requirements>
 		<description>
 			<p>While your Rage is active, you can cause a Large or smaller creature to have the Prone condition when you hit it with a melee attack.</p>
 		</description>
@@ -203,9 +206,18 @@
 	</element>
 
 	<!--Feature Replacement Grants-->
-	<element name="Animal Speaker Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_BARBARIAN_24_WILD_HEART_ANIMAL_SPEAKER" />
-	<element name="Rage of the Wilds Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_BARBARIAN_24_WILD_HEART_RAGE_OF_THE_WILDS" />
-	<element name="Aspect of the Wilds Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_BARBARIAN_24_WILD_HEART_ASPECT_OF_THE_WILDS" />
-	<element name="Nature Speaker Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_BARBARIAN_24_WILD_HEART_NATURE_SPEAKER" />
-	<element name="Power of the Wilds Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_BARBARIAN_24_WILD_HEART_POWER_OF_THE_WILDS" />
+	<element name="Animal Speaker Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARBARIAN_WILD_HEART_ANIMAL_SPEAKER" />
+	<element name="Rage of the Wilds Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARBARIAN_WILD_HEART_RAGE_OF_THE_WILDS" />
+	<element name="Rage of the Wilds: Bear Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARBARIAN_WILD_HEART_RAGE_OF_THE_WILDS_BEAR" />
+	<element name="Rage of the Wilds: Eagle Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARBARIAN_WILD_HEART_RAGE_OF_THE_WILDS_EAGLE" />
+	<element name="Rage of the Wilds: Wolf Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARBARIAN_WILD_HEART_RAGE_OF_THE_WILDS_WOLF" />
+	<element name="Aspect of the Wilds Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARBARIAN_WILD_HEART_ASPECT_OF_THE_WILDS" />
+	<element name="Aspect of the Wilds: Owl Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARBARIAN_WILD_HEART_ASPECT_OF_THE_WILDS_OWL" />
+	<element name="Aspect of the Wilds: Panther Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARBARIAN_WILD_HEART_ASPECT_OF_THE_WILDS_PANTHER" />
+	<element name="Aspect of the Wilds: Salmon Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARBARIAN_WILD_HEART_ASPECT_OF_THE_WILDS_SALMON" />
+	<element name="Nature Speaker Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARBARIAN_WILD_HEART_NATURE_SPEAKER" />
+	<element name="Power of the Wilds Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARBARIAN_WILD_HEART_POWER_OF_THE_WILDS" />
+	<element name="Power of the Wilds: Falcon Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARBARIAN_WILD_HEART_POWER_OF_THE_WILDS_FALCON" />
+	<element name="Power of the Wilds: Lion Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARBARIAN_WILD_HEART_POWER_OF_THE_WILDS_LION" />
+	<element name="Power of the Wilds: Ram Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARBARIAN_WILD_HEART_POWER_OF_THE_WILDS_RAM" />
 </elements>
