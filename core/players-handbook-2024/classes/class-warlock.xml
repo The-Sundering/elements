@@ -3,9 +3,8 @@
 	<info>
 		<name>Warlock</name>
 		<description>The Warlock class from the Player’s Handbook 2024.</description>
-
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
-		<update version="0.0.6">
+		<update version="0.0.1">
 			<file name="class-warlock.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/classes/class-warlock.xml" />
 		</update>
 	</info>
@@ -15,87 +14,85 @@
 			<p>Warlocks quest for knowledge that lies hidden in the fabric of the multiverse. They often begin their search for magical power by delving into tomes of forbidden lore, dabbling in invocations meant to attract the power of extraplanar beings, or seeking places of power where the influence of these beings can be felt. In no time, each Warlock is drawn into a binding pact with a powerful patron. Drawing on the ancient knowledge of beings such as angels, archfey, demons, devils, hags, and alien entities of the Far Realm, Warlocks piece together arcane secrets to bolster their own power.</p>
 			<p class="indent">Warlocks view their patrons as resources, as means to the end of achieving magical power. Some Warlocks respect, revere, or even love their patrons; some serve their patrons grudgingly; and some seek to undermine their patrons even as they wield the power their patrons have given them.</p>
 			<p class="indent">Once a pact is made, a Warlock’s thirst for knowledge and power can’t be slaked with mere study. Most Warlocks spend their days pursuing greater power and deeper knowledge, which typically means some kind of adventure.</p>
-			<table>
-				<thead>
-					<tr><td>Core Warlock Traits</td></tr>
-				</thead>
-				<tr><td>Primary Ability</td><td class="left">Charisma </td> </tr>
-				<tr><td>Hit Point Die</td><td class="left">D8 per Warlock level</td></tr>
-				<tr><td>Saving Throw Proficiencies</td><td class="left">Wisdom and Charisma</td></tr>
-				<tr><td>Skill Proficiencies</td><td class="left"><i>Choose 2:</i>  Arcana, Deception, History, Intimidation, Investigation, Nature, or Religion</td></tr>
-				<tr><td>Weapon Proficiencies</td><td class="left">Simple weapons</td></tr>
-				<tr><td>Armor Training</td><td class="left">Light armor</td></tr>
-				<tr><td>Starting Equipment</td><td class="left"><i> Choose A or B:</i> (A) Leather Armor, Sickle, 2 Daggers, Arcane Focus (orb), Book (occult lore), Scholar’s Pack, and 15 GP; or (B) 100 GP</td></tr>
-			</table>
-			<h3>BECOMING A WARLOCK ...</h3>
-			<h4>As A Level 1 Character</h4>
-			<ul>
+			<div class="sidebar">
+				<h5>CORE WARLOCK TRAITS</h5>
+				<table>
+					<tr><td><b>Primary Ability</b></td><td class="left">Charisma </td> </tr>
+					<tr><td><b>Hit Point Die</b></td><td class="left">D8 per Warlock level</td></tr>
+					<tr><td><b>Saving Throw Proficiencies</b></td><td class="left">Wisdom and Charisma</td></tr>
+					<tr><td><b>Skill Proficiencies</b></td><td class="left"><i>Choose 2:</i>  Arcana, Deception, History, Intimidation, Investigation, Nature, or Religion</td></tr>
+					<tr><td><b>Weapon Proficiencies</b></td><td class="left">Simple weapons</td></tr>
+					<tr><td><b>Armor Training</b></td><td class="left">Light armor</td></tr>
+					<tr><td><b>Starting Equipment</b></td><td class="left"><i> Choose A or B:</i> (A) Leather Armor, Sickle, 2 Daggers, Arcane Focus (orb), Book (occult lore), Scholar’s Pack, and 15 GP; or (B) 100 GP</td></tr>
+				</table>
+			</div>
+			<h4>BECOMING A WARLOCK ...</h4>
+			<h5 style="margin-top:-2em">AS A LEVEL 1 CHARACTER</h5>
+			<ul style="margin-top:-1em; margin-bottom: 0.5em">
 				<li>Gain all the traits in the Core Warlock Traits table.</li>
 				<li>Gain the Warlock’s level 1 features which are listed in the Warlock Features table.</li>
 			</ul>
-			<h4>As A Multiclass Character</h4>
-			<ul>
+			<h5 style="margin-top: 0px">AS A MULTICLASS CHARACTER</h5>
+			<ul style="margin-top:-1em">
 				<li>Gain the Hit Point Die trait from the Core Warlock Traits table.</li>
 				<li>Gain the Warlock’s level 1 features which are listed in the Warlock Features table</li>
 				<li>Gain training with Light armor</li>
 			</ul>
-			<h5 class="caption">WARLOCK FEATURES</h5>
+			<h5>WARLOCK FEATURES</h5>
 			<table class="class-features">
 				<thead>
-					<tr><td class="col-5">Level</td><td class="left">Features</td><td class="col-5">Invocations</td><td class="col-5">Cantrips</td><td class="col-10">Prepared Spells</td><td class="col-10">Spell Slots</td><td class="col-10">Slot Level</td></tr>
+					<tr><td class="col-5">Level</td><td>Proficiency Bonus</td><td class="col-50 left">Class Features</td><td class="col-5">Invocations</td><td class="col-5">Cantrips</td><td class="col-10">Prepared Spells</td><td>Spell Slots</td><td>Slot Level</td></tr>
 				</thead>
-				<tr><td> 1st</td><td class="left">Eldritch Invocations, Pact Magic</td><td>1</td><td>2</td><td>2</td><td>1</td><td>1st</td></tr>
-				<tr><td> 2nd</td><td class="left">Magical Cunning</td><td>3</td><td>2</td><td>3</td><td>2</td><td>1st</td></tr>
-				<tr><td> 3rd</td><td class="left">Warlock Subclass</td><td>3</td><td>2</td><td>4</td><td>2</td><td>2nd</td></tr>
-				<tr><td> 4th</td><td class="left">Ability Score Improvement</td><td>3</td><td>3</td><td>5</td><td>2</td><td>2nd</td></tr>
-				<tr><td> 5th</td><td class="left">—</td><td>5</td><td>3</td><td>6</td><td>2</td><td>3rd</td></tr>
-				<tr><td> 6th</td><td class="left">Subclass Feature</td><td>5</td><td>3</td><td>7</td><td>2</td><td>3rd</td></tr>
-				<tr><td> 7th</td><td class="left">—</td><td>6</td><td>3</td><td>8</td><td>2</td><td>4th</td></tr>
-				<tr><td> 8th</td><td class="left">Ability Score Improvement</td><td>6</td><td>3</td><td>9</td><td>2</td><td>4th</td></tr>
-				<tr><td> 9th</td><td class="left">Contact Patron</td><td>7</td><td>3</td><td>10</td><td>2</td><td>5th</td></tr>
-				<tr><td>10th</td><td class="left">Subclass Feature</td><td>7</td><td>4</td><td>10</td><td>2</td><td>5th</td></tr>
-				<tr><td>11th</td><td class="left">Mystic Arcanum (6th level)</td><td>7</td><td>4</td><td>11</td><td>3</td><td>5th</td></tr>
-				<tr><td>12th</td><td class="left">Ability Score Improvement</td><td>8</td><td>4</td><td>11</td><td>3</td><td>5th</td></tr>
-				<tr><td>13th</td><td class="left">Mystic Arcanum (7th level)</td><td>8</td><td>4</td><td>12</td><td>3</td><td>5th</td></tr>
-				<tr><td>14th</td><td class="left">Subclass Feature</td><td>8</td><td>4</td><td>12</td><td>3</td><td>5th</td></tr>
-				<tr><td>15th</td><td class="left">Mystic Arcanum (8th level)</td><td>9</td><td>4</td><td>13</td><td>3</td><td>5th</td></tr>
-				<tr><td>16th</td><td class="left">Ability Score Improvement</td><td>9</td><td>4</td><td>13</td><td>3</td><td>5th</td></tr>
-				<tr><td>17th</td><td class="left">Mystic Arcanum (9th level)</td><td>9</td><td>4</td><td>14</td><td>4</td><td>5th</td></tr>
-				<tr><td>18th</td><td class="left">—</td><td>10</td><td>4</td><td>14</td><td>4</td><td>5th</td></tr>
-				<tr><td>19th</td><td class="left">Epic Boon</td><td>10</td><td>4</td><td>15</td><td>4</td><td>5th</td></tr>
-				<tr><td>20th</td><td class="left">Eldritch Master</td><td>8</td><td>10</td><td>15</td><td>4</td><td>5th</td></tr>
+				<tr><td>1</td><td>+2</td><td class="left">Eldritch Invocations, Pact Magic</td><td>1</td><td>2</td><td>2</td><td>1</td><td>1</td></tr>
+				<tr><td>2</td><td>+2</td><td class="left">Magical Cunning</td><td>3</td><td>2</td><td>3</td><td>2</td><td>1</td></tr>
+				<tr><td>3</td><td>+2</td><td class="left">Warlock Subclass</td><td>3</td><td>2</td><td>4</td><td>2</td><td>2</td></tr>
+				<tr><td>4</td><td>+2</td><td class="left">Ability Score Improvement</td><td>3</td><td>3</td><td>5</td><td>2</td><td>2</td></tr>
+				<tr><td>5</td><td>+3</td><td class="left">—</td><td>5</td><td>3</td><td>6</td><td>2</td><td>3</td></tr>
+				<tr><td>6</td><td>+3</td><td class="left">Subclass Feature</td><td>5</td><td>3</td><td>7</td><td>2</td><td>3</td></tr>
+				<tr><td>7</td><td>+3</td><td class="left">—</td><td>6</td><td>3</td><td>8</td><td>2</td><td>4</td></tr>
+				<tr><td>8</td><td>+3</td><td class="left">Ability Score Improvement</td><td>6</td><td>3</td><td>9</td><td>2</td><td>4</td></tr>
+				<tr><td>9</td><td>+4</td><td class="left">Contact Patron</td><td>7</td><td>3</td><td>10</td><td>2</td><td>5</td></tr>
+				<tr><td>10</td><td>+4</td><td class="left">Subclass Feature</td><td>7</td><td>4</td><td>10</td><td>2</td><td>5</td></tr>
+				<tr><td>11</td><td>+4</td><td class="left">Mystic Arcanum</td><td>7</td><td>4</td><td>11</td><td>3</td><td>5</td></tr>
+				<tr><td>12</td><td>+4</td><td class="left">Ability Score Improvement</td><td>8</td><td>4</td><td>11</td><td>3</td><td>5</td></tr>
+				<tr><td>13</td><td>+5</td><td class="left">Mystic Arcanum</td><td>8</td><td>4</td><td>12</td><td>3</td><td>5</td></tr>
+				<tr><td>14</td><td>+5</td><td class="left">Subclass Feature</td><td>8</td><td>4</td><td>12</td><td>3</td><td>5</td></tr>
+				<tr><td>15</td><td>+5</td><td class="left">Mystic Arcanum</td><td>9</td><td>4</td><td>13</td><td>3</td><td>5</td></tr>
+				<tr><td>16</td><td>+5</td><td class="left">Ability Score Improvement</td><td>9</td><td>4</td><td>13</td><td>3</td><td>5</td></tr>
+				<tr><td>17</td><td>+6</td><td class="left">Mystic Arcanum</td><td>9</td><td>4</td><td>14</td><td>4</td><td>5</td></tr>
+				<tr><td>18</td><td>+6</td><td class="left">—</td><td>10</td><td>4</td><td>14</td><td>4</td><td>5</td></tr>
+				<tr><td>19</td><td>+6</td><td class="left">Epic Boon</td><td>10</td><td>4</td><td>15</td><td>4</td><td>5</td></tr>
+				<tr><td>20</td><td>+6</td><td class="left">Eldritch Master</td><td>10</td><td>4</td><td>15</td><td>4</td><td>5</td></tr>
 			</table>
-			<h3>WARLOCK CLASS FEATURES</h3>
+			<h4>WARLOCK CLASS FEATURES</h4>
 			<p>As a Warlock, you gain the following class features when you reach the specified Warlock levels. These features are listed in the Warlock Features table.</p>
 			<div element="ID_WOTC_PHB24_CLASS_FEATURE_WARLOCK_ELDRITCH_INVOCATIONS"/>
 			<div element="ID_WOTC_PHB24_CLASS_FEATURE_WARLOCK_PACT_MAGIC"/>
 			<div element="ID_WOTC_PHB24_CLASS_FEATURE_WARLOCK_MAGICAL_CUNNING"/>
-			<div element="ID_WOTC_PHB24_CLASS_FEATURE_WARLOCK_OTHERWORLDLY_PATRON"/>
+			<div element="ID_WOTC_PHB24_CLASS_FEATURE_WARLOCK_WARLOCK_SUBCLASS"/>
 			<div element="ID_WOTC_PHB24_CLASS_FEATURE_WARLOCK_ABILITY_SCORE_IMPROVEMENT"/>
 			<div element="ID_WOTC_PHB24_CLASS_FEATURE_WARLOCK_CONTACT_PATRON"/>
 			<div element="ID_WOTC_PHB24_CLASS_FEATURE_WARLOCK_MYSTIC_ARCANUM"/>
 			<div element="ID_WOTC_PHB24_CLASS_FEATURE_WARLOCK_EPIC_BOON"/>
 			<div element="ID_WOTC_PHB24_CLASS_FEATURE_WARLOCK_ELDRITCH_MASTER"/>
 		</description>
-		<sheet display="false">
-			<description>An Occultist Empowered by Otherworldly Pacts</description>
-		</sheet>
+		<sheet display="false" />
 		<setters>
 			<set name="short">An Occultist Empowered by Otherworldly Pacts</set>
 			<set name="hd">d8</set>
 		</setters>
 		<rules>
 			<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" requirements="!ID_WOTC_PHB24_MULTICLASS_WARLOCK"/>
-			<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" requirements="!ID_WOTC_PHB24_MULTICLASS_WARLOCK"/>
+			<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" requirements="!ID_WOTC_PHB24_MULTICLASS_WARLOCK, ID_WOTC_SOURCE_PLAYERS_HANDBOOK"/>
-			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" requirements="!ID_WOTC_PHB24_MULTICLASS_WARLOCK, ID_WOTC_SOURCE_PLAYERS_HANDBOOK"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" requirements="ID_WOTC_SOURCE_PLAYERS_HANDBOOK"/>
 			<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_SAVINGTHROW_WISDOM" requirements="!ID_WOTC_PHB24_MULTICLASS_WARLOCK"/>
 			<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_SAVINGTHROW_CHARISMA" requirements="!ID_WOTC_PHB24_MULTICLASS_WARLOCK"/>
-			<select type="Proficiency" name="Skill Proficiency (Warlock)" supports="Skill,Warlock,!Expertise" number="2" requirements="!ID_WOTC_PHB24_MULTICLASS_WARLOCK" />
+			<select type="Proficiency" name="Skill Proficiency (Warlock)" supports="Skill,Warlock" number="2" requirements="!ID_WOTC_PHB24_MULTICLASS_WARLOCK" />
 			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_WARLOCK_ELDRITCH_INVOCATIONS" level="1" />
 			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_WARLOCK_PACT_MAGIC" level="1"/>
 			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_WARLOCK_MAGICAL_CUNNING" level="2"/>
-			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_WARLOCK_OTHERWORLDLY_PATRON" level="3" />
+			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_WARLOCK_WARLOCK_SUBCLASS" level="3" />
 			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_WARLOCK_ABILITY_SCORE_IMPROVEMENT" level="4" />
 			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_WARLOCK_CONTACT_PATRON" level="9" />
 			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_WARLOCK_MYSTIC_ARCANUM" level="11" />
@@ -104,22 +101,20 @@
 		</rules>
 		<multiclass id="ID_WOTC_PHB24_MULTICLASS_WARLOCK">
 			<prerequisite>Charisma 13</prerequisite>
-			<requirements>[cha:13]</requirements>
+			<requirements>[cha:13],!ID_WOTC_PHB_CLASS_WARLOCK</requirements>
 			<setters>
 				<set name="multiclass proficiencies">Light armor</set>
 			</setters>
 			<rules>
 				<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS" />
-				<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
-				<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" requirements="ID_WOTC_SOURCE_PLAYERS_HANDBOOK" />
 			</rules>
 		</multiclass>
 	</element>
 
 	<element name="Level 1: Eldritch Invocations" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_WARLOCK_ELDRITCH_INVOCATIONS">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_24_ELDRITCH_INVOCATIONS</requirements>
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WARLOCK_ELDRITCH_INVOCATIONS</requirements>
 		<description>
-			<p>You have unearthed Eldritch Invocations, pieces of forbidden knowledge that imbue you with an abiding magical ability or other lessons. You gain one invocation of your choice, such as Pact of the Tome. Invocations are described in the "Eldritch Invocation Options" section later in this class’s description.</p>
+			<p>You have unearthed Eldritch Invocations, pieces of forbidden knowledge that imbue you with an abiding magical ability or other lessons. You gain one invocation of your choice, such as Pact of the Tome.</p>
 			<p class="indent"><em><strong>Prerequisites.</strong></em> If an invocation has a prerequisite, you must meet it to learn that invocation. For example, if an invocation requires you to be a level 5+ Warlock, you can select the invocation once you reach Warlock level 5.</p>
 			<p class="indent"><em><strong>Replacing and Gaining Invocations.</strong></em> Whenever you gain a Warlock level, you can replace one of your invocations with another one for which you qualify. You can’t replace an invocation if it’s a prerequisite for another invocation that you have.</p>
 			<p>When you gain certain Warlock levels, you gain more invocations of your choice, as shown in the Invocations column of the Warlock Features table.</p>
@@ -130,15 +125,15 @@
 		</sheet>
 		<spellcasting name="Warlock Invocations" ability="Charisma" allowReplace="false" />
 		<rules>
-			<stat name="eldritch invocation:count" value="1" level="1" />
-			<stat name="eldritch invocation:count" value="2" level="2" />
-			<stat name="eldritch invocation:count" value="2" level="5" />
-			<stat name="eldritch invocation:count" value="1" level="7" />
-			<stat name="eldritch invocation:count" value="1" level="9" />
-			<stat name="eldritch invocation:count" value="1" level="12" />
-			<stat name="eldritch invocation:count" value="1" level="15" />
-			<stat name="eldritch invocation:count" value="1" level="18" />
-			<select type="Class Feature" name="Eldritch Invocation (Level 1)" supports="Eldritch Invocation" level="1" number="1" />
+			<stat name="eldritch invocation:count" value="1" bonus="invocations" />
+			<stat name="eldritch invocation:count" value="3" level="2" bonus="invocations"/>
+			<stat name="eldritch invocation:count" value="5" level="5" bonus="invocations"/>
+			<stat name="eldritch invocation:count" value="6" level="7" bonus="invocations"/>
+			<stat name="eldritch invocation:count" value="7" level="9" bonus="invocations"/>
+			<stat name="eldritch invocation:count" value="8" level="12" bonus="invocations"/>
+			<stat name="eldritch invocation:count" value="9" level="15" bonus="invocations"/>
+			<stat name="eldritch invocation:count" value="10" level="18" bonus="invocations"/>
+			<select type="Class Feature" name="Eldritch Invocation (Level 1)" supports="Eldritch Invocation" level="1" />
 			<select type="Class Feature" name="Eldritch Invocation (Level 2)" supports="Eldritch Invocation" level="2" number="2" />
 			<select type="Class Feature" name="Eldritch Invocation (Level 5)" supports="Eldritch Invocation" level="5" number="2" />
 			<select type="Class Feature" name="Eldritch Invocation (Level 7)" supports="Eldritch Invocation" level="7" />
@@ -149,9 +144,9 @@
 		</rules>
 	</element>
 	<element name="Level 1: Pact Magic" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_WARLOCK_PACT_MAGIC">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_24_PACT_MAGIC</requirements>
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WARLOCK_PACT_MAGIC</requirements>
 		<description>
-			<p>Through occult ceremony, you have formed a pact with a mysterious entity to gain magical powers. The entity is a voice in the shadows—its identity unclear—but its boon to you is concrete: the ability to cast spells. See chapter 7 for the rules on spellcasting. The information below details how you use those rules with Warlock spells, which appear in the Warlock spell list later in the class’s description.</p>
+			<p>Through occult ceremony, you have formed a pact with a mysterious entity to gain magical powers. The entity is a voice in the shadows—its identity unclear—but its boon to you is concrete: the ability to cast spells.</p>
 			<p><em><strong>Cantrips.</strong></em> You know two Warlock cantrips of your choice. <i>Eldritch Blast</i> and <i>Prestidigitation</i> are recommended. Whenever you gain a Warlock level, you can replace one of your cantrips from this feature with another Warlock cantrip of your choice.</p>
 			<p class="indent">When you reach Warlock levels 4 and 10, you learn another Warlock cantrip of your choice, as shown in the Cantrips column of the Warlock Features table.</p>
 			<p><em><strong>Spell Slots.</strong></em> The Warlock Features table shows how many spell slots you have to cast your Warlock spells of levels 1–5. The table also shows the level of those slots, all of which are the same level. You regain all expended Pact Magic spell slots when you finish a Short or Long Rest.</p>
@@ -167,9 +162,7 @@
 			</center>
 			<p><em><strong>Spellcasting Focus.</strong></em> You can use an Arcane Focus as a Spellcasting Focus for your Warlock spells.</p>
 		</description>
-		<sheet display="false">
-			<description>Your arcane research and the magic bestowed on you by your patron have given you facility with spells. You have {{warlock:spellcasting:slots:count}} slots of level {{warlock:spellcasting:slot}}</description>
-		</sheet>
+		<sheet display="false" />
 		<spellcasting name="Warlock" ability="Charisma" allowReplace="true">
 			<list>Warlock</list>
 		</spellcasting>
@@ -221,7 +214,7 @@
 	</element>
 
 	<element name="Level 2: Magical Cunning" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_WARLOCK_MAGICAL_CUNNING">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_24_MAGICAL_CUNNING</requirements>
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WARLOCK_MAGICAL_CUNNING</requirements>
 		<description>
 			<p>You can perform an esoteric rite for 1 minute. At the end of it, you regain expended Pact Magic spell slots but no more than a number equal to half your maximum (round up). Once you use this feature, you can’t do so again until you finish a Long Rest.</p>
 		</description>
@@ -231,31 +224,31 @@
 			<description level="20">You can perform an esoteric rite and regain all {{warlock:spellcasting:slots:count}} Pact Magic spell slots.</description>
 		</sheet>
 		<rules>
-			<stat name="warlock:spellcasting:slots:count:half" value="1" level="2" />
-			<stat name="warlock:spellcasting:slots:count:half" value="1" level="11" />
+			<stat name="warlock:spellcasting:slots:count:half" value="1" bonus="magical cunning" />
+			<stat name="warlock:spellcasting:slots:count:half" value="2" bonus="magical cunning" level="11" />
 		</rules>
 	</element>
 
-	<element name="Level 3: Warlock Subclass" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_WARLOCK_OTHERWORLDLY_PATRON">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_24_OTHERWORLDLY_PATRON</requirements>
+	<element name="Level 3: Warlock Subclass" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_WARLOCK_WARLOCK_SUBCLASS">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WARLOCK_WARLOCK_SUBCLASS</requirements>
 		<description>
-			<p>You gain a Warlock subclass of your choice. The Archfey Patron, Celestial Patron, Fiend Patron, and Great Old One Patron subclasses are detailed after this class’s description. A subclass is a specialization that grants you features at certain Warlock levels. For the rest of your career, you gain each of your subclass’s features that are of your Warlock level or lower.</p>
+			<p>You gain a Warlock subclass of your choice. A subclass is a specialization that grants you features at certain Warlock levels. For the rest of your career, you gain each of your subclass’s features that are of your Warlock level or lower.</p>
 		</description>
 		<sheet display="false"/>
 		<rules>
-			<select type="Archetype" name="Otherworldly Patron" supports="Otherworldly Patron" level="3"/>
+			<select type="Archetype" name="Warlock Subclass" supports="Otherworldly Patron" />
 		</rules>
 	</element>
 
 	<element name="Level 4: Ability Score Improvement" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_WARLOCK_ABILITY_SCORE_IMPROVEMENT">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_24_ABILITY_SCORE_IMPROVEMENT</requirements>
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WARLOCK_ABILITY_SCORE_IMPROVEMENT</requirements>
 		<compendium display="false" />
 		<description>
 			<p>You gain the Ability Score Improvement feat or another feat of your choice for which you qualify. You gain this feature again at Warlock levels 8, 12, and 16.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
-			<select type="Feat" name="Ability Score Improvement (Warlock 4)" level="4" />
+			<select type="Feat" name="Ability Score Improvement (Warlock 4)" />
 			<select type="Feat" name="Ability Score Improvement (Warlock 8)" level="8" />
 			<select type="Feat" name="Ability Score Improvement (Warlock 12)" level="12" />
 			<select type="Feat" name="Ability Score Improvement (Warlock 16)" level="16" />
@@ -263,12 +256,11 @@
 	</element>
 
 	<element name="Level 9: Contact Patron" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_WARLOCK_CONTACT_PATRON">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_24_CONTACT_PATRON</requirements>
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WARLOCK_CONTACT_PATRON</requirements>
 		<description>
 			<p>In the past, you usually contacted your patron through intermediaries. Now you can communicate directly; you always have the <i>Contact Other Plane</i> spell prepared. With this feature, you can cast the spell without expending a spell slot to contact your patron, and you automatically succeed on the spell’s saving throw.</p>
 			<p class="indent">Once you cast the spell with this feature, you can’t do so in this way again until you finish a Long Rest.</p>
 			<div class="reference">
-				<!--<div element="ID_PHB_SPELL_CONTACT_OTHER_PLANE" />-->
 				<div element="ID_WOTC_PHB24_SPELL_CONTACT_OTHER_PLANE" />
 			</div>
 		</description>
@@ -276,13 +268,12 @@
 			<description>You can cast the Contact Other Plane spell without expending a spell slot to contact your patron. When cast this way, you automatically succeed on the spell’s saving throw.</description>
 		</sheet>
 		<rules>
-			<!--<grant type="Spell" id="ID_PHB_SPELL_CONTACT_OTHER_PLANE" spellcasting="Warlock"/>-->
 			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_CONTACT_OTHER_PLANE" spellcasting="Warlock"/>
 		</rules>
 	</element>
 
 	<element name="Level 11: Mystic Arcanum" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_WARLOCK_MYSTIC_ARCANUM">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_24_MYSTIC_ARCANUM</requirements>
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WARLOCK_MYSTIC_ARCANUM</requirements>
 		<description>
 			<p>Your patron grants you a magical secret called an arcanum. Choose one level 6 Warlock spell as this arcanum.</p>
 			<p class="indent">You can cast your arcanum spell once without expending a spell slot, and you must finish a Long Rest before you can cast it in this way again.</p>
@@ -293,7 +284,7 @@
 			<description>You can cast each of your Mystic Arcanum spells once without expending a spell slot.</description>
 		</sheet>
 		<rules>
-			<select type="Spell" name="Arcanum Spell (Mystic Arcanum)" supports="Warlock,6" level="11" spellcasting="Warlock" />
+			<select type="Spell" name="Arcanum Spell (Mystic Arcanum)" supports="Warlock,6" spellcasting="Warlock" />
 			<select type="Spell" name="Arcanum Spell (Mystic Arcanum)" supports="Warlock,7" level="13" spellcasting="Warlock" />
 			<select type="Spell" name="Arcanum Spell (Mystic Arcanum)" supports="Warlock,8" level="15" spellcasting="Warlock" />
 			<select type="Spell" name="Arcanum Spell (Mystic Arcanum)" supports="Warlock,9" level="17" spellcasting="Warlock" />
@@ -301,7 +292,7 @@
 	</element>
 
 	<element name="Level 19: Epic Boon" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_WARLOCK_EPIC_BOON">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_24_EPIC_BOON</requirements>
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WARLOCK_EPIC_BOON</requirements>
 		<description>
 			<p>You gain an Epic Boon feat or another feat of your choice for which you qualify. Boon of Fate is recommended.</p>
 		</description>
@@ -313,23 +304,21 @@
 	</element>
 
 	<element name="Level 20: Eldritch Master" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_WARLOCK_ELDRITCH_MASTER">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_24_ELDRITCH_MASTER</requirements>
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WARLOCK_ELDRITCH_MASTER</requirements>
 		<description>
 			<p>When you use your Magical Cunning feature, you regain all your expended Pact Magic spell slots.</p>
 		</description>
-		<sheet alt="Eldritch Master">
-			<description>When you use your Magical Cunning feature, you regain all your expended Pact Magic spell slots.</description>
-		</sheet>
+		<sheet display="false" />
 	</element>
 
 	<!--Feature Replacement Grants-->
-	<element name="Eldritch Invocations Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_24_ELDRITCH_INVOCATIONS" />
-	<element name="Pact Magic Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_24_SPELLCASTING_PACT_MAGIC" />
-	<element name="Magical Cunning Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_24_MAGICAL_CUNNING" />
-	<element name="Warlock Subclass Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_24_OTHERWORLDLY_PATRON" />
-	<element name="Ability Score Improvement Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_24_ABILITY_SCORE_IMPROVEMENT" />
-	<element name="Contact Patron Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_24_CONTACT_PATRON" />
-	<element name="Mystic Arcanum Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_24_MYSTIC_ARCANUM" />
-	<element name="Eldritch Master Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_24_ELDRITCH_MASTER" />
+	<element name="Eldritch Invocations Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WARLOCK_ELDRITCH_INVOCATIONS" />
+	<element name="Pact Magic Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WARLOCK_SPELLCASTING_PACT_MAGIC" />
+	<element name="Magical Cunning Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WARLOCK_MAGICAL_CUNNING" />
+	<element name="Warlock Subclass Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WARLOCK_WARLOCK_SUBCLASS" />
+	<element name="Ability Score Improvement Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WARLOCK_ABILITY_SCORE_IMPROVEMENT" />
+	<element name="Contact Patron Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WARLOCK_CONTACT_PATRON" />
+	<element name="Mystic Arcanum Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WARLOCK_MYSTIC_ARCANUM" />
+	<element name="Eldritch Master Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WARLOCK_ELDRITCH_MASTER" />
 
 </elements>
