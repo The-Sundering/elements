@@ -4,7 +4,7 @@
 		<name>Fiend Patron</name>
 		<description>The Fiend Patron subclass from the Player’s Handbook 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
-		<update version="0.0.4">
+		<update version="0.0.1">
 			<file name="warlock-fiend.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/archetypes/warlock-fiend.xml" />
 		</update>
 	</info>
@@ -31,7 +31,7 @@
 	</element>
 
 	<element name="Level 3: Fiend Spells" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_FIEND_FIEND_SPELLS">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_24_FIEND_FIEND_SPELLS</requirements>
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WARLOCK_FIEND_FIEND_SPELLS</requirements>
 		<description>
 			<p>The magic of your patron ensures you always have certain spells ready; when you reach a Warlock level specified in the Fiend Spells table, you thereafter always have the listed spells prepared.</p>
 			<h5 class="caption">Fiend Spells</h5>
@@ -39,29 +39,18 @@
 				<thead>
 					<tr><td>Warlock Level</td><td>Spells</td></tr>
 				</thead>
-				<tr><td>3rd</td><td><em>Burning Hands, Command, Scorching Ray, Suggestion</em></td></tr>
-				<tr><td>5th</td><td><em>Fireball, Stinking Cloud</em></td></tr>
-				<tr><td>7th</td><td><em>Fire Shield, Wall of Fire</em></td></tr>
-				<tr><td>9th</td><td><em>Geas, Insect Plague</em></td></tr>
+				<tr><td>3</td><td><em>Burning Hands, Command, Scorching Ray, Suggestion</em></td></tr>
+				<tr><td>5</td><td><em>Fireball, Stinking Cloud</em></td></tr>
+				<tr><td>7</td><td><em>Fire Shield, Wall of Fire</em></td></tr>
+				<tr><td>9</td><td><em>Geas, Insect Plague</em></td></tr>
 			</table>
 		</description>
 		<sheet display="false" />
 		<rules>
-			<!--<grant type="Spell" id="ID_PHB_SPELL_BURNING_HANDS" level="3" spellcasting="Warlock" allowReplace="false" />
-			<grant type="Spell" id="ID_PHB_SPELL_COMMAND" level="3" spellcasting="Warlock" allowReplace="false" />
-			<grant type="Spell" id="ID_PHB_SPELL_SCORCHING_RAY" level="3" spellcasting="Warlock" allowReplace="false" />
-			<grant type="Spell" id="ID_PHB_SPELL_SUGGESTION" level="3" spellcasting="Warlock" allowReplace="false" />
-			<grant type="Spell" id="ID_PHB_SPELL_FIREBALL" level="5" spellcasting="Warlock" allowReplace="false" />
-			<grant type="Spell" id="ID_PHB_SPELL_STINKING_CLOUD" level="5" spellcasting="Warlock" allowReplace="false" />
-			<grant type="Spell" id="ID_PHB_SPELL_FIRE_SHIELD" level="7" spellcasting="Warlock" allowReplace="false" />
-			<grant type="Spell" id="ID_PHB_SPELL_WALL_OF_FIRE" level="7" spellcasting="Warlock" allowReplace="false" />
-			<grant type="Spell" id="ID_PHB_SPELL_GEAS" level="9" spellcasting="Warlock" allowReplace="false" />
-			<grant type="Spell" id="ID_PHB_SPELL_INSECT_PLAGUE" level="9" spellcasting="Warlock" allowReplace="false" />-->
-
-			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_BURNING_HANDS" level="3" spellcasting="Warlock" allowReplace="false" />
-			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_COMMAND" level="3" spellcasting="Warlock" allowReplace="false" />
-			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_SCORCHING_RAY" level="3" spellcasting="Warlock" allowReplace="false" />
-			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_SUGGESTION" level="3" spellcasting="Warlock" allowReplace="false" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_BURNING_HANDS" spellcasting="Warlock" allowReplace="false" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_COMMAND" spellcasting="Warlock" allowReplace="false" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_SCORCHING_RAY" spellcasting="Warlock" allowReplace="false" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_SUGGESTION" spellcasting="Warlock" allowReplace="false" />
 			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_FIREBALL" level="5" spellcasting="Warlock" allowReplace="false" />
 			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_STINKING_CLOUD" level="5" spellcasting="Warlock" allowReplace="false" />
 			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_FIRE_SHIELD" level="7" spellcasting="Warlock" allowReplace="false" />
@@ -71,7 +60,7 @@
 		</rules>
 	</element>
 	<element name="Level 3: Dark One’s Blessing" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_FIEND_DARK_ONES_BLESSING">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_24_FIEND_DARK_ONES_BLESSING</requirements>
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WARLOCK_FIEND_DARK_ONES_BLESSING</requirements>
 		<description>
 			<p>When you reduce an enemy to 0 Hit Points, you gain Temporary Hit Points equal to your Charisma modifier plus your Warlock level (minimum of 1 Temporary Hit Point). You also gain this benefit if someone else reduces an enemy within 10 feet of you to 0 Hit Points.</p>
 		</description>
@@ -79,13 +68,15 @@
 			<description>When you reduce an enemy to 0 Hit Points, you gain {{dark ones blessing:thp}} Temporary Hit Points. You also gain these Temporary Hit Points if someone else reduces an enemy within 10 ft. to 0 Hit Points.</description>
 		</sheet>
 		<rules>
-			<stat name="dark ones blessing:thp" value="level:warlock" />
-			<stat name="dark ones blessing:thp" value="charisma:modifier" />
+			<stat name="dark ones blessing:value" value="level:warlock" />
+			<stat name="dark ones blessing:value" value="charisma:modifier" />
+			<stat name="dark ones blessing:thp" value="1" bonus="dark ones blessing"/>
+			<stat name="dark ones blessing:thp" value="dark ones blessing:value" bonus="dark ones blessing"/>
 		</rules>
 	</element>
 
 	<element name="Level 6: Dark One’s Own Luck" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_FIEND_DARK_ONES_OWN_LUCK">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_24_FIEND_DARK_ONES_OWN_LUCK</requirements>
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WARLOCK_FIEND_DARK_ONES_OWN_LUCK</requirements>
 		<description>
 			<p>You can call on your fiendish patron to alter fate in your favor. When you make an ability check or a saving throw, you can use this feature to add 1d10 to your roll. You can do so after seeing the roll but before any of the roll’s effects occur.</p>
 			<p class="indent">You can use this feature a number of times equal to your Charisma modifier (minimum of once), but you can use it no more than once per roll. You regain all expended uses when you finish a Long Rest.</p>
@@ -100,7 +91,7 @@
 	</element>
 
 	<element name="Level 10: Fiendish Resilience" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_FIEND_FIENDISH_RESILIENCE">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_24_FIEND_FIENDISH_RESILIENCE</requirements>
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WARLOCK_FIEND_FIENDISH_RESILIENCE</requirements>
 		<description>
 			<p>Choose one damage type, other than Force, whenever you finish a Short or Long Rest. You have Resistance to that damage type until you choose a different one with this feature.</p>
 		</description>
@@ -110,7 +101,7 @@
 	</element>
 
 	<element name="Level 14: Hurl Through Hell" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_FIEND_HURL_THROUGH_HELL">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_24_FIEND_HURL_THROUGH_HELL</requirements>
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WARLOCK_FIEND_HURL_THROUGH_HELL</requirements>
 		<description>
 			<p>Once per turn when you hit a creature with an attack roll, you can try to instantly transport the target through the Lower Planes. The target must succeed on a Charisma saving throw against your spell save DC, or the target disappears and hurtles through a nightmare landscape. The target takes 8d10 Psychic damage if it isn’t a Fiend, and it has the Incapacitated condition until the end of your next turn, when it returns to the space it previously occupied or the nearest unoccupied space.</p>
 			<p class="indent">Once you use this feature, you can’t use it again until you finish a Long Rest unless you expend a Pact Magic spell slot (no action required) to restore your use of it.</p>
@@ -122,10 +113,10 @@
 	</element>
 
 	<!--Feature Replacement Grants-->
-	<element name="Fiend Spells Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_24_FIEND_FIEND_SPELLS" />
-	<element name="Dark One’s Blessing Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_24_FIEND_DARK_ONES_BLESSING" />
-	<element name="Dark One’s Own Luck Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_24_FIEND_DARK_ONES_OWN_LUCK" />
-	<element name="Fiendish Resilience Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_24_FIEND_FIENDISH_RESILIENCE" />
-	<element name="Hurl Through Hell Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_24_FIEND_HURL_THROUGH_HELL" />
+	<element name="Fiend Spells Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WARLOCK_FIEND_FIEND_SPELLS" />
+	<element name="Dark One’s Blessing Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WARLOCK_FIEND_DARK_ONES_BLESSING" />
+	<element name="Dark One’s Own Luck Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WARLOCK_FIEND_DARK_ONES_OWN_LUCK" />
+	<element name="Fiendish Resilience Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WARLOCK_FIEND_FIENDISH_RESILIENCE" />
+	<element name="Hurl Through Hell Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WARLOCK_FIEND_HURL_THROUGH_HELL" />
 
 </elements>
