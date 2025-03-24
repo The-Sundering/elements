@@ -244,8 +244,8 @@
 			<stat name="druid:spellcasting:prepare" value="1" level="20"/>
 
 			<select type="Spell" name="Cantrip (Druid)" supports="$(spellcasting:list), 0" level="1" number="2" spellcasting="Druid" />
-			<select type="Spell" name="Cantrip (Druid)" supports="$(spellcasting:list), 0" level="4" number="1" spellcasting="Druid" />
-			<select type="Spell" name="Cantrip (Druid)" supports="$(spellcasting:list), 0" level="10" number="1" spellcasting="Druid" />
+			<select type="Spell" name="Cantrip (Druid)" supports="$(spellcasting:list), 0" level="4" spellcasting="Druid" />
+			<select type="Spell" name="Cantrip (Druid)" supports="$(spellcasting:list), 0" level="10" spellcasting="Druid" />
 		</rules>
 	</element>
 
@@ -292,44 +292,31 @@
 			</ul>
 		</description>
 		<sheet alt="Wild Shape" action="Bonus Action" usage="{{druid wild shape:uses}}/Long Rest">
-			<description>You can magically assume the form of a Beast you have learned (you can have {{druid wild shape:forms}} Known Forms). You can stay in that form for {{druid wild shape:hours}} hours or until you use Wild Shape again, have the Incapacitated condition, or die. You can also leave the form early as a Bonus Action. &#13;
+			<description>You can magically assume the form of a Beast you have learned (you can have {{druid wild shape:forms}} Known Forms of CR 1/4 or lower without a Fly Speed). You immediately gain {{druid wild shape:thp}} Temporary Hit Points, and you can stay in that form for {{druid wild shape:hours}} hours or until you use Wild Shape again, have the Incapacitated condition, or die. You can also leave the form early as a Bonus Action. &#13;
+			You regain one expended use of your Wild Shape when you finish a Short Rest.</description>
+			<description level="4">You can magically assume the form of a Beast you have learned (you can have {{druid wild shape:forms}} Known Forms of CR 1/2 or lower without a Fly Speed). You immediately gain {{druid wild shape:thp}} Temporary Hit Points, and you can stay in that form for {{druid wild shape:hours}} hours or until you use Wild Shape again, have the Incapacitated condition, or die. You can also leave the form early as a Bonus Action. &#13;
+			You regain one expended use of your Wild Shape when you finish a Short Rest.</description>
+			<description level="8">You can magically assume the form of a Beast you have learned (you can have {{druid wild shape:forms}} Known Forms of CR 1 or lower). You immediately gain {{druid wild shape:thp}} Temporary Hit Points, and you can stay in that form for {{druid wild shape:hours}} hours or until you use Wild Shape again, have the Incapacitated condition, or die. You can also leave the form early as a Bonus Action. &#13;
 			You regain one expended use of your Wild Shape when you finish a Short Rest.</description>
 		</sheet>
 		<rules>
 			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_DRUID_WILD_SHAPE_FORMS" requirement="!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_DRUID_WILD_SHAPE_FORMS" />
-			<stat name="druid wild shape:forms" value="2" level="2"/>
-			<stat name="druid wild shape:forms" value="2" level="4"/>
-			<stat name="druid wild shape:forms" value="4" level="8"/>
-			<stat name="druid wild shape:uses" value="2" level="2"/>
-			<stat name="druid wild shape:uses" value="1" level="6"/>
-			<stat name="druid wild shape:uses" value="1" level="17"/>
+			<stat name="druid wild shape:forms" value="2" />
+			<stat name="druid wild shape:forms" value="4" bonus="wild shape" level="4"/>
+			<stat name="druid wild shape:forms" value="8" bonus="wild shape" level="8"/>
+			<stat name="druid wild shape:uses" value="2" bonus="wild shape"/>
+			<stat name="druid wild shape:uses" value="3" bonus="wild shape" level="6"/>
+			<stat name="druid wild shape:uses" value="4" bonus="wild shape" level="17"/>
 			<stat name="druid wild shape:hours" value="level:druid:half" />
 			<stat name="druid wild shape:thp" value="level:druid" />
 		</rules>
 	</element>
+<!-- PLACEHOLDER FOR MOON DRUID -->
 	<element name="Wild Shape Forms" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_DRUID_WILD_SHAPE_FORMS">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_DRUID_WILD_SHAPE_FORMS</requirements>
 		<compendium display="false" />
 		<description />
-		<sheet alt="">
-			<description>When assuming a Wild Shape form: &#13;
-			• The maximum CR of your form is CR 1/4 &#13;
-			• You gain {{druid wild shape:thp}} Temporary Hit Points
-			• You cannot choose a form with a Fly Speed.</description>
-			<description level="4">When assuming a Wild Shape form: &#13;
-			• The maximum CR of your form is CR 1/2 &#13;
-			• You gain {{druid wild shape:thp}} Temporary Hit Points
-			• You cannot choose a form with a Fly Speed.</description>
-			<description level="8">When assuming a Wild Shape form: &#13;
-			• The maximum CR of your form is CR 1 &#13;
-			• You gain {{druid wild shape:thp}} Temporary Hit Points &#13;
-			• You can choose a form with a Fly Speed.</description>
-			<description level="18">When assuming a Wild Shape form: &#13;
-			• The maximum CR of your form is CR 1 &#13;
-			• You gain {{druid wild shape:thp}} Temporary Hit Points &#13;
-			• You can choose a form with a Fly Speed. &#13;
-			• You can cast spells in this form so long as the spell does not have a Material component with a cost specified or consumes its Material component.</description>
-		</sheet>
+		<sheet display="false" />
 	</element>
 
 	<element name="Level 3: Druid Subclass" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_DRUID_DRUID_SUBCLASS">
@@ -420,11 +407,9 @@
 		<description>
 			<p>While using Wild Shape, you can cast spells in Beast form, except for any spell that has a Material component with a cost specified or that consumes its Material component.</p>
 		</description>
-		<sheet display="false" />
-		<!-- Moved to Wild Shape Sheet Description -->
-		<!-- <sheet alt="Beast Spells">
+		<sheet alt="Beast Spells" >
 			<description>While using Wild Shape, you can cast spells in Beast form, except for any spell that has a Material component with a cost specified or that consumes its Material component.</description>
-		</sheet>-->
+		</sheet>
 	</element>
 
 	<element name="Level 19: Epic Boon" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_DRUID_EPIC_BOON">
