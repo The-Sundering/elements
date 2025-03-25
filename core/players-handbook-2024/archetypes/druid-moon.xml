@@ -24,7 +24,7 @@
 		<sheet display="false" />
 		<rules>
 			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_MOON_CIRCLE_OF_MOON_SPELLS" level="3" />
-			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_MOON_CIRCLE_FORMS" level="3" />
+			<!--<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_MOON_CIRCLE_FORMS" level="3" />-->
 			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_MOON_IMPROVED_CIRCLE_FORMS" level="6" />
 			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_MOON_MOONLIGHT_STEP" level="10" />
 			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_MOON_LUNAR_FORM" level="14" />
@@ -60,6 +60,7 @@
 		</rules>
 	</element>
 	<element name="Level 3: Circle Forms" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_MOON_CIRCLE_FORMS">
+		<supports>ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_MOON_CIRCLE_FORMS</supports>
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_DRUID_MOON_CIRCLE_FORMS</requirements>
 		<description>
 			<p>You can channel lunar magic when you assume a Wild Shape form, granting you the benefits below.</p>
@@ -71,7 +72,6 @@
 			<description>The maximum CR of your Known forms is CR {{circle forms:cr}}, and your form's AC can be increased to {{circle forms:ac}}</description>
 		</sheet>
 		<rules>
-			<grant type="Grants" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_DRUID_WILD_SHAPE_FORMS" />
 			<stat name="circle forms:cr" value="1" bonus="wild shape" />
 			<stat name="circle forms:cr" value="2" bonus="wild shape" level="6" />
 			<stat name="circle forms:cr" value="3" bonus="wild shape" level="9" />
