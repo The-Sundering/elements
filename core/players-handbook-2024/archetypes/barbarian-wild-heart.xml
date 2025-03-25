@@ -126,7 +126,6 @@
 		</sheet>
 	</element>
 
-
 	<element name="Level 14: Power of the Wilds" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARBARIAN_WILD_HEART_POWER_OF_THE_WILDS">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARBARIAN_WILD_HEART_POWER_OF_THE_WILDS</requirements>
 		<description>
