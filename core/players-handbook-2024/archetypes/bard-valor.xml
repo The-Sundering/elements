@@ -20,9 +20,7 @@
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARD_VALOR_EXTRA_ATTACK" />
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARD_VALOR_BATTLE_MAGIC" />
 		</description>
-		<sheet display="false">
-			<description>Bards of the College of Valor are daring skalds whose tales keep alive the memory of the great heroes of the past, and thereby inspire a new generation of heroes.</description>
-		</sheet>
+		<sheet display="false" />
 		<rules>
 			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARD_VALOR_COMBAT_INSPIRATION" level="3" />
 			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARD_VALOR_MARTIAL_TRAINING" level="3" />
@@ -50,6 +48,7 @@
 		</description>
 		<sheet alt="Martial Training">
 			<description>You can use a Simple or Martial weapon as a Spellcasting Focus to cast your Bard spells.</description>
+		</sheet>
 		<rules>
 			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" requirements="ID_WOTC_SOURCE_PLAYERS_HANDBOOK"/>
 			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS" requirements="ID_WOTC_SOURCE_PLAYERS_HANDBOOK"/>
