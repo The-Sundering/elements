@@ -70,7 +70,6 @@
 			<select type="Archetype Feature" name="Aspect of the Wilds" supports="Aspect of the Wilds" />
 		</rules>
 	</element>
-
 	<!-- Aspect of the Wilds Options -->
 	<element name="Owl" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARBARIAN_WILD_HEART_ASPECT_OF_THE_WILDS_OWL">
 		<supports>Aspect of the Wilds</supports>
