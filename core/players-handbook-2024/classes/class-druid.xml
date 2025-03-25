@@ -157,7 +157,7 @@
 		<description>
 			<p>You know one extra cantrip from the Druid spell list. In addition, your mystical connection to nature gives you a bonus to your Intelligence (Arcana or Nature) checks. The bonus equals your Wisdom modifier (minimum bonus of +1).</p>
 		</description>
-		<sheet alt="Primal Order: Magician" />
+		<sheet display="false" />
 		<rules>
 			<select type="Spell" name="Primal Order (Magician)" supports="$(spellcasting:list), 0" number="1" spellcasting="Druid" />
 			<stat name="primal order:magician bonus" value="1" bonus="primal order" />
@@ -172,7 +172,7 @@
 		<description>
 			<p>Trained for battle, you gain proficiency with Martial weapons and training with Medium armor.</p>
 		</description>
-		<sheet alt="Primal Order: Warden" />
+		<sheet display="false" />
 		<rules>
 				<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" />
 				<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" />
@@ -300,8 +300,7 @@
 			You regain one expended use of your Wild Shape when you finish a Short Rest.</description>
 		</sheet>
 		<rules>
-			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_DRUID_WILD_SHAPE_FORMS" requirement="!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_DRUID_WILD_SHAPE_FORMS" />
-			<stat name="druid wild shape:forms" value="2" />
+			<stat name="druid wild shape:forms" value="2" bonus="wild shape" />
 			<stat name="druid wild shape:forms" value="4" bonus="wild shape" level="4"/>
 			<stat name="druid wild shape:forms" value="8" bonus="wild shape" level="8"/>
 			<stat name="druid wild shape:uses" value="2" bonus="wild shape"/>
@@ -309,14 +308,8 @@
 			<stat name="druid wild shape:uses" value="4" bonus="wild shape" level="17"/>
 			<stat name="druid wild shape:hours" value="level:druid:half" />
 			<stat name="druid wild shape:thp" value="level:druid" />
+			<select type="Archetype Feature" name="Circle Forms (Moon Druid)" supports="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_MOON_CIRCLE_FORMS" default="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_MOON_CIRCLE_FORMS" requirement="ID_WOTC_PHB24_ARCHETYPE_DRUID_CIRCLE_OF_THE_MOON" />
 		</rules>
-	</element>
-<!-- PLACEHOLDER FOR MOON DRUID -->
-	<element name="Wild Shape Forms" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_DRUID_WILD_SHAPE_FORMS">
-		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_DRUID_WILD_SHAPE_FORMS</requirements>
-		<compendium display="false" />
-		<description />
-		<sheet display="false" />
 	</element>
 
 	<element name="Level 3: Druid Subclass" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_DRUID_DRUID_SUBCLASS">
@@ -376,8 +369,8 @@
 			<p>Add your Wisdom modifier to the damage you deal with any Druid cantrip.</p>
 		</description>
 		<sheet alt="Elemental Fury: Potent Spellcasting">
-			<description>Your Druid cantrips deal an additional {{wisdom:modifier}} damage.</description>
-			<description level="15">Your Druid cantrips deal an additional {{wisdom:modifier}} damage, and those with a range of 10ft or greater now have a range of 300ft.</description>
+			<description>Your Druid cantrips deal an additional +{{wisdom:modifier}} damage.</description>
+			<description level="15">Your Druid cantrips deal an additional +{{wisdom:modifier}} damage, and those with a range of 10ft or greater now have a range of 300ft.</description>
 		</sheet>
 	</element>
 	<element name="Primal Strike" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_DRUID_ELEMENTAL_FURY_PRIMAL_STRIKE">
