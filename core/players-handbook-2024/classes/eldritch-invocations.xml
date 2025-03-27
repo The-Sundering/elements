@@ -184,7 +184,7 @@
 
 	<element name="Eldritch Spear" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_ELDRITCH_SPEAR">
 		<supports>Eldritch Invocation</supports>
-		<prerequisite>Level 2+ Warlock, a Warlock Cantrip That Deals Damage</prerequisite>
+		<prerequisite>Level 2+ Warlock, a Warlock Cantrip That Deals Damage and has a Range of 10+ Feet</prerequisite>
 		<requirements>[level:warlock:2]</requirements>
 		<description>
 			<p><em>Level 2+ Warlock, a Warlock Cantrip That Deals Damage</em></p>
@@ -214,7 +214,7 @@
 	<element name="Eldritch Spear" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_ELDRITCH_SPEAR_2">
 		<compendium display="false" />
 		<supports>Eldritch Invocation</supports>
-		<prerequisite>Level 2+ Warlock, a Warlock Cantrip That Deals Damage</prerequisite>
+		<prerequisite>Level 2+ Warlock, a Warlock Cantrip That Deals Damage and has a Range of 10+ Feet</prerequisite>
 		<requirements>[level:warlock:2],ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_ELDRITCH_SPEAR</requirements>
 		<description>
 			<p><em>Level 2+ Warlock, a Warlock Cantrip That Deals Damage</em></p>
@@ -231,7 +231,7 @@
 	<element name="Eldritch Spear" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_ELDRITCH_SPEAR_3">
 		<compendium display="false" />
 		<supports>Eldritch Invocation</supports>
-		<prerequisite>Level 2+ Warlock, a Warlock Cantrip That Deals Damage</prerequisite>
+		<prerequisite>Level 2+ Warlock, a Warlock Cantrip That Deals Damage and has a Range of 10+ Feet</prerequisite>
 		<requirements>[level:warlock:2],ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_ELDRITCH_SPEAR_2</requirements>
 		<description>
 			<p><em>Level 2+ Warlock, a Warlock Cantrip That Deals Damage</em></p>
@@ -248,7 +248,7 @@
 	<element name="Eldritch Spear" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_ELDRITCH_SPEAR_4">
 		<compendium display="false" />
 		<supports>Eldritch Invocation</supports>
-		<prerequisite>Level 2+ Warlock, a Warlock Cantrip That Deals Damage</prerequisite>
+		<prerequisite>Level 2+ Warlock, a Warlock Cantrip That Deals Damage and has a Range of 10+ Feet</prerequisite>
 		<requirements>[level:warlock:2],ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_ELDRITCH_SPEAR_3</requirements>
 		<description>
 			<p><em>Level 2+ Warlock, a Warlock Cantrip That Deals Damage</em></p>
@@ -265,7 +265,7 @@
 	<element name="Eldritch Spear" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_ELDRITCH_SPEAR_5">
 		<compendium display="false" />
 		<supports>Eldritch Invocation</supports>
-		<prerequisite>Level 2+ Warlock, a Warlock Cantrip That Deals Damage</prerequisite>
+		<prerequisite>Level 2+ Warlock, a Warlock Cantrip That Deals Damage and has a Range of 10+ Feet</prerequisite>
 		<requirements>[level:warlock:2],ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_ELDRITCH_SPEAR_4</requirements>
 		<description>
 			<p><em>Level 2+ Warlock, a Warlock Cantrip That Deals Damage</em></p>
@@ -326,8 +326,8 @@
 		</sheet>
 		<rules>
 			<stat name="speed:swim" value="speed" bonus="base" />
-			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_WATER_BREATHING" spellcasting="Warlock Invocations" />
-		</rules>
+			<!--<grant type="Spell" id="ID_WOTC_PHB24_SPELL_WATER_BREATHING" spellcasting="Warlock Invocations" />
+		</rules>-->
 	</element>
 	<element name="Gift of the Protectors" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_GIFT_OF_THE_PROTECTORS">
 		<supports>Eldritch Invocation, Pact of the Tome</supports>
