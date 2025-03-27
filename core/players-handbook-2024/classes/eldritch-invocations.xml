@@ -20,11 +20,10 @@
 			<p class="indent"><em><strong>Repeatable.</strong></em> You can gain this invocation more than once. Each time you do so, choose a different eligible cantrip.</p>
 		</description>
 		<sheet>
-			<description>You can add +{{agonizing blast:damage}} to your chosen spell’s damage rolls.</description>
+			<description>You can add +{{agonizing blast:damage}} to your chosen cantrip's damage rolls.</description>
 		</sheet>
 		<rules>
 			<stat name="agonizing blast:damage" value="charisma:modifier" bonus="base" />
-			<select type="Class Feature" name="Agonizing Blast Cantrip" supports="Agonizing Blast Cantrip" />
 		</rules>
 	</element>
 	<element name="Agonizing Blast" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_AGONIZING_BLAST_2">
@@ -38,11 +37,8 @@
 			<p class="indent"><em><strong>Repeatable.</strong></em> You can gain this invocation more than once. Each time you do so, choose a different eligible cantrip.</p>
 		</description>
 		<sheet alt="Agonizing Blast (2nd cantrip)">
-			<description>You can add +{{agonizing blast:damage}} to your chosen spell’s damage rolls.</description>
+			<description>You can add +{{agonizing blast:damage}} to your chosen cantrip's damage rolls.</description>
 		</sheet>
-		<rules>
-			<select type="Class Feature" name="Agonizing Blast Cantrip" supports="Agonizing Blast Cantrip" />
-		</rules>
 	</element>
 	<element name="Agonizing Blast" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_AGONIZING_BLAST_3">
 		<compendium display="false" />
@@ -55,11 +51,8 @@
 			<p class="indent"><em><strong>Repeatable.</strong></em> You can gain this invocation more than once. Each time you do so, choose a different eligible cantrip.</p>
 		</description>
 		<sheet alt="Agonizing Blast (3rd cantrip)">
-			<description>You can add +{{agonizing blast:damage}} to your chosen spell’s damage rolls.</description>
+			<description>You can add +{{agonizing blast:damage}} to your chosen cantrip's damage rolls.</description>
 		</sheet>
-		<rules>
-			<select type="Class Feature" name="Agonizing Blast Cantrip" supports="Agonizing Blast Cantrip" />
-		</rules>
 	</element>
 	<element name="Agonizing Blast" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_AGONIZING_BLAST_4">
 		<compendium display="false" />
@@ -72,11 +65,8 @@
 			<p class="indent"><em><strong>Repeatable.</strong></em> You can gain this invocation more than once. Each time you do so, choose a different eligible cantrip.</p>
 		</description>
 		<sheet alt="Agonizing Blast (4th cantrip)">
-			<description>You can add +{{agonizing blast:damage}} to your chosen spell’s damage rolls.</description>
+			<description>You can add +{{agonizing blast:damage}} to your chosen cantrip's damage rolls.</description>
 		</sheet>
-		<rules>
-			<select type="Class Feature" name="Agonizing Blast Cantrip" supports="Agonizing Blast Cantrip" />
-		</rules>
 	</element>
 	<element name="Agonizing Blast" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_AGONIZING_BLAST_5">
 		<compendium display="false" />
@@ -89,11 +79,78 @@
 			<p class="indent"><em><strong>Repeatable.</strong></em> You can gain this invocation more than once. Each time you do so, choose a different eligible cantrip.</p>
 		</description>
 		<sheet alt="Agonizing Blast (5th cantrip)">
-			<description>You can add +{{agonizing blast:damage}} to your chosen spell’s damage rolls.</description>
+			<description>You can add +{{agonizing blast:damage}} to your chosen cantrip's damage rolls.</description>
 		</sheet>
-		<rules>
-			<select type="Class Feature" name="Agonizing Blast Cantrip" supports="Agonizing Blast Cantrip" />
-		</rules>
+	</element>
+	<element name="Agonizing Blast" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_AGONIZING_BLAST_6">
+		<compendium display="false" />
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>Level 2+ Warlock, a Warlock Cantrip That Deals Damage</prerequisite>
+		<requirements>[level:warlock:2],ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_AGONIZING_BLAST_5</requirements>
+		<description>
+			<p><em>Prerequisite: Level 2+ Warlock, a Warlock Cantrip That Deals Damage</em></p>
+			<p>Choose one of your known Warlock cantrips that deals damage. You can add your Charisma modifier to that spell’s damage rolls.</p>
+			<p class="indent"><em><strong>Repeatable.</strong></em> You can gain this invocation more than once. Each time you do so, choose a different eligible cantrip.</p>
+		</description>
+		<sheet alt="Agonizing Blast (6th cantrip)">
+			<description>You can add +{{agonizing blast:damage}} to your chosen cantrip's damage rolls.</description>
+		</sheet>
+	</element>
+	<element name="Agonizing Blast" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_AGONIZING_BLAST_7">
+		<compendium display="false" />
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>Level 2+ Warlock, a Warlock Cantrip That Deals Damage</prerequisite>
+		<requirements>[level:warlock:2],ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_AGONIZING_BLAST_6</requirements>
+		<description>
+			<p><em>Prerequisite: Level 2+ Warlock, a Warlock Cantrip That Deals Damage</em></p>
+			<p>Choose one of your known Warlock cantrips that deals damage. You can add your Charisma modifier to that spell’s damage rolls.</p>
+			<p class="indent"><em><strong>Repeatable.</strong></em> You can gain this invocation more than once. Each time you do so, choose a different eligible cantrip.</p>
+		</description>
+		<sheet alt="Agonizing Blast (7th cantrip)">
+			<description>You can add +{{agonizing blast:damage}} to your chosen cantrip's damage rolls.</description>
+		</sheet>
+	</element>
+	<element name="Agonizing Blast" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_AGONIZING_BLAST_8">
+		<compendium display="false" />
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>Level 2+ Warlock, a Warlock Cantrip That Deals Damage</prerequisite>
+		<requirements>[level:warlock:2],ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_AGONIZING_BLAST_7</requirements>
+		<description>
+			<p><em>Prerequisite: Level 2+ Warlock, a Warlock Cantrip That Deals Damage</em></p>
+			<p>Choose one of your known Warlock cantrips that deals damage. You can add your Charisma modifier to that spell’s damage rolls.</p>
+			<p class="indent"><em><strong>Repeatable.</strong></em> You can gain this invocation more than once. Each time you do so, choose a different eligible cantrip.</p>
+		</description>
+		<sheet alt="Agonizing Blast (8th cantrip)">
+			<description>You can add +{{agonizing blast:damage}} to your chosen cantrip's damage rolls.</description>
+		</sheet>
+	</element>
+		<element name="Agonizing Blast" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_AGONIZING_BLAST_9">
+		<compendium display="false" />
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>Level 2+ Warlock, a Warlock Cantrip That Deals Damage</prerequisite>
+		<requirements>[level:warlock:2],ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_AGONIZING_BLAST_8</requirements>
+		<description>
+			<p><em>Prerequisite: Level 2+ Warlock, a Warlock Cantrip That Deals Damage</em></p>
+			<p>Choose one of your known Warlock cantrips that deals damage. You can add your Charisma modifier to that spell’s damage rolls.</p>
+			<p class="indent"><em><strong>Repeatable.</strong></em> You can gain this invocation more than once. Each time you do so, choose a different eligible cantrip.</p>
+		</description>
+		<sheet alt="Agonizing Blast (9th cantrip)">
+			<description>You can add +{{agonizing blast:damage}} to your chosen cantrip's damage rolls.</description>
+		</sheet>
+	</element>
+	<element name="Agonizing Blast" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_AGONIZING_BLAST_10">
+		<compendium display="false" />
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>Level 2+ Warlock, a Warlock Cantrip That Deals Damage</prerequisite>
+		<requirements>[level:warlock:2],ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_AGONIZING_BLAST_9</requirements>
+		<description>
+			<p><em>Prerequisite: Level 2+ Warlock, a Warlock Cantrip That Deals Damage</em></p>
+			<p>Choose one of your known Warlock cantrips that deals damage. You can add your Charisma modifier to that spell’s damage rolls.</p>
+			<p class="indent"><em><strong>Repeatable.</strong></em> You can gain this invocation more than once. Each time you do so, choose a different eligible cantrip.</p>
+		</description>
+		<sheet alt="Agonizing Blast (10th cantrip)">
+			<description>You can add +{{agonizing blast:damage}} to your chosen cantrip's damage rolls.</description>
+		</sheet>
 	</element>
 
 	<element name="Armor of Shadows" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_ARMOR_OF_SHADOWS">
@@ -192,7 +249,7 @@
 			<p class="indent"><em><strong>Repeatable.</strong></em> You can gain this invocation more than once. Each time you do so, choose a different eligible cantrip.</p>
 		</description>
 		<sheet>
-			<description>Your chosen spell’s range is increased by {{eldritch spear:range}} feet.</description>
+			<description>Your chosen cantrip's range is increased by {{eldritch spear:range}} feet.</description>
 		</sheet>
 		<rules>
 			<stat name="eldritch spear:first multiple" value="level:warlock" />
@@ -208,7 +265,6 @@
 			<stat name="eldritch spear:range" value="eldritch spear:fifth multiple" />
 			<stat name="eldritch spear:range" value="-level:warlock" />
 			<stat name="eldritch spear:range" value="-level:warlock" />
-			<select type="Class Feature" name="Eldritch Spear Cantrip" supports="Eldritch Spear Cantrip"  />
 		</rules>
 	</element>
 	<element name="Eldritch Spear" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_ELDRITCH_SPEAR_2">
@@ -222,11 +278,8 @@
 			<p class="indent"><em><strong>Repeatable.</strong></em> You can gain this invocation more than once. Each time you do so, choose a different eligible cantrip.</p>
 		</description>
 		<sheet alt="Eldritch Spear (2nd cantrip)">
-			<description>Your chosen spell’s range is increased by {{eldritch spear:range}} feet.</description>
+			<description>Your chosen cantrip's range is increased by {{eldritch spear:range}} feet.</description>
 		</sheet>
-		<rules>
-			<select type="Class Feature" name="Eldritch Spear Cantrip" supports="Eldritch Spear Cantrip"  />
-		</rules>
 	</element>
 	<element name="Eldritch Spear" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_ELDRITCH_SPEAR_3">
 		<compendium display="false" />
@@ -239,11 +292,8 @@
 			<p class="indent"><em><strong>Repeatable.</strong></em> You can gain this invocation more than once. Each time you do so, choose a different eligible cantrip.</p>
 		</description>
 		<sheet alt="Eldritch Spear (3rd cantrip)">
-			<description>Your chosen spell’s range is increased by {{eldritch spear:range}} feet.</description>
+			<description>Your chosen cantrip's range is increased by {{eldritch spear:range}} feet.</description>
 		</sheet>
-		<rules>
-			<select type="Class Feature" name="Eldritch Spear Cantrip" supports="Eldritch Spear Cantrip"  />
-		</rules>
 	</element>
 	<element name="Eldritch Spear" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_ELDRITCH_SPEAR_4">
 		<compendium display="false" />
@@ -256,11 +306,8 @@
 			<p class="indent"><em><strong>Repeatable.</strong></em> You can gain this invocation more than once. Each time you do so, choose a different eligible cantrip.</p>
 		</description>
 		<sheet alt="Eldritch Spear (4th cantrip)">
-			<description>Your chosen spell’s range is increased by {{eldritch spear:range}} feet.</description>
+			<description>Your chosen cantrip's range is increased by {{eldritch spear:range}} feet.</description>
 		</sheet>
-		<rules>
-			<select type="Class Feature" name="Eldritch Spear Cantrip" supports="Eldritch Spear Cantrip"  />
-		</rules>
 	</element>
 	<element name="Eldritch Spear" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_ELDRITCH_SPEAR_5">
 		<compendium display="false" />
@@ -273,11 +320,78 @@
 			<p class="indent"><em><strong>Repeatable.</strong></em> You can gain this invocation more than once. Each time you do so, choose a different eligible cantrip.</p>
 		</description>
 		<sheet alt="Eldritch Spear (5th cantrip)">
-			<description>Your chosen spell’s range is increased by {{eldritch spear:range}} feet.</description>
+			<description>Your chosen cantrip's range is increased by {{eldritch spear:range}} feet.</description>
 		</sheet>
-		<rules>
-			<select type="Class Feature" name="Eldritch Spear Cantrip" supports="Eldritch Spear Cantrip"  />
-		</rules>
+	</element>
+	<element name="Eldritch Spear" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_ELDRITCH_SPEAR_6">
+		<compendium display="false" />
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>Level 2+ Warlock, a Warlock Cantrip That Deals Damage and has a Range of 10+ Feet</prerequisite>
+		<requirements>[level:warlock:2],ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_ELDRITCH_SPEAR_5</requirements>
+		<description>
+			<p><em>Level 2+ Warlock, a Warlock Cantrip That Deals Damage</em></p>
+			<p>Choose one of your known Warlock cantrips that deals damage and has a range of 10+ feet. When you cast that spell, its range increases by a number of feet equal to 30 times your Warlock level.</p>
+			<p class="indent"><em><strong>Repeatable.</strong></em> You can gain this invocation more than once. Each time you do so, choose a different eligible cantrip.</p>
+		</description>
+		<sheet alt="Eldritch Spear (6th cantrip)">
+			<description>Your chosen cantrip's range is increased by {{eldritch spear:range}} feet.</description>
+		</sheet>
+	</element>
+	<element name="Eldritch Spear" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_ELDRITCH_SPEAR_7">
+		<compendium display="false" />
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>Level 2+ Warlock, a Warlock Cantrip That Deals Damage and has a Range of 10+ Feet</prerequisite>
+		<requirements>[level:warlock:2],ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_ELDRITCH_SPEAR_6</requirements>
+		<description>
+			<p><em>Level 2+ Warlock, a Warlock Cantrip That Deals Damage</em></p>
+			<p>Choose one of your known Warlock cantrips that deals damage and has a range of 10+ feet. When you cast that spell, its range increases by a number of feet equal to 30 times your Warlock level.</p>
+			<p class="indent"><em><strong>Repeatable.</strong></em> You can gain this invocation more than once. Each time you do so, choose a different eligible cantrip.</p>
+		</description>
+		<sheet alt="Eldritch Spear (7th cantrip)">
+			<description>Your chosen cantrip's range is increased by {{eldritch spear:range}} feet.</description>
+		</sheet>
+	</element>
+	<element name="Eldritch Spear" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_ELDRITCH_SPEAR_8">
+		<compendium display="false" />
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>Level 2+ Warlock, a Warlock Cantrip That Deals Damage and has a Range of 10+ Feet</prerequisite>
+		<requirements>[level:warlock:2],ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_ELDRITCH_SPEAR_7</requirements>
+		<description>
+			<p><em>Level 2+ Warlock, a Warlock Cantrip That Deals Damage</em></p>
+			<p>Choose one of your known Warlock cantrips that deals damage and has a range of 10+ feet. When you cast that spell, its range increases by a number of feet equal to 30 times your Warlock level.</p>
+			<p class="indent"><em><strong>Repeatable.</strong></em> You can gain this invocation more than once. Each time you do so, choose a different eligible cantrip.</p>
+		</description>
+		<sheet alt="Eldritch Spear (8th cantrip)">
+			<description>Your chosen cantrip's range is increased by {{eldritch spear:range}} feet.</description>
+		</sheet>
+	</element>
+	<element name="Eldritch Spear" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_ELDRITCH_SPEAR_9">
+		<compendium display="false" />
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>Level 2+ Warlock, a Warlock Cantrip That Deals Damage and has a Range of 10+ Feet</prerequisite>
+		<requirements>[level:warlock:2],ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_ELDRITCH_SPEAR_8</requirements>
+		<description>
+			<p><em>Level 2+ Warlock, a Warlock Cantrip That Deals Damage</em></p>
+			<p>Choose one of your known Warlock cantrips that deals damage and has a range of 10+ feet. When you cast that spell, its range increases by a number of feet equal to 30 times your Warlock level.</p>
+			<p class="indent"><em><strong>Repeatable.</strong></em> You can gain this invocation more than once. Each time you do so, choose a different eligible cantrip.</p>
+		</description>
+		<sheet alt="Eldritch Spear (9th cantrip)">
+			<description>Your chosen cantrip's range is increased by {{eldritch spear:range}} feet.</description>
+		</sheet>
+	</element>
+	<element name="Eldritch Spear" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_ELDRITCH_SPEAR_10">
+		<compendium display="false" />
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>Level 2+ Warlock, a Warlock Cantrip That Deals Damage and has a Range of 10+ Feet</prerequisite>
+		<requirements>[level:warlock:2],ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_ELDRITCH_SPEAR_9</requirements>
+		<description>
+			<p><em>Level 2+ Warlock, a Warlock Cantrip That Deals Damage</em></p>
+			<p>Choose one of your known Warlock cantrips that deals damage and has a range of 10+ feet. When you cast that spell, its range increases by a number of feet equal to 30 times your Warlock level.</p>
+			<p class="indent"><em><strong>Repeatable.</strong></em> You can gain this invocation more than once. Each time you do so, choose a different eligible cantrip.</p>
+		</description>
+		<sheet alt="Eldritch Spear (10th cantrip)">
+			<description>Your chosen cantrip's range is increased by {{eldritch spear:range}} feet.</description>
+		</sheet>
 	</element>
 
 	<element name="Fiendish Vigor" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_FIENDISH_VIGOR">
@@ -326,8 +440,7 @@
 		</sheet>
 		<rules>
 			<stat name="speed:swim" value="speed" bonus="base" />
-			<!--<grant type="Spell" id="ID_WOTC_PHB24_SPELL_WATER_BREATHING" spellcasting="Warlock Invocations" />
-		</rules>-->
+		</rules>
 	</element>
 	<element name="Gift of the Protectors" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_GIFT_OF_THE_PROTECTORS">
 		<supports>Eldritch Invocation, Pact of the Tome</supports>
@@ -704,9 +817,6 @@
 		<sheet>
 			<description>When you hit a Large or smaller creature with your chosen cantrip, you can push the creature up to 10 feet straight away from you.</description>
 		</sheet>
-		<rules>
-			<select type="Class Feature" name="Repelling Blast Cantrip" supports="Repelling Blast Cantrip"  />
-		</rules>
 	</element>
 	<element name="Repelling Blast" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_REPELLING_BLAST_2">
 		<supports>Eldritch Invocation</supports>
@@ -720,9 +830,6 @@
 		<sheet alt="Repelling Blast (2nd cantrip)">
 			<description>When you hit a Large or smaller creature with your chosen cantrip, you can push the creature up to 10 feet straight away from you.</description>
 		</sheet>
-		<rules>
-			<select type="Class Feature" name="Repelling Blast Cantrip" supports="Repelling Blast Cantrip"  />
-		</rules>
 	</element>
 	<element name="Repelling Blast" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_REPELLING_BLAST_3">
 		<supports>Eldritch Invocation</supports>
@@ -736,9 +843,6 @@
 		<sheet alt="Repelling Blast (3rd cantrip)">
 			<description>When you hit a Large or smaller creature with your chosen cantrip, you can push the creature up to 10 feet straight away from you.</description>
 		</sheet>
-		<rules>
-			<select type="Class Feature" name="Repelling Blast Cantrip" supports="Repelling Blast Cantrip"  />
-		</rules>
 	</element>
 	<element name="Repelling Blast" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_REPELLING_BLAST_4">
 		<supports>Eldritch Invocation</supports>
@@ -752,9 +856,6 @@
 		<sheet alt="Repelling Blast (4th cantrip)">
 			<description>When you hit a Large or smaller creature with your chosen cantrip, you can push the creature up to 10 feet straight away from you.</description>
 		</sheet>
-		<rules>
-			<select type="Class Feature" name="Repelling Blast Cantrip" supports="Repelling Blast Cantrip"  />
-		</rules>
 	</element>
 	<element name="Repelling Blast" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_REPELLING_BLAST_5">
 		<supports>Eldritch Invocation</supports>
@@ -768,9 +869,71 @@
 		<sheet alt="Repelling Blast (5th cantrip)">
 			<description>When you hit a Large or smaller creature with your chosen cantrip, you can push the creature up to 10 feet straight away from you.</description>
 		</sheet>
-		<rules>
-			<select type="Class Feature" name="Repelling Blast Cantrip" supports="Repelling Blast Cantrip"  />
-		</rules>
+	</element>
+	<element name="Repelling Blast" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_REPELLING_BLAST_6">
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>Level 2+ Warlock, a Warlock Cantrip That Deals Damage via an Attack Roll</prerequisite>
+		<requirements>[level:warlock:2],ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_REPELLING_BLAST_5</requirements>
+		<description>
+			<p><em>Prerequisite: Level 2+ Warlock, a Warlock Cantrip That Deals Damage via an Attack Roll</em></p>
+			<p>Choose one of your known Warlock cantrips that requires an attack roll. When you hit a Large or smaller creature with that cantrip, you can push the creature up to 10 feet straight away from you.</p>
+			<p class="indent"><em><strong>Repeatable.</strong></em> You can gain this invocation more than once. Each time you do so, choose a different eligible cantrip.</p>
+		</description>
+		<sheet alt="Repelling Blast (6th cantrip)">
+			<description>When you hit a Large or smaller creature with your chosen cantrip, you can push the creature up to 10 feet straight away from you.</description>
+		</sheet>
+	</element>
+	<element name="Repelling Blast" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_REPELLING_BLAST_7">
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>Level 2+ Warlock, a Warlock Cantrip That Deals Damage via an Attack Roll</prerequisite>
+		<requirements>[level:warlock:2],ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_REPELLING_BLAST_6</requirements>
+		<description>
+			<p><em>Prerequisite: Level 2+ Warlock, a Warlock Cantrip That Deals Damage via an Attack Roll</em></p>
+			<p>Choose one of your known Warlock cantrips that requires an attack roll. When you hit a Large or smaller creature with that cantrip, you can push the creature up to 10 feet straight away from you.</p>
+			<p class="indent"><em><strong>Repeatable.</strong></em> You can gain this invocation more than once. Each time you do so, choose a different eligible cantrip.</p>
+		</description>
+		<sheet alt="Repelling Blast (7th cantrip)">
+			<description>When you hit a Large or smaller creature with your chosen cantrip, you can push the creature up to 10 feet straight away from you.</description>
+		</sheet>
+	</element>
+	<element name="Repelling Blast" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_REPELLING_BLAST_8">
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>Level 2+ Warlock, a Warlock Cantrip That Deals Damage via an Attack Roll</prerequisite>
+		<requirements>[level:warlock:2],ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_REPELLING_BLAST_7</requirements>
+		<description>
+			<p><em>Prerequisite: Level 2+ Warlock, a Warlock Cantrip That Deals Damage via an Attack Roll</em></p>
+			<p>Choose one of your known Warlock cantrips that requires an attack roll. When you hit a Large or smaller creature with that cantrip, you can push the creature up to 10 feet straight away from you.</p>
+			<p class="indent"><em><strong>Repeatable.</strong></em> You can gain this invocation more than once. Each time you do so, choose a different eligible cantrip.</p>
+		</description>
+		<sheet alt="Repelling Blast (8th cantrip)">
+			<description>When you hit a Large or smaller creature with your chosen cantrip, you can push the creature up to 10 feet straight away from you.</description>
+		</sheet>
+	</element>
+	<element name="Repelling Blast" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_REPELLING_BLAST_9">
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>Level 2+ Warlock, a Warlock Cantrip That Deals Damage via an Attack Roll</prerequisite>
+		<requirements>[level:warlock:2],ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_REPELLING_BLAST_8</requirements>
+		<description>
+			<p><em>Prerequisite: Level 2+ Warlock, a Warlock Cantrip That Deals Damage via an Attack Roll</em></p>
+			<p>Choose one of your known Warlock cantrips that requires an attack roll. When you hit a Large or smaller creature with that cantrip, you can push the creature up to 10 feet straight away from you.</p>
+			<p class="indent"><em><strong>Repeatable.</strong></em> You can gain this invocation more than once. Each time you do so, choose a different eligible cantrip.</p>
+		</description>
+		<sheet alt="Repelling Blast (9th cantrip)">
+			<description>When you hit a Large or smaller creature with your chosen cantrip, you can push the creature up to 10 feet straight away from you.</description>
+		</sheet>
+	</element>
+	<element name="Repelling Blast" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_REPELLING_BLAST_10">
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>Level 2+ Warlock, a Warlock Cantrip That Deals Damage via an Attack Roll</prerequisite>
+		<requirements>[level:warlock:2],ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_REPELLING_BLAST_9</requirements>
+		<description>
+			<p><em>Prerequisite: Level 2+ Warlock, a Warlock Cantrip That Deals Damage via an Attack Roll</em></p>
+			<p>Choose one of your known Warlock cantrips that requires an attack roll. When you hit a Large or smaller creature with that cantrip, you can push the creature up to 10 feet straight away from you.</p>
+			<p class="indent"><em><strong>Repeatable.</strong></em> You can gain this invocation more than once. Each time you do so, choose a different eligible cantrip.</p>
+		</description>
+		<sheet alt="Repelling Blast (10th cantrip)">
+			<description>When you hit a Large or smaller creature with your chosen cantrip, you can push the creature up to 10 feet straight away from you.</description>
+		</sheet>
 	</element>
 
 	<element name="Thirsting Blade" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_THIRSTING_BLADE">
@@ -782,7 +945,7 @@
 			<p>You gain the Extra Attack feature for your pact weapon only. With that feature, you can attack twice with the weapon instead of once when you take the Attack action on your turn.</p>
 		</description>
 		<sheet>
-			<description>You gain the Extra Attack feature for your pact weapon only. With that feature, you can attack twice with the weapon instead of once when you take the Attack action on your turn.</description>
+			<description>You gain the Extra Attack feature for your pact weapon only.</description>
 		</sheet>
 	</element>
 	<element name="Visions of Distant Realms" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_VISIONS_OF_DISTANT_REALMS">
@@ -837,299 +1000,4 @@
 			<stat name="truesight:range" value="30" bonus="base" />
 		</rules>
 	</element>
-
-	<!--Agonizing Blast Spell "Selects"-->
-	<element name="Booming Blade" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_AGONIZING_BLAST_BOOMING_BLADE">
-		<compendium display="false" />
-		<supports>Agonizing Blast Cantrip</supports>
-		<requirements>ID_WOTC_TCOE_SPELL_BOOMING_BLADE</requirements>
-		<description>
-			<p>When you cast Booming Blade, add your Charisma modifier to its damage roll.</p>
-		</description>
-		<sheet display="false" />
-	</element>
-	<element name="Chill Touch" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_AGONIZING_BLAST_CHILL_TOUCH">
-		<compendium display="false" />
-		<supports>Agonizing Blast Cantrip</supports>
-		<requirements>(ID_PHB_SPELL_CHILL_TOUCH||ID_WOTC_PHB24_SPELL_CHILL_TOUCH)</requirements>
-		<description>
-			<p>When you cast Chill Touch, add your Charisma modifier to its damage roll.</p>
-		</description>
-		<sheet display="false" />
-	</element>
-	<element name="Create Bonfire" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_AGONIZING_BLAST_CREATE_BONFIRE">
-		<compendium display="false" />
-		<supports>Agonizing Blast Cantrip</supports>
-		<requirements>ID_WOTC_XGTE_SPELL_CREATE_BONFIRE</requirements>
-		<description>
-			<p>When you cast Create Bonfire, add your Charisma modifier to its damage roll.</p>
-		</description>
-		<sheet display="false" />
-	</element>
-	<element name="Eldritch Blast" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_AGONIZING_BLAST_ELDRITCH_BLAST">
-		<compendium display="false" />
-		<supports>Agonizing Blast Cantrip</supports>
-		<requirements>(ID_PHB_SPELL_ELDRITCH_BLAST||ID_WOTC_PHB24_SPELL_ELDRITCH_BLAST)</requirements>
-		<description>
-			<p>When you cast Eldritch Blast, add your Charisma modifier to its damage rolls.</p>
-		</description>
-		<sheet display="false" />
-	</element>
-	<element name="Frostbite" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_AGONIZING_BLAST_FROSTBITE">
-		<compendium display="false" />
-		<supports>Agonizing Blast Cantrip</supports>
-		<requirements>ID_WOTC_XGTE_SPELL_FROSTBITE</requirements>
-		<description>
-			<p>When you cast Frostbite, add your Charisma modifier to its damage roll.</p>
-		</description>
-		<sheet display="false" />
-	</element>
-	<element name="Green-Flame Blade" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_AGONIZING_BLAST_GREEN_FLAME_BLADE">
-		<compendium display="false" />
-		<supports>Agonizing Blast Cantrip</supports>
-		<requirements>ID_WOTC_TCOE_SPELL_GREEN_FLAME_BLADE</requirements>
-		<description>
-			<p>When you cast Green-Flame Blade, add your Charisma modifier to its damage roll.</p>
-		</description>
-		<sheet display="false" />
-	</element>
-	<element name="Infestation" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_AGONIZING_BLAST_INFESTATION">
-		<compendium display="false" />
-		<supports>Agonizing Blast Cantrip</supports>
-		<requirements>ID_WOTC_XGTE_SPELL_INFESTATION</requirements>
-		<description>
-			<p>When you cast Infestation, add your Charisma modifier to its damage roll.</p>
-		</description>
-		<sheet display="false" />
-	</element>
-	<element name="Lightning Lure" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_AGONIZING_BLAST_LIGHTNING_LURE">
-		<compendium display="false" />
-		<supports>Agonizing Blast Cantrip</supports>
-		<requirements>ID_WOTC_TCOE_SPELL_LIGHTNING_LURE</requirements>
-		<description>
-			<p>When you cast Lightning Lure, add your Charisma modifier to its damage roll.</p>
-		</description>
-		<sheet display="false" />
-	</element>
-	<element name="Magic Stone" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_AGONIZING_BLAST_MAGIC_STONE">
-		<compendium display="false" />
-		<supports>Agonizing Blast Cantrip</supports>
-		<requirements>ID_WOTC_XGTE_SPELL_MAGIC_STONE</requirements>
-		<description>
-			<p>When you cast Magic Stone, add your Charisma modifier to its damage roll.</p>
-		</description>
-		<sheet display="false" />
-	</element>
-	<element name="Mind Sliver" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_AGONIZING_BLAST_MIND_SLIVER">
-		<compendium display="false" />
-		<supports>Agonizing Blast Cantrip</supports>
-		<requirements>(ID_WOTC_TCOE_SPELL_MIND_SLIVER||ID_WOTC_PHB24_SPELL_MIND_SLIVER)</requirements>
-		<description>
-			<p>When you cast Mind Sliver, add your Charisma modifier to its damage roll.</p>
-		</description>
-		<sheet display="false" />
-	</element>
-	<element name="Poison Spray" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_AGONIZING_BLAST_POISON_SPRAY">
-		<compendium display="false" />
-		<supports>Agonizing Blast Cantrip</supports>
-		<requirements>(ID_PHB_SPELL_POISON_SPRAY||ID_WOTC_PHB24_SPELL_POISON_SPRAY)</requirements>
-		<description>
-			<p>When you cast Poison Spray add your Charisma modifier to its damage roll.</p>
-		</description>
-		<sheet display="false" />
-	</element>
-	<element name="Sword Burst" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_AGONIZING_BLAST_SWORD_BURST">
-		<compendium display="false" />
-		<supports>Agonizing Blast Cantrip</supports>
-		<requirements>ID_WOTC_TCOE_SPELL_SWORD_BURST</requirements>
-		<description>
-			<p>When you cast Sword Burst, add your Charisma modifier to its damage roll.</p>
-		</description>
-		<sheet display="false" />
-	</element>
-	<element name="Thunderclap" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_AGONIZING_BLAST_THUNDERCLAP">
-		<compendium display="false" />
-		<supports>Agonizing Blast Cantrip</supports>
-		<requirements>(ID_WOTC_XGTE_SPELL_THUNDERCLAP||ID_WOTC_PHB24_SPELL_THUNDERCLAP)</requirements>
-		<description>
-			<p>When you cast Thunderclap, add your Charisma modifier to its damage roll.</p>
-		</description>
-		<sheet display="false" />
-	</element>
-	<element name="Toll the Dead" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_AGONIZING_BLAST_TOLL_THE_DEAD">
-		<compendium display="false" />
-		<supports>Agonizing Blast Cantrip</supports>
-		<requirements>(ID_WOTC_XGTE_SPELL_TOLL_THE_DEAD||ID_WOTC_PHB24_SPELL_TOLL_THE_DEAD)</requirements>
-		<description>
-			<p>When you cast Toll the Dead, add your Charisma modifier to its damage roll.</p>
-		</description>
-		<sheet display="false" />
-	</element>
-	<element name="True Strike" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_AGONIZING_BLAST_TRUE_STRIKE">
-		<compendium display="false" />
-		<supports>Agonizing Blast Cantrip</supports>
-		<requirements>ID_WOTC_PHB24_SPELL_TRUE_STRIKE</requirements>
-		<description>
-			<p>When you cast True Strike, add your Charisma modifier to its damage roll.</p>
-		</description>
-		<sheet display="false" />
-	</element>
-
-	<!--Eldritch Spear Spell "Selects"-->
-	<element name="Chill Touch" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_ELDRITCH_SPEAR_CHILL_TOUCH">
-		<compendium display="false" />
-		<supports>Eldritch Spear Cantrip</supports>
-		<requirements>(ID_PHB_SPELL_CHILL_TOUCH||ID_WOTC_PHB24_SPELL_CHILL_TOUCH)</requirements>
-		<description>
-			<p>When you cast Chill Touch, its range increases by a number of feet equal to 30 times your Warlock level.</p>
-		</description>
-		<sheet display="false" />
-	</element>
-	<element name="Create Bonfire" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_ELDRITCH_SPEAR_CREATE_BONFIRE">
-		<compendium display="false" />
-		<supports>Eldritch Spear Cantrip</supports>
-		<requirements>ID_WOTC_XGTE_SPELL_CREATE_BONFIRE</requirements>
-		<description>
-			<p>When you cast Create Bonfire, its range increases by a number of feet equal to 30 times your Warlock level.</p>
-		</description>
-		<sheet display="false" />
-	</element>
-	<element name="Eldritch Blast" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_ELDRITCH_SPEAR_ELDRITCH_BLAST">
-		<compendium display="false" />
-		<supports>Eldritch Spear Cantrip</supports>
-		<requirements>(ID_PHB_SPELL_ELDRITCH_BLAST||ID_WOTC_PHB24_SPELL_ELDRITCH_BLAST)</requirements>
-		<description>
-			<p>When you cast Eldritch Blast, its range increases by a number of feet equal to 30 times your Warlock level.</p>
-		</description>
-		<sheet display="false" />
-	</element>
-	<element name="Frostbite" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_ELDRITCH_SPEAR_FROSTBITE">
-		<compendium display="false" />
-		<supports>Eldritch Spear Cantrip</supports>
-		<requirements>ID_WOTC_XGTE_SPELL_FROSTBITE</requirements>
-		<description>
-			<p>When you cast Frostbite, its range increases by a number of feet equal to 30 times your Warlock level.</p>
-		</description>
-		<sheet display="false" />
-	</element>
-	<element name="Infestation" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_ELDRITCH_SPEAR_INFESTATION">
-		<compendium display="false" />
-		<supports>Eldritch Spear Cantrip</supports>
-		<requirements>ID_WOTC_XGTE_SPELL_INFESTATION</requirements>
-		<description>
-			<p>When you cast Infestation, its range increases by a number of feet equal to 30 times your Warlock level.</p>
-		</description>
-		<sheet display="false" />
-	</element>
-	<element name="Lightning Lure" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_ELDRITCH_SPEAR_LIGHTNING_LURE">
-		<compendium display="false" />
-		<supports>Eldritch Spear Cantrip</supports>
-		<requirements>ID_WOTC_TCOE_SPELL_LIGHTNING_LURE</requirements>
-		<description>
-			<p>When you cast Lightning Lure, its range increases by a number of feet equal to 30 times your Warlock level.</p>
-		</description>
-		<sheet display="false" />
-	</element>
-	<element name="Magic Stone" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_ELDRITCH_SPEAR_MAGIC_STONE">
-		<compendium display="false" />
-		<supports>Eldritch Spear Cantrip</supports>
-		<requirements>ID_WOTC_XGTE_SPELL_MAGIC_STONE</requirements>
-		<description>
-			<p>When you cast Magic Stone, its range increases by a number of feet equal to 30 times your Warlock level.</p>
-		</description>
-		<sheet display="false" />
-	</element>
-	<element name="Mind Sliver" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_ELDRITCH_SPEAR_MIND_SLIVER">
-		<compendium display="false" />
-		<supports>Eldritch Spear Cantrip</supports>
-		<requirements>(ID_WOTC_TCOE_SPELL_MIND_SLIVER||ID_WOTC_PHB24_SPELL_MIND_SLIVER)</requirements>
-		<description>
-			<p>When you cast Mind Sliver, its range increases by a number of feet equal to 30 times your Warlock level.</p>
-		</description>
-		<sheet display="false" />
-	</element>
-	<element name="Poison Spray" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_ELDRITCH_SPEAR_POISON_SPRAY">
-		<compendium display="false" />
-		<supports>Eldritch Spear Cantrip</supports>
-		<requirements>(ID_PHB_SPELL_POISON_SPRAY||ID_WOTC_PHB24_SPELL_POISON_SPRAY)</requirements>
-		<description>
-			<p>When you cast Poison Spray its range increases by a number of feet equal to 30 times your Warlock level.</p>
-		</description>
-		<sheet display="false" />
-	</element>
-	<element name="Toll the Dead" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_ELDRITCH_SPEAR_TOLL_THE_DEAD">
-		<compendium display="false" />
-		<supports>Eldritch Spear Cantrip</supports>
-		<requirements>(ID_WOTC_XGTE_SPELL_TOLL_THE_DEAD||ID_WOTC_PHB24_SPELL_TOLL_THE_DEAD)</requirements>
-		<description>
-			<p>When you cast Toll the Dead, its range increases by a number of feet equal to 30 times your Warlock level.</p>
-		</description>
-		<sheet display="false" />
-	</element>
-
-	<!--Repelling Blast Spell "Selects"-->
-	<element name="Booming Blade" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_REPELLING_BLAST_BOOMING_BLADE">
-		<compendium display="false" />
-		<supports>Repelling Blast Cantrip</supports>
-		<requirements>ID_WOTC_TCOE_SPELL_BOOMING_BLADE</requirements>
-		<description>
-			<p>When you hit a Large or smaller creature with Booming Blade, you can push that creature up to 10 feet straight away from you.</p>
-		</description>
-		<sheet display="false" />
-	</element>
-	<element name="Chill Touch" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_REPELLING_BLAST_CHILL_TOUCH">
-		<compendium display="false" />
-		<supports>Repelling Blast Cantrip</supports>
-		<requirements>(ID_PHB_SPELL_CHILL_TOUCH||ID_WOTC_PHB24_SPELL_CHILL_TOUCH)</requirements>
-		<description>
-			<p>When you hit a Large or smaller creature with Chill Touch, you can push that creature up to 10 feet straight away from you.</p>
-		</description>
-		<sheet display="false" />
-	</element>
-	<element name="Eldritch Blast" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_REPELLING_BLAST_ELDRITCH_BLAST">
-		<compendium display="false" />
-		<supports>Repelling Blast Cantrip</supports>
-		<requirements>(ID_PHB_SPELL_ELDRITCH_BLAST||ID_WOTC_PHB24_SPELL_ELDRITCH_BLAST)</requirements>
-		<description>
-			<p>When you hit a Large or smaller creature with Eldritch Blast, add your Charisma modifier to its damage rolls.</p>
-		</description>
-		<sheet display="false" />
-	</element>
-	<element name="Green-Flame Blade" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_REPELLING_BLAST_GREEN_FLAME_BLADE">
-		<compendium display="false" />
-		<supports>Repelling Blast Cantrip</supports>
-		<requirements>ID_WOTC_TCOE_SPELL_GREEN_FLAME_BLADE</requirements>
-		<description>
-			<p>When you hit a Large or smaller creature with Green-Flame Blade, you can push that creature up to 10 feet straight away from you.</p>
-		</description>
-		<sheet display="false" />
-	</element>
-	<element name="Magic Stone" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_REPELLING_BLAST_MAGIC_STONE">
-		<compendium display="false" />
-		<supports>Repelling Blast Cantrip</supports>
-		<requirements>ID_WOTC_XGTE_SPELL_MAGIC_STONE</requirements>
-		<description>
-			<p>When you hit a Large or smaller creature with Magic Stone, you can push that creature up to 10 feet straight away from you.</p>
-		</description>
-		<sheet display="false" />
-	</element>
-	<element name="Poison Spray" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_REPELLING_BLAST_POISON_SPRAY">
-		<compendium display="false" />
-		<supports>Repelling Blast Cantrip</supports>
-		<requirements>ID_WOTC_PHB24_SPELL_POISON_SPRAY</requirements>
-		<description>
-			<p>When you hit a Large or smaller creature with Poison Spray you can push that creature up to 10 feet straight away from you.</p>
-		</description>
-		<sheet display="false" />
-	</element>
-	<element name="True Strike" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ELDRITCH_INVOCATION_REPELLING_BLAST_TRUE_STRIKE">
-		<compendium display="false" />
-		<supports>Repelling Blast Cantrip</supports>
-		<requirements>ID_WOTC_PHB24_SPELL_TRUE_STRIKE</requirements>
-		<description>
-			<p>When you hit a Large or smaller creature with True Strike, you can push that creature up to 10 feet straight away from you.</p>
-		</description>
-		<sheet display="false" />
-	</element>
-
 </elements>
