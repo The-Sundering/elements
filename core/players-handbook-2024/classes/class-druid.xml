@@ -41,29 +41,35 @@
 			</ul>
 			<h5>DRUID FEATURES</h5>
 			<table class="class-features">
-				<thead>
-					<tr><td class="col-5">Level</td><td>Proficiency Bonus</td><td class="col-50 left">Class Features</td><td class="col-5">Wild Shapes</td><td class="col-5">Cantrips</td><td class="col-10">Prepared Spells</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td></tr>
-				</thead>
-				<tr><td>1</td><td>+2</td><td class="left">Druidic, Primal Order, Spellcasting</td><td>—</td><td>2</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td>2</td><td>+2</td><td class="left">Wild Companion, Wild Shape</td><td>2</td><td>2</td><td>5</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td>3</td><td>+2</td><td class="left">Druid Subclass</td><td>2</td><td>2</td><td>6</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td>4</td><td>+2</td><td class="left">Ability Score Improvement</td><td>2</td><td>3</td><td>7</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td>5</td><td>+3</td><td class="left">Wild Resurgence</td><td>2</td><td>3</td><td>9</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td>6</td><td>+3</td><td class="left">Subclass Feature</td><td>3</td><td>3</td><td>10</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td>7</td><td>+3</td><td class="left">Elemental Fury</td><td>3</td><td>3</td><td>11</td><td>4</td><td>3</td><td>3</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td>8</td><td>+3</td><td class="left">Ability Score Improvement</td><td>3</td><td>3</td><td>12</td><td>4</td><td>3</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td>9</td><td>+4</td><td class="left">—</td><td>3</td><td>3</td><td>14</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td>10</td><td>+4</td><td class="left">Subclass Feature</td><td>3</td><td>4</td><td>15</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td>11</td><td>+4</td><td class="left">—</td><td>3</td><td>4</td><td>16</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td>12</td><td>+4</td><td class="left">Ability Score Improvement</td><td>3</td><td>4</td><td>16</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td>13</td><td>+5</td><td class="left">—</td><td>3</td><td>4</td><td>17</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>—</td><td>—</td></tr>
-				<tr><td>14</td><td>+5</td><td class="left">Subclass Feature</td><td>3</td><td>4</td><td>17</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>—</td><td>—</td></tr>
-				<tr><td>15</td><td>+5</td><td class="left">Improved Elemental Fury</td><td>3</td><td>4</td><td>18</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>—</td></tr>
-				<tr><td>16</td><td>+5</td><td class="left">Ability Score Improvement</td><td>3</td><td>4</td><td>18</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>—</td></tr>
-				<tr><td>17</td><td>+6</td><td class="left">—</td><td>4</td><td>4</td><td>19</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
-				<tr><td>18</td><td>+6</td><td class="left">Beast Spells</td><td>4</td><td>4</td><td>20</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
-				<tr><td>19</td><td>+6</td><td class="left">Epic Boon</td><td>4</td><td>4</td><td>21</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td></tr>
-				<tr><td>20</td><td>+6</td><td class="left">Archdruid</td><td>4</td><td>4</td><td>22</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>2</td><td>1</td><td>1</td></tr>
+				<tr style="font-weight: bold">
+					<td class="col-5" rowspan="2">Level</td>
+					<td class="col-20 left" rowspan="2">Class Features</td>
+					<td class="col-5" rowspan="2">Wild<br />Shapes</td>
+					<td rowspan="2">Cantrips</td>
+					<td rowspan="2">Prepared<br />Spells</td>
+					<td colspan="9" style="vertical-align:bottom; border-bottom: 0px">Spell Slots per Level</td>
+				</tr>
+				<tr style="font-weight: bold"><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td></tr>
+				<tr><td>1</td><td class="left">Druidic, Primal Order, Spellcasting</td><td>—</td><td>2</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td>2</td><td class="left">Wild Companion, Wild Shape</td><td>2</td><td>2</td><td>5</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td>3</td><td class="left">Druid Subclass</td><td>2</td><td>2</td><td>6</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td>4</td><td class="left">Ability Score Improvement</td><td>2</td><td>3</td><td>7</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td>5</td><td class="left">Wild Resurgence</td><td>2</td><td>3</td><td>9</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td>6</td><td class="left">Subclass Feature</td><td>3</td><td>3</td><td>10</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td>7</td><td class="left">Elemental Fury</td><td>3</td><td>3</td><td>11</td><td>4</td><td>3</td><td>3</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td>8</td><td class="left">Ability Score Improvement</td><td>3</td><td>3</td><td>12</td><td>4</td><td>3</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td>9</td><td class="left">—</td><td>3</td><td>3</td><td>14</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td>10</td><td class="left">Subclass Feature</td><td>3</td><td>4</td><td>15</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td>11</td><td class="left">—</td><td>3</td><td>4</td><td>16</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td>12</td><td class="left">Ability Score Improvement</td><td>3</td><td>4</td><td>16</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td>13</td><td class="left">—</td><td>3</td><td>4</td><td>17</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>—</td><td>—</td></tr>
+				<tr><td>14</td><td class="left">Subclass Feature</td><td>3</td><td>4</td><td>17</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>—</td><td>—</td></tr>
+				<tr><td>15</td><td class="left">Improved Elemental Fury</td><td>3</td><td>4</td><td>18</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>—</td></tr>
+				<tr><td>16</td><td class="left">Ability Score Improvement</td><td>3</td><td>4</td><td>18</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>—</td></tr>
+				<tr><td>17</td><td class="left">—</td><td>4</td><td>4</td><td>19</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+				<tr><td>18</td><td class="left">Beast Spells</td><td>4</td><td>4</td><td>20</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+				<tr><td>19</td><td class="left">Epic Boon</td><td>4</td><td>4</td><td>21</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td></tr>
+				<tr><td>20</td><td class="left">Archdruid</td><td>4</td><td>4</td><td>22</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>2</td><td>1</td><td>1</td></tr>
 			</table>
 			<h4>DRUID CLASS FEATURES</h4>
 			<p>As a Druid, you gain the following class features when you reach the specified Druid levels. These features are listed in the Druid Features table.</p>
@@ -96,9 +102,9 @@
 			<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_SAVINGTHROW_INTELLIGENCE" requirements="!ID_WOTC_PHB24_MULTICLASS_DRUID"/>
 			<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_SAVINGTHROW_WISDOM" requirements="!ID_WOTC_PHB24_MULTICLASS_DRUID"/>
 			<select type="Proficiency" name="Skill Proficiency (Druid)" supports="Skill,Druid" number="2" requirements="!ID_WOTC_PHB24_MULTICLASS_DRUID" />
-			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_DRUID_DRUIDIC" level="1" />
-			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_DRUID_PRIMAL_ORDER" level="1"/>
-			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_DRUID_SPELLCASTING" level="1"/>
+			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_DRUID_DRUIDIC" />
+			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_DRUID_PRIMAL_ORDER" />
+			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_DRUID_SPELLCASTING" />
 			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_DRUID_WILD_COMPANION" level="2"/>
 			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_DRUID_WILD_SHAPE" level="2"/>
 			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_DRUID_DRUID_SUBCLASS" level="3" />
@@ -159,7 +165,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<select type="Spell" name="Primal Order (Magician)" supports="$(spellcasting:list), 0" number="1" spellcasting="Druid" />
+			<select type="Spell" name="Primal Order (Magician)" supports="$(spellcasting:list), 0" spellcasting="Druid" />
 			<stat name="primal order:magician bonus" value="1" bonus="primal order" />
 			<stat name="primal order:magician bonus" value="wisdom:modifier" bonus="primal order" />
 			<stat name="arcana:misc" value="primal order:magician bonus" />
@@ -205,7 +211,7 @@
 		<rules>
 			<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_FULL" requirements="ID_INTERNAL_GRANT_MULTICLASS"/>
 			<grant type="Grants" id="ID_INTERNAL_RITUAL_CASTING" />
-			<stat name="druid:spellcasting:slots:1" value="2" level="1" />
+			<stat name="druid:spellcasting:slots:1" value="2" />
 			<stat name="druid:spellcasting:slots:1" value="1" level="2" />
 			<stat name="druid:spellcasting:slots:1" value="1" level="3" />
 			<stat name="druid:spellcasting:slots:2" value="2" level="3" />
@@ -225,7 +231,7 @@
 			<stat name="druid:spellcasting:slots:8" value="1" level="15" />
 			<stat name="druid:spellcasting:slots:9" value="1" level="17" />
 
-			<stat name="druid:spellcasting:prepare" value="4" level="1"/>
+			<stat name="druid:spellcasting:prepare" value="4" />
 			<stat name="druid:spellcasting:prepare" value="1" level="2"/>
 			<stat name="druid:spellcasting:prepare" value="1" level="3"/>
 			<stat name="druid:spellcasting:prepare" value="1" level="4"/>
@@ -243,7 +249,7 @@
 			<stat name="druid:spellcasting:prepare" value="1" level="19"/>
 			<stat name="druid:spellcasting:prepare" value="1" level="20"/>
 
-			<select type="Spell" name="Cantrip (Druid)" supports="$(spellcasting:list), 0" level="1" number="2" spellcasting="Druid" />
+			<select type="Spell" name="Cantrip (Druid)" supports="$(spellcasting:list), 0" number="2" spellcasting="Druid" />
 			<select type="Spell" name="Cantrip (Druid)" supports="$(spellcasting:list), 0" level="4" spellcasting="Druid" />
 			<select type="Spell" name="Cantrip (Druid)" supports="$(spellcasting:list), 0" level="10" spellcasting="Druid" />
 		</rules>
@@ -261,9 +267,9 @@
 		<sheet alt="Wild Companion" action="Magic Action" usage="Wild Shape">
 			<description>you can expend a spell slot or a use of Wild Shape to cast the Find Familiar spell without Material components. This familiar is Fey and disappears when you finish a Long Rest.</description>
 		</sheet>
-		<rules>
+		<!--<rules>
 			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_FIND_FAMILIAR" spellcasting="Druid" prepared="true" />
-		</rules>
+		</rules>-->
 	</element>
 	<element name="Level 2: Wild Shape" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_DRUID_WILD_SHAPE">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_DRUID_WILD_SHAPE</requirements>
@@ -410,10 +416,9 @@
 		<description>
 			<p>You gain an Epic Boon feat or another feat of your choice for which you qualify. Boon of Dimensional Travel is recommended.</p>
 		</description>
-		<sheet display="false">
-		</sheet>
+		<sheet display="false" />
 		<rules>
-			<select type="Feat" name="Epic Boon (Druid 19)" level="19" />
+			<select type="Feat" name="Epic Boon (Druid 19)" />
 			
 		</rules>
 	</element>
