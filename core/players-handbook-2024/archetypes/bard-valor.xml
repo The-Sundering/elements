@@ -32,7 +32,7 @@
 	<element name="Level 3: Combat Inspiration" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARD_VALOR_COMBAT_INSPIRATION">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARD_VALOR_COMBAT_INSPIRATION</requirements>
 		<description>
-			<p>You can use your wit to turn the tide of battle. A creature that has a Bardic Inspiration die from you can use it for one of the following effects:</p>
+			<p>You can use your wit to turn the tide of battle. A creature that has a Bardic Inspiration die from you can use it for one of the following effects.</p>
 				<p class="indent"><em><strong>Defense.</strong></em> When the creature is hit by an attack roll, that creature can use its Reaction to roll the Bardic Inspiration die and add the number rolled to its AC against that attack, potentially causing the attack to miss.</p>
 				<p class="indent"><em><strong>Offense.</strong></em> Immediately after the creature hits a target with an attack roll, the creature can roll the Bardic Inspiration die and add the number rolled to the attack’s damage against the target.</p>
 		</description>
@@ -40,6 +40,7 @@
 			<description>A creature that hits with an attack and has a Bardic Inspiration die from you can roll that die and add the number rolled to its damage roll. Alternatively, when the creature is hit by an attack, it can use its Reaction to roll the Bardic Inspiration die and add the number rolled to its AC, potentially causing the attack to miss instead.</description>
 		</sheet>
 	</element>
+	
 	<element name="Level 3: Martial Training" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARD_VALOR_MARTIAL_TRAINING">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARD_VALOR_MARTIAL_TRAINING</requirements>
 		<description>
@@ -79,7 +80,7 @@
 			<p>After you cast a spell that has a casting time of an action, you can make one attack with a weapon as a Bonus Action.</p>
 		</description>
 		<sheet alt="Battle Magic" action="Bonus Action">
-			<description>When you use your Action to cast a Bard spell, you can make one weapon attack.</description>
+			<description>After you used your Action to cast a spell, you can make one weapon attack.</description>
 		</sheet>
 	</element>
 	

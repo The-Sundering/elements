@@ -38,16 +38,14 @@
 			<p class="indent"><em><strong>Bardic Damage.</strong></em> You can use Dexterity instead of Strength for the attack rolls of your Unarmed Strikes. When you deal damage with an Unarmed Strike, you can deal Bludgeoning damage equal to a roll of your Bardic Inspiration die plus your Dexterity modifier, instead of the strike’s normal damage. This roll doesn’t expend the die.</p>
 		</description>
 		<sheet alt="Dazzling Footwork">
-			<description>While you aren’t wearing armor or wielding a Shield, your base AC is {{ac:dazzling footwork}}, and you have Advantage on any Charisma (Performance) check you make that involves you dancing. &#13;
-			Additionally, you can make one Unarmed Strike when you expend a use of your Bardic Inspiration, which deals 1d{{bardic-inspiration:dice}}+{{dazzling footwork:damage}} bludgeoning damage, and you can use either Strength or Dexterity for the attack rolls.</description>
+			<description>While you aren’t wearing armor or wielding a Shield, your base AC is {{ac:dazzling footwork}}. You have Advantage on any Charisma (Performance) check you make that involves you dancing. &#13;
+			Additionally, you can use Dexterity instead of Strength for your Unarmed Strikes, which can deal 1d{{bardic-inspiration:dice}}+{{dexterity:modifier}} bludgeoning damage instead of the normal amount. Whenever you expend a use of your Bardic Inspiration, you can make one Unarmed Strike as part of that action, Bonus Action or Reaction.</description>
 		</sheet>
 		<rules>
-			<stat name="ac:dazzling footwork" value="10" />
-			<stat name="ac:dazzling footwork" value="dexterity:modifier" />
-			<stat name="ac:dazzling footwork" value="charisma:modifier" />
+			<stat name="ac:dazzling footwork" value="10" bonus="base" />
+			<stat name="ac:dazzling footwork" value="dexterity:modifier" bonus="primary ability" />
+			<stat name="ac:dazzling footwork" value="charisma:modifier" bonus="secondary ability" />
 			<stat name="ac:calculation" value="ac:dazzling footwork" bonus="calculation" equipped="[armor:none],[shield:none]" alt="Dazzling Footwork (Bard)" />
-			<stat name="dazzling footwork:damage" value="strength:modifier" bonus="dazzling footwork" />
-			<stat name="dazzling footwork:damage" value="dexterity:modifier" bonus="dazzling footwork" />
 		</rules>
 	</element>
 
@@ -57,8 +55,8 @@
 			<p>When an enemy you can see ends its turn within 5 feet of you, you can take a Reaction and expend one use of your Bardic Inspiration to move up to half your Speed. Then one ally of your choice within 30 feet of you can also move up to half their Speed using their Reaction.</p>
 			<p class="indent">None of this feature’s movement provokes Opportunity Attacks.</p>
 		</description>
-		<sheet alt="Inspiring Movement" action="Reaction">
-			<description>When an enemy you can see ends its turn within 5 feet of you, you can expend one use of your Bardic Inspiration to move up to half of your Speed. Then one ally of your choice within 30 feet of you can also move up to half their Speed using their Reaction. Neither movement provokes Opportunity Attacks.</description>
+		<sheet alt="Inspiring Movement" action="Reaction" usage="Bardic Inspiration">
+			<description>When an enemy you can see ends its turn within 5 feet of you, you can move up to half of your Speed. Then one ally of your choice within 30 feet of you can also move up to half their Speed using their Reaction. Neither movement provokes Opportunity Attacks.</description>
 		</sheet>
 	</element>
 
@@ -67,8 +65,8 @@
 		<description>
 			<p>When you roll Initiative, you can expend one use of your Bardic Inspiration if you don’t have the Incapacitated condition. When you do so, roll your Bardic Inspiration die; you and each ally within 30 feet of you who can see or hear you gains a bonus to Initiative equal to the number rolled.</p>
 		</description>
-		<sheet alt="Tandem Footwork" action="Initiative Roll">
-			<description>You can expend one use of your Bardic Inspiration and grant you and each ally within 30 feet of you who can see or hear you a 1d{{bardic-inspiration:dice}} bonus to Initiative. You cannot use this if you have the Incapacitated condition.</description>
+		<sheet alt="Tandem Footwork" usage="Bardic Inspiration">
+			<description>When you roll Initiative and don't have the Incapacitated condition, you can grant yourself and each ally within 30 feet of you who can see or hear you a 1d{{bardic-inspiration:dice}} bonus to Initiative.</description>
 		</sheet>
 	</element>
 
@@ -76,9 +74,10 @@
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARD_DANCE_LEADING_EVASION</requirements>
 		<description>
 			<p>When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw and only half damage if you fail. If any creatures within 5 feet of you are making the same Dexterity saving throw, you can share this benefit with them for that save.</p>
+			<p class="indent">You can’t use this feature if you have the Incapacitated condition.</p>
 		</description>
 		<sheet alt="Leading Evasion">
-			<description>When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw and only half damage if you fail. If any creatures within 5 feet of you are making the same Dexterity saving throw, you can share this benefit with them for that save.</description>
+			<description>When you aren't Incapacitated and are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw and only half damage if you fail. If any creatures within 5 feet of you are making the same Dexterity saving throw, you can share this benefit with them for that save.</description>
 		</sheet>
 	</element>
 

@@ -37,24 +37,25 @@
 		</description>
 		<sheet alt="Beguiling Magic" usage="1/Long Rest">
 			<description>Immediately after you cast an Enchantment or Illusion spell using a spell slot, you can cause a creature you can see within 60 feet of yourself to make a DC{{bard:spellcasting:dc}} Wisdom saving throw. On a failed save, the target has the Charmed or Frightened condition (your choice) for 1 minute. The target repeats the save at the end of each of its turns, ending the effect on itself on a success. &#13;
-			You can reuse this feature by expending one use of your Bardic Inspiration (no action required).</description>
+			You can restore a use of this feature by expending one use of your Bardic Inspiration.</description>
 		</sheet>
 		<rules>
 			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_CHARM_PERSON" spellcasting="Bard" allowReplace="false" />
 			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_MIRROR_IMAGE" spellcasting="Bard" allowReplace="false" />
 		</rules>
 	</element>
+
 	<element name="Level 3: Mantle of Inspiration" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARD_GLAMOUR_MANTLE_OF_INSPIRATION">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARD_GLAMOUR_MANTLE_OF_INSPIRATION</requirements>
 		<description>
 			<p>You can weave fey magic into a song or dance to fill others with vigor. As a Bonus Action, you can expend a use of Bardic Inspiration, rolling a Bardic Inspiration die. When you do so, choose a number of other creatures within 60 feet of yourself, up to a number equal to your Charisma modifier (minimum of one creature). Each of those creatures gains a number of Temporary Hit Points equal to two times the number rolled on the Bardic Inspiration die, and then each can use its Reaction to move up to its Speed without provoking Opportunity Attacks.</p>
 		</description>
-		<sheet alt="Mantle of Inspiration" action="Bonus Action">
-			<description>Expend one use of Bardic Inspiration, roll the die, and choose up to {{mantle of inspiration:creature-count}} creatures within 60ft of you. Each of them gains Temporary Hit Points equal to twice the value rolled, and they can use their Reaction to move up to their Speed without provoking Opportunity Attacks.</description>
+		<sheet alt="Mantle of Inspiration" action="Bonus Action" usage="Bardic Inspiration">
+			<description>Roll the Bardic Inspiration die, and choose up to {{mantle of inspiration:count}} other creatures within 60ft of you. Each of them gains Temporary Hit Points equal to twice the value rolled, and they can use their Reaction to move up to their Speed without provoking Opportunity Attacks.</description>
 		</sheet>
 		<rules>
-			<stat name="mantle of inspiration:creature-count" value="1" bonus="mantle of inspiration" />
-			<stat name="mantle of inspiration:creature-count" value="charisma:modifier" bonus="mantle of inspiration" />
+			<stat name="mantle of inspiration:count" value="1" bonus="base" />
+			<stat name="mantle of inspiration:count" value="charisma:modifier" bonus="base" />
 		</rules>
 	</element>
 
@@ -82,7 +83,7 @@
 			<p class="indent">Once you assume this majestic presence, you can’t do so again until you finish a Short or Long Rest.</p>
 		</description>
 		<sheet alt="Unbreakable Majesty" action="Bonus Action" usage="1/Short Rest">
-			<description>For 1 minute or until you are Incapacitated, whenever a creature hits you for the first time on a turn, it must make a DC{{bard:spellcasting:dc}} Charisma saving throw. On a fail, the attack misses instead.</description>
+			<description>For 1 minute or until you are Incapacitated, whenever a creature hits you for the first time on a turn, it must succeed on a DC{{bard:spellcasting:dc}} Charisma saving throw or the attack misses instead.</description>
 		</sheet>
 	</element>
 

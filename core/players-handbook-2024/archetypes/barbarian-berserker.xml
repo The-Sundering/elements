@@ -34,7 +34,7 @@
 			<p>If you use Reckless Attack while your Rage is active, you deal extra damage to the first target you hit on your turn with a Strength-based attack. To determine the extra damage, roll a number of d6s equal to your Rage Damage bonus, and add them together. The damage has the same type as the weapon or Unarmed Strike used for the attack.</p>
 		</description>
 		<sheet alt="Frenzy">
-			<description>When you use Reckless Attack while your Rage is active, you deal {{barbarian rage:damage}}d6 extra damage to the first target you hit on your turn.</description>
+			<description>When you use Reckless Attack while your Rage is active, you deal {{barbarian rage:damage}}d6 extra damage on your first hit.</description>
 		</sheet>
 	</element>
 
@@ -66,12 +66,12 @@
 		</description>
 		<sheet alt="Intimidating Presence" action="Bonus Action" usage="1/Long Rest">
 			<description>Each creature of your choice in a 30-foot Emanation originating from you must make a DC{{intimidating presence:dc}} Wisdom saving throw. On a failed save, a creature has the Frightened condition for 1 minute. At the end of each of the Frightened creature’s turns, the creature repeats the save, ending the effect on itself on a success. &#13;
-			Once you use this feature, you can expend a use of your Rage (no action required) to restore your use of it.</description>
+			You can expend a use of your Rage (no action required) to restore a use of this feature.</description>
 		</sheet>
 		<rules>
-			<stat name="intimidating presence:dc" value="8" />
-			<stat name="intimidating presence:dc" value="proficiency" />
-			<stat name="intimidating presence:dc" value="strength:modifier" />
+			<stat name="intimidating presence:dc" value="8" bonus="base" />
+			<stat name="intimidating presence:dc" value="proficiency" bonus="proficiency" />
+			<stat name="intimidating presence:dc" value="strength:modifier" bonus="ability" />
 		</rules>
 	</element>
 

@@ -20,10 +20,10 @@
 					<tr><td><b>Primary Ability</b></td><td class="left">Strength </td> </tr>
 					<tr><td><b>Hit Point Die</b></td><td class="left">D12 per Barbarian level</td></tr>
 					<tr><td><b>Saving Throw Proficiencies</b></td><td class="left">Strength and Constitution</td></tr>
-					<tr><td><b>Skill Proficiencies</b></td><td class="left"><i>Choose 2:</i>  Animal Handling, Athletics, Intimidation, Nature, Perception, or Survival</td></tr>
+					<tr><td><b>Skill Proficiencies</b></td><td class="left"><i>Choose 2:</i> Animal Handling, Athletics, Intimidation, Nature, Perception, or Survival</td></tr>
 					<tr><td><b>Weapon Proficiencies</b></td><td class="left">Simple and Martial weapons</td></tr>
 					<tr><td><b>Armor Training</b></td><td class="left">Light and Medium armor, Shields</td></tr>
-					<tr><td><b>Starting Equipment</b></td><td class="left"><i> Choose A or B:</i>  (A) Greataxe, 4 Handaxes, Explorer’s Pack, and 15 GP; or (B) 75 GP</td></tr>
+					<tr><td><b>Starting Equipment</b></td><td class="left"><i>Choose A or B:</i> (A) Greataxe, 4 Handaxes, Explorer’s Pack, and 15 GP; or (B) 75 GP</td></tr>
 				</table>
 			</div>
 			<h4>BECOMING A BARBARIAN ...</h4>
@@ -106,9 +106,9 @@
 			<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_SAVINGTHROW_STRENGTH" requirements="!ID_WOTC_PHB24_MULTICLASS_BARBARIAN"/>
 			<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_SAVINGTHROW_CONSTITUTION" requirements="!ID_WOTC_PHB24_MULTICLASS_BARBARIAN"/>
 			<select type="Proficiency" name="Skill Proficiency (Barbarian)" supports="Skill,Barbarian" number="2" requirements="!ID_WOTC_PHB24_MULTICLASS_BARBARIAN" />
-			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_BARBARIAN_RAGE" level="1" />
-			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_BARBARIAN_UNARMORED_DEFENSE" level="1"/>
-			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_BARBARIAN_WEAPON_MASTERY" level="1" />
+			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_BARBARIAN_RAGE" />
+			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_BARBARIAN_UNARMORED_DEFENSE" />
+			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_BARBARIAN_WEAPON_MASTERY" />
 			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_BARBARIAN_DANGER_SENSE" level="2"/>
 			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_BARBARIAN_RECKLESS_ATTACK" level="2"/>
 			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_BARBARIAN_BARBARIAN_SUBCLASS" level="3" />
@@ -158,19 +158,11 @@
 			<p>Each time the Rage is extended, it lasts until the end of your next turn. You can maintain a Rage for up to 10 minutes.</p>
 		</description>
 		<sheet alt="Rage" action="Bonus Action" usage="{{barbarian rage:count}}/Long Rest">
-			<description>While Raging, you gain following effects: &#13;
-			• You have Resistance to Bludgeoning, Piercing, and Slashing damage. &#13;
-			• Your Strength-based attacks gain a +{{barbarian rage:damage}} bonus to damage rolls. &#13;
-			• You have Advantage on Strength checks and Strength saving throws. &#13;
-			• You can't cast or Concentrate on spells. &#13;
+			<description>While Raging, you gain following effects: You have Resistance to Bludgeoning, Piercing, and Slashing damage; your Strength-based attacks gain a +{{barbarian rage:damage}} bonus to damage rolls, you have Advantage on Strength checks and Strength saving throws, and you can't cast or Concentrate on spells. &#13;
 			Your Rage lasts until the end of your next turn, but can be extended for another round (up to a maximum of 10 minutes) by making an attack against an enemy, forcing a saving throw on an enemy, or taking a Bonus Action. Rage ends early if you don Heavy armor or have the Incapacitated condition. &#13;
 			You regain 1 expended use of Rage when you finish a Short Rest.
 			</description>
-			<description level="15">While Raging, you gain following effects: &#13;
-			• You have Resistance to Bludgeoning, Piercing, and Slashing damage. &#13;
-			• Your Strength-based attacks gain a +{{barbarian rage:damage}} bonus to damage rolls. &#13;
-			• You have Advantage on Strength checks and Strength saving throws. &#13;
-			• You can't cast or Concentrate on spells. &#13;
+			<description level="15">While Raging, you gain following effects: You have Resistance to Bludgeoning, Piercing, and Slashing damage; your Strength-based attacks gain a +{{barbarian rage:damage}} bonus to damage rolls, you have Advantage on Strength checks and Strength saving throws, and you can't cast or Concentrate on spells. &#13;
 			Your Rage lasts for 10 minutes. Rage ends early if you don Heavy armor or have the Unconscious condition. &#13;
 			You regain 1 expended use of Rage when you finish a Short Rest.
 			</description>
@@ -261,7 +253,7 @@
 			<description>Whenever you make an ability check using one of the following skills while your Rage is active, you can make it as a Strength check even if it normally uses a different ability: Acrobatics, Intimidation, Perception, Stealth, or Survival.</description>
 		</sheet>
 		<rules>
-			<select type="Proficiency" name="Primal Knowledge (Barbarian)" supports="Skill,Barbarian" number="1" level="3" />
+			<select type="Proficiency" name="Primal Knowledge (Barbarian)" supports="Skill,Barbarian" level="3" />
 		</rules>
 	</element>
 

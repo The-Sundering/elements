@@ -19,9 +19,7 @@
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARD_LORE_MAGICAL_DISCOVERIES" />
 			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARD_LORE_PEERLESS_SKILL" />
 		</description>
-		<sheet display="false">
-			<description>Bards of the College of Lore know something about most things, collecting bits of knowledge from sources as diverse as scholarly tomes and peasant tales.</description>
-		</sheet>
+		<sheet display="false" />
 		<rules>
 			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARD_LORE_BONUS_PROFICIENCIES" level="3" />
 			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARD_LORE_CUTTING_WORDS" level="3" />
@@ -37,16 +35,17 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<select type="Proficiency" name="Bonus Proficiencies (Bard)" supports="Skill,Bard" number="3"/>
+			<select type="Proficiency" name="Skill Proficiency (Bonus Proficiencies)" supports="Skill" number="3"/>
 		</rules>
 	</element>
+
 	<element name="Level 3: Cutting Words" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARD_LORE_CUTTING_WORDS">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARD_LORE_CUTTING_WORDS</requirements>
 		<description>
 			<p>You learn to use your wit to supernaturally distract, confuse, and otherwise sap the confidence and competence of others. When a creature that you can see within 60 feet of yourself makes a damage roll or succeeds on an ability check or attack roll, you can take a Reaction to expend one use of your Bardic Inspiration; roll your Bardic Inspiration die, and subtract the number rolled from the creature’s roll, reducing the damage or potentially turning the success into a failure.</p>
 		</description>
-		<sheet alt="Cutting Words" action="Reaction">
-			<description>When a creature that you can see within 60 feet of yourself makes a damage roll or succeeds on an ability check or attack roll, you can expend one use of your Bardic Inspiration; roll your Bardic Inspiration die, and subtract the number rolled from the creature’s roll, reducing the damage or potentially turning the success into a failure.</description>
+		<sheet alt="Cutting Words" action="Reaction" usage="Bardic Inspiration">
+			<description>When a creature that you can see within 60 feet of yourself makes a damage roll or succeeds on an ability check or attack roll, you can roll your Bardic Inspiration die, and subtract the number rolled from the creature’s roll, reducing the damage or potentially turning the success into a failure.</description>
 		</sheet>
 	</element>
 
@@ -58,7 +57,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<select type="Spell" name="Magical Discoveries" supports="(0||$(spellcasting:slots)),(Bard||Cleric||Druid||Wizard)" number="2" spellcasting="Bard" allowReplace="true" />
+			<select type="Spell" name="Spell (Magical Discoveries)" supports="(0||$(spellcasting:slots)),(Bard||Cleric||Druid||Wizard)" number="2" spellcasting="Bard" allowReplace="true" />
 		</rules>
 	</element>
 
@@ -67,8 +66,8 @@
 		<description>
 			<p>When you make an ability check or attack roll and fail, you can expend one use of Bardic Inspiration; roll the Bardic Inspiration die, and add the number rolled to the d20, potentially turning a failure into a success. On a failure, the Bardic Inspiration isn’t expended.</p>
 		</description>
-		<sheet alt="Peerless Skill">
-			<description>When you fail an ability check or miss an attack roll, you can expend one use of Bardic Inspiration; roll the Bardic Inspiration die, and add the number rolled to the d20, potentially turning a failure into a success. The Bardic Inspiration isn’t expended if the result is still a failure or miss.</description>
+		<sheet alt="Peerless Skill" usage="Bardic Inspiration">
+			<description>When you fail an ability check or attack roll, you can roll the Bardic Inspiration die, and add the number rolled to the d20, potentially turning a failure into a success. On a failure, the Bardic Inspiration isn’t expended.</description>
 		</sheet>
 	</element>
 
