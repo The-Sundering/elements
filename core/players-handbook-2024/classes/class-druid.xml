@@ -306,8 +306,8 @@
 			You regain one expended use of your Wild Shape when you finish a Short Rest.</description>
 		</sheet>
 		<rules>
-			<stat name="druid wild shape:forms" value="2" bonus="wild shape" />
-			<stat name="druid wild shape:forms" value="4" bonus="wild shape" level="4"/>
+			<stat name="druid wild shape:forms" value="4" bonus="wild shape" />
+			<stat name="druid wild shape:forms" value="6" bonus="wild shape" level="4"/>
 			<stat name="druid wild shape:forms" value="8" bonus="wild shape" level="8"/>
 			<stat name="druid wild shape:uses" value="2" bonus="wild shape"/>
 			<stat name="druid wild shape:uses" value="3" bonus="wild shape" level="6"/>
