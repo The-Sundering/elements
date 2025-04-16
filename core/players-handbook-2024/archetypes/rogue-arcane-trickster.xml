@@ -10,7 +10,7 @@
 	</info>
 
 	<element name="Arcane Trickster" type="Archetype" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_ROGUE_ARCANE_TRICKSTER">
-		<supports>Roguish Archetype</supports>
+		<supports>Rogue Subclass</supports>
 		<description>
 			<p class="flavor">Enhance Stealth with Arcane Spells</p>
 			<p>Some Rogues enhance their fine-honed skills of stealth and agility with spells, learning magical tricks to aid them in their trade. Some Arcane Tricksters use their talents as pickpockets and burglars, while others are pranksters.</p>
