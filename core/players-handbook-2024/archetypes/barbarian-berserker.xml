@@ -10,7 +10,7 @@
 	</info>
 
 	<element name="Path of the Berserker" type="Archetype" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_BARBARIAN_BERSERKER">
-		<supports>Primal Path</supports>
+		<supports>Barbarian Subclass</supports>
 		<description>
 			<p class="flavor">Channel Rage into Violent Fury</p>
 			<p>Barbarians who walk the Path of the Berserker direct their Rage primarily toward violence. Their path is one of untrammeled fury, and they thrill in the chaos of battle as they allow their Rage to seize and empower them.</p>
