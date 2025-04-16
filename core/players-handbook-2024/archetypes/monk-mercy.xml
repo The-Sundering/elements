@@ -10,7 +10,7 @@
 	</info>
 
 	<element name="Warrior of Mercy" type="Archetype" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_MONK_WARRIOR_OF_MERCY">
-		<supports>Monastic Tradition</supports>
+		<supports>Monk Subclass</supports>
 		<description>
 			<p class="flavor">Manipulate Forces of Life and Death</p>
 			<p>Warriors of Mercy manipulate the life force of others. These Monks are wandering physicians, but they bring a swift end to their enemies. They often wear masks, presenting themselves as faceless bringers of life and death.</p>
