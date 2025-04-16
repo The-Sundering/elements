@@ -52,38 +52,55 @@
 	<element name="Level 6: Magical Discoveries" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARD_LORE_MAGICAL_DISCOVERIES">
 	<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARD_LORE_MAGICAL_DISCOVERIES</requirements>
 		<description>
-			<p>You learn two spells of your choice. These spells can come from the Cleric, Druid, or Wizard spell list or any combination thereof (see a class’s section for its spell list). A spell you choose must be a cantrip or a spell for which you have spell slots, as shown in the Bard Features table.</p>
+			<p>You learn two spells of your choice. These spells can come from the Cleric, Druid, or Wizard spell list or any combination thereof. A spell you choose must be a cantrip or a spell for which you have spell slots, as shown in the Bard Features table.</p>
 			<p class="indent">You always have the chosen spells prepared, and whenever you gain a Bard level, you can replace one of the spells with another spell that meets these requirements.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
-			<select type="Archetype Feature" name="Magical Discoveries Spell Type" supports="Lore Bard Magical Discoveries" number="2" />
+			<select type="Archetype Feature" name="Magical Discoveries Spell Type" supports="Lore Bard Magical Discoveries 1"/>
+			<select type="Archetype Feature" name="Magical Discoveries Spell Type" supports="Lore Bard Magical Discoveries 2"/>
 		</rules>
 	</element>
-	<element name="Cantrip" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARD_LORE_MAGICAL_DISCOVERIES_CANTRIP">
+	<element name="Cantrip" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARD_LORE_MAGICAL_DISCOVERIES_CANTRIP_1">
 	<compendium display="false" />
-	<supports>Lore Bard Magical Discoveries</supports>
+	<supports>Lore Bard Magical Discoveries 1</supports>
 		<description>
-			<p>You learn a cantrip from the Cleric, Druid, or Wizard spell lists. Whenever you gain a Bard level, you can replace this spell with another spell that meets the Magical Discoveries requirements.</p>
+			<p>You learn a cantrip from the Cleric, Druid, or Wizard spell lists. Whenever you gain a Bard level, you can replace this cantrip with another spell that meets the Magical Discoveries requirements.</p>
 		</description>
 		<sheet display="false" />
-		<setters>
-			<set name="allow duplicate">true</set>
-		</setters>
 		<rules>
 			<select type="Spell" name="Cantrip (Magical Discoveries)" supports="0,(Bard||Cleric||Druid||Wizard)" spellcasting="Bard" />
 		</rules>
 	</element>
-	<element name="Leveled Spell" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARD_LORE_MAGICAL_DISCOVERIES_LEVELED_SPELL">
+	<element name="Leveled Spell" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARD_LORE_MAGICAL_DISCOVERIES_LEVELED_SPELL_1">
 	<compendium display="false" />
-	<supports>Lore Bard Magical Discoveries</supports>
+	<supports>Lore Bard Magical Discoveries 1</supports>
 		<description>
 			<p>You learn a spell from the Cleric, Druid, or Wizard spell lists for which you have spell slots. Whenever you gain a Bard level, you can replace this spell with another spell that meets the Magical Discoveries requirements.</p>
 		</description>
 		<sheet display="false" />
-		<setters>
-			<set name="allow duplicate">true</set>
-		</setters>
+		<rules>
+			<select type="Spell" name="Spell (Magical Discoveries)" supports="$(spellcasting:slots),(Bard||Cleric||Druid||Wizard)" level="6" spellcasting="Bard" allowReplace="true" />
+		</rules>
+	</element>
+	<element name="Cantrip" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARD_LORE_MAGICAL_DISCOVERIES_CANTRIP_2">
+	<compendium display="false" />
+	<supports>Lore Bard Magical Discoveries 2</supports>
+		<description>
+			<p>You learn a cantrip from the Cleric, Druid, or Wizard spell lists. Whenever you gain a Bard level, you can replace this cantrip with another spell that meets the Magical Discoveries requirements.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Spell" name="Cantrip (Magical Discoveries)" supports="0,(Bard||Cleric||Druid||Wizard)" spellcasting="Bard" />
+		</rules>
+	</element>
+	<element name="Leveled Spell" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARD_LORE_MAGICAL_DISCOVERIES_LEVELED_SPELL_2">
+	<compendium display="false" />
+	<supports>Lore Bard Magical Discoveries 2</supports>
+		<description>
+			<p>You learn a spell from the Cleric, Druid, or Wizard spell lists for which you have spell slots. Whenever you gain a Bard level, you can replace this spell with another spell that meets the Magical Discoveries requirements.</p>
+		</description>
+		<sheet display="false" />
 		<rules>
 			<select type="Spell" name="Spell (Magical Discoveries)" supports="$(spellcasting:slots),(Bard||Cleric||Druid||Wizard)" level="6" spellcasting="Bard" allowReplace="true" />
 		</rules>
