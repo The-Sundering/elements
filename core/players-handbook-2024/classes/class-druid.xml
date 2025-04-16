@@ -264,46 +264,52 @@
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_DRUID_WILD_SHAPE</requirements>
 		<description>
 			<p>The power of nature allows you to assume the form of an animal. As a Bonus Action, you shape-shift into a Beast form that you have learned for this feature (see "Known Forms" below). You stay in that form for a number of hours equal to half your Druid level or until you use Wild Shape again, have the Incapacitated condition, or die. You can also leave the form early as a Bonus Action.</p>
-			<p><em><strong>Number of Uses.</strong></em> You can use Wild Shape twice. You regain one expended use when you finish a Short Rest, and you regain all expended uses when you finish a Long Rest.</p>
+			<p class="indent"><em><strong>Number of Uses.</strong></em> You can use Wild Shape twice. You regain one expended use when you finish a Short Rest, and you regain all expended uses when you finish a Long Rest.</p>
 			<p class="indent">You gain additional uses when you reach certain Druid levels, as shown in the Wild Shape column of the Druid Features table.</p>
-			<p><em><strong>Known Forms.</strong></em> You know four Beast forms for this feature, chosen from among Beast stat blocks that have a maximum Challenge Rating of 1/4 and that lack a Fly Speed. The Rat, Riding Horse, Spider, and Wolf are recommended. Whenever you finish a Long Rest, you can replace one of your known forms with another eligible form.</p>
+			<p class="indent"><em><strong>Known Forms.</strong></em> You know four Beast forms for this feature, chosen from among Beast stat blocks that have a maximum Challenge Rating of 1/4 and that lack a Fly Speed. The Rat, Riding Horse, Spider, and Wolf are recommended. Whenever you finish a Long Rest, you can replace one of your known forms with another eligible form.</p>
 			<p class="indent">When you reach certain Druid levels, your number of known forms and the maximum Challenge Rating for those forms increases, as shown in the Beast Shapes table. In addition, starting at level 8, you can adopt a form that has a Fly Speed.</p>
 			<p class="indent">When choosing known forms, you may look in the Monster Manual or elsewhere for eligible Beasts if the Dungeon Master permits you to do so.</p>
-			<h3 class="caption">Beast Shapes</h3>
+			<h5>BEAST SHAPES</h5>
 			<table class="class-features">
 				<thead>
-					<tr><td class="col-5">Druid Level</td><td>Known Forms</td><td>Max CR</td><td class="left">Fly Speed</td></tr>
+					<tr><td>Druid Level</td><td>Known Forms</td><td>Max CR</td><td>Fly Speed</td></tr>
 				</thead>
-				<tr><td> 2</td><td> 4</td><td>1/4</td><td class="left">No</td></tr>
-				<tr><td> 4</td><td> 6</td><td>1/2</td><td class="left">No</td></tr>
-				<tr><td> 8</td><td> 8</td><td>1</td><td class="left">Yes</td></tr>
+				<tr><td> 2</td><td> 4</td><td>1/4</td><td>No</td></tr>
+				<tr><td> 4</td><td> 6</td><td>1/2</td><td>No</td></tr>
+				<tr><td> 8</td><td> 8</td><td>1</td><td>Yes</td></tr>
 			</table>
-			<p><em><strong>Rules While Transformed.</strong></em> While in a form, you retain your personality, memories, and ability to speak, and the following rules apply:</p>
-			<ul>
-				<li><strong>Temporary Hit Points.</strong> When you assume a Wild Shape form, you gain a number of Temporary Hit Points equal to your Druid level.</li>
-				<li><strong>Game Statistics.</strong> Your game statistics are replaced by the Beast’s stat block, but you retain your creature type; Hit Points; Hit Point Dice; Intelligence, Wisdom, and Charisma scores; class features; languages; and feats. You also retain your skill and saving throw proficiencies and use your Proficiency Bonus for them, in addition to gaining the proficiencies of the creature. If a skill or saving throw modifier in the Beast’s stat block is higher than yours, use the one in the stat block.</li>
-				<li><strong>No Spellcasting.</strong> You can’t cast spells, but shape-shifting doesn’t break your Concentration or otherwise interfere with a spell you’ve already cast.</li>
-				<li><strong>Objects.</strong> Your ability to handle objects is determined by the form’s limbs rather than your own. In addition, you choose whether your equipment falls in your space, merges into your new form, or is worn by it. Worn equipment functions as normal, but the DM decides whether it’s practical for the new form to wear a piece of equipment based on the creature’s size and shape. Your equipment doesn’t change size or shape to match the new form, and any equipment that the new form can’t wear must either fall to the ground or merge with the form. Equipment that merges with the form has no effect while you’re in that form.</li>
-			</ul>
+			<p class="indent"><em><strong>Rules While Transformed.</strong></em> While in a form, you retain your personality, memories, and ability to speak, and the following rules apply:</p>
+			<p style="text-indent: -1em; margin-left: 1em"><strong>Temporary Hit Points.</strong> When you assume a Wild Shape form, you gain a number of Temporary Hit Points equal to your Druid level.</p>
+			<p style="text-indent: -1em; margin-left: 1em"><strong>Game Statistics.</strong> Your game statistics are replaced by the Beast’s stat block, but you retain your creature type; Hit Points; Hit Point Dice; Intelligence, Wisdom, and Charisma scores; class features; languages; and feats. You also retain your skill and saving throw proficiencies and use your Proficiency Bonus for them, in addition to gaining the proficiencies of the creature. If a skill or saving throw modifier in the Beast’s stat block is higher than yours, use the one in the stat block.</p>
+			<p style="text-indent: -1em; margin-left: 1em"><strong>No Spellcasting.</strong> You can’t cast spells, but shape-shifting doesn’t break your Concentration or otherwise interfere with a spell you’ve already cast.</p>
+			<p style="text-indent: -1em; margin-left: 1em"><strong>Objects.</strong> Your ability to handle objects is determined by the form’s limbs rather than your own. In addition, you choose whether your equipment falls in your space, merges into your new form, or is worn by it. Worn equipment functions as normal, but the DM decides whether it’s practical for the new form to wear a piece of equipment based on the creature’s size and shape. Your equipment doesn’t change size or shape to match the new form, and any equipment that the new form can’t wear must either fall to the ground or merge with the form. Equipment that merges with the form has no effect while you’re in that form.</p>
 		</description>
-		<sheet alt="Wild Shape" action="Bonus Action" usage="{{druid wild shape:uses}}/Long Rest">
-			<description>You can magically assume the form of a Beast you have learned (you can have {{druid wild shape:forms}} Known Forms of CR 1/4 or lower without a Fly Speed). You immediately gain {{druid wild shape:thp}} Temporary Hit Points, and you can stay in that form for {{druid wild shape:hours}} hours or until you use Wild Shape again, have the Incapacitated condition, or die. You can also leave the form early as a Bonus Action. &#13;
+		<sheet alt="Wild Shape" action="Bonus Action" usage="{{wild shape:uses}}/Long Rest">
+			<description>You can magically assume the form of a Beast you have learned (you can have {{wild shape:forms}} Known Forms of CR 1/4 or lower without a Fly Speed). You immediately gain {{wild shape:thp}} Temporary Hit Points, and you can stay in that form for {{wild shape:hours}} hours or until you use Wild Shape again, have the Incapacitated condition, or die. You can also leave the form early as a Bonus Action. &#13;
+			While transformed your statistics are replaced by the Beast’s, but you retain your creature type; Hit Points; Hit Point Dice; Intelligence, Wisdom, and Charisma scores; class features; languages; and feats. You also retain your skill and saving throw proficiencies and use your Proficiency Bonus for them, in addition to gaining the proficiencies of the creature. You can use Beast's skill or saving throw modifier if it's higher than yours. You can’t cast spells, but shape-shifting doesn’t break your Concentration or otherwise interfere with a spell you’ve already cast. &#13;
 			You regain one expended use of your Wild Shape when you finish a Short Rest.</description>
-			<description level="4">You can magically assume the form of a Beast you have learned (you can have {{druid wild shape:forms}} Known Forms of CR 1/2 or lower without a Fly Speed). You immediately gain {{druid wild shape:thp}} Temporary Hit Points, and you can stay in that form for {{druid wild shape:hours}} hours or until you use Wild Shape again, have the Incapacitated condition, or die. You can also leave the form early as a Bonus Action. &#13;
+			<description level="4">You can magically assume the form of a Beast you have learned (you can have {{wild shape:forms}} Known Forms of CR 1/2 or lower without a Fly Speed). You immediately gain {{wild shape:thp}} Temporary Hit Points, and you can stay in that form for {{wild shape:hours}} hours or until you use Wild Shape again, have the Incapacitated condition, or die. You can also leave the form early as a Bonus Action. &#13;
+			While transformed your statistics are replaced by the Beast’s, but you retain your creature type; Hit Points; Hit Point Dice; Intelligence, Wisdom, and Charisma scores; class features; languages; and feats. You also retain your skill and saving throw proficiencies and use your Proficiency Bonus for them, in addition to gaining the proficiencies of the creature. You can use Beast's skill or saving throw modifier if it's higher than yours. You can’t cast spells, but shape-shifting doesn’t break your Concentration or otherwise interfere with a spell you’ve already cast. &#13;
 			You regain one expended use of your Wild Shape when you finish a Short Rest.</description>
-			<description level="8">You can magically assume the form of a Beast you have learned (you can have {{druid wild shape:forms}} Known Forms of CR 1 or lower). You immediately gain {{druid wild shape:thp}} Temporary Hit Points, and you can stay in that form for {{druid wild shape:hours}} hours or until you use Wild Shape again, have the Incapacitated condition, or die. You can also leave the form early as a Bonus Action. &#13;
+			<description level="8">You can magically assume the form of a Beast you have learned (you can have {{wild shape:forms}} Known Forms of CR 1 or lower). You immediately gain {{wild shape:thp}} Temporary Hit Points, and you can stay in that form for {{wild shape:hours}} hours or until you use Wild Shape again, have the Incapacitated condition, or die. You can also leave the form early as a Bonus Action. &#13;
+			While transformed your statistics are replaced by the Beast’s, but you retain your creature type; Hit Points; Hit Point Dice; Intelligence, Wisdom, and Charisma scores; class features; languages; and feats. You also retain your skill and saving throw proficiencies and use your Proficiency Bonus for them, in addition to gaining the proficiencies of the creature. You can use Beast's skill or saving throw modifier if it's higher than yours. You can’t cast spells, but shape-shifting doesn’t break your Concentration or otherwise interfere with a spell you’ve already cast. &#13;
 			You regain one expended use of your Wild Shape when you finish a Short Rest.</description>
+			<description level="18">You can magically assume the form of a Beast you have learned (you can have {{wild shape:forms}} Known Forms of CR 1 or lower). You immediately gain {{wild shape:thp}} Temporary Hit Points, and you can stay in that form for {{wild shape:hours}} hours or until you use Wild Shape again, have the Incapacitated condition, or die. You can also leave the form early as a Bonus Action. &#13;
+			While transformed your statistics are replaced by the Beast’s, but you retain your creature type; Hit Points; Hit Point Dice; Intelligence, Wisdom, and Charisma scores; class features; languages; and feats. You also retain your skill and saving throw proficiencies and use your Proficiency Bonus for them, in addition to gaining the proficiencies of the creature. You can use Beast's skill or saving throw modifier if it's higher than yours. You can cast spells in Beast form, except for any spell that has a Material component that is consumed or has a cost. Shape-shifting doesn’t break your Concentration or otherwise interfere with a spell you’ve already cast. &#13;
+			You regain one expended use of your Wild Shape when you finish a Short Rest.</description>
+			<description level="20">You can magically assume the form of a Beast you have learned (you can have {{wild shape:forms}} Known Forms of CR 1 or lower). You immediately gain {{wild shape:thp}} Temporary Hit Points, and you can stay in that form for {{wild shape:hours}} hours or until you use Wild Shape again, have the Incapacitated condition, or die. You can also leave the form early as a Bonus Action. &#13;
+			While transformed your statistics are replaced by the Beast’s, but you retain your creature type; Hit Points; Hit Point Dice; Intelligence, Wisdom, and Charisma scores; class features; languages; and feats. You also retain your skill and saving throw proficiencies and use your Proficiency Bonus for them, in addition to gaining the proficiencies of the creature. You can use Beast's skill or saving throw modifier if it's higher than yours. You can cast spells in Beast form, except for any spell that has a Material component that is consumed or has a cost. Shape-shifting doesn’t break your Concentration or otherwise interfere with a spell you’ve already cast. &#13;
+			Whenever you roll Initiative and have no uses of Wild Shape left, you regain one expended use. You regain one expended use of your Wild Shape when you finish a Short Rest.</description>
 		</sheet>
 		<rules>
-			<stat name="druid wild shape:forms" value="4" bonus="wild shape" />
-			<stat name="druid wild shape:forms" value="6" bonus="wild shape" level="4"/>
-			<stat name="druid wild shape:forms" value="8" bonus="wild shape" level="8"/>
-			<stat name="druid wild shape:uses" value="2" bonus="wild shape"/>
-			<stat name="druid wild shape:uses" value="3" bonus="wild shape" level="6"/>
-			<stat name="druid wild shape:uses" value="4" bonus="wild shape" level="17"/>
-			<stat name="druid wild shape:hours" value="level:druid:half" />
-			<stat name="druid wild shape:thp" value="level:druid" />
-			<select type="Archetype Feature" name="Circle Forms (Moon Druid)" supports="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_MOON_CIRCLE_FORMS" default="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_MOON_CIRCLE_FORMS" requirements="ID_WOTC_PHB24_ARCHETYPE_DRUID_CIRCLE_OF_THE_MOON" />
+			<stat name="wild shape:forms" value="4" bonus="base" />
+			<stat name="wild shape:forms" value="6" bonus="base" level="4"/>
+			<stat name="wild shape:forms" value="8" bonus="base" level="8"/>
+			<stat name="wild shape:uses" value="2" bonus="base" />
+			<stat name="wild shape:uses" value="3" bonus="base" level="6"/>
+			<stat name="wild shape:uses" value="4" bonus="base" level="17"/>
+			<stat name="wild shape:hours" value="level:druid:half" />
+			<stat name="wild shape:thp" value="level:druid" />
 		</rules>
 	</element>
 
