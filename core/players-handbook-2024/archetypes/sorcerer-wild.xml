@@ -10,7 +10,7 @@
 	</info>
 
 	<element name="Wild Magic Sorcery" type="Archetype" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_SORCERER_WILD_MAGIC_SORCERY">
-		<supports>Sorcerous Origin</supports>
+		<supports>Sorcerer Subclass</supports>
 		<description>
 			<p class="flavor">Unleash Chaotic Magic</p>
 			<p>Your innate magic stems from the forces of chaos that underlie the order of creation. You or an ancestor might have endured exposure to raw magic, perhaps through a planar portal leading to Limbo or the Elemental Planes. Perhaps you were blessed by a fey being or marked by a demon. Or your magic could be a fluke with no apparent cause. Whatever its source, this magic churns within you, waiting for any outlet.</p>
