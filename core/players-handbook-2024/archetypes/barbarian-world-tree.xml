@@ -10,7 +10,7 @@
 	</info>
 
 	<element name="Path of the World Tree" type="Archetype" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_BARBARIAN_WORLD_TREE">
-		<supports>Primal Path</supports>
+		<supports>Barbarian Subclass</supports>
 		<description>
 			<p class="flavor">Trace the Roots and Branches of the Multiverse</p>
 			<p>Barbarians who follow the Path of the World Tree connect with the cosmic tree Yggdrasil through their Rage. This tree grows among the Outer Planes, connecting them to each other and the Material Plane. These Barbarians draw on the tree’s magic for vitality and as a means of dimensional travel.</p>
