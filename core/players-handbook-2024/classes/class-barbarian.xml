@@ -236,7 +236,7 @@
 		</description>
 		<sheet display="false"/>
 		<rules>
-			<select type="Archetype" name="Barbarian Subclass" supports="Primal Path" level="3"/>
+			<select type="Archetype" name="Barbarian Subclass" supports="Primal Path||Barbarian Subclass" level="3"/>
 		</rules>
 	</element>
 	<element name="Level 3: Primal Knowledge" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_BARBARIAN_PRIMAL_KNOWLEDGE">
