@@ -236,7 +236,7 @@
 		</description>
 		<sheet display="false"/>
 		<rules>
-			<select type="Archetype" name="Warlock Subclass" supports="Otherworldly Patron" />
+			<select type="Archetype" name="Warlock Subclass" supports="Otherworldly Patron||Warlock Subclass" />
 		</rules>
 	</element>
 
