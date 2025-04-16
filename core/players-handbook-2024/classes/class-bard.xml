@@ -277,7 +277,7 @@
 		</description>
 		<sheet display="false"/>
 		<rules>
-			<select type="Archetype" name="Bard Subclass" supports="Bard College" />
+			<select type="Archetype" name="Bard Subclass" supports="Bard College||Bard Subclass" />
 		</rules>
 	</element>
 
