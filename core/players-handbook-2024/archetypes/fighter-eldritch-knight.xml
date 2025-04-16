@@ -10,7 +10,7 @@
 	</info>
 
 	<element name="Eldritch Knight" type="Archetype" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FIGHTER_ELDRITCH_KNIGHT">
-		<supports>Martial Archetype</supports>
+		<supports>Fighter Subclass</supports>
 		<description>
 			<p class="flavor">Support Combat Skills with Arcane Magic</p>
 			<p>Eldritch Knights combine the martial mastery common to all Fighters with a careful study of magic. Their spells both complement and extend their combat skills, providing additional protection to shore up their armor and also allowing them to engage many foes at once with explosive magic.</p>
