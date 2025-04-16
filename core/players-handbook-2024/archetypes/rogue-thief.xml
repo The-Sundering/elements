@@ -10,7 +10,7 @@
 	</info>
 
 	<element name="Thief" type="Archetype" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_ROGUE_THIEF">
-		<supports>Roguish Archetype</supports>
+		<supports>Rogue Subclass</supports>
 		<description>
 			<p class="flavor">Hunt for Treasure as a Classic Adventurer</p>
 			<p>A mix of burglar, treasure hunter, and explorer, you are the epitome of an adventurer. In addition to improving your agility and stealth, you gain abilities useful for delving into ruins and getting maximum benefit from the magic items you find there.</p>
