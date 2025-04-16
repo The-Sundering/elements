@@ -9,7 +9,7 @@
 		</update>
 	</info>
 	<element name="Draconic Sorcery" type="Archetype" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_SORCERER_DRACONIC_SORCERY">
-		<supports>Sorcerous Origin</supports>
+		<supports>Sorcerer Subclass</supports>
 		<description>
 			<p class="flavor">Breathe the Magic of Dragons</p>
 			<p>Your innate magic comes from the gift of a dragon. Perhaps an ancient dragon facing death bequeathed some of its magical power to you or your ancestor. You might have absorbed magic from a site infused with dragons’ power. Or perhaps you handled a treasure taken from a dragon’s hoard that was steeped in draconic power. Or you might have a dragon for an ancestor.</p>
