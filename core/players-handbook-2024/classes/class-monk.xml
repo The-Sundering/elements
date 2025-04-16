@@ -309,7 +309,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<select type="Archetype" name="Monk Subclass" supports="Monastic Tradition" />
+			<select type="Archetype" name="Monk Subclass" supports="Monastic Tradition||Monk Subclass" />
 		</rules>
 	</element>
 
