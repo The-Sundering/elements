@@ -10,7 +10,7 @@
 	</info>
 
 	<element name="Warrior of the Open Hand" type="Archetype" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_MONK_WARRIOR_OF_THE_OPEN_HAND">
-		<supports>Monastic Tradition</supports>
+		<supports>Monk Subclass</supports>
 		<description>
 			<p class="flavor">Master Unarmed Combat Techniques</p>
 			<p>Warriors of the Open Hand are masters of unarmed combat. They learn techniques to push and trip their opponents and manipulate their own energy to protect themselves from harm.</p>
