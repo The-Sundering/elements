@@ -57,8 +57,8 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<select type="Archetype Feature" name="Magical Discoveries Spell Type" supports="Lore Bard Magical Discoveries 1"/>
-			<select type="Archetype Feature" name="Magical Discoveries Spell Type" supports="Lore Bard Magical Discoveries 2"/>
+			<select type="Archetype Feature" name="1st Spell Type (Magical Discoveries)" supports="Lore Bard Magical Discoveries 1"/>
+			<select type="Archetype Feature" name="2nd Spell Type (Magical Discoveries)" supports="Lore Bard Magical Discoveries 2"/>
 		</rules>
 	</element>
 	<element name="Cantrip" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARD_LORE_MAGICAL_DISCOVERIES_CANTRIP_1">
