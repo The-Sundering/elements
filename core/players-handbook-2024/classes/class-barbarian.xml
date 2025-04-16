@@ -187,13 +187,9 @@
 			<description>While you aren’t wearing armor, your AC is {{ac:unarmored defense barbarian}}. You can use a Shield and still gain this benefit.</description>
 		</sheet>
 		<rules>
-			<stat name="ac:unarmored defense barbarian:base" value="10" />
-			<stat name="ac:unarmored defense barbarian:dexterity" value="dexterity:modifier" />
-			<stat name="ac:unarmored defense barbarian:constitution" value="constitution:modifier" />
-
-			<stat name="ac:unarmored defense barbarian" value="ac:unarmored defense barbarian:base" />
-			<stat name="ac:unarmored defense barbarian" value="ac:unarmored defense barbarian:dexterity" />
-			<stat name="ac:unarmored defense barbarian" value="ac:unarmored defense barbarian:constitution" />
+			<stat name="ac:unarmored defense barbarian" value="10" bonus="base" />
+			<stat name="ac:unarmored defense barbarian" value="dexterity:modifier" bonus="primary ability" />
+			<stat name="ac:unarmored defense barbarian" value="constitution:modifier" bonus="secondary ability" />
 
 			<stat name="ac:calculation" value="ac:unarmored defense barbarian" bonus="calculation" equipped="[armor:none]" alt="Unarmored Defense (Barbarian)" />
 		</rules>

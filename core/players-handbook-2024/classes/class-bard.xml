@@ -175,7 +175,7 @@
 			</center>
 		</description>
 		<sheet alt="Spellcasting">
-			<description>You can use a Musical Instrument as your Spellcasting Focus.</description>
+			<description>You can use a Musical Instrument as your Spellcasting Focus. Whenever you gain a Bard level, you can replace one of your cantrips with another Bard cantrip of your choice.</description>
 		</sheet>
 		<spellcasting name="Bard" ability="Charisma" allowReplace="true">
 			<list>Bard</list>
@@ -237,7 +237,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<select type="Proficiency" name="Expertise (Bard 3)" level="2" number="2" supports="Expertise"/>
+			<select type="Proficiency" name="Expertise (Bard 2)" level="2" number="2" supports="Expertise"/>
 			<select type="Proficiency" name="Expertise (Bard 9)" level="9" number="2" supports="Expertise"/>
 		</rules>
 	</element>
@@ -360,7 +360,6 @@
 			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_POWER_WORD_KILL" spellcasting="Bard" allowReplace="false" />
 		</rules>
 	</element>
-
 
 	<!--Feature Replacement Grants-->
 	<element name="Bardic Inspiration Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_BARD_BARDIC_INSPIRATION" />
