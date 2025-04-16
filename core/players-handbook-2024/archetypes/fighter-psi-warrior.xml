@@ -10,7 +10,7 @@
 	</info>
 
 	<element name="Psi Warrior" type="Archetype" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FIGHTER_PSI_WARRIOR">
-		<supports>Martial Archetype</supports>
+		<supports>Fighter Subclass</supports>
 		<description>
 			<p class="flavor">Augment Physical Might with Psionic Power</p>
 			<p>Psi Warriors awaken the power of their minds to augment their physical might. They harness this psionic power to infuse their weapon strikes, lash out with telekinetic energy, and create barriers of mental force.</p>
