@@ -10,7 +10,7 @@
 	</info>
 
 	<element name="Path of the Wild Heart" type="Archetype" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_BARBARIAN_WILD_HEART">
-		<supports>Primal Path</supports>
+		<supports>Barbarian Subclass</supports>
 		<description>
 			<p class="flavor">Walk in Community with the Animal World</p>
 			<p>Barbarians who follow the Path of the Wild Heart view themselves as kin to animals. These Barbarians learn magical means to communicate with animals, and their Rage heightens their connection to animals as it fills them with supernatural might.</p>
