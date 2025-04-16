@@ -10,7 +10,7 @@
 	</info>
 
 	<element name="Path of the Zealot" type="Archetype" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_BARBARIAN_ZEALOT">
-		<supports>Primal Path</supports>
+		<supports>Barbarian Subclass</supports>
 		<description>
 			<p class="flavor">Rage in Ecstatic Union with a God</p>
 			<p>Barbarians who walk the Path of the Zealot receive boons from a god or pantheon. These Barbarians experience their Rage as an ecstatic episode of divine union that infuses them with power. They are often allies to the priests and other followers of their god or pantheon.</p>
