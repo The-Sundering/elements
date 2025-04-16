@@ -10,7 +10,7 @@
 	</info>
 
 	<element name="Warrior of the Elements" type="Archetype" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_MONK_WARRIOR_OF_THE_ELEMENTS">
-		<supports>Monastic Tradition</supports>
+		<supports>Monk Subclass</supports>
 		<description>
 			<p class="flavor">Wield Strikes and Bursts of Elemental Power</p>
 			<p>Warriors of the Elements tap into the power of the Elemental Planes. Harnessing their supernatural focus, these Monks momentarily tame the energy of the Elemental Chaos to empower themselves in and out of battle.</p>
