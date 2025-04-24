@@ -152,8 +152,8 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<select type="Proficiency" name="Expertise (Rogue 1)" number="2" supports="Expertise,Skill"/>
-			<select type="Proficiency" name="Expertise (Rogue 6)" level="6" number="2" supports="Expertise,Skill"/>
+			<select type="Proficiency" name="Expertise (Rogue 1)" number="2" supports="Expertise"/>
+			<select type="Proficiency" name="Expertise (Rogue 6)" level="6" number="2" supports="Expertise"/>
 		</rules>
 	</element>
 	<element name="Level 1: Sneak Attack" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ROGUE_SNEAK_ATTACK">
