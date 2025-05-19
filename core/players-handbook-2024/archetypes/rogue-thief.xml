@@ -38,9 +38,10 @@
 			<p class="indent"><em><strong>Use an Object.</strong></em> Take the Utilize action, or take the Magic action to use a magic item that requires that action.</p>
 		</description>
 		<sheet alt="Fast Hands" action="Bonus Action">
-			<description>You can make a  Dexterity (Sleight of Hand) check to pick a pocket, or pick a lock or disarm a trap with Thieves’ Tools. You can also take the Utilize action, or take the Magic action to use a magic item that requires that action.</description>
+			<description>You can make a Dexterity (Sleight of Hand) check to pick a pocket, or pick a lock or disarm a trap with Thieves’ Tools. Alternatively, you can take the Utilize action, or take the Magic action to use a magic item that requires that action.</description>
 		</sheet>
 	</element>
+
 	<element name="Level 3: Second-Story Work" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_ROGUE_THIEF_SECOND_STORY_WORK">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_ROGUE_THIEF_SECOND_STORY_WORK</requirements>
 		<description>
@@ -62,11 +63,24 @@
 			<p>You gain the following Cunning Strike option.</p>
 			<p class="indent"><em><strong>Stealth Attack (Cost: 1d6).</strong></em> If you have the Hide action’s Invisible condition, this attack doesn’t end that condition on you if you end the turn behind Three-Quarters Cover or Total Cover.</p>
 		</description>
-		<sheet alt="Supreme Sneak">
-			<description>You gain the following Cunning Strike option: &#13;
-			• Stealth Attack (Cost: 1d6). If you have the Hide action’s Invisible condition, your attack doesn’t end that condition on you if you end the turn behind Three-Quarters or Total Cover.</description>
+		<sheet display="false" />
+	</element>
+	<element name="Stealth Attack (Cost: 1d6)" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_ROGUE_THIEF_SUPREME_SNEAK_STEALTH_ATTACK">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_ROGUE_THIEF_SUPREME_SNEAK_STEALTH_ATTACK</requirements>
+		<supports>PHB24 Cunning Strike Stealth Attack</supports>
+		<compendium display="false" />
+		<description>
+			<p>If you have the Hide action’s Invisible condition, this attack doesn’t end that condition on you if you end the turn behind Three-Quarters Cover or Total Cover.</p>
+		</description>
+		<sheet alt="Stealth Attack (1d6)">
+			<description>If you have the Hide action’s Invisible condition, your attack doesn’t end that condition on you if you end the turn behind Three-Quarters or Total Cover.</description>
 		</sheet>
 	</element>
+	<append id="ID_WOTC_PHB24_CLASS_FEATURE_ROGUE_CUNNING_STRIKE">
+		<rules>
+			<select type="Archetype Feature" name="Stealth Attack" supports="PHB24 Cunning Strike Stealth Attack" default="ID_WOTC_PHB24_ARCHETYPE_FEATURE_ROGUE_THIEF_SUPREME_SNEAK_STEALTH_ATTACK" requirements="ID_WOTC_PHB24_ARCHETYPE_FEATURE_ROGUE_THIEF_SUPREME_SNEAK" />
+		</rules>
+	</append>
 
 	<element name="Level 13: Use Magic Device" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_ROGUE_THIEF_USE_MAGIC_DEVICE">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_ROGUE_THIEF_USE_MAGIC_DEVICE</requirements>
@@ -74,17 +88,17 @@
 			<p>You’ve learned how to maximize use of magic items, granting you the following benefits.</p>
 			<p class="indent"><em><strong>Attunement.</strong></em> You can attune to up to four magic items at once.</p>
 			<p class="indent"><em><strong>Charges.</strong></em> Whenever you use a magic item property that expends charges, roll 1d6. On a roll of 6, you use the property without expending the charges.</p>
-			<p class="indent"><em><strong>Scrolls.</strong></em> You can use any Spell Scroll, using Intelligence as your spellcasting ability for the spell. If the spell is a cantrip or a level 1 spell, you can cast it reliably. If the scroll contains a higher-level spell, you must first succeed on an Intelligence (Arcana) check (DC 10 plus the spell’s level). On a successful check, you cast the spell from the scroll. On a failed check, the scroll disintegrates.</p>
+			<p class="indent"><em><strong>Scrolls.</strong></em> You can use any <i>Spell Scroll</i>, using Intelligence as your spellcasting ability for the spell. If the spell is a cantrip or a level 1 spell, you can cast it reliably. If the scroll contains a higher-level spell, you must first succeed on an Intelligence (Arcana) check (DC 10 plus the spell’s level). On a successful check, you cast the spell from the scroll. On a failed check, the scroll disintegrates.</p>
 		</description>
 		<sheet alt="Use Magical Device" >
-			<description>You can attune to 4 magic items at once. &#13;
-			When using a magic item property that expends charges, you can use it without charges if you roll a 6 on a d6. &#13;
-			You can use any Spell Scroll, using Intelligence as your spellcasting ability. If the scroll contains a level 2+ spell, you must first succeed on an Intelligence (Arcana) check (DC 10 plus the spell’s level) or the spell fails and the scroll disintegrates.</description>
+			<description>When using a magic item property that expends charges, you can use it without charges if you roll a 6 on a d6. &#13;
+			You can use any Spell Scroll, using Intelligence as your spellcasting ability. If the scroll contains a level 2+ spell, you must first succeed on an Intelligence (Arcana) check (DC10 + the spell’s level) or the spell fails and the scroll disintegrates.</description>
 		</sheet>
 		<rules>
 			<stat name="attunement:max" value="4" bonus="base" />
 		</rules>
 	</element>
+
 	<element name="Level 17: Thief’s Reflexes" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_ROGUE_THIEF_THIEFS_REFLEXES">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_ROGUE_THIEF_THIEFS_REFLEXES</requirements>
 		<description>
@@ -99,6 +113,7 @@
 	<element name="Fast Hands Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_ROGUE_THIEF_FAST_HANDS" />
 	<element name="Second-Story Work Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_ROGUE_THIEF_SECOND_STORY_WORK" />
 	<element name="Supreme Sneak Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_ROGUE_THIEF_SUPREME_SNEAK" />
+	<element name="Supreme Sneak: Stealth Attack Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_ROGUE_THIEF_SUPREME_SNEAK_STEALTH_ATTACK" />
 	<element name="Use Magic Device Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_ROGUE_THIEF_USE_MAGIC_DEVICE" />
 	<element name="Thief’s Reflexes Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_ROGUE_THIEF_THIEFS_REFLEXES" />
 </elements>
