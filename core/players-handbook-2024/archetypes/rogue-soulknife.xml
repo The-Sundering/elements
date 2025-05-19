@@ -140,8 +140,8 @@
 		<description>
 			<p>If you make an attack roll with your Psychic Blade and miss the target, you can roll one Psionic Energy Die and add the number rolled to the attack roll. If this causes the attack to hit, the die is expended.</p>
 		</description>
-		<sheet usage="Psionic Energy">
-			<description>If you make an attack roll with your Psychic Blade and miss the target, you can roll one Psionic Energy Die and add the number rolled to the attack roll. If this causes the attack to hit, the die is expended.</description>
+		<sheet usage="Psionic Energy Die">
+			<description>If you make an attack roll with your Psychic Blade and miss, you can add 1d{{rogue:psionic power:dice size}} to the attack roll. If the roll still results in a miss, the die isn't expended.</description>
 		</sheet>
 	</element>
 	<element name="Psychic Teleportation" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_ROGUE_SOULKNIFE_SOUL_BLADES_PSYCHIC_TELEPORTATION">
