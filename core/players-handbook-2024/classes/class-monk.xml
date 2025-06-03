@@ -151,7 +151,7 @@
 			<p class="indent"><em><strong>Martial Arts Die.</strong></em> You can roll 1d6 in place of the normal damage of your Unarmed Strike or Monk weapons. This die changes as you gain Monk levels, as shown in the Martial Arts column of the Monk Features table.</p>
 			<p class="indent"><em><strong>Dexterous Attacks.</strong></em> You can use your Dexterity modifier instead of your Strength modifier for the attack and damage rolls of your Unarmed Strikes and Monk weapons. In addition, when you use the Grapple or Shove option of your Unarmed Strike, you can use your Dexterity modifier instead of your Strength modifier to determine the save DC.</p>
 		</description>
-		<sheet alt="Marital Arts">
+		<sheet alt="Martial Arts">
 			<description>You can use Strength or Dexterity for your attacks with Monk Weapons and Unarmed Strikes. Your Unarmed Strikes deal 1d{{martial arts:dice}}+{{martial arts:damage}} damage. &#13;
 			You can use Dexterity in place of Strength when you Grapple or Shove. Your Grappling or Shoving DC is {{shove or grapple:dc}}. &#13;
 			You can make an Unarmed Strike as a Bonus Action on your turn.</description>
