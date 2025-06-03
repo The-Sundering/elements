@@ -43,6 +43,7 @@
 				<tr><td>5</td><td class="left"><em>Lightning Bolt, Water Breathing</em></td></tr>
 				<tr><td>7</td><td class="left"><em>Control Water, Ice Storm</em></td></tr>
 				<tr><td>9</td><td class="left"><em>Conjure Elemental, Hold Monster</em></td></tr>
+			</table>
 		</description>
 		<sheet display="false" />
 		<rules>
