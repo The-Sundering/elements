@@ -86,6 +86,10 @@
 			<stat name="restore balance:usage" value="1" bonus="base" />
 			<stat name="restore balance:usage" value="charisma:modifier" bonus="base" />
 		</rules>
+		<rules>
+			<stat name="restore balance:usage" value="1" bonus="base" />
+			<stat name="restore balance:usage" value="charisma:modifier" bonus="base" />
+		</rules>
 	</element>
 
 	<element name="Level 6: Bastion of Law" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_SORCERER_CLOCKWORK_SORCERY_BASTION_OF_LAW">

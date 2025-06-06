@@ -114,6 +114,7 @@
 	<element name="Second-Story Work Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_ROGUE_THIEF_SECOND_STORY_WORK" />
 	<element name="Supreme Sneak Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_ROGUE_THIEF_SUPREME_SNEAK" />
 	<element name="Supreme Sneak: Stealth Attack Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_ROGUE_THIEF_SUPREME_SNEAK_STEALTH_ATTACK" />
+	<element name="Supreme Sneak: Stealth Attack Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_ROGUE_THIEF_SUPREME_SNEAK_STEALTH_ATTACK" />
 	<element name="Use Magic Device Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_ROGUE_THIEF_USE_MAGIC_DEVICE" />
 	<element name="Thief’s Reflexes Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_ROGUE_THIEF_THIEFS_REFLEXES" />
 </elements>
