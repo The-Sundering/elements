@@ -37,9 +37,9 @@
 		<description>
 			<p>Your attack rolls with weapons and Unarmed Strikes can score a Critical Hit on a roll of 19 or 20 on the d20.</p>
 		</description>
-		<sheet>
-			<description alt="Improved Critical">Your attack rolls with weapons and Unarmed Strikes can score a Critical Hit on a roll of 19 or 20.</description>
-			<description alt="Superior Critical" level="15">Your attack rolls with weapons and Unarmed Strikes can score a Critical Hit on a roll of 18–20.</description>
+		<sheet alt="Improved Critical">
+			<description>Your attack rolls with weapons and Unarmed Strikes can score a Critical Hit on a roll of 19–20.</description>
+			<description level="15">Your attack rolls with weapons and Unarmed Strikes can score a Critical Hit on a roll of 18–20.</description>
 		</sheet>
 	</element>
 	<element name="Level 3: Remarkable Athlete" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_CHAMPION_REMARKABLE_ATHLETE">
@@ -96,7 +96,6 @@
 			<description>At the start of each of your turns, you regain 5+{{constitution:modifier}} Hit Points if you are Bloodied and have at least 1 Hit Point. In addition, you have advantage on Death Saving Throws, and gain the benefit of rolling a 20 on them if you roll an 18-20.</description>
 		</sheet>
 	</element>
-
 	
 	<!--Feature Replacement Grants-->
 	<element name="Improved Critical Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_FIGHTER_CHAMPION_IMPROVED_CRITICAL" />
