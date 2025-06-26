@@ -36,65 +36,28 @@
 			<p class="indent"><em><strong>Darkvision.</strong></em> You gain Darkvision with a range of 60 feet. If you already have Darkvision, its range increases by 60 feet.</p>
 			<p class="indent"><em><strong>Shadowy Figments.</strong></em> You know the Minor Illusion spell. Wisdom is your spellcasting ability for it.</p>
 		</description>
-		<sheet alt="Shadow Arts">
-			<description>You have learned to draw on the power of the Shadowfell, gaining the following benefits.</description>
+		<sheet alt="Shadow Arts" usage="Focus Point">
+			<description>You can cast the Darkness spell without spell components. You can see within the spell's area when you cast it with this feature. While the spell persists, you can move its area of Darkness to a space within 60 feet of yourself at the start of each of your turns. &#13;
+			Additionally, you know Minor Illusion cantrip and Wisdom is your spellcasting ability for it.</description>
 		</sheet>
 		<rules>
-			<select type="Archetype Feature" name="Darkness" supports="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_SHADOW_SHADOW_ARTS_DARKNESS" default="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_SHADOW_SHADOW_ARTS_DARKNESS"/>
-			<select type="Archetype Feature" name="Darkvision" supports="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_SHADOW_SHADOW_ARTS_DARKVISION" default="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_SHADOW_SHADOW_ARTS_DARKVISION"/>
-			<select type="Archetype Feature" name="Shadowy Figments" supports="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_SHADOW_SHADOW_ARTS_SHADOWY_FIGMENTS" default="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_SHADOW_SHADOW_ARTS_SHADOWY_FIGMENTS"/>
-		</rules>
-	</element>
-	<element name="Shadow Arts: Darkness" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_SHADOW_SHADOW_ARTS_DARKNESS">
-		<supports>ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_SHADOW_SHADOW_ARTS_DARKNESS</supports>
-		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_SHADOW_SHADOW_ARTS_DARKNESS</requirements>
-		<compendium display="false" />
-		<description>
-			<p>You can expend 1 Focus Point to cast the Darkness spell without spell components. You can see within the spell's area when you cast it with this feature. While the spell persists, you can move its area of Darkness to a space within 60 feet of yourself at the start of each of your turns.</p>
-		</description>
-		<sheet usage="1 Focus" alt="Darkness">
-			<description>You can cast the Darkness spell without spell components. You can see within the spell's area when you cast it with this feature. While the spell persists, you can move its area of Darkness to a space within 60 feet of yourself at the start of each of your turns.</description>
-		</sheet>
-		<rules>
-			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_DARKNESS" />
-		</rules>
-	</element>
-	<element name="Shadow Arts: Darkvision" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_SHADOW_SHADOW_ARTS_DARKVISION">
-		<supports>ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_SHADOW_SHADOW_ARTS_DARKVISION</supports>
-		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_SHADOW_SHADOW_ARTS_DARKVISION</requirements>
-		<compendium display="false" />
-		<description>
-			<p>You gain Darkvision with a range of 60 feet. If you already have Darkvision, its range increases by 60 feet.</p>
-		</description>
-		<sheet alt="Darkvision">
-			<description>You gain Darkvision with a range of 60 feet. If you already have Darkvision, its range increases by 60 feet.</description>
-		</sheet>
-		<rules>
+			<grant type="Vision" id="ID_VISION_LESSER_DARKVISION" />
 			<stat name="darkvision:range" value="60" />
-			<stat name="darkvision:range" value="60" requirements="ID_VISION_DARKVISION||ID_VISION_SUPERIORDARKVISION"/>
-		</rules>
-	</element>
-	<element name="Shadow Arts: Shadowy Figments" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_SHADOW_SHADOW_ARTS_SHADOWY_FIGMENTS">
-		<supports>ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_SHADOW_SHADOW_ARTS_SHADOWY_FIGMENTS</supports>
-		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_SHADOW_SHADOW_ARTS_SHADOWY_FIGMENTS</requirements>
-		<compendium display="false" />
-		<description>
-			<p>You know the Minor Illusion spell. Wisdom is your spellcasting ability for it.</p>
-		</description>
-		<sheet display="false" />
-		<rules>
 			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_MINOR_ILLUSION" />
 		</rules>
 	</element>
 
 	<element name="Level 6: Shadow Step" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_MONK_SHADOW_SHADOW_STEP">
-		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_SHADOW_SHADOW_STEP</requirements>
+		<requirements>!(ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_SHADOW_SHADOW_STEP||ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_SHADOW_IMPROVED_SHADOW_STEP)</requirements>
 		<description>
 			<p>While entirely within Dim Light or Darkness, you can use a Bonus Action to teleport up to 60 feet to an unoccupied space you can see that is also in Dim Light or Darkness. You then have Advantage on the next melee attack you make before the end of the current turn.</p>
 		</description>
-		<sheet action="Bonus Action" alt="Shadow Step">
-			<description>While entirely within Dim Light or Darkness, you can teleport up to 60 feet to an unoccupied space you can see that is also in Dim Light or Darkness. You then have Advantage on the next melee attack you make before the end of the current turn.</description>
-			<description level="11">While entirely within Dim Light or Darkness, you can teleport up to 60 feet to an unoccupied space you can see that is also in Dim Light or Darkness. You can remove these Light requirements if you spend 1 Focus Point instead. You then have Advantage on the next melee attack you make before the end of the current turn, and can make an Unarmed Strike immediately after you teleport.</description>
+		<sheet alt="Shadow Step" action="Bonus Action">
+			<description>While in Dim Light or Darkness, you can teleport up to 60 feet to an unoccupied space you can see that is also in Dim Light or Darkness. You then have Advantage on the next melee attack you make before the end of the current turn.</description>
+			<description level="11">You have two ways of using this feature: &#13;
+			• While in Dim Light or Darkness, you can teleport up to 60 feet to an unoccupied space you can see that is also in Dim Light or Darkness. &#13;
+			• You can spend 1 Focus Point to remove light requirements for this use of the feature, and you can make an Unarmed Strike immediately after you teleport. &#13;
+			Regardless of your choice, after you teleport you gain Advantage on the next melee attack you make before the end of the current turn.</description>
 		</sheet>
 	</element>
 
@@ -114,16 +77,13 @@
 			<p class="indent"><em><strong>Partially Incorporeal.</strong></em> You can move through occupied spaces as if they were Difficult Terrain. If you end your turn in such a space, you are shunted to the last unoccupied space you were in.</p>
 			<p class="indent"><em><strong>Shadow Flurry.</strong></em> You can use your Flurry of Blows without expending any Focus Points.</p>
 		</description>
-		<sheet action="Magic Action" usage="3 Focus" alt="Cloak of Shadows">
-			<description>While entirely within Dim Light or Darkness, you can shroud yourself with shadows for 1 minute, until you have the Incapacitated condition, or until you end your turn in Bright Light. While shrouded by these shadows, you have the Invisible condition, can move through occupied spaces as if they were Difficult Terrain, and can use Flurry of Blows without expending Focus.</description>
+		<sheet alt="Cloak of Shadows" action="Action" usage="3 Focus Points">
+			<description>While in Dim Light or Darkness, you can shroud yourself with shadows for 1 minute, until you have the Incapacitated condition, or until you end your turn in Bright Light. While shrouded, you have the Invisible condition; can move through occupied spaces as if they were Difficult Terrain, but if you end your turn in such a space you're shunted to the last unoccupied space you were in; and can use Flurry of Blows without expending Focus Points.</description>
 		</sheet>
 	</element>
 
 	<!--Feature Replacement Grants-->
 	<element name="Shadow Arts Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_SHADOW_SHADOW_ARTS" />
-	<element name="Shadow Arts: Darkness Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_SHADOW_SHADOW_ARTS_DARKNESS" />
-	<element name="Shadow Arts: Darkvision Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_SHADOW_SHADOW_ARTS_DARKVISION" />
-	<element name="Shadow Arts: Shadowy Figments Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_SHADOW_SHADOW_ARTS_SHADOWY_FIGMENTS" />
 	<element name="Shadow Step Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_SHADOW_SHADOW_STEP" />
 	<element name="Improved Shadow Step Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_SHADOW_IMPROVED_SHADOW_STEP" />
 	<element name="Cloak of Shadows Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_SHADOW_CLOAK_OF_SHADOWS" />
