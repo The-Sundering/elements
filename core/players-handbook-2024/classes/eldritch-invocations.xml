@@ -502,7 +502,7 @@
 				<div element="ID_WOTC_PHB24_SPELL_INVISIBILITY" />
 			</div>
 		</description>
-		<sheet action="Action">
+		<sheet>
 			<description>While you’re in an area of Dim Light or Darkness, you can cast Invisibility on yourself without expending a spell slot.</description>
 		</sheet>
 		<rules>
@@ -553,7 +553,7 @@
 				<div element="ID_WOTC_PHB24_SPELL_FIND_FAMILIAR" />
 			</div>
 		</description>
-		<sheet action="Action">
+		<sheet>
 			<description>You can cast the Find Familiar spell without expending a spell slot. &#13;
 			Additionally, you can forgo one of your own attacks to allow your familiar to make one attack of its own with its Reaction.</description>
 		</sheet>
