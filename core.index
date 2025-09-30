@@ -11,7 +11,7 @@
 	<files>
 		<file name="internal.xml" url="https://raw.githubusercontent.com/The-Sundering/elements/master/core/internal.xml" />
 
-		<file name="dungeon-masters-guide-2024.index" url="https://raw.githubusercontent.com/The-Sundering/elements/master/core/dungeon-masters-guide.index" />
+		<file name="dungeon-masters-guide-2024.index" url="https://raw.githubusercontent.com/The-Sundering/elements/master/core/dungeon-masters-guide-2024.index" />
 		<file name="players-handbook-2024.index" url="https://raw.githubusercontent.com/The-Sundering/elements/master/core/players-handbook-2024.index" />
 	</files>
 </index>
