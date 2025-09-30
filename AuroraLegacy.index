@@ -5,7 +5,7 @@
 		<description>All indexs managed by the Aurora Legacy Team.</description>
 		<author url="https://github.com/The-Sundering/elements">Aurora Legacy Team</author>
 		<update version="0.0.1">
-			<file name="The-Sundering.index" url="https://raw.githubusercontent.com/The-Sundering/elements/master/The-Sundering.index" />
+			<file name="AuroraLegacy.index" url="https://raw.githubusercontent.com/The-Sundering/elements/master/AuroraLegacy.index" />
 		</update>
 	</info>
 	<files>

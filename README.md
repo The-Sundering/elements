@@ -16,7 +16,7 @@ _**Additionally**_, old characters may require re-selecting some options, due to
 ### Download Options:
 <details>
   <summary><b>Option 1: All In One Download</b></summary>
-  • Master Index: https://raw.githubusercontent.com/The-Sundering/elements/master/The-Sundering.index
+  • Master Index: https://raw.githubusercontent.com/The-Sundering/elements/master/AuroraLegacy.index
 </details>
 <hr style="width:750px; height:2px; margin-top:-10px; margin-bottom:5px; background-color:rgb(150,150,150)">
 <details>
