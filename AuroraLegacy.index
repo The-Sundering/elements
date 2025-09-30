@@ -3,15 +3,15 @@
 	<info>
 		<name>Aurora Legacy</name>
 		<description>All indexs managed by the Aurora Legacy Team.</description>
-		<author url="https://github.com/AuroraLegacy/elements">Aurora Legacy Team</author>
+		<author url="https://github.com/The-Sundering/elements">Aurora Legacy Team</author>
 		<update version="0.0.1">
-			<file name="AuroraLegacy.index" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/AuroraLegacy.index" />
+			<file name="The-Sundering.index" url="https://raw.githubusercontent.com/The-Sundering/elements/master/The-Sundering.index" />
 		</update>
 	</info>
 	<files>
-		<file name="core.index" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core.index" />
-		<file name="supplements.index" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/supplements.index" />
-		<file name="unearthed-arcana.index" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/unearthed-arcana.index" />
-		<file name="collaborations.index" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/collaborations.index" />
+		<file name="core.index" url="https://raw.githubusercontent.com/The-Sundering/elements/master/core.index" />
+		<file name="supplements.index" url="https://raw.githubusercontent.com/The-Sundering/elements/master/supplements.index" />
+		<file name="unearthed-arcana.index" url="https://raw.githubusercontent.com/The-Sundering/elements/master/unearthed-arcana.index" />
+		<file name="collaborations.index" url="https://raw.githubusercontent.com/The-Sundering/elements/master/collaborations.index" />
 	</files>
 </index>

@@ -6,7 +6,7 @@
 
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
 		<update version="0.0.1">
-			<file name="creatures.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/dungeon-masters-guide-2024/creatures.xml" />
+			<file name="creatures.xml" url="https://raw.githubusercontent.com/The-Sundering/elements/master/core/dungeon-masters-guide-2024/creatures.xml" />
 		</update>
 	</info>
 
